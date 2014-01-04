@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="pics/favicon.png">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>An experiment in decentralized collaborative neuroimaging research</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,9 @@
 ================================================== -->
   <body>
     <div class="navbar-wrapper">
+
       <div class="container">
+
 
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
@@ -40,23 +42,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="#">studyforrest.org</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
+                <li><a href="#featurettes">Studies and data use</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li class="dropdown-header">Studies</li>
+                    <li><a href="#study1">Response similarity</a></li>
                     <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li class="dropdown-header">External</li>
+                    <li><a class="disabled" href="#">Data on openfmri.org</a></li>
+                    <li><a target="_blank"
+                           href="https://github.com/hanke/gumpdata">Get source code</a></li>
                   </ul>
                 </li>
               </ul>
@@ -76,35 +78,61 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <img src="pics/carus_fmri_sag.jpg" alt="Anatomical brain scans">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>High-resolution, ultra-highfield (7T) fMRI data</h1>
+              <p>Possibly the largest consecutive sample of brain imaging
+                 data recorded during natural language processing. FMRI
+                 data corrected for EPI distortions.</p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <img src="pics/carus_jennyboat.jpg" alt="Shrimp boat">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>Rich stimulus</h1>
+              <p>Participants listened to a narrated, audio-only version of the two-hour
+                 Hollywood movie "Forrest Gump". The stimulus
+                 is aligned to the commercial DVD release to facilitate further annotation.</p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <img src="pics/carus_t1t2.jpg" alt="Anatomical brain scans">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>High-resolution anatomical images</h1>
+              <p>T1 and T2-weighted anatomical images with
+                 a voxel-size of 0.7&nbsp;mm for all participants.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_angio.jpg" alt="Angiography maximum intensity projection">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Time-of-flight angiography</h1>
+              <p>High-resolution blood vessel localizer for the field-of-view of
+                 the functional brain scans.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_noise_deco.png" alt="A bit of decoration">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Versatile noise estimates</h1>
+              <p>Simultaneous measurements of cardiac and respiratory trace
+                 during fMRI recording. Motion estimates extracted from fMRI
+                 data prior distortion correction. Independent evaluation of
+                 technical noise with a full-length phantom recording.</p>
             </div>
           </div>
         </div>
@@ -124,40 +152,63 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <span class="glyphicon glyphicon-info-sign" style="font-size:500%"></span>
+          <h2>Data overview</h2>
+          <p>The data release contains a wide variety of structural brain scans
+           and a large amount of functional brain imaging data for each
+           of the 20 participants. Neuroimaging data is accompanied by
+           measurements of physiological and technical noise, as well as
+           stimulus annotations.</p>
+          <p><a class="btn btn-default" href="dataoverview.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <span class="glyphicon glyphicon-download-alt" style="font-size:500%"></span>
+          <h2>Get data</h2>
+          <p>All data are hosted on <a href="http://openfmri.org"
+              target="_blank">openfmri.org</a> and are publicly available
+             under an extremely permissive license.</p>
+          <p><a class="btn btn-default disabled" href="getdata.html" role="button">Comming soon &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <span class="glyphicon glyphicon-share" style="font-size:500%"></span>
+          <h2>Participate</h2>
+          <p><strong>Use</strong> these data for a scientific study, as a benchmark, to develop
+          educational material, or something completely different. <strong>Extend</strong> the
+          dataset with new original or derived data to enable new applications. <strong>Share</strong>
+          this project with others.</p>
+    <div class="g-plusone" data-href="http://studyforrest.org"></div>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://studyforrest.org" data-dnt="true">Tweet</a>
+          <p><a class="btn btn-default" href="participate.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
 
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
+      <a id="featurettes"></a>
+
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <a id="study1"></a>
+          <h2 class="featurette-heading">Inter-subject response similarities. <span class="text-muted">Distributed activation patterns and voxel timeseries.</span></h2>
+
+          <p class="lead">BOLD time series correlation and pattern similarity
+          estimated from representational similarity analysis on anatomically
+          aligned data reveal consistent brain responses to quasi natural
+          auditory stimulation across all participants. Areas of maximum
+          similarity in both hemispheres are centered on the anterolateral
+          portion of the Planum Temporale &mdash; part of the auditory
+          ventrolateral pathway and known to be involved in processing complex
+          sounds and speech.</p>
+          <p><a class="btn btn-primary" href="#" role="button">View publication &raquo;</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="pics/study1_feat_fig.jpg" alt="Pattern similarity figure">
         </div>
       </div>
 
+      <!--
       <hr class="featurette-divider">
 
       <div class="row featurette">
@@ -169,28 +220,52 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
+      -->
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 
+      <h2><a id="about"></a>About this project</h2>
+
+      <p>This project is an open invitation to anyone to participate in a
+      decentralized effort to explore the opportunities of open science in
+      neuroimaging. It aims to document how much (scientific) value can be
+      generated out of a single data release by publication of scientific
+      findings derived from this dataset, algorithms and methods evaluated on
+      this dataset, and/or extensions of this dataset by acquisition and
+      integration of new data.</p>
+
+      <p>This website is maintained by the <a target="_blank"
+          href="http://www.ipsy.ovgu.de/ipsy/en/psychoinformatics.html">Psychoinformatics
+      lab</a> at the Otto-von-Guericke University Magdeburg, Germany.</p>
+
+      <h3>Legal info</h3>
+
+      <p>This page is built using Twitter's <a href="http://getbootstrap.com/"
+          target="_blank">Bootstrap toolkit</a>: Copyright 2013 Twitter, Inc
+      under the <a href="http://opensource.org/licenses/MIT"
+      target="_blank">MIT license</a>.</p>
+
+      <p>The <a
+          href="http://commons.wikimedia.org/wiki/File:ForrestGump-Jenny-Boat-2055.jpg"
+      target="_blank">original image of the "Jenny" boat</a> is by David R.
+      Tribble and licensed under <a
+          href="http://creativecommons.org/licenses/by-sa/3.0/deed.en"
+          target="_blank">CC BY SA 3.0</a>.</p>
+
+      <p>All linked and referenced publications and figures are copyrighted by
+      their respective authors and/or publishers &mdash; used with permission.</p>
+
+      <p>All other images and artwork are copyright by Michael Hanke and
+      licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/"
+      target="_blank">CC BY SA 4.0</a>.</p>
+
+      <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2014 Michael Hanke</p>
       </footer>
 
     </div><!-- /.container -->
@@ -201,6 +276,19 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/holder.js"></script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+
+    <!-- Twitter button -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+   <script src="js/holder.js"></script>
   </body>
 </html>
