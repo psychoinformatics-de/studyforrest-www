@@ -46,8 +46,8 @@
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
-              <li><a href="#datatypes">Data types</a></li>
-              <li><a href="#preprocessed">Preprocessed data</a></li>
+              <!--<li><a href="#datatypes">Data types</a></li>
+              <li><a href="#preprocessed">Preprocessed data</a></li>-->
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -61,28 +61,72 @@
 
 <p> At this point, a dataset recorded from 20 participants is publicly
 available.  For each participant a number of different scans and auxilliary
-recordings have been obtained and several types of minimally preprocessed
-data are provided in addition. The resulting dataset is several hundreds of
+recordings have been obtained and several types of minimally preprocessed data
+are provided in addition. The resulting dataset is several hundreds of
 gigabytes large. This pages provides a short overview of the dataset in order
-to aid selection. The full description of the data release is available in
-a dedicated publication.</p>
+to aid selection of sub-sets. The full description of the data release is
+available in a dedicated publication.</p>
 
-<p><a class="btn btn-primary" href="#" role="button">View publication &raquo;</a></p>
+<p><a class="btn btn-success" href="#" role="button">View publication &raquo;</a></p>
 
-<a id="datatypes"></a>
-<h2>Data types</h2>
-
+<h2>Data records</h2>
 
 <!-- new panel -->
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h4 class="panel-title">
+    <h3 class="panel-title">
       <a class="accordion-toggle" data-toggle="collapse" href="#sMRI">
-        Structural MRI
+        Brain structure MRI
       </a>
-    </h4>
+    </h3>
   </div>
   <div id="sMRI" class="panel-collapse collapse"><div class="panel-body">
+          <h4>T1-weighted images (gray-white contrast)</h4>
+          <p>Full-brain volumetric images (384x384x274) in NIfTI format recorded with a Philips
+          MR scanner at 3 Tesla using a 3D TFE sequence (0.67&nbsp;mm isotropic voxel
+          size). Facial features have been removed from these images for de-identification.
+          <a href="http://en.wikipedia.org/wiki/Spin%E2%80%93lattice_relaxation"
+             target="_blank">More information on this image type</a>.</p>
+
+          <h4>T2-weighted images (fluid-tissue contrast)</h4>
+          <p>Full-brain volumetric images (384x384x274) in NIfTI format recorded with a Philips
+          MR scanner at 3 Tesla using a 3D TSE sequence (0.67&nbsp;mm isotropic voxel
+          size). Facial features have been removed from these images for de-identification.
+          <a href="http://en.wikipedia.org/wiki/Spin-spin_relaxation_time"
+             target="_blank">More information on this image type</a>.</p>
+
+          <h4>Susceptibility-weighted images (venography)</h4>
+          <p>Full-brain volumetric images (512x512x500) in NIfTI format recorded with a Philips
+          MR scanner at 3 Tesla using a 3D Presto FFE sequence (0.43x0.43x0.35&nbsp;mm
+          voxel size). Facial features have been removed from these images for
+          de-identification. Separate phase and magnitude images are provided.
+          <a href="http://en.wikipedia.org/wiki/Susceptibility_weighted_imaging"
+             target="_blank">More information on this image type</a>.</p>
+
+          <h4>Time-of-flight inflow angiography (arteriography)</h4>
+          <p>Volumetric images (640x480x150) in NIfTI format recorded with a Siemens
+          MR scanner at 7 Tesla using a 3D multi-slab sequence (0.3&nbsp;mm
+          isotropic voxel size). These images have partial brain coverage &mdash;
+          approximately the same volume as the functional MRI scans.
+          <a href="http://en.wikipedia.org/wiki/Magnetic_resonance_angiography"
+             target="_blank">More information on this image type</a>.</p>
+
+          <h4>Diffusion tensor images (fibre orientations)</h4>
+          <p>Full-brain volumetric images (144x144x70) in NIfTI format recorded with a Philips
+          MR scanner at 3 Tesla using a diffusion-weighted single-shot spin-echo EPI
+          sequence (2&nbsp;mm isotropic voxel size). Facial features have been
+          removed from these images for de-identification. Records
+          of B-values and B-vector orientations are provided, as well as a
+          fieldmap (3&nbsp;mm isotropic voxel size) for distortion correction.
+          <a href="http://en.wikipedia.org/wiki/Diffusion_tensor_imaging"
+             target="_blank">More information on this image type</a>.</p>
+
+          <h4>Cortical surface reconstruction (tissue segmetation and 3D meshes)</h4>
+          <p>These data were generated from the T1 and T2-weighted images of
+          each participant using the Freesurfer 5.3 image segmentation and
+          cortical surface reconstruction pipeline.
+          <a href="http://surfer.nmr.mgh.harvard.edu"
+             target="_blank">More information on Freesurfer</a>.</p>
   </div></div>
 </div>
 <!-- new panel -->
@@ -90,11 +134,54 @@ a dedicated publication.</p>
   <div class="panel-heading">
     <h4 class="panel-title">
       <a class="accordion-toggle" data-toggle="collapse" href="#fMRI">
-        Functional MRI
+        Brain function MRI
       </a>
     </h4>
   </div>
   <div id="fMRI" class="panel-collapse collapse"><div class="panel-body">
+          <h4>Prolonged quasi-natural auditory stimulation (Forrest Gump audio movie)</h4>
+          <p>Eight approximately 15&nbsp;min long recording runs, together
+          comprising the entire duration of a two-hour presentation of an
+          audio-only version of the Hollywood feature film "<a
+              href="http://en.wikipedia.org/wiki/Forrest_Gump"
+              target="_blank">Forrest Gump</a>"
+          made for a visually impaired audience (German dubbing).</p>
+          <p>For each run, there are 4D volumetric images (160x160x36)in NIfTI format , one
+          volume recorded every 2&nbsp;s, obtain from a Siemens
+          MR scanner at 7 Tesla using a T2*-weighted gradient-echo EPI sequence
+          (1.4&nbsp;mm isotropic voxel size). These images have partial brain
+          coverage &mdash; centered on the auditory cortices in both brain
+          hemispheres and include frontal and posterior portions of the brain.
+          There is no coverage for the upper portion of the brain (e.g. large
+          parts of motor and somato-sensory cortices).
+          <a href="http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging"
+             target="_blank">More information on this imaging technique</a>.</p>
+          <p>Several flavors of raw and preprocessed data are available:</p>
+
+          <h5 style="font-weight:bold">BOLD images</h5>
+          <p>These raw data suffer from severe geometric distortions.</p>
+          <h5 style="font-weight:bold">Distortion-corrected BOLD images</h5>
+          <p>Identical to raw BOLD data, but with a scanner-side correction
+          for geometric distortions applied (also include correction for
+          participant motion). These data are most suitable for
+          analysis of individual brains.</p>
+
+          <h5 style="font-weight:bold">Group-aligned BOLD images</h5>
+          <p>These images have been anatomically aligned to a BOLD group
+          template image that was generated from the entire group of
+          participants. Two alignment flavors are available: "linear"
+          (image projection using an affine transformation), and
+          "non-linear" (image projection by non-linear warpfields).
+          These data are most suitable for group-analyses and inter-individual
+          comparisons.</p>
+
+          <h4>Phantom data (technical noise assessment)</h4>
+          <p>Identical imaging set up as the auditory stimulation fMRI, but
+          scanning a gel phantom instead of a human participant. This data
+          is a measurement of the technical noise in the fMRI acquisition
+          pipeline.
+          <a href="http://www.birncommunity.org/tools-catalog/function-birn-stability-phantom-qa-procedures/"
+             target="_blank">More information on the phantom QA procedure</a>.</p>
   </div></div>
 </div>
 <!-- new panel -->
@@ -102,11 +189,23 @@ a dedicated publication.</p>
   <div class="panel-heading">
     <h4 class="panel-title">
       <a class="accordion-toggle" data-toggle="collapse" href="#physio">
-        Physiological measurements
+        Physiological measurements and confound estimates
       </a>
     </h4>
   </div>
   <div id="physio" class="panel-collapse collapse"><div class="panel-body">
+          <h4>Cardiac and respiratory trace (physiological confounds)</h4>
+          <p>These data have been obtain simultaneously to the fMRI recording
+          during auditory stimulation. Files are in plain text format
+          (compressed) for each
+          scanning run separately and includes the MR scanner's volume
+          acquisition trigger signal for precise temporal alignment. These data
+          are useful for de-noising of fMRI time series.</p>
+
+          <h4>Participant motion estimates</h4>
+          <p>These data have been estimated from the raw BOLD images prior to
+          distortion correction. Files are provided in a six-column plain text
+          format for each fMRI scanning run separately.</p>
   </div></div>
 </div>
 <!-- new panel -->
@@ -119,13 +218,36 @@ a dedicated publication.</p>
     </h4>
   </div>
   <div id="annotations" class="panel-collapse collapse"><div class="panel-body">
+          <h4>Audio-description transcript</h4>
+          <p>This transcript contains all information on the audio-movie content
+          that cannot be inferred from the DVD release &mdash; in a plain text,
+          comma-separated-value table. Start and end time stamp, as well as
+          the spoken text are provided for each continuous audio description
+          segment.</p>
+
+          <h4>Movie scenes</h4>
+          <p>A plain text, comma-separated-value table with start and end time
+          for all 198 scenes in the presented movie cut. In addition, each table
+          row contains whether a scene takes place indoors or outdoors.</p>
   </div></div>
 </div>
-
-
-<a id="preprocessed"></a>
-<h2>Preprocessed data</h2>
-
+<!-- new panel -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      <a class="accordion-toggle" data-toggle="collapse" href="#demographics">
+        Demographics
+      </a>
+    </h4>
+  </div>
+  <div id="demographics" class="panel-collapse collapse"><div class="panel-body">
+          <h4>Participant questionnaire</h4>
+          <p>A plain text, comma-separated-value table with all participants'
+          responses to a questionnaire on demographic information, musical
+          preference and background, as well as familiarity with the "Forrest
+          Gump" movie.</p>
+  </div></div>
+</div>
 
       </div>
 
