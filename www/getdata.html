@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="pics/favicon.png">
 
-    <title>Data overview</title>
+    <title>Data access information</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,34 +56,84 @@
       <!-- Begin page content -->
       <div class="container">
         <div class="page-header">
-          <h1>Data overview</h1>
+          <h1>How to get data</h1>
         </div>
 
-<h2>Selection by data modality</h2>
-<h2>Selection by participant</h2>
+<p>The released data are hosted at multiple locations, including <a
+    href="openfmri.org">openfmri.org</a>. Due to its permissive license it is
+easy to add additional hosting locations or alternative access
+methods. All known data resources are listed below. Please contact
+<a href="mailto:info@studyforrest.org?subject=studyforrest.org">
+        info@studyforrest.org</a> regarding outdated or missing information.</p>
 
 <div class="table-responsive">
-  <table class="table">
+  <table class="table table-hover">
     <thead>
-      <td>Participant</td>
-      <td>Tarball</td>
-      <td>XNAT</td>
+      <tr>
+        <th>Access Type</th>
+        <th>Description</th>
+        <th>Location</th>
+      </tr>
     </thead>
-    <tr>
-      <td>1</td>
-      <td><a class="btn btn-default" href="#" role="button">Get</a></td>
-      <td><a class="btn btn-primary" href="#" role="button">Get</a></td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td><a class="btn btn-default" href="#" role="button">Get</a></td>
-      <td><a class="btn btn-primary" href="#" role="button">Get</a></td>
-    </tr>
+    <tbody>
+      <tr>
+        <td>Tarball</td>
+        <td>Individual tarballs for all available data modalities. The size of
+            the tarballs varies from a few hundred kilo-bytes to almost a
+            hundred giga-bytes. A README file detailing the tarball content
+            and checksums are available.</td>
+        <td><a class="btn btn-primary"
+               target="_blank"
+               href="http://openfmri.org/dataset/ds000113"
+               role="button">Go to openfmri.org</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://xnat.org" target="_blank">XNAT</a></td>
+        <td>A subset of the dataset (fMRI, T1-weighted anatomical images) is
+            available through openfmri's XNAT server. XNAT supported single,
+            and multiple file download, as well as complex metadata-based
+            queries.
+        </td>
+        <td><a class="btn btn-primary"
+               target="_blank"
+               href="http://xnat.openfmri.org/xnat-openfmri/app/template/Index.vm"
+               role="button">Go to openfmri's XNAT</a></td>
+      </tr>
+      <tr>
+        <td>HTTP</td>
+        <td>Fully extracted dataset for HTTP-based, single-file access with
+            tools wget, curl or any webbrowser.
+        </td>
+        <td><a class="btn btn-default disabled"
+               target="_blank"
+               href="http://xnat.openfmri.org/xnat-openfmri/app/template/Index.vm"
+               role="button">Coming soon</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">RSYNC</a></td>
+        <td>Rsync-daemon with flexible support for single-file and
+            directory-based access, and efficient, repeated synchronization.
+        </td>
+        <td><a class="btn btn-default disabled"
+               target="_blank"
+               href="#"
+               role="button">Coming soon</a></td>
+      </tr>
+    </tbody>
   </table>
+  <p>All data are released to the public under the <a href="http://opendatacommons.org/licenses/pddl/1.0/"
+      target="_blank" title="View the license">ODC Public Domain Dedication and Licence (PDDL)</a>.
+  <p>Offering these data for download or through other means is permitted and encouraged.
+  We only ask to add a reference to this website and, following good scientific practice,
+  cite any relevant publication.</p>
+  In order to provide a comprehensive overview of entities hosting these data, or any derived
+  data artifacts, please let us know at <a href="mailto:info@studyforrest.org?subject=studyforrest.org">
+        info@studyforrest.org</a> what your are kind of data access you are offering.</p>
 </div>
 
-      </div>
-
+      <h3>Acknowledgements</h3>
+      <p>We are grateful to all data hosting providers for their support and sponsored
+      bandwidth and storage capacity.</p>
     </div>
 
     <div id="footer">

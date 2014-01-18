@@ -1,5 +1,5 @@
 WWW_DIR = www
-WWW_UPLOAD_URI=kumo.ovgu.de:/srv/www.studyforrest.org/www
+WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
 RSYNC_OPTS_UP = -rzlhv --delete --copy-links
 
 prep:
