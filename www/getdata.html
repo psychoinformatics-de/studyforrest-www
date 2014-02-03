@@ -76,15 +76,39 @@ methods. All known data resources are listed below. Please contact
     </thead>
     <tbody>
       <tr>
+        <td>HTTP</td>
+        <td>Fully extracted dataset for HTTP-based, single-file access with
+            tools like <tt>wget</tt>, <tt>curl</tt> or any webbrowser.
+        </td>
+        <td><a class="btn btn-success"
+               target="_blank"
+               href="http://psydata.ovgu.de/forrest_gump/"
+               role="button">Browse dataset</a></td>
+      </tr>
+      <tr>
         <td>Tarball</td>
         <td>Individual tarballs for all available data modalities. The size of
             the tarballs varies from a few hundred kilo-bytes to almost a
             hundred giga-bytes. A README file detailing the tarball content
             and checksums are available.</td>
-        <td><a class="btn btn-primary"
+        <td><a class="btn btn-default"
                target="_blank"
                href="http://openfmri.org/dataset/ds000113"
-               role="button">Go to openfmri.org</a></td>
+               role="button">Visit openfmri.org</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">RSYNC</a></td>
+        <td>Rsync-daemon with flexible support for single-file and
+            directory-based access, and efficient, repeated synchronization.
+            Note, the entire dataset is over 350&nbsp;GB. Browse the dataset to
+            determine relevant subsets for synchronization, and consult the
+            rsync documentation for details.<br />
+            <code>rsync psydata.ovgu.de::forrest_gump dest</code>
+        </td>
+        <td><a class="btn btn-default"
+               target="_blank"
+               href="http://rsync.samba.org"
+               role="button">Learn about rsync</a></td>
       </tr>
       <tr>
         <td><a href="http://xnat.org" target="_blank">XNAT</a></td>
@@ -93,30 +117,10 @@ methods. All known data resources are listed below. Please contact
             and multiple file downloads, as well as complex metadata-based
             queries.
         </td>
-        <td><a class="btn btn-primary"
-               target="_blank"
-               href="http://xnat.openfmri.org/xnat-openfmri/app/template/Index.vm"
-               role="button">Go to openfmri's XNAT</a></td>
-      </tr>
-      <tr>
-        <td>HTTP</td>
-        <td>Fully extracted dataset for HTTP-based, single-file access with
-            tools like <tt>wget</tt>, <tt>curl</tt> or any webbrowser.
-        </td>
         <td><a class="btn btn-default"
                target="_blank"
-               href="http://psydata.ovgu.de/forrest_gump/"
-               role="button">Visit data repository</a></td>
-      </tr>
-      <tr>
-        <td><a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">RSYNC</a></td>
-        <td>Rsync-daemon with flexible support for single-file and
-            directory-based access, and efficient, repeated synchronization.
-        </td>
-        <td><a class="btn btn-default disabled"
-               target="_blank"
-               href="#"
-               role="button">Coming soon</a></td>
+               href="http://xnat.openfmri.org/xnat-openfmri/app/template/Index.vm"
+               role="button">Access openfmri's XNAT</a></td>
       </tr>
     </tbody>
   </table>
