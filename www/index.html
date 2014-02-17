@@ -24,6 +24,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -94,6 +95,7 @@
               <p>Participants listened to a narrated, audio-only version of the two-hour
                  Hollywood movie "Forrest Gump". The stimulus
                  is aligned to the commercial DVD release to facilitate further annotation.</p>
+              <p><a class="btn btn-primary" href="dataoverview.html#annotations" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -104,17 +106,19 @@
               <h1>High-resolution anatomical images</h1>
               <p>T1 and T2-weighted anatomical images with
                  a voxel-size of 0.7&nbsp;mm for all participants.</p>
+              <p><a class="btn btn-primary" href="dataoverview.html#smri" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="pics/carus_fmri_sag.jpg" alt="Anatomical brain scans">
+          <img src="pics/carus_fmri_sag.jpg" alt="Functional brain scans">
           <div class="container">
             <div class="carousel-caption">
               <h1>High-resolution, ultra-highfield (7T) fMRI data</h1>
               <p>Possibly the largest consecutive sample of brain imaging
                  data recorded during natural language processing. FMRI
                  data corrected for EPI distortions.</p>
+              <p><a class="btn btn-primary" href="dataoverview.html#fmri" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -125,6 +129,7 @@
               <h1>Time-of-flight angiography</h1>
               <p>High-resolution blood vessel localizer for the field-of-view of
                  the functional brain scans.</p>
+              <p><a class="btn btn-primary" href="dataoverview.html#smri" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -137,6 +142,7 @@
                  during fMRI recording. Motion estimates extracted from fMRI
                  data prior distortion correction. Independent evaluation of
                  technical noise with a full-length phantom recording.</p>
+              <p><a class="btn btn-primary" href="dataoverview.html#physio" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -155,7 +161,7 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-md-4" style="text-align:center">
           <span class="glyphicon glyphicon-info-sign" style="font-size:500%"></span>
           <h2>Data overview</h2>
           <p>The data release contains a wide variety of structural brain scans
@@ -165,29 +171,40 @@
            stimulus annotations.</p>
           <p><a class="btn btn-default" href="dataoverview.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-md-4" style="text-align:center">
           <span class="glyphicon glyphicon-download-alt" style="font-size:500%"></span>
           <h2>Get data</h2>
           <p>All data are hosted on <a href="http://openfmri.org"
               target="_blank">openfmri.org</a> and are publicly available
              under an extremely permissive license.</p>
-          <p><a class="btn btn-default" href="getdata.html" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="getdata.html" role="button">View instructions &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-md-4" style="text-align:center">
           <span class="glyphicon glyphicon-share" style="font-size:500%"></span>
           <h2>Participate</h2>
           <p><strong>Use</strong> these data for a scientific study, as a benchmark, to develop
           educational material, or something completely different. <strong>Extend</strong> the
           dataset with new original or derived data to enable new applications. <strong>Share</strong>
           this project with others.</p>
-          <p><a class="btn btn-default" href="participate.html" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      <div class="row">
-        <div class="col-sm-12" style="text-align:center">
+          <div style="text-align:center">
     <div class="g-plusone" data-href="http://studyforrest.org"></div>
     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://studyforrest.org" data-dnt="true">Tweet</a>
-        </div><!-- /.col-sm-12 -->
+          </div>
+          <p><a class="btn btn-default" href="participate.html" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <div class="row">
+        <a id="news"></a>
+        <h2 style="text-align:center">News &amp; Updates</h2>
+        <a class="twitter-timeline" href="https://twitter.com/studyforrest"
+           data-widget-id="435327568237965312"
+           data-link-color="#428bca"
+           height="150px"
+           data-show-replies="false"
+           data-chrome="noheader nofooter transparent">Tweets by @studyforrest</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div><!-- /.row -->
 
       <!-- START THE FEATURETTES -->
@@ -212,7 +229,7 @@
           <p>Hanke, M., Baumgartner, F.J., Ibe, P., Kaule, F.R., Pollmann, S.,
           Speck, O., Zinke, W. &amp; Stadler, J. (in press). A high-resolution
           7-Tesla fMRI dataset from complex natural stimulation with an audio
-          movie. <em>Nature Scientific Data</em>.</p>
+          movie. <em>Scientific Data</em>.</p>
           <p><a class="btn btn-success" href="publications/Hanke_etal_7T_audio_forrest.pdf" role="button">View publication &raquo;</a></p>
         </div>
         <div class="col-md-5">
