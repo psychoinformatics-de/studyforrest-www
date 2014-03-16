@@ -88,6 +88,17 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
+          <img src="pics/carus_7T_CBBS_Image_DMahler.jpg" alt="fMRI scanner">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>High-resolution, ultra-highfield fMRI</h1>
+              <p>State-of-the-art functional magnetic reasonance imaging data
+              acquired with a Siemens Magnetom 7-Tesla scanner.</p>
+              <p><a class="btn btn-primary" href="dataoverview.html#fmri" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
           <img src="pics/carus_jennyboat.jpg" alt="Shrimp boat">
           <div class="container">
             <div class="carousel-caption">
@@ -111,13 +122,13 @@
           </div>
         </div>
         <div class="item">
-          <img src="pics/carus_fmri_sag.jpg" alt="Functional brain scans">
+          <img src="pics/carus_fmri_sag.jpg" alt="fMRI data">
           <div class="container">
             <div class="carousel-caption">
-              <h1>High-resolution, ultra-highfield (7T) fMRI data</h1>
+              <h1>Natural brain activity samples</h1>
               <p>Possibly the largest consecutive sample of brain imaging
                  data recorded during natural language processing. FMRI
-                 data corrected for EPI distortions.</p>
+                 data corrected for EPI distortions and ready for analysis.</p>
               <p><a class="btn btn-primary" href="dataoverview.html#fmri" role="button">View details &raquo;</a></p>
             </div>
           </div>
@@ -126,9 +137,10 @@
           <img src="pics/carus_angio.jpg" alt="Angiography maximum intensity projection">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Time-of-flight angiography</h1>
-              <p>High-resolution blood vessel localizer for the field-of-view of
-                 the functional brain scans.</p>
+              <h1>Vascular structure imaging</h1>
+              <p>High-resolution blood vessel localizers. Arterography for the
+                 field-of-view of the functional brain scans, and a full-brain
+                 venography.</p>
               <p><a class="btn btn-primary" href="dataoverview.html#smri" role="button">View details &raquo;</a></p>
             </div>
           </div>
@@ -157,26 +169,42 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+
     <div class="container marketing">
+
+    <div class="row">
+      <div class="col-md-12">
+       <p class="lead" style="text-align:justify">
+       The human brain is designed for processing vast amounts of input that
+       are continuously gathered through the senses.  But most experiments
+       study the brain with simplified stimuli that do not resemble the complexity of a
+       natural environment &mdash; a mismatch that needs to be addressed if we want to
+       completely understand how the brain works. This project aims to provide
+       essential components to enable inter-disciplinary research to study the
+       brain's natural behavior and the versatile interactions of concurrent
+       cognitive processes in everyday life.
+       </p>
+      </div><!-- /.col-md-12 -->
+    </div><!-- /.row -->
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-md-4" style="text-align:center">
           <span class="glyphicon glyphicon-info-sign" style="font-size:500%"></span>
-          <h2>Data overview</h2>
-          <p>The data release contains a wide variety of structural brain scans
-           and a large amount of functional brain imaging data for each
-           of the 20 participants. Neuroimaging data is accompanied by
+          <h2>Resource overview</h2>
+          <p>We provide a detailed dataset of functional brain imaging during
+           natural stimulation, and a wide variety of structural brain scans
+           (currently 20 individuals). Neuroimaging data is accompanied by
            measurements of physiological and technical noise, as well as
            stimulus annotations.</p>
           <p><a class="btn btn-default" href="dataoverview.html" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-md-4" style="text-align:center">
           <span class="glyphicon glyphicon-download-alt" style="font-size:500%"></span>
-          <h2>Get data</h2>
-          <p>All data are hosted on <a href="http://openfmri.org"
-              target="_blank">openfmri.org</a> and are publicly available
-             under an extremely permissive license.</p>
+          <h2>Get access</h2>
+          <p>All data are publicly available from multiple providers. There is
+             no required sign-up or registration procedure of any kind.
+             Data are released under an extremely permissive license.</p>
           <p><a class="btn btn-default" href="getdata.html" role="button">View instructions &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-md-4" style="text-align:center">
@@ -196,6 +224,7 @@
 
 
       <div class="row">
+        <div class="col-md-12">
         <a id="news"></a>
         <h2 style="text-align:center">News &amp; Updates</h2>
         <a class="twitter-timeline" href="https://twitter.com/studyforrest"
@@ -205,18 +234,25 @@
            data-show-replies="false"
            data-chrome="noheader nofooter transparent">Tweets by @studyforrest</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div><!-- /.col -->
       </div><!-- /.row -->
+      </div><!-- /.marketing -->
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+      <div class="container">
 
       <a id="featurettes"></a>
+      <div class="row featurette">
+        <div class="col-md-12">
+          <h2 style="text-align:center">Project results</h2>
+        </div>
+      </div><!-- /.row -->
 
       <div class="row featurette">
         <div class="col-md-7">
           <a id="study1"></a>
-          <h2 class="featurette-heading">Inter-subject response similarities. <span class="text-muted">Distributed activation patterns and voxel timeseries.</span></h2>
+          <h3>Inter-subject response similarities. <span class="text-muted">Distributed activation patterns and voxel timeseries.</span></h3>
 
           <p class="lead">BOLD time series correlation and pattern similarity
           estimated from representational similarity analysis on anatomically
@@ -261,10 +297,10 @@
       <p>This project is an open invitation to anyone to participate in a
       decentralized effort to explore the opportunities of open science in
       neuroimaging. It aims to document how much (scientific) value can be
-      generated out of a single data release by publication of scientific
+      generated out of a data release by publication of scientific
       findings derived from this dataset, algorithms and methods evaluated on
       this dataset, and/or extensions of this dataset by acquisition and
-      integration of new data.</p>
+      incorporation of new data.</p>
 
       <p>For questions and inquiries leave a comment below, or email <a
         href="mailto:info@studyforrest.org?subject=studyforrest.org">
