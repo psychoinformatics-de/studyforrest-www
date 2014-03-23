@@ -25,6 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/news.css" rel="stylesheet">
+    <link href="css/forrest.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -54,11 +55,20 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="dataoverview.html">Data overview</a></li>
-                    <li><a href="getdata.html">Data access</a></li>
-                    <li><a href="participate.html">Participation info</a></li>
+                    <li><a href="goals.html">Project goals</a></li>
+                    <li><a href="resources.html">Resource overview</a></li>
+                    <li><a href="access.html">Access information</a></li>
                     <li class="dropdown-header">Studies</li>
                     <li><a href="#study1">Response similarity</a></li>
+                    <li class="dropdown-header">Data records</li>
+                    <li><a href="mod_t1w.html">T1-weighted MRI</a></li>
+                    <li><a href="mod_t2w.html">T2-weighted MRI</a></li>
+                    <li><a href="mod_swi.html">SWI</a></li>
+                    <li><a href="mod_dti.html">DTI</a></li>
+                    <li><a href="mod_angio.html">Angiography</a></li>
+                    <li><a href="mod_surf.html">Surface reconstructions</a></li>
+                    <li><a href="mod_fmri.html">Functional MRI</a></li>
+                    <li><a href="mod_annot.html">Annotations</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header">External</li>
                     <li><a target="_blank" href="http://openfmri.org/dataset/ds000113">Data on openfmri.org</a></li>
@@ -94,7 +104,7 @@
               <h1>High-resolution, ultra-highfield fMRI</h1>
               <p>State-of-the-art functional magnetic reasonance imaging data
               acquired with a Siemens Magnetom 7-Tesla scanner.</p>
-              <p><a class="btn btn-primary" href="dataoverview.html#fmri" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-primary" href="mod_fmri.html" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -106,7 +116,7 @@
               <p>Participants listened to a narrated, audio-only version of the two-hour
                  Hollywood movie "Forrest Gump". The stimulus
                  is aligned to the commercial DVD release to facilitate further annotation.</p>
-              <p><a class="btn btn-primary" href="dataoverview.html#annotations" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-primary" href="mod_annot.html" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -117,7 +127,7 @@
               <h1>High-resolution anatomical images</h1>
               <p>T1 and T2-weighted anatomical images with
                  a voxel-size of 0.7&nbsp;mm for all participants.</p>
-              <p><a class="btn btn-primary" href="dataoverview.html#smri" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-primary" href="resources.html" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -129,7 +139,7 @@
               <p>Possibly the largest consecutive sample of brain imaging
                  data recorded during natural language processing. FMRI
                  data corrected for EPI distortions and ready for analysis.</p>
-              <p><a class="btn btn-primary" href="dataoverview.html#fmri" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-primary" href="mod_fmri.html" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -141,7 +151,7 @@
               <p>High-resolution blood vessel localizers. Arterography for the
                  field-of-view of the functional brain scans, and a full-brain
                  venography.</p>
-              <p><a class="btn btn-primary" href="dataoverview.html#smri" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-primary" href="mod_angio.html" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -154,7 +164,7 @@
                  during fMRI recording. Motion estimates extracted from fMRI
                  data prior distortion correction. Independent evaluation of
                  technical noise with a full-length phantom recording.</p>
-              <p><a class="btn btn-primary" href="dataoverview.html#physio" role="button">View details &raquo;</a></p>
+              <p><a class="btn btn-primary" href="mod_physio.html" role="button">View details &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -172,7 +182,15 @@
 
     <div class="container marketing">
 
+    <div class="row" style="margin-top:-50px">
+      <div class="col-lg-12" style="text-align:center">
+        <div class="g-plusone" data-href="http://studyforrest.org"></div>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://studyforrest.org" data-dnt="true">Tweet</a>
+      </div><!-- /.col-md-12 -->
+    </div><!-- /.row -->
+
     <div class="row">
+
       <div class="col-md-12">
        <p class="lead" style="text-align:justify">
        The human brain is designed for processing vast amounts of input that
@@ -189,36 +207,32 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-md-4" style="text-align:center">
+        <div class="col-sm-4" style="text-align:center">
+          <span class="glyphicon glyphicon-tasks" style="font-size:500%"></span>
+          <h2>Goals</h2>
+          <p>We promote the use of natural stimulation in brain
+          research. <strong>Use</strong> these data for a scientific study, as a benchmark, or to develop
+          educational material. <strong>Extend</strong> the
+          dataset with original or derived data to enable new applications.</p>
+          <p><a class="btn btn-primary" href="goals.html" role="button">Read more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-sm-4" style="text-align:center">
           <span class="glyphicon glyphicon-info-sign" style="font-size:500%"></span>
-          <h2>Resource overview</h2>
-          <p>We provide a detailed dataset of functional brain imaging during
-           natural stimulation, and a wide variety of structural brain scans
-           (currently 20 individuals). Neuroimaging data is accompanied by
-           measurements of physiological and technical noise, as well as
-           stimulus annotations.</p>
-          <p><a class="btn btn-default" href="dataoverview.html" role="button">View details &raquo;</a></p>
+          <h2>Resources</h2>
+          <p>We provide extensive functional brain imaging data from
+           natural stimulation, a rich set of auxiliary data,
+           such as structural brain scans, measurements of physiological and
+           technical confounds, as well as stimulus annotations.</p>
+          <p><a class="btn btn-primary" href="resources.html" role="button">See overview &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-md-4" style="text-align:center">
+        <div class="col-sm-4" style="text-align:center">
           <span class="glyphicon glyphicon-download-alt" style="font-size:500%"></span>
-          <h2>Get access</h2>
-          <p>All data are publicly available from multiple providers. There is
-             no required sign-up or registration procedure of any kind.
-             Data are released under an extremely permissive license.</p>
-          <p><a class="btn btn-default" href="getdata.html" role="button">View instructions &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-md-4" style="text-align:center">
-          <span class="glyphicon glyphicon-share" style="font-size:500%"></span>
-          <h2>Participate</h2>
-          <p><strong>Use</strong> these data for a scientific study, as a benchmark, to develop
-          educational material, or something completely different. <strong>Extend</strong> the
-          dataset with new original or derived data to enable new applications. <strong>Share</strong>
-          this project with others.</p>
-          <div style="text-align:center">
-    <div class="g-plusone" data-href="http://studyforrest.org"></div>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://studyforrest.org" data-dnt="true">Tweet</a>
-          </div>
-          <p><a class="btn btn-default" href="participate.html" role="button">Learn more &raquo;</a></p>
+          <h2>Access</h2>
+          <p>All data and software components are publicly available. There is
+             no required sign-up or registration procedure.
+             Data are released under an extremely permissive license and
+             can be used by academic and commercial entities.</p>
+          <p><a class="btn btn-primary" href="access.html" role="button">View instructions &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 

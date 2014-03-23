@@ -1,0 +1,22 @@
+a.iconlink {
+    color: #5a5a5a;
+}
+
+a.iconlink:hover,
+a.iconlink:focus {
+    color: #777;
+    text-decoration: none;
+}
+
+a.iconlink > div:hover,
+a.iconlink > div:focus {
+    box-shadow: 1px 1px 5px #888;
+}
+
+div.caption > h5 {
+    text-align: center;
+}
+
+div.thumbnail {
+    height: 260px;
+}

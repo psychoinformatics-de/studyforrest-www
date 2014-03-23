@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="pics/favicon.png">
+
+    <title>Resource overview</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <link href="css/forrest.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">studyforrest.org</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="#data_records">Data</a></li>
+              <li><a href="#software">Software</a></li>
+              <!--<li><a href="#datatypes">Data types</a></li>
+              <li><a href="#preprocessed">Preprocessed data</a></li>-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1>Resource overview</h1>
+        </div>
+
+<p>At this point, data from 20 human participants is publicly
+available.  For each participant a number of different scans and auxilliary
+recordings have been obtained and several types of minimally preprocessed data
+are provided in addition. The total size of all data is several hundreds of
+gigabytes. This page provides an overview of the dataset in order
+to aid selection of sub-components. The full description of the data release is
+available in a dedicated publication.</p>
+
+<p><a class="btn btn-success" href="publications/Hanke_etal_7T_audio_forrest.pdf" role="button">View publication &raquo;</a></p>
+
+<a id="data_records"></a>
+
+<h2>Data records</h2>
+
+<div class="row">
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_t1w.html">
+      <div class="thumbnail">
+      <img src="pics/t1w_thumb.jpg" class="img-responsive" alt="T1w sample image">
+      <div class="caption"><h5>T1-weighted MRI</h5></div>
+      </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_t2w.html">
+    <div class="thumbnail">
+      <img src="pics/t2w_thumb.jpg" class="img-responsive" alt="T2w sample image">
+      <div class="caption">
+        <h5>T2-weighted MRI</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_swi.html">
+    <div class="thumbnail">
+      <img src="pics/swi_thumb.jpg" class="img-responsive" alt="SWI sample image">
+      <div class="caption">
+        <h5>Susceptibility-weighted MRI</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_dti.html">
+    <div class="thumbnail">
+      <img src="pics/dti_thumb.jpg" class="img-responsive" alt="DTI sample image">
+      <div class="caption">
+        <h5>Diffusion tensor MRI</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_angio.html">
+    <div class="thumbnail">
+      <img src="pics/angio_thumb.jpg" class="img-responsive" alt="Angiography max intensity projection">
+      <div class="caption">
+        <h5>Angiography</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_surf.html">
+    <div class="thumbnail">
+      <img src="pics/surf_thumb.jpg" class="img-responsive" alt="Sample brain surface mesh">
+      <div class="caption">
+        <h5>Surface reconstruction</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_fmri.html">
+    <div class="thumbnail">
+      <img src="pics/fmri_thumb.jpg" class="img-responsive" alt="Sample FMRI slices">
+      <div class="caption">
+        <h5>Functional MRI</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_physio.html">
+    <div class="thumbnail">
+      <img src="pics/physio_thumb.png" class="img-responsive" alt="Sample curves">
+      <div class="caption">
+        <h5>Physiological measurements</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a class="iconlink" href="mod_annot.html">
+    <div class="thumbnail">
+      <img src="pics/annotations_thumb.png" class="img-responsive" alt="Annotation icon">
+      <div class="caption">
+        <h5>Annotations &amp; surveys</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <!--<a class="iconlink" class="disabled" href="">-->
+    <div class="thumbnail">
+      <img src="pics/eyemove_thumb.jpg" class="img-responsive" alt="Eyemovement icon" style="opacity:.5">
+      <div class="caption">
+        <h5>Eye movements (in progress)</h5>
+      </div>
+    </div>
+    <!--</a>-->
+  </div>
+  <div class="col-sm-4">
+    <!-- <a class="iconlink" href=""> -->
+    <div class="thumbnail">
+      <img src="pics/eeg_thumb.jpg" class="img-responsive" alt="EEG topography icon" style="opacity:.5">
+      <div class="caption">
+        <h5>EEG (in preparation)</h5>
+      </div>
+    </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <!-- <a class="iconlink" href=""> -->
+    <div class="thumbnail">
+      <img src="pics/eegfmri_thumb.jpg" class="img-responsive" alt="EEG/FMRI icon" style="opacity:.5">
+      <div class="caption">
+        <h5>Simultaneous EEG/FMRI (planned)</h5>
+      </div>
+    </div>
+    <!--</a>-->
+  </div>
+</div>
+
+<a id="software"></a>
+<h2>Software</h2>
+
+<a href="http://www.pymvpa.org" title="Visit pymvpa.org">
+<img src="pics/pymvpa_logo.jpg" class="img-responsive" alt="PyMVPA logo">
+</a>
+<a href="http://neuro.debian.net" title="Visit NeuroDebian site">
+<img src="pics/neurodebian_logo.png" class="img-responsive" alt="NeuroDebian logo">
+</a>
+
+  </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
