@@ -14,6 +14,67 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <!-- papaya -->
+    <link rel="stylesheet" type="text/css" href="css/papaya/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/papaya/ui/toolbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/papaya/ui/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/papaya/ui/dialog.css" />
+    <link rel="stylesheet" type="text/css" href="css/papaya/utilities/nojs.css" />
+    <link rel="stylesheet" type="text/css" href="css/papaya/utilities/unsupported.css" />
+    <link rel="stylesheet" type="text/css" href="css/papaya/viewer/viewer.css" />
+    <script type="text/javascript" src="js/papaya/constants.js"></script>
+    <script type="text/javascript" src="js/papaya/core/coordinate.js"></script>
+    <script type="text/javascript" src="js/papaya/core/dimensions.js"></script>
+    <script type="text/javascript" src="js/papaya/core/point.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/header.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/imagedata.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/imagedescription.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/imagedimensions.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/imagerange.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/imagetype.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/orientation.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/transform.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/volume.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/voxeldimensions.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/voxelvalue.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/nifti/header-nifti.js"></script>
+    <script type="text/javascript" src="js/papaya/volume/nifti/nifti.js"></script>
+    <script type="text/javascript" src="js/papaya/viewer/colortable.js"></script>
+    <script type="text/javascript" src="js/papaya/viewer/display.js"></script>
+    <script type="text/javascript" src="js/papaya/viewer/preferences.js"></script>
+    <script type="text/javascript" src="js/papaya/viewer/screenslice.js"></script>
+    <script type="text/javascript" src="js/papaya/viewer/screenvol.js"></script>
+    <script type="text/javascript" src="js/papaya/viewer/viewer.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/dialog.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menu.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menuitem.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menuitemcheckbox.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menuitemfilechooser.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menuitemrange.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menuitemslider.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/menuitemspacer.js"></script>
+    <script type="text/javascript" src="js/papaya/ui/toolbar.js"></script>
+    <script type="text/javascript" src="js/papaya/main.js"></script>
+    <script type="text/javascript" src="js/papaya/utilities/base64-binary.js"></script>
+    <script type="text/javascript" src="js/papaya/utilities/browser.js"></script>
+    <script type="text/javascript" src="js/papaya/utilities/gunzip.js"></script>
+    <script type="text/javascript" src="js/papaya/utilities/numerics.js"></script>
+    <script type="text/javascript" src="js/papaya/utilities/platform.js"></script>
+    <script type="text/javascript" src="js/papaya/utilities/utilities.js"></script>
+
+    <script type="text/javascript">
+        var params = [];
+        params["worldSpace"] = true;
+        params["images"] = ["data/7Tad_epi_grp_tmpl.nii.gz"];
+        params["expandable"] = true;
+        params["kioskMode"] = true;
+        params["7Tad_epi_grp_tmpl.nii.gz"] = {"min": 400, "max": 4000};
+    </script>
+
+    <link href="css/forrest.css" rel="stylesheet">
+  </head>
+
+
   </head>
 
   <body>
@@ -34,7 +95,7 @@
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
-              <li><a href="dataoverview.html">Resource overview</a></li>
+              <li><a href="resources.html">Resource overview</a></li>
               <!--<li><a href="#datatypes">Data types</a></li>
               <li><a href="#preprocessed">Preprocessed data</a></li>-->
             </ul>
@@ -92,6 +153,9 @@
           <a href="http://www.birncommunity.org/tools-catalog/function-birn-stability-phantom-qa-procedures/"
              target="_blank">More information on the phantom QA procedure</a>.</p>
 
+    <div class="papayaviewer">
+        <div class="papaya" data-params="params"></div>
+    </div>
       </div>
 
     </div>

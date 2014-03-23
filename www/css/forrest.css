@@ -20,3 +20,19 @@ div.caption > h5 {
 div.thumbnail {
     height: 260px;
 }
+
+div.papayaviewer {
+    width: 600px;
+    height: 100%;
+}
+
+/*
+div.papayaviewer > img {
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*div.papayaviewer > div {
+    min-width: 600px;
+    min-height: 400px;
+}*/

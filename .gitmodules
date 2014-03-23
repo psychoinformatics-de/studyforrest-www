@@ -1,0 +1,3 @@
+[submodule "papaya"]
+	path = papaya
+	url = https://github.com/rii-mango/Papaya.git
