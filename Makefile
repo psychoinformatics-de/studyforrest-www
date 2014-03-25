@@ -31,8 +31,8 @@ $(DATADIR)/t2w.nii.gz:
 $(DATADIR)/swi_mag.nii.gz:
 	wget -O $@ http://psydata.ovgu.de/forrest_gump/sub016/anatomy/other/swi001_mag.nii.gz
 	fslroi $@ $@ 80 350 30 420 40 410
-	fslmaths $@ -subsamp2 -s 30 $(DATADIR)/swi_bias
-	fslmaths $@ -subsamp2 -div $(DATADIR)/swi_bias -thr .7 -mul 100 $@ -odt char
+	fslmaths $@ -s 30 $(DATADIR)/swi_bias
+	fslmaths $@ -div $(DATADIR)/swi_bias -thr .7 -mul 100 $@ -odt char
 	rm -f $(DATADIR)/swi_bias*
 
 $(DATADIR)/angio.nii.gz:

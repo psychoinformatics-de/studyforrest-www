@@ -1,135 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="pics/favicon.png">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <link rel="shortcut icon" href="pics/favicon.png">
 
-    <title>T1-weighted MRI scans (gray-white contrast)</title>
+ <!-- Bootstrap core CSS -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- Custom styles for this template -->
+ <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+ <!-- papaya -->
+ <link rel="stylesheet" type="text/css" href="css/papaya/base.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/ui/toolbar.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/ui/menu.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/ui/dialog.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/utilities/nojs.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/utilities/unsupported.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/viewer/viewer.css" />
+ <script type="text/javascript" src="js/papaya/constants.js"></script>
+ <script type="text/javascript" src="js/papaya/core/coordinate.js"></script>
+ <script type="text/javascript" src="js/papaya/core/dimensions.js"></script>
+ <script type="text/javascript" src="js/papaya/core/point.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/header.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagedata.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagedescription.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagedimensions.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagerange.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagetype.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/orientation.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/transform.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/volume.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/voxeldimensions.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/voxelvalue.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/nifti/header-nifti.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/nifti/nifti.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/colortable.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/display.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/preferences.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/screenslice.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/screenvol.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/viewer.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/dialog.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menu.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitem.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemcheckbox.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemfilechooser.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemrange.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemslider.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemspacer.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/toolbar.js"></script>
+ <script type="text/javascript" src="js/papaya/main.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/base64-binary.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/browser.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/gunzip.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/numerics.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/platform.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/utilities.js"></script>
+ <script type="text/javascript">
+     var params = [];
+     params["worldSpace"] = true;
+     params["images"] = ["data/t1w.nii.gz"];
+     params["expandable"] = true;
+     params["kioskMode"] = true;
+     params["t1w.nii.gz"] = {"min": 0, "max": 76};
+     function main_viewer_loaded() {
+         $("#main_viewer").show();
+     }
+ </script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
-    <!-- papaya -->
-    <link rel="stylesheet" type="text/css" href="css/papaya/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/ui/toolbar.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/ui/menu.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/ui/dialog.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/utilities/nojs.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/utilities/unsupported.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/viewer/viewer.css" />
-    <script type="text/javascript" src="js/papaya/constants.js"></script>
-    <script type="text/javascript" src="js/papaya/core/coordinate.js"></script>
-    <script type="text/javascript" src="js/papaya/core/dimensions.js"></script>
-    <script type="text/javascript" src="js/papaya/core/point.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/header.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagedata.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagedescription.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagedimensions.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagerange.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagetype.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/orientation.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/transform.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/volume.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/voxeldimensions.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/voxelvalue.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/nifti/header-nifti.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/nifti/nifti.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/colortable.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/display.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/preferences.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/screenslice.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/screenvol.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/viewer.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/dialog.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menu.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitem.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemcheckbox.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemfilechooser.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemrange.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemslider.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemspacer.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/toolbar.js"></script>
-    <script type="text/javascript" src="js/papaya/main.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/base64-binary.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/browser.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/gunzip.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/numerics.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/platform.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/utilities.js"></script>
+ <link href="css/forrest.css" rel="stylesheet">
+ <title>T1-weighted MRI scans</title>
+</head>
 
-    <script type="text/javascript">
-        var params = [];
-        params["worldSpace"] = true;
-        params["images"] = ["data/t1w_head.nii.gz"];
-        params["expandable"] = true;
-        params["kioskMode"] = true;
-        params["t1w_head.nii.gz"] = {"min": 0, "max": 76};
-    </script>
+<body>
+ <!-- Wrap all page content here -->
+ <div id="wrap">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="/">studyforrest.org</a>
+    </div><!--/.nav-header -->
+    <div class="collapse navbar-collapse">
+     <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="resources.html">Resource overview</a></li>
+     </ul>
+    </div><!--/.nav-collapse -->
+   </div><!--/.container -->
+  </div><!--/.navbar -->
 
-    <link href="css/forrest.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">studyforrest.org</a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="resources.html">Resource overview</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-
-      <!-- Begin page content -->
-      <div class="container">
-        <div class="page-header">
-          <h1>T1-weighted MRI scans (gray-white contrast)</h1>
-        </div>
-
-    <div class="papayaviewer">
-        <div class="papaya" data-params="params"></div>
+ <!-- Begin page content -->
+ <div class="container">
+  <div class="page-header">
+      <h1>T1-weighted MRI scans<br />
+          <small>Gray-white brain tissue contrast</small></h1>
+  </div>
+  <div class="row">
+   <div class="col-md-12">
+    <p>In T1-weighted MR images white brain tissue (fibers) appears bright,
+    while the gray matter, where most neurons are located, is darker, and
+    cerebrospinal fluid (liquor) is black. The bright "shell" around the brain is
+    not the skull, but the fat layer in the scalp.
+    <a href="http://en.wikipedia.org/wiki/Spin%E2%80%93lattice_relaxation"
+       target="_blank">More information on this image type</a>.</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+   <div class="col-md-12">
+    <div class="papayaviewer"
+         id="main_viewer"
+         onclick='addViewer("main_viewer", params, main_viewer_loaded)'>
+     <img class="img-responsive"
+          src="pics/mod_t1w_viewer_preview.jpg"
+          title="Click to load interactive viewer"
+          alit="T1-weighted example image" />
     </div>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+   <div class="col-md-12">
+    <h3>Technical details</h3>
+     <p>Full-brain volumetric images (384x384x274) in NIfTI format recorded with
+     a Philips MR scanner at 3 Tesla using a 3D TFE sequence (0.67&nbsp;mm
+     isotropic voxel size). Facial features have been removed from these images
+     for de-identification.</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+ </div> <!-- .container -->
+</div> <!-- .wrap -->
 
+<div id="footer">
+ <div class="container">
+  <p class="pull-right"><a href="#">Back to top</a></p>
+ </div>
+</div>
 
-          <p>Full-brain volumetric images (384x384x274) in NIfTI format recorded with a Philips
-          MR scanner at 3 Tesla using a 3D TFE sequence (0.67&nbsp;mm isotropic voxel
-          size). Facial features have been removed from these images for de-identification.
-          <a href="http://en.wikipedia.org/wiki/Spin%E2%80%93lattice_relaxation"
-             target="_blank">More information on this image type</a>.</p>
-
-      </div>
-
-    </div>
-
-    <div id="footer">
-      <div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-      </div>
-    </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
+
+
