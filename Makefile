@@ -44,3 +44,10 @@ $(DATADIR)/angio.nii.gz:
 $(DATADIR)/7Tad_epi_grptmpl.nii.gz:
 	wget -O $@ http://psydata.ovgu.de/forrest_gump/templates/grpbold7Tad/brain.nii.gz
 
+xtk/xtk.js:
+	mkdir -p xtk
+	wget -O $@ http://get.goxtk.com/xtk.js
+
+xtk/xtk_xdat.gui.js:
+	mkdir -p xtk
+	wget -O $@ http://get.goxtk.com/xtk_xdat.gui.js

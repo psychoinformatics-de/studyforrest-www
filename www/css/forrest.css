@@ -32,3 +32,17 @@ div.papayaviewer > img {
     margin-left: auto;
     margin-right: auto;
 }
+
+div.xtk_renderer {
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.xtk_help {
+    text-align: center;
+    color: #777;
+    display: none;
+}

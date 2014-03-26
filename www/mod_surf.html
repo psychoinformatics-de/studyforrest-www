@@ -1,74 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="pics/favicon.png">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <link rel="shortcut icon" href="pics/favicon.png">
 
-    <title>Cortical surface reconstruction (tissue segmentation and 3D meshes)</title>
+ <!-- Bootstrap core CSS -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- Custom styles for this template -->
+ <link href="css/sticky-footer-navbar.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
-  </head>
+ <link href="css/forrest.css" rel="stylesheet">
+ <script type="text/javascript">
+   function load_xtk_renderer() {
+   var r = new X.renderer3D();
+   r.container = 'xtk_renderer';
+   r.init();
+ 
+   var lh = new X.mesh();
+   lh.file = 'data/lh.pial';
+   lh.color = [0.7, 0.7, 0.7];
+   lh.opacity = 1.0;
+ 
+   var rh = new X.mesh();
+   rh.file = 'data/rh.orig';
+   rh.opacity = 0.7;
+   rh.scalars.file = 'data/rh.smoothwm.C.crv';
+   rh.scalars.minColor = [0, 0, 1];
+   rh.scalars.maxColor = [1, 1, 1];
+ 
+   r.add(lh);
+   r.add(rh);
+ 
+   r.camera.position = [130, -130, 60];
+   r.camera.up = [0, 0, 1];
+   r.render();
+ };
+ </script>
 
-  <body>
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">studyforrest.org</a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="resources.html">Resource overview</a></li>
-              <!--<li><a href="#datatypes">Data types</a></li>
-              <li><a href="#preprocessed">Preprocessed data</a></li>-->
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
+ <title>Cortical surface reconstruction</title>
+</head>
 
-      <!-- Begin page content -->
-      <div class="container">
-        <div class="page-header">
-          <h1>Cortical surface reconstruction (tissue segmentation and 3D meshes)</h1>
-        </div>
+<body>
+ <!-- Wrap all page content here -->
+ <div id="wrap">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="/">studyforrest.org</a>
+    </div><!--/.nav-header -->
+    <div class="collapse navbar-collapse">
+     <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="resources.html">Resource overview</a></li>
+     </ul>
+    </div><!--/.nav-collapse -->
+   </div><!--/.container -->
+  </div><!--/.navbar -->
 
-          <p>These data were generated from the T1 and T2-weighted images of
-          each participant using the Freesurfer 5.3 image segmentation and
-          cortical surface reconstruction pipeline.
-          <a href="http://surfer.nmr.mgh.harvard.edu"
-             target="_blank">More information on Freesurfer</a>.</p>
-
-      </div>
-
+ <!-- Begin page content -->
+ <div class="container">
+  <div class="page-header">
+      <h1>Cortical surface reconstruction<br />
+          <small>Tissue segmentation and 3D meshes</small></h1>
+  </div>
+  <div class="row">
+   <div class="col-md-12">
+    <p>Structural brain scans can be used to reconstruct the cortical surface
+    of the brain. This process estimates various properties of the brain, such
+    as thickness of the gray matter, or cortical curvature. The example image
+    below shows both hemispheres of an individual brain. For the left
+    hemisphere the outer ("pial") surface is shown. For the right hemisphere
+    the white matter surface is shown with a colored overlay indicating the
+    cortical curvature at each surface point.</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+   <div class="col-md-12">
+    <div id='xtk_renderer' class="xtk_renderer">
+     <img class="img-responsive"
+          onmousedown="load_xtk_renderer();$(this).hide();$('.xtk_help').show()"
+          src="pics/mod_surf_viewer_preview.jpg"
+          title="Click to load interactive viewer"
+          alit="Surface rendering example" />
     </div>
-
-    <div id="footer">
-      <div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-      </div>
+    <div class="xtk_help">
+         <p>Usage: Left-click and drag to rotate the view, middle-click and drag to
+         pan, and scroll to zoom in and out.</p>
     </div>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+   <div class="col-md-12">
+    <h3>Technical details</h3>
+     <p>These data were generated from the T1 and T2-weighted images of
+     each participant using the Freesurfer 5.3 image segmentation and
+     cortical surface reconstruction pipeline.
+     <a href="http://surfer.nmr.mgh.harvard.edu"
+        target="_blank">More information on Freesurfer</a>.</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+ </div> <!-- .container -->
+</div> <!-- .wrap -->
 
+<div id="footer">
+ <div class="container">
+  <p class="pull-right"><a href="#">Back to top</a></p>
+ </div>
+</div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/xtk.js"></script>
+</body>
 </html>
