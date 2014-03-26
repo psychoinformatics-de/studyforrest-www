@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+import sys
+import numpy as np
+
+infile = sys.argv[1]
+outfile = sys.argv[2]
+limit = int(sys.argv[3])
+subsample = 2
+
+data = np.loadtxt(sys.argv[1])
+# cut to desired length
+data = data[:limit]
+# flip niegative axes
+data[:,1::2] *= -1
+# lengthen trigger signal to survive sub-sampling
+data[1:,0] = np.array((data[1:,0], data[:-1,0])).max(axis=0)
+# relative to peak
+data = data / data.max(axis=0)
+import csv
+with open(outfile, 'wb') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',',
+                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(['Time', 'Trigger', 'Respiration', 'Cardiac', 'Saturation'])
+    for i, d in enumerate(data[::subsample]):
+        writer.writerow((float(i)*subsample/100,) + tuple(d))

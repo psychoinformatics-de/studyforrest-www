@@ -46,3 +46,8 @@ div.xtk_help {
     color: #777;
     display: none;
 }
+
+div.nvd3_help {
+    text-align: center;
+    color: #777;
+}

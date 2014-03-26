@@ -65,6 +65,11 @@ $(DATADIR)/german_audio_description.csv:
 $(DATADIR)/demographics.csv:
 	wget -O $@ http://psydata.ovgu.de/forrest_gump/demographics.csv
 
+$(DATADIR)/physio.csv:
+	wget -O physio.txt.gz http://psydata.ovgu.de/forrest_gump/sub007/physio/task001_run005/physio.txt.gz
+	tools/physio2webcsv physio.txt.gz $@ 6000
+	rm -f physio.txt.gz
+
 xtk/xtk.js:
 	mkdir -p xtk
 	wget -O $@ http://get.goxtk.com/xtk.js

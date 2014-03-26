@@ -1,3 +1,6 @@
 [submodule "papaya"]
 	path = papaya
 	url = https://github.com/rii-mango/Papaya.git
+[submodule "nvd3"]
+	path = nvd3
+	url = https://github.com/novus/nvd3.git
