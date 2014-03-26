@@ -13,7 +13,10 @@ upload:
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
       $(DATADIR)/swi_mag.nii.gz $(DATADIR)/angio.nii.gz \
-      $(DATADIR)/7Tad_epi_grptmpl.nii.gz
+      $(DATADIR)/7Tad_epi_grptmpl.nii.gz \
+      $(DATADIR)/lh.pial $(DATADIR)/rh.orig $(DATADIR)/rh.smoothwm.C.crv \
+      $(DATADIR)/scenes.csv $(DATADIR)/german_audio_description.csv \
+      $(DATADIR)/demographics.csv
 
 $(DATADIR):
 	mkdir -p $@
@@ -43,6 +46,24 @@ $(DATADIR)/angio.nii.gz:
 
 $(DATADIR)/7Tad_epi_grptmpl.nii.gz:
 	wget -O $@ http://psydata.ovgu.de/forrest_gump/templates/grpbold7Tad/brain.nii.gz
+
+$(DATADIR)/rh.smoothwm.C.crv:
+	wget -O $@ http://psydata.ovgu.de/forrest_gump/freesurfer/sub006/surf/rh.smoothwm.C.crv
+
+$(DATADIR)/rh.orig:
+	wget -O $@ http://psydata.ovgu.de/forrest_gump/freesurfer/sub006/surf/rh.orig
+
+$(DATADIR)/lh.pial:
+	wget -O $@ http://psydata.ovgu.de/forrest_gump/freesurfer/sub006/surf/lh.pial
+
+$(DATADIR)/scenes.csv:
+	wget -O $@ http://psydata.ovgu.de/forrest_gump/stimulus/task001/annotations/scenes.csv
+
+$(DATADIR)/german_audio_description.csv:
+	wget -O $@ http://psydata.ovgu.de/forrest_gump/stimulus/task001/annotations/german_audio_description.csv
+
+$(DATADIR)/demographics.csv:
+	wget -O $@ http://psydata.ovgu.de/forrest_gump/demographics.csv
 
 xtk/xtk.js:
 	mkdir -p xtk
