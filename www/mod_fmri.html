@@ -1,176 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="pics/favicon.png">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <link rel="shortcut icon" href="pics/favicon.png">
 
-    <title>Functional brain imaging</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
-    <!-- papaya -->
-    <link rel="stylesheet" type="text/css" href="css/papaya/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/ui/toolbar.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/ui/menu.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/ui/dialog.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/utilities/nojs.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/utilities/unsupported.css" />
-    <link rel="stylesheet" type="text/css" href="css/papaya/viewer/viewer.css" />
-    <script type="text/javascript" src="js/papaya/constants.js"></script>
-    <script type="text/javascript" src="js/papaya/core/coordinate.js"></script>
-    <script type="text/javascript" src="js/papaya/core/dimensions.js"></script>
-    <script type="text/javascript" src="js/papaya/core/point.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/header.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagedata.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagedescription.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagedimensions.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagerange.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/imagetype.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/orientation.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/transform.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/volume.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/voxeldimensions.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/voxelvalue.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/nifti/header-nifti.js"></script>
-    <script type="text/javascript" src="js/papaya/volume/nifti/nifti.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/colortable.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/display.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/preferences.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/screenslice.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/screenvol.js"></script>
-    <script type="text/javascript" src="js/papaya/viewer/viewer.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/dialog.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menu.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitem.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemcheckbox.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemfilechooser.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemrange.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemslider.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/menuitemspacer.js"></script>
-    <script type="text/javascript" src="js/papaya/ui/toolbar.js"></script>
-    <script type="text/javascript" src="js/papaya/main.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/base64-binary.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/browser.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/gunzip.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/numerics.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/platform.js"></script>
-    <script type="text/javascript" src="js/papaya/utilities/utilities.js"></script>
-
-    <script type="text/javascript">
+ <!-- Bootstrap core CSS -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <!-- Custom styles for this template -->
+ <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+ <!-- papaya -->
+ <link rel="stylesheet" type="text/css" href="css/papaya/base.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/ui/toolbar.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/ui/menu.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/ui/dialog.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/utilities/nojs.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/utilities/unsupported.css" />
+ <link rel="stylesheet" type="text/css" href="css/papaya/viewer/viewer.css" />
+ <script type="text/javascript" src="js/papaya/constants.js"></script>
+ <script type="text/javascript" src="js/papaya/core/coordinate.js"></script>
+ <script type="text/javascript" src="js/papaya/core/dimensions.js"></script>
+ <script type="text/javascript" src="js/papaya/core/point.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/header.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagedata.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagedescription.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagedimensions.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagerange.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/imagetype.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/orientation.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/transform.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/volume.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/voxeldimensions.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/voxelvalue.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/nifti/header-nifti.js"></script>
+ <script type="text/javascript" src="js/papaya/volume/nifti/nifti.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/colortable.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/display.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/preferences.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/screenslice.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/screenvol.js"></script>
+ <script type="text/javascript" src="js/papaya/viewer/viewer.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/dialog.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menu.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitem.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemcheckbox.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemfilechooser.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemrange.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemslider.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/menuitemspacer.js"></script>
+ <script type="text/javascript" src="js/papaya/ui/toolbar.js"></script>
+ <script type="text/javascript" src="js/papaya/main.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/base64-binary.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/browser.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/gunzip.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/numerics.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/platform.js"></script>
+ <script type="text/javascript" src="js/papaya/utilities/utilities.js"></script>
+ <script type="text/javascript">
         var params = [];
         params["worldSpace"] = true;
         params["images"] = ["data/7Tad_epi_grp_tmpl.nii.gz"];
         params["expandable"] = true;
         params["kioskMode"] = true;
         params["7Tad_epi_grp_tmpl.nii.gz"] = {"min": 400, "max": 4000};
-    </script>
+     function main_viewer_loaded() {
+         $("#main_viewer").show();
+     }
+ </script>
+ <link href="css/forrest.css" rel="stylesheet">
+ <title>Functional brain imaging data</title>
+</head>
 
-    <link href="css/forrest.css" rel="stylesheet">
-  </head>
+<body>
+ <!-- Wrap all page content here -->
+ <div id="wrap">
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="/">studyforrest.org</a>
+    </div><!--/.nav-header -->
+    <div class="collapse navbar-collapse">
+     <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="resources.html">Resource overview</a></li>
+      <li><a href="#auditory_fmri">Auditory</a></li>
+      <li><a href="#phantom_fmri">Phantom</a></li>
+     </ul>
+    </div><!--/.nav-collapse -->
+   </div><!--/.container -->
+  </div><!--/.navbar -->
 
+ <!-- Begin page content -->
+ <div class="container">
+  <div class="page-header">
+      <h1>Functional brain imaging data<br />
+          <small>Prolonged quasi-natural stimulation</small></h1>
+  </div>
+  <div class="row">
+   <div class="col-md-12">
+    <a id="auditory_fmri"></a>
+    <h2>Auditory stimulation</h2>
+    <p class="lead">Forrest Gump audio movie</p>
+    <p>Eight approximately 15&nbsp;min long recording runs, together
+    comprising the entire duration of a two-hour presentation of an
+    audio-only version of the Hollywood feature film "<a
+        href="http://en.wikipedia.org/wiki/Forrest_Gump"
+        target="_blank">Forrest Gump</a>"
+    made for a visually impaired audience (German dubbing).
+    Several flavors of raw and preprocessed data are available:</p>
 
-  </head>
+    <dl>
+    <dt>Blood oxygenation level dependent (BOLD) scans</dt>
+    <dd>These images have partial brain coverage &mdash; centered on the
+    auditory cortices in both brain hemispheres. This raw data type
+    suffers from severe geometric distortions and is of limited use
+    for further analysis.</dd>
+    <dt>Distortion-corrected BOLD images</dt>
+    <dd>Identical to raw BOLD data, but with a scanner-side correction
+    for geometric distortions applied (includes correction for
+    participant motion). These data are most suitable for
+    analysis of individual brains.</dd>
 
-  <body>
-    <!-- Wrap all page content here -->
-    <div id="wrap">
-      <!-- Fixed navbar -->
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">studyforrest.org</a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="resources.html">Resource overview</a></li>
-              <!--<li><a href="#datatypes">Data types</a></li>
-              <li><a href="#preprocessed">Preprocessed data</a></li>-->
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
+    <dt>Group-aligned BOLD images</dt>
+    <dd>These images have been anatomically aligned to a BOLD group
+    template image that was generated from the entire group of
+    participants (see figure below). Two alignment flavors are available:
+    "linear" (image projection using an affine transformation), and
+    "non-linear" (image projection by non-linear warpfields).
+    These data are most suitable for group-analyses and inter-individual
+    comparisons.</dd>
+    </dl>
 
-      <!-- Begin page content -->
-      <div class="container">
-        <div class="page-header">
-          <h1>Functional brain imaging</h1>
-        </div>
-
-          <h4>Prolonged quasi-natural auditory stimulation (Forrest Gump audio movie)</h4>
-          <p>Eight approximately 15&nbsp;min long recording runs, together
-          comprising the entire duration of a two-hour presentation of an
-          audio-only version of the Hollywood feature film "<a
-              href="http://en.wikipedia.org/wiki/Forrest_Gump"
-              target="_blank">Forrest Gump</a>"
-          made for a visually impaired audience (German dubbing).</p>
-          <p>For each run, there are 4D volumetric images (160x160x36)in NIfTI format , one
-          volume recorded every 2&nbsp;s, obtain from a Siemens
-          MR scanner at 7 Tesla using a T2*-weighted gradient-echo EPI sequence
-          (1.4&nbsp;mm isotropic voxel size). These images have partial brain
-          coverage &mdash; centered on the auditory cortices in both brain
-          hemispheres and include frontal and posterior portions of the brain.
-          There is no coverage for the upper portion of the brain (e.g. large
-          parts of motor and somato-sensory cortices).
-          <a href="http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging"
-             target="_blank">More information on this imaging technique</a>.</p>
-          <p>Several flavors of raw and preprocessed data are available:</p>
-
-          <h5 style="font-weight:bold">BOLD images</h5>
-          <p>These raw data suffer from severe geometric distortions.</p>
-          <h5 style="font-weight:bold">Distortion-corrected BOLD images</h5>
-          <p>Identical to raw BOLD data, but with a scanner-side correction
-          for geometric distortions applied (also include correction for
-          participant motion). These data are most suitable for
-          analysis of individual brains.</p>
-
-          <h5 style="font-weight:bold">Group-aligned BOLD images</h5>
-          <p>These images have been anatomically aligned to a BOLD group
-          template image that was generated from the entire group of
-          participants. Two alignment flavors are available: "linear"
-          (image projection using an affine transformation), and
-          "non-linear" (image projection by non-linear warpfields).
-          These data are most suitable for group-analyses and inter-individual
-          comparisons.</p>
-
-          <h4>Phantom data (technical noise assessment)</h4>
-          <p>Identical imaging set up as the auditory stimulation fMRI, but
-          scanning a gel phantom instead of a human participant. This data
-          is a measurement of the technical noise in the fMRI acquisition
-          pipeline.
-          <a href="http://www.birncommunity.org/tools-catalog/function-birn-stability-phantom-qa-procedures/"
-             target="_blank">More information on the phantom QA procedure</a>.</p>
-
-    <div class="papayaviewer">
-        <div class="papaya" data-params="params"></div>
-    </div>
-      </div>
-
+    <div class="papayaviewer"
+         id="main_viewer"
+         onclick='addViewer("main_viewer", params, main_viewer_loaded)'>
+     <img class="img-responsive"
+          src="pics/mod_fmri_7Tad_tmpl_viewer_preview.jpg"
+          title="Click to load interactive viewer"
+          alit="FMRI group template example image" />
     </div>
 
-    <div id="footer">
-      <div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-      </div>
-    </div>
+    <h3>Technical details</h3>
+    <p>For each run, there are 4D volumetric images (160x160x36)in NIfTI format , one
+    volume recorded every 2&nbsp;s, obtain from a Siemens
+    MR scanner at 7 Tesla using a T2*-weighted gradient-echo EPI sequence
+    (1.4&nbsp;mm isotropic voxel size). These images have partial brain
+    coverage &mdash; centered on the auditory cortices in both brain
+    hemispheres and include frontal and posterior portions of the brain.
+    There is no coverage for the upper portion of the brain (e.g. large
+    parts of motor and somato-sensory cortices).
+    <a href="http://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging"
+       target="_blank">More information on this imaging technique</a>.</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+   <div class="col-md-12">
+    <a id="phantom_fmri"></a>
+    <h2>Phantom data</h2>
+    <p class="lead">Technical noise assessment</p>
+    <p>Identical imaging set up as the auditory stimulation fMRI, but
+    scanning a gel phantom instead of a human participant. This data
+    is a measurement of the technical noise in the fMRI acquisition
+    pipeline.
+    <a href="http://www.birncommunity.org/tools-catalog/function-birn-stability-phantom-qa-procedures/"
+       target="_blank">More information on the phantom QA procedure</a>.</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+ </div> <!-- .container -->
+</div> <!-- .wrap -->
 
+<div id="footer">
+ <div class="container">
+  <p class="pull-right"><a href="#">Back to top</a></p>
+ </div>
+</div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
