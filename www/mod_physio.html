@@ -13,7 +13,6 @@
  <!-- Custom styles for this template -->
  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
 
- <link href="css/nv.d3.css" rel="stylesheet" type="text/css">
  <link href="css/forrest.css" rel="stylesheet">
  <title>Physiological measurements and confound estimates</title>
 </head>
@@ -51,24 +50,26 @@
   <div class="row">
    <div class="col-md-12">
     <h2>Cardiac and respiratory trace</h2>
-    <p>These data have been obtain simultaneously with the fMRI recording
-    during stimulation. Files are in plain text format (compressed) for each
+    <p>These data have been obtained simultaneously with the fMRI recording.
+    Files are in plain text format (compressed) for each
     scanning run separately and includes the MR scanner's volume acquisition
-    trigger signal for precise temporal alignment. These data are useful for
-    de-noising of fMRI time series. The interactive plot below shows an
-    exemplary minute of data at 50 Hz sampling rate (actual data is sampled
-    at 200 Hz).</p>
+    trigger signal for precise temporal alignment. For example, these data are
+    useful for de-noising fMRI time series. In addition, the data files include
+    an estimate of the blood oxygen saturation. The interactive plot below
+    shows an exemplary minute of data at 50 Hz sampling rate (actual data is
+    sampled at 200 Hz).</p>
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
   <div class="row">
    <div class="col-md-12">
-    <div id="physio_chart" class='with-3d-shadow with-transitions'>
-     <svg style="height: 50vh;"></svg>
-    </div>
-    <div class="nvd3_help">
-         <p>Usage: Click on legend items to disable/enable individual data
-         types. Click and drag on the lower focus chart to zoom in on a
-         time segment. Drag a zoom window to scroll through time.</p>
+       <button type="button" class="btn btn-default" onclick="showLF()">Show trends</button>
+       <button type="button" class="btn btn-default" onclick="showDetail()">Show details</button>
+     <span id="physio_legend" style='width:100%;text-align:right'></span>
+     <div id="physio_chart" style='margin-top:10px;width:100%;height=300px'></div>
+    <div class="dygraph_help">
+         <p>Usage: Click and drag on the lower focus chart to move along the
+         time axis. Perform temporal data averaging by specifying the length
+         of the window (in samples) in the lower left of the plot.</p>
     </div>
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
@@ -77,7 +78,21 @@
     <h2>Participant motion estimates</h2>
     <p>These data have been estimated from the raw BOLD images prior to
     distortion correction. Files are provided in a six-column plain text
-    format for each fMRI scanning run separately.</p>
+    format for each fMRI scanning run separately. The plots below show example
+    data from one subject for an entire movie segment (approx. 15 min).</p>
+   </div><!-- /.col-md-12 -->
+  </div><!-- /.row -->
+  <div class="row">
+   <div class="col-md-12">
+     <span id="moco_transl_legend" style='width:100%;text-align:right'></span>
+     <div id="moco_transl_chart" style='margin-top:10px;width:100%;height=200px'></div>
+     <span id="moco_rot_legend" style='width:100%;text-align:right'></span>
+     <div id="moco_rot_chart" style='margin-top:10px;width:100%;height=200px'></div>
+    <div class="dygraph_help">
+         <p>Usage: Click and drag on the lower focus chart to move along the
+         time axis. Perform temporal data averaging by specifying the length
+         of the window (in samples) in the lower left of the plot.</p>
+    </div>
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
  </div> <!-- .container -->
@@ -94,54 +109,75 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/d3.v3.min.js"></script>
-<script src="js/nv.d3.min.js"></script>
-<script src="js/nvd3/tooltip.js"></script>
-<script src="js/nvd3/utils.js"></script>
-<script src="js/nvd3/models/legend.js"></script>
-<script src="js/nvd3/models/axis.js"></script>
-<script src="js/nvd3/models/scatter.js"></script>
-<script src="js/nvd3/models/line.js"></script>
-<script src="js/nvd3/models/lineWithFocusChart.js"></script>
+<script type="text/javascript" src="js/dygraph-combined.js"></script>
+
 <script>
-window.onload=function(){
-nv.addGraph(function() {
-  var chart = nv.models.lineWithFocusChart();
-
-  chart.transitionDuration(500);
-  chart.xAxis
-      .tickFormat(d3.format(',f'));
-  chart.x2Axis
-      .tickFormat(d3.format(',f'));
-
-  chart.yAxis
-      .tickFormat(d3.format(',.2f'));
-  chart.y2Axis
-      .tickFormat(d3.format(',.2f'));
-
-      d3.csv("data/physio.csv", function (error, data) {
-        var labelVar = 'Time';
-        var varNames = d3.keys(data[0])
-            .filter(function (key) { return key !== labelVar;});
-
-        var seriesData = varNames.map(function (name) {
-          return {
-            key: name,
-            values: data.map(function (d) {
-              return {name: name, x: +d[labelVar], y: +d[name]};
-            })
-          };
+$(document).ready(function () {
+ phys = new Dygraph(
+  document.getElementById("physio_chart"),
+  "data/physio.csv",
+  {
+    ylabel: "relative amplitude",
+    xlabel: "time (s)",
+    legend: "always",
+    showRangeSelector: true,
+    showRoller: true,
+    labelsDiv: "physio_legend",
+    dateWindow: [0, 10]
+  }
+ );
+ // moco
+ plt_ids = ['transl', 'rot'];
+ plts = [];
+ var blockRedraw = false;
+ for (var i = 0; i < plt_ids.length; i++) {
+ console.log(i);
+ console.log("moco_" + plt_ids[i] + "_chart");
+  plts.push(
+   new Dygraph(
+    document.getElementById("moco_" + plt_ids[i] + "_chart"),
+     "data/moco_" + plt_ids[i] + ".csv",
+     {
+      ylabel: plt_ids[i] + "ation",
+      xlabel: "time (s)",
+      legend: "always",
+      showRoller: true,
+      showRangeSelector: i > 0,
+      labelsDiv: "moco_" + plt_ids[i] + "_legend",
+      drawCallback: function(me, initial) {
+       if (blockRedraw || initial) return;
+       blockRedraw = true;
+       var range = me.xAxisRange();
+       var yrange = me.yAxisRange();
+       for (var j = 0; j < plt_ids.length; j++) {
+        if (plts[j] == me) continue;
+        plts[j].updateOptions( {
+         dateWindow: range
         });
+       }
+       blockRedraw = false;
+      }
+     }
+    )
+   )
+  }
+});
 
-    d3.select('#physio_chart svg')
-        .datum(seriesData)
-        .call(chart);
-      });
- 
-  nv.utils.windowResize(chart.update);
+function showLF() {
+  phys.updateOptions({
+   dateWindow: [0, 60],
+   rollPeriod: 500
+  });
+}
 
-  return chart;
-});}
+function showDetail() {
+  phys.updateOptions({
+   dateWindow: [0, 10],
+   rollPeriod: 1
+  });
+}
+
+
 </script>
 </body>
 </html>

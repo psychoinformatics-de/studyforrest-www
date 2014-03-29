@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+import sys
+import numpy as np
+
+infile = sys.argv[1]
+outbase = sys.argv[2]
+TR = 2.0
+data = np.loadtxt(sys.argv[1])
+import csv
+with open(outbase + '_rot.csv', 'wb') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',',
+                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(['Time', 'x', 'y', 'z'])
+    for i, d in enumerate(data):
+        writer.writerow((float(i)*TR,) + tuple(d[:3]))
+with open(outbase + '_transl.csv', 'wb') as csvfile:
+    writer = csv.writer(csvfile, delimiter=',',
+                        quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    writer.writerow(['Time', 'x', 'y', 'z'])
+    for i, d in enumerate(data):
+        writer.writerow((float(i)*TR,) + tuple(d[3:]))

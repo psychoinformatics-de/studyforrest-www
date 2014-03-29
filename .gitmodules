@@ -4,3 +4,6 @@
 [submodule "nvd3"]
 	path = nvd3
 	url = https://github.com/novus/nvd3.git
+[submodule "dygraphs"]
+	path = dygraphs
+	url = https://github.com/danvk/dygraphs.git

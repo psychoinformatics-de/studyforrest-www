@@ -4,6 +4,8 @@ RSYNC_OPTS_UP = -rzlhv --delete --copy-links
 DATADIR = www/data
 
 prep:
+# also needs phantomjs (from Debian package)
+	$(MAKE) -C dygraph
 	npm install bower
 	node_modules/.bin/bower install bootstrap
 	node_modules/.bin/bower install holderjs
@@ -67,8 +69,13 @@ $(DATADIR)/demographics.csv:
 
 $(DATADIR)/physio.csv:
 	wget -O physio.txt.gz http://psydata.ovgu.de/forrest_gump/sub007/physio/task001_run005/physio.txt.gz
-	tools/physio2webcsv physio.txt.gz $@ 6000
+	tools/physio2webcsv physio.txt.gz $@ 23000 29000
 	rm -f physio.txt.gz
+
+$(DATADIR)/moco_rot.csv:
+	wget -O moco.txt http://psydata.ovgu.de/forrest_gump/sub004/BOLD/task001_run005/bold_dico_moco.txt
+	tools/moco2webcsv moco.txt www/data/moco
+	rm -f moco.txt
 
 xtk/xtk.js:
 	mkdir -p xtk
