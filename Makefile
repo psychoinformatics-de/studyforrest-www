@@ -77,6 +77,17 @@ $(DATADIR)/moco_rot.csv:
 	tools/moco2webcsv moco.txt www/data/moco
 	rm -f moco.txt
 
+$(DATADIR)/wm_streamlines.trk:
+	mkdir -p dti_preproc
+	wget -O dti_preproc/raw.nii.gz http://psydata.ovgu.de/forrest_gump/sub002/dti/dti001.nii.gz
+	wget -O dti_preproc/bvecs http://psydata.ovgu.de/forrest_gump/sub002/dti/dti001.bvecs
+	wget -O dti_preproc/bvals http://psydata.ovgu.de/forrest_gump/sub002/dti/dti001.bvals
+	fslroi dti_preproc/raw dti_preproc/b0 0 1
+	bet dti_preproc/b0 dti_preproc/b0_brain -R -f 0.1 -g 0 -n -m
+	fast -t 2 -n 3 -H 0.1 -I 4 -l 20.0 -g --nopve -o dti_preproc/b0_brain dti_preproc/b0_brain
+	tools/build_streamlines dti_preproc $@
+	rm -rf dti_preproc
+
 xtk/xtk.js:
 	mkdir -p xtk
 	wget -O $@ http://get.goxtk.com/xtk.js
