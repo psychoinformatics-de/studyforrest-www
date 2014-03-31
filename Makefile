@@ -3,7 +3,7 @@ WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
 RSYNC_OPTS_UP = -rzlhv --delete --copy-links
 DATADIR = www/data
 
-prep: xtk/xtk.js
+prep: xtk/xtk.js d3/d3.v3.min.js
 # also needs phantomjs (from Debian package)
 	$(MAKE) -C dygraph
 	npm install bower
@@ -89,6 +89,10 @@ $(DATADIR)/wm_streamlines.trk:
 	fast -t 2 -n 3 -H 0.1 -I 4 -l 20.0 -g --nopve -o dti_preproc/b0_brain dti_preproc/b0_brain
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
+
+d3/d3.v3.min.js:
+	mkdir -p d3
+	wget -O $@ http://d3js.org/d3.v3.min.js
 
 xtk/xtk.js:
 	mkdir -p xtk
