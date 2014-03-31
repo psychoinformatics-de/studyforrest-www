@@ -51,3 +51,8 @@ div.dygraph_help {
     text-align: center;
     color: #777;
 }
+
+div#footer > div.container > p {
+    text-align: center;
+}
+
