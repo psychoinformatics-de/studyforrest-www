@@ -3,7 +3,7 @@ WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
 RSYNC_OPTS_UP = -rzlhv --delete --copy-links
 DATADIR = www/data
 
-prep:
+prep: xtk/xtk.js
 # also needs phantomjs (from Debian package)
 	$(MAKE) -C dygraph
 	npm install bower
@@ -18,7 +18,9 @@ data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
       $(DATADIR)/7Tad_epi_grptmpl.nii.gz \
       $(DATADIR)/lh.pial $(DATADIR)/rh.orig $(DATADIR)/rh.smoothwm.C.crv \
       $(DATADIR)/scenes.csv $(DATADIR)/german_audio_description.csv \
-      $(DATADIR)/demographics.csv
+      $(DATADIR)/demographics.csv \
+      $(DATADIR)/physio.csv $(DATADIR)/moco_rot.csv \
+      $(DATADIR)/wm_streamlines.trk
 
 $(DATADIR):
 	mkdir -p $@
@@ -46,7 +48,7 @@ $(DATADIR)/angio.nii.gz:
 	fslmaths $@ -subsamp2 -div $(DATADIR)/angio_bias -mul 40 -thr 20 $@ -odt char
 	rm -f $(DATADIR)/angio_bias*
 
-$(DATADIR)/7Tad_epi_grptmpl.nii.gz:
+$(DATADIR)/7Tad_epi_grp_tmpl.nii.gz:
 	wget -O $@ http://psydata.ovgu.de/forrest_gump/templates/grpbold7Tad/brain.nii.gz
 
 $(DATADIR)/rh.smoothwm.C.crv:
