@@ -8,3 +8,6 @@ div.tweet {
     border-bottom: 1px dotted #aaa;
     margin-left: 2em;
 }
+
+/* force timeline widget to 100% width */
+iframe[id^='twitter-widget-1']{ width:100% !important;}
