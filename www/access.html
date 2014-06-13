@@ -102,13 +102,23 @@ methods. All known data resources are listed below. Please contact
             directory-based access, and efficient, repeated synchronization.
             Note, the entire dataset is over 350&nbsp;GB. Browse the dataset to
             determine relevant subsets for synchronization, and consult the
-	    <tt>rsync</tt> documentation for details.<br />
-            <code>rsync psydata.ovgu.de::forrest_gump dest</code>
+        <tt>rsync</tt> documentation for details.<br />
+            <code>rsync -rL psydata.ovgu.de::forrest_gump dest</code>
         </td>
         <td><a class="btn btn-default"
                target="_blank"
                href="http://rsync.samba.org"
                role="button">Learn about rsync</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://aws.amazon.com/de/s3/" target="_blank">S3</a></td>
+        <td>Thanks to OpenfMRI the entire dataset is also available on Amazon's
+            S3 cloud storage. This should be the preferred data source, if you
+            are working in their cloud (e.g. with <a href="http://www.nitrc.org/plugins/mwiki/index.php/nitrc:User_Guide_-_NITRC_Computational_Environment" target="_blank">NITRC-CE</a>).
+            <br />
+            <code>s3://openfmri/ds113</code>
+        </td>
+        <td></td>
       </tr>
       <tr>
         <td><a href="http://xnat.org" target="_blank">XNAT</a></td>
