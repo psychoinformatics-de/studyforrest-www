@@ -86,17 +86,6 @@ methods. All known data resources are listed below. Please contact
                role="button">Browse dataset</a></td>
       </tr>
       <tr>
-        <td>Tarball</td>
-        <td>Individual tarballs for all available data modalities. The size of
-            the tarballs varies from a few hundred kilobytes to almost a
-            hundred gigabytes. A README file detailing the tarball content
-            and checksums is available.</td>
-        <td><a class="btn btn-default"
-               target="_blank"
-               href="http://openfmri.org/dataset/ds000113"
-               role="button">Visit openfmri.org</a></td>
-      </tr>
-      <tr>
         <td><a href="http://en.wikipedia.org/wiki/Rsync" target="_blank">Rsync</a></td>
         <td>Rsync-daemon with flexible support for single-file and
             directory-based access, and efficient, repeated synchronization.
@@ -109,6 +98,44 @@ methods. All known data resources are listed below. Please contact
                target="_blank"
                href="http://rsync.samba.org"
                role="button">Learn about rsync</a></td>
+      </tr>
+      <tr>
+        <td>git-annex</td>
+        <td>Highly flexible data access with built-in versioning. Use this to
+        track the complete evolution of this dataset and easily obtain any future
+        updates. This access method allows for complete meta-data access in
+        combination with full or partial data download. Additional data portions
+        can be obtained at any point in the future. Previous versions of
+        data files are accesible also.
+        <ol>
+          <li>Obtain meta-data repository:<br />
+            <code>git clone http://psydata.ovgu.de/forrest_gump/.git studyforrest</code></li>
+          <li>Enter data repository:<br />
+            <code>cd studyforrest</code></li>
+          <li>Download (selected) data files &mdash; repeat as necessary:<br />
+          <code>git annex get sub*/BOLD/task001_run*/*timeseries*.csv.gz</code><br />
+          (Example: ROI timeseries in CSV format for all subjects and all runs)</li>
+        </ol>
+        </td>
+        <td><p><a class="btn btn-default"
+               target="_blank"
+               href="http://git-scm.com"
+               role="button">Learn about git</a></p>
+           <p><a class="btn btn-default"
+               target="_blank"
+               href="https://git-annex.branchable.com"
+               role="button">Learn about git-annex</a></p></td>
+      </tr>
+      <tr>
+        <td>Tarball</td>
+        <td>Individual tarballs for all available data modalities. The size of
+            the tarballs varies from a few hundred kilobytes to almost a
+            hundred gigabytes. A README file detailing the tarball content
+            and checksums is available.</td>
+        <td><a class="btn btn-default"
+               target="_blank"
+               href="http://openfmri.org/dataset/ds000113"
+               role="button">Visit openfmri.org</a></td>
       </tr>
       <tr>
         <td><a href="http://aws.amazon.com/de/s3/" target="_blank">S3</a></td>
