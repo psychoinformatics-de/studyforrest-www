@@ -3,6 +3,12 @@ WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
 RSYNC_OPTS_UP = -rzlhv --delete --copy-links
 DATADIR = www/data
 
+all:
+	$(MAKE) -C src html
+	ln -fs pages/challenge.html generated/challenge.html
+	ln -fs pages/access.html generated/access.html
+	ln -fs pages/resources.html generated/resources.html
+
 prep: xtk/xtk.js d3/d3.v3.min.js
 # also needs phantomjs (from Debian package)
 	$(MAKE) -C dygraph

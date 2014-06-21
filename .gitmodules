@@ -4,3 +4,6 @@
 [submodule "dygraphs"]
 	path = dygraphs
 	url = https://github.com/danvk/dygraphs.git
+[submodule "pelican-bootstrap3"]
+	path = pelican-bootstrap3
+	url = https://github.com/DandyDev/pelican-bootstrap3
