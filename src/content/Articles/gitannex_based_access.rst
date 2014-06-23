@@ -13,7 +13,7 @@ been *thrown over the wall* can be a fairly expensive endeavour.
 
 But even with proper documentation providing mere file access is insufficient.
 There is a simple reason: **data are not static**. Once released data keep
-evolving: file formats can change, bugs will be fixed [Hal12]_ [Roh13]_, new data are added,
+evolving: file formats can change, bugs will be fixed [1]_ [2]_, new data are added,
 derived data needs to be integrated. Any proper data-sharing setup needs to
 provide means for data consumers to track and obtain modifications of a data
 set. These necessities are identical to those of software releases. Version
@@ -73,10 +73,10 @@ without trying to re-open the original file for writing.
 
 
 .. |---| unicode:: U+02014 .. em dash
-.. [Hal12] Yaroslav O. Halchenko. Incorrect probabilities in
-   Harvard-Oxford-sub left hemisphere, 2012.
+.. [1] Y.O. Halchenko. *Incorrect probabilities in
+   Harvard-Oxford-sub left hemisphere*, 2012.
    https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=fsl;e46ecc4c.1210
-.. [Roh13] Incorrect icbm-dti-81 atlas orientation and white matter
-   labels. Frontiers in Neuroscience, 7(4), 2013. ISSN 1662-453X. doi:
+.. [2] T. Rohlfing. *Incorrect icbm-dti-81 atlas orientation and white matter
+   labels*. Frontiers in Neuroscience, 7(4), 2013. ISSN 1662-453X. doi:
    10.3389/fnins.2013.00004.
 
