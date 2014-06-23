@@ -10,4 +10,4 @@ div.tweet {
 }
 
 /* force timeline widget to 100% width */
-iframe[id^='twitter-widget-1']{ width:100% !important;}
+iframe[id^='twitter-widget-0']{ width:100% !important;}

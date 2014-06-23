@@ -10,6 +10,7 @@ SITEURL = ''
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
+LOCALE = u'en_US.UTF-8'
 
 THEME = '../pelican-bootstrap3'
 
@@ -19,15 +20,13 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('Psyinf lab', 'http://psychoinformatics.de'),
+          ('NeuroDebian', 'http://neuro.debian.net'),
+          ('PyMVPA', 'http://www.pymvpa.org'))
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
-          ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
-          ('github', 'http://github.com/DandyDev'),)
+SOCIAL = (('twitter', 'http://twitter.com/studyforrest'),
+          ('github', 'http://github.com/hanke/gumpdata'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -56,6 +55,7 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_TAGS_INLINE = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
+
 CC_LICENSE = 'CC-BY-SA'
 
 ADDTHIS_PROFILE = 'ra-53a573780cc42d73'
@@ -78,3 +78,5 @@ GOOGLE_ANALYTICS = "UA-46839658-1"
 #}
 
 WITH_FUTURE_DATES = False
+
+SHOW_ARTICLE_AUTHOR = True

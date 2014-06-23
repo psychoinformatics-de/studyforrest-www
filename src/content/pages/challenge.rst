@@ -3,6 +3,7 @@ Real-life cognition challenge
 
 :Menulabel: Challenge
 :slug: challenge
+:status: hidden
 
 **Understand how the brain works, in real life.**
 
