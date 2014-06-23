@@ -11,7 +11,7 @@ all:
 
 prep: xtk/xtk.js d3/d3.v3.min.js
 # also needs phantomjs (from Debian package)
-	$(MAKE) -C dygraph
+	$(MAKE) -C dygraphs
 	npm install bower
 	node_modules/.bin/bower install bootstrap
 	node_modules/.bin/bower install holderjs
