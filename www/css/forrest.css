@@ -108,6 +108,18 @@ div#footer > div.container > p {
   right: 0;
 }
 
-.legend {
-  margin-bottom: 10px;
+div.figure {
+  margin-left: 0em;
+  margin-right: 0em;
 }
+
+div.figure > img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.figure > div.legend {
+  margin-bottom: 10px;
+  font-size: small;
+}
+

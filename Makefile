@@ -1,4 +1,4 @@
-WWW_DIR = www
+WWW_DIR = generated
 WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
 RSYNC_OPTS_UP = -rzlhv --delete --copy-links
 DATADIR = www/data
@@ -17,6 +17,7 @@ prep: xtk/xtk.js d3/d3.v3.min.js
 	node_modules/.bin/bower install holderjs
 
 upload:
+	$(MAKE) -C src publish
 	rsync $(RSYNC_OPTS_UP) $(WWW_DIR)/* $(WWW_UPLOAD_URI)/
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \

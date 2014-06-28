@@ -5,3 +5,4 @@ xtk
 www/data
 d3
 generated
+*.pyc
