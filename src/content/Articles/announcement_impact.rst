@@ -18,7 +18,7 @@ special-interest projects like this one.
 As there can only be one initial announcement, the following data needs to be
 taken with a grain of salt. However, I made an attempt to spread announcements
 made through different channels over time in order to get at least some idea
-on what is most effective.
+of what is most effective.
 
 Three weeks of announcements
 ============================
