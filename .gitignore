@@ -2,7 +2,8 @@ bower_components
 node_modules
 *.swp
 xtk
-www/data
+src/content/data
+src/cache
 d3
 generated
 *.pyc

@@ -16,8 +16,12 @@ prep: xtk/xtk.js d3/d3.v3.min.js
 	node_modules/.bin/bower install bootstrap
 	node_modules/.bin/bower install holderjs
 
-upload:
+publish:
+	rm -f generated/fonts
 	$(MAKE) -C src publish
+	ln -ft generated src/static/*
+
+upload: publish
 	rsync $(RSYNC_OPTS_UP) $(WWW_DIR)/* $(WWW_UPLOAD_URI)/
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
