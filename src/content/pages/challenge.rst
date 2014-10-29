@@ -213,7 +213,7 @@ CONTEST SPONSOR
   `Center for Behavioral Brain Sciences <http://www.cbbs.eu>`_,
   Magdeburg, Germany
 CONTEST WEBSITE
-  http://www.studyforrest.org/challenge.html
+  http://www.studyforrest.org/pages/challenge.html
 PRIZES
   5,000 EUR among 3 prizes
 
