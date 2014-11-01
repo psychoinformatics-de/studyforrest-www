@@ -157,7 +157,7 @@ procedures.
 
 Submission
 ----------
-* Contest submission have to be emailed to
+* Contest submissions have to be emailed to
   `contest@studyforrest.org <mailto:contest@studyforrest.org>`_ before or on
   **until November 1 2014**.
 * Submitters will received a confirmation by email, once all submitted
