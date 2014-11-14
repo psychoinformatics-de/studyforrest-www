@@ -1,9 +1,9 @@
 Working with big data without losing track
 ******************************************
 
-:date: 2014-06-16 01:00
+:date: 2015-06-16 01:00
 :tags: git-annex
-:author: Michael Hanke
+:author: Michael Hanke, Yaroslav O. Halchenko
 :summary: Git-annex based access to the entire dataset available
 :slug: gitannex_based_access
 

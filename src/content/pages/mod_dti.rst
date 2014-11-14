@@ -61,7 +61,7 @@ Technical details
 
 Full-brain volumetric images (144x144x70) in NIfTI format recorded with a
 Philips MR scanner at 3 Tesla using a diffusion-weighted single-shot spin-echo
-EPI sequence (2&nbsp;mm isotropic voxel size). Facial features have been
+EPI sequence (2mm isotropic voxel size). Facial features have been
 removed from these images for de-identification. Records of B-values and
 B-vector orientations are provided, as well as a fieldmap (3 mm isotropic
 voxel size) for distortion correction.

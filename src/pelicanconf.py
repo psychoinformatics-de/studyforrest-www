@@ -47,8 +47,9 @@ STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
 #MENUITEMS = [('First', 'crzy URL')]
 
-#PLUGIN_PATH = '../pelican-plugins'
-#PLUGINS = ['html_entity', ]
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify']
+#,           'better_figures_and_images']
 
 DISPLAY_PAGES_ON_MENU = True
 
@@ -62,6 +63,8 @@ ADDTHIS_PROFILE = 'ra-53a573780cc42d73'
 ADDTHIS_DATA_TRACK_ADDRESSBAR = False
 
 DISQUS_SITENAME = 'studyforrest'
+
+RESPONSIVE_IMAGES = True
 
 #ABOUT_ME = "Some crap on me"
 #AVARTAR = "img"

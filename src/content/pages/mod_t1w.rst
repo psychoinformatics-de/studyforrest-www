@@ -47,6 +47,6 @@ Technical details
 =================
 
 Full-brain volumetric images (384x384x274) in NIfTI format recorded with a
-Philips MR scanner at 3 Tesla using a 3D TFE sequence (0.67&nbsp;mm isotropic
+Philips MR scanner at 3 Tesla using a 3D TFE sequence (0.67mm isotropic
 voxel size). Facial features have been removed from these images for
 de-identification.
