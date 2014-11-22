@@ -8,7 +8,7 @@ Data acquisition for phase 2 has begun
 :slug: phase2_recording_started
 
 
-It is done. After quite a few months, numerous pilot scanns, failed attempts,
+It is done. After quite a few months, numerous pilot scans, failed attempts,
 reconsiderations and some despair: we settled on a final acquisition setup for
 the phase 2 recordings of the project -- full-brain fMRI at 3-Tesla (Philips
 Achieva 3T dStream, 32ch) with simultaneous eye-gaze tracking at 1000 Hz (SR
