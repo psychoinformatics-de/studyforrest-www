@@ -18,7 +18,7 @@ Demos and download materials
 .. raw:: html
 
    <video style="width:100%" src="/data/contest_cosmomvpa/demo_video.webm" controls>
-   This browser does not support HTML5 video. PLease use a different browser
+   This browser does not support HTML5 video. Please use a different browser
    or download the video file and which it locally.
    </video>
 
@@ -32,7 +32,7 @@ Functionality
 -------------
 
 Using the pipeline described below, the user can select a node on the surface.
-Almost instantenousely, the elements of the representational similarity matrix
+Almost instantaneously, the elements of the representational similarity matrix
 (time-by-time) associated with the node are correlated (by AFNI's
 3dGroupInCorr) with the representational similarity matrices of all nodes on
 the surfaces. This is done for each subject separately, resulting in a
@@ -108,7 +108,7 @@ Data was preprocessed according to the following pipeline:
   a node is selected as a 'source' node, the correlation between the
   pseudo-timeseries of the source node and all nodes on the surface is
   computed, for each subject. The average correlation is visualized on the
-  surface, while the map is tresholded using an a-priori defined threshold and
+  surface, while the map is thresholded using an a-priori defined threshold and
   node-wise one-sample t-test against zero.
 
 
