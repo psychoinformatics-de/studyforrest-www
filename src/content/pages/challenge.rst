@@ -86,10 +86,17 @@ relevant datasets, and integration of algorithm implementations in readily
 usable form, for example via a ready-made computational environment that is
 freely available to anyone.
 
-Real-life neural processing contest
-===================================
+The 2014 Real-life neural processing contest
+============================================
 **Kick-start a mass-collaboration to study the brain in its
 natural environment.**
+
+.. note::
+
+  Please note that this contest is over. This content is only kept here
+  for historical purposes. You can read about the contest winners
+  in `another article <{filename}/Articles/reallifecognition_contest_results.rst>`_.
+
 
 We invite research groups and individuals to participate in a contest to master
 these challenges. Among all submissions that are received **until November 1
