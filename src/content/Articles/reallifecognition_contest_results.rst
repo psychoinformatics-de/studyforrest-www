@@ -1,7 +1,7 @@
 The results of the real-life cognition contest
 **********************************************
 
-:date: 2014-11-28 10:00
+:date: 2014-12-01 09:00
 :tags: contest
 :author: Michael Hanke, Yaroslav Halchenko
 :summary: the contest is over, and here is who has won
@@ -13,13 +13,14 @@ Over the past months, we hosted the `real-life cognition challenge
 <{filename}/pages/challenge.rst>`_. The goal of this challenge was to engage
 the community in studying the brain's behavior in situations with
 near-real-life complexity.  The `Center for Behavioral Brain Sciences (CBBS)
-Magdeburg <http://www.cbbs.eu>`_ kindly sponsored 5000 Euro to be awarded for
-the best contributions.  From May 27 2014, the day our first data release was
-published in `Scientific Data <{filename}/Studies/7tad_data.rst>`_, anyone
-could submit their contributions. Submissions had to work with, or contribute,
-data from complex quasi-natural stimulation, and, in the spirit of open
-science, any submission had to include all materials necessary to reproduce the
-results and license them in a way that enables derivative works.
+Magdeburg <http://www.cbbs.eu>`_ (funded by the federal state of Saxony-Anhalt)
+kindly sponsored 5000 Euro to be awarded for the best contributions.  From May
+27 2014, the day our first data release was published in `Scientific Data
+<{filename}/Studies/7tad_data.rst>`_, anyone could submit their contributions.
+Submissions had to work with, or contribute, data from complex quasi-natural
+stimulation, and, in the spirit of open science, any submission had to include
+all materials necessary to reproduce the results and license them in a way that
+enables derivative works.
 
 Submission to the challenge finally closed on Nov 1 2014. Following the
 deadline a jury comprising of Uri Hasson (Princeton University), James Haxby
@@ -62,6 +63,17 @@ piece of work via their detailed description linked from above. On behalf of
 anyone involved, I would also like to thank the jury members for their time and
 effort, as well as the Center for Behavioral Brain Sciences Magdeburg for
 sponsoring the awards.
+
+While this marks the end of the real-life cognition contest, the underlying
+challenge of embracing the complexity of the brain's behavior in everyday
+cognition remains. We are hoping to see more results from groups that started
+to work with this type of data in the near future. Personally, we will keep
+enhancing this resource to enable more and more analysis strategies.  Please
+stay tuned for more releases of functional MRI data, stimulus annotations, and
+behavioral data over the coming weeks and months.
+
+Follow us on twitter (@studyforrest), or subscribe to the RSS feed
+(http://studyforrest.org/feeds/all.atom.xml) to stay in touch.
 
 Postscript
 ==========
