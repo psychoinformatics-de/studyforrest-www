@@ -4,7 +4,7 @@ Running the real-life cognition contest: beyond winners
 :date: 2014-12-01 10:00
 :tags: contest
 :author: Michael Hanke
-:summary: 
+:summary: underwhelming reception of the contest
 :slug: reallifecognition_contest_aftermath
 
 .. |---| unicode:: U+02014 .. em dash
@@ -14,7 +14,7 @@ aspects are, at least in hindsight, pretty obvious |---| others did truly
 surprise me.
 
 First of all, a few words on the effect of a deadline.  This is somewhat
-expected, but it still feels weired when it actually happens: If you set a
+expected, but it still feels weird when it actually happens: If you set a
 deadline, don't expect anyone to show up earlier. We set a deadline *on or
 before Nov 1* and there were very few indications that anyone would submit
 anything at all before that day. All submissions were received exactly on Nov
@@ -25,23 +25,24 @@ contributions. Low as in **three**. Yes, you got that right. Our three awardees
 together comprise the entire list of contributors. Looking back, this is a
 great reward for these groups that invested the time and effort to work on this
 challenge and I am very grateful that they did! Nevertheless, the question
-remains:  What is it that made this contest too challenging or too unattractive
-in the perception of other potential contributors?
+remains:  *What is it that made this contest too challenging or too unattractive
+in the perception of other potential contributors?*
 
 **Never stop talking about it**
 
 Before we get to that, a quick re-cap of what we did to raise awareness about
 the contest in the field. We had a press release, actual press coverage, a
 conference poster, and a conference keynote referring to the contest. Moreover,
-we posted announcements to a number of key mailing list. In an `earlier summary
+we posted announcements to a number of key mailing lists. In an `earlier summary
 of the effect of this announcement strategy
 <{filename}/Articles/announcement_impact.rst>`_  we concluded that we basically
 reached saturation of the target audience.
 
 Looking back, this conclusion is wrong (at least partially). Maybe we did reach
 a lot of people, but clearly not all of those we wanted. Up to the very end of
-the contest, there were examples of people from labs that we believed to have
-"covered" that had never heard of the contest, nor the data release.
+the contest, there were people we believed to have
+"covered" but who apparently  have heard neither about the contest,
+nor about the data release.
 
 **A possible interpretation is that nobody really cared enough to participate**
 
@@ -98,18 +99,18 @@ call an outstanding or spectacular number of contributions.
 Given all these numbers, I am quite curious whether we will see any 3rd-party
 use of the released data within the next 12 months. If we do, I'll do my best
 to ask the respective scientists whether they knew about the contest, and, if
-so, what prevented them from participating.
+so, what had prevented them from participating.
 
 **... time certainly was**
 
-I anticpate that a common reason would be "lack of time". Five months from
+I anticipate that a common reason would be "lack of time". Five months from
 announcement to submission deadline may have been too short. Individual
 feedback from some groups seems to suggest that. Unfortunately, given
 publication procedures and fiscal necessities there was little that could have
 been done differently.
 
 But even with little time, lots of smaller contributions would have been
-possible. I was a little surprised to see all of our submission be based on a
+possible. I was a little surprised to see all of the submissions be based on a
 (mostly novel) fMRI-based data analysis. There were no data contributions,
 although one can argue that even a relatively simple annotation of the movie
 stimulus could have contributed something that would have enabled a completely
@@ -131,9 +132,9 @@ that make me question whether our field is ready for this kind of
 de-centralized collaboration, both on a social, as well as on a technical
 level.
 
-Too many times I heard the phrase: why are you giving *your data* away.  I
+Too many times I heard the phrase: why are you giving *your data* away?  I
 don't have to go into details on how many levels the released data are not
-mine. But the concern is real. As a researcher in neuroimaging one is somewhat
+mine. But the concern is real. As a researcher in neuroimaging, one is somewhat
 expected to cover the full length of the process: generate hypothesis, design
 experiment, acquire data, analyze data, interpret and publish results. And it
 makes sense to do it this way |---| anyone who has worked with neuroimaging
