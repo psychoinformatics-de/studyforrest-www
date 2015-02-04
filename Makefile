@@ -1,6 +1,6 @@
 WWW_DIR = generated
 WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
-RSYNC_OPTS_UP = -rzlhv --delete --copy-links
+RSYNC_OPTS_UP = -rzlhv --delete --copy-links --exclude drafts
 DATADIR = www/data
 
 all:
