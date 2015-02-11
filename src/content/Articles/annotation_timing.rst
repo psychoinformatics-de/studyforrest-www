@@ -2,7 +2,7 @@ Convert movie annotation time stamps into fMRI segment timing
 *************************************************************
 
 :date: 2015-02-11 10:00
-:tags: stimulus, nnotation, erratum
+:tags: stimulus, annotation, erratum
 :author: Michael Hanke
 :summary: A correct procedure to relate movie annotations to fMRI time series
 :slug: annotation_timing
