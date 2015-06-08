@@ -80,6 +80,6 @@ GOOGLE_ANALYTICS = "UA-46839658-1"
 #    'pages/challenge.rst': {'path': 'challenge.html'}
 #}
 
-WITH_FUTURE_DATES = False
+WITH_FUTURE_DATES = True
 
 SHOW_ARTICLE_AUTHOR = True

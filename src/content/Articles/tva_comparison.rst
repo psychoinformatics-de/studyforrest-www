@@ -7,6 +7,7 @@ Ask NeuroVault: Where are brain responses most similar?
 :author: Michael Hanke
 :summary: Inter-subject similarity extends beyond the temporal voice areas
 :slug: tva_comparison
+:status: draft
 
 .. raw:: html
 

@@ -12,15 +12,62 @@ recordings have been obtained. In addition, several types of minimally
 preprocessed data are also provided. The total size of all data is several
 hundred gigabytes. This page provides an overview of the dataset in order
 to aid a researcher's selection of sub-components. The full description
-of the data release is available in a dedicated publication.
+of the data releases are available in dedicated publications.
 
 .. raw:: html
 
-  <p>
-    <a class="btn btn-success"
-       href="http://www.nature.com/articles/sdata20143"
-       role="button">View publication &raquo;</a>
-  </p>
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Publication</th>
+      <th>Authors</th>
+      <th>Get access</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>
+        A high-resolution 7-Tesla fMRI dataset from complex natural
+        stimulation with an audio movie.
+        Scientific Data, 1 (2014)
+      </td>
+      <td>
+        Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule,
+        Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
+      </td>
+      <td>
+        <a class="btn btn-success"
+           href="http://www.nature.com/articles/sdata20143"
+           role="button">Open-access</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>
+         Portrayed emotions in the movie “Forrest Gump”.
+         F1000Research, 4:92 (2015)
+      </td>
+      <td>
+         Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen,
+         Mareike Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann,
+         Sebastian Keil, Malú Perlow, Anne Katrin Peukmann, Lea Noell Rabe,
+         Franca-Rosa von Sobbe, Michael Hanke
+      </td>
+      <td>
+        <a class="btn btn-success"
+           href="http://f1000research.com/articles/4-92"
+           role="button">Open-access</a>
+      </td>
+    </tr>
+  </tbody>
+  </table>
+
+Note that this dataset is continously maintained and additions or bug fixes are
+made public as soon as they become available. There is a `revision log
+<http://psydata.ovgu.de/forrest_gump/release_history.txt>`_ that lists all
+significant updates. Data mirrors may not always provide the latest revision.
 
 .. raw:: html
 

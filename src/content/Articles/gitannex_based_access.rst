@@ -6,6 +6,7 @@ Working with big data without losing track
 :author: Michael Hanke, Yaroslav O. Halchenko
 :summary: Git-annex based access to the entire dataset available
 :slug: gitannex_based_access
+:status: draft
 
 Data sharing can be very simple: just put a few files on a web-server.
 However, without (at least) proper documentation re-using a dataset that has

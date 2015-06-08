@@ -20,6 +20,8 @@ publish:
 	rm -f generated/fonts
 	$(MAKE) -C src publish
 	ln -ft generated src/static/*
+	mkdir -p generated/publications
+	ln -ft generated/publications publications/*
 
 upload: publish
 	rsync $(RSYNC_OPTS_UP) $(WWW_DIR)/* $(WWW_UPLOAD_URI)/
