@@ -61,6 +61,23 @@ of the data releases are available in dedicated publications.
            role="button">Open-access</a>
       </td>
     </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>
+         High-resolution 7-Tesla fMRI data on the perception
+         of musical genres – an extension to the studyforrest
+         dataset. (in prep.)
+      </td>
+      <td>
+      Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli,
+      Michael Casey, Falko R. Kaule, and Jörg Stadler
+      </td>
+      <td>
+        <a class="btn btn-success disabled"
+           href=""
+           role="button">not yet</a>
+      </td>
+    </tr>
   </tbody>
   </table>
 
