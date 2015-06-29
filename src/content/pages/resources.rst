@@ -66,11 +66,27 @@ of the data releases are available in dedicated publications.
       <td>
          High-resolution 7-Tesla fMRI data on the perception
          of musical genres – an extension to the studyforrest
-         dataset. (in prep.)
+         dataset.
+         F1000Research, 4:174 (2015)
       </td>
       <td>
       Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli,
       Michael Casey, Falko R. Kaule, and Jörg Stadler
+      </td>
+      <td>
+        <a class="btn btn-success"
+           href="http://f1000research.com/articles/4-174"
+           role="button">Open-access</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>
+         A block-design fMRI localizer for visual areas – an extension to the
+         studyforrest dataset.
+         (in prep.)
+      </td>
+      <td>
       </td>
       <td>
         <a class="btn btn-success disabled"
