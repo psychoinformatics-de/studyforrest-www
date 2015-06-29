@@ -21,32 +21,45 @@ Otto-von-Guericke University Magdeburg, Germany.
 Acknowledgements
 ================
 
+This project has been made possible by funds and support of various grants
+and institutions.
+
 .. raw:: html
 
  	<div class="row">
           <div class="col-sm-6">
-            <p>German Federal Ministry of Education and Research (BMBF) as part of
+            <p>A grant from the German Federal Ministry of Education and
+             Research (BMBF) funded the initial data acquisition as part of
              the US-German collaboration in computational neuroscience (CRCNS)
-             project <em>"Development of general high-dimensional models of neuronal
-             representation spaces"</em>
+             project: <em>Development of general high-dimensional models of
+             neuronal representation spaces"</em>
              (<a href="http://haxbylab.dartmouth.edu">Haxby</a>/<a
              href="http://www.ee.princeton.edu/ramadge/doku.php">Ramagde</a>/<a
              href="http://www.psychoinformatics.de">Hanke</a>),
              co-funded by the BMBF and the US National
              Science Foundation (BMBF 01GQ1112; NSF 1129855).</p>
+             <p>Moreover, development of data sharing technology used for
+             dissemination and management of this dataset is supported
+             by another US-German collaboration grant awarded to
+             <a href="http://haxbylab.dartmouth.edu/ppl/yarik.html">Halchenko</a>
+             and Hanke: <em>DataLad: Converging catalogues, warehouses, and
+             deployment logistics into a federated 'datadistribution'</em>, also
+             co-funded by BMBF (01GQ1411) and NSF (1129855).</p>
           </div><!-- /.col-sm-6 -->
           <div class="col-sm-6">
-            <img src="/pics/bmbf_logo.jpg" alt="BMBF logo">&nbsp;<img src="/pics/binc_germany_usa.jpg" alt="Bernstein international collaboration logo">
+            <img style="display:inline" src="/pics/bmbf_logo.jpg" alt="BMBF logo">
+            <img style="display:inline" src="/pics/binc_germany_usa.jpg" alt="Bernstein international collaboration logo">
+            <img style="display:inline" src="/pics/nsf_logo.png" alt="NSF logo">
           </div><!-- /.col-sm-6 -->
         </div><!-- /.row -->
         <div class="row">
           <div class="col-sm-7">
             <p>The German federal state of Saxony-Anhalt,
              Project: <a href="http://www.cbbs.eu">Center for Behavioral Brain
-             Sciences</a>.</p>
+             Sciences</a> provided data acquisition hardware and personnel.</p>
 	  </div><!-- /.col-sm-7 -->
           <div class="col-sm-5">
-            <img src="/pics/cbbs_logo.png" alt="CBBS logo">
+            <img style="display:inline"  src="/pics/cbbs_logo.png" alt="CBBS logo">
           </div><!-- /.col-sm-5 -->
         </div><!-- /.row -->
         <div class="row">
@@ -55,16 +68,20 @@ Acknowledgements
              Magdeburg, Germany.</p>
           </div><!-- /.col-sm-7 -->
           <div class="col-sm-5">
-            <img src="/pics/ovgu_logo.png" alt="OvGU logo">
+            <img  style="display:inline" src="/pics/ovgu_logo.png" alt="OvGU logo">
           </div><!-- /.col-sm-5 -->
         </div><!-- /.row -->
         <div class="row">
           <div class="col-sm-7">
             <p>The <a href="http://www.lin-magdeburg.de">Leibniz Institute for
-             Neurobiology</a>, Magdeburg, Germany.</p>
+             Neurobiology</a> and the <a href="http://cni.ifn-magdeburg.de">
+             Combinatorial NeuroImaging Core Facility</a> in
+             Magdeburg, Germany provided MR imaging expertise and access to its
+             data acquisition instruments.</p>
 	  </div><!-- /.col-sm-7 -->
           <div class="col-sm-5">
-            <img src="/pics/lin_logo.png" alt="LIN logo">
+            <img  style="display:inline" src="/pics/lin_logo.png" alt="LIN logo">
+            <img  style="display:inline" src="/pics/cni_logo.png" alt="CNI logo">
           </div><!-- /.col-sm-5 -->
         </div><!-- /.row -->
 
