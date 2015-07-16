@@ -6,8 +6,15 @@ Stimulus annotations & surveys
 
 **Confounds and category labels**
 
-Stimulus
-========
+Movie Stimulus
+==============
+
+.. raw:: html
+
+   <iframe width="560" height="315"
+           src="https://www.youtube.com/embed/bLvqoHBptjg"
+           frameborder="0"
+           allowfullscreen></iframe>
 
 For the phase 1 dataset, participants listened to a German audio-description of
 the movie "Forrest Gump" as broadcasted as an additional audio track for
