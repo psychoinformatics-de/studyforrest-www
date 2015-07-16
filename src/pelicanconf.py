@@ -20,9 +20,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Psyinf lab', 'http://psychoinformatics.de'),
-          ('NeuroDebian', 'http://neuro.debian.net'),
-          ('PyMVPA', 'http://www.pymvpa.org'))
+LINKS = (('Psychoinformatics', 'http://psychoinformatics.de'),
+         ('NeuroDebian', 'http://neuro.debian.net'),
+         ('PyMVPA', 'http://www.pymvpa.org'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/studyforrest'),
@@ -45,7 +45,7 @@ TYPOGRIFY = False
 
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
-#MENUITEMS = [('First', 'crzy URL')]
+MENUITEMS = [('Real-life cognition channel', 'http://f1000research.com/channels/real-cognition')]
 
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify']
@@ -55,7 +55,8 @@ DISPLAY_PAGES_ON_MENU = True
 
 DISPLAY_TAGS_INLINE = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
-
+DISPLAY_BREADCRUMBS = False
+DISPLAY_CATEGORIES_ON_MENU = True
 
 CC_LICENSE = 'CC-BY-SA'
 
@@ -72,8 +73,8 @@ RESPONSIVE_IMAGES = True
 GOOGLE_ANALYTICS = "UA-46839658-1"
 
 
-#TWITTER_USERNAME = 'studyforrest'
-#TWITTER_WIDGET_ID = '435327568237965312'
+TWITTER_USERNAME = 'studyforrest'
+TWITTER_WIDGET_ID = '435327568237965312'
 
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 #EXTRA_PATH_METADATA = {
