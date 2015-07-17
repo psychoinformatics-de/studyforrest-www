@@ -14,6 +14,8 @@ LOCALE = u'en_US.UTF-8'
 
 THEME = '../pelican-bootstrap3'
 
+#DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
