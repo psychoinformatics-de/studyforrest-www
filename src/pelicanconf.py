@@ -14,7 +14,7 @@ LOCALE = u'en_US.UTF-8'
 
 THEME = '../pelican-bootstrap3'
 
-#DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -49,7 +49,7 @@ TYPOGRIFY = False
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify']
+PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify', 'tipue_search',]
 #,           'better_figures_and_images']
 
 DISPLAY_PAGES_ON_MENU = True
