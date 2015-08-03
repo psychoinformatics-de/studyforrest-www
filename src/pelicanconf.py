@@ -23,6 +23,7 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS = (('Psychoinformatics', 'http://psychoinformatics.de'),
+         ('Real-Life Cognition Channel', 'http://f1000research.com/channels/real-cognition'),
          ('NeuroDebian', 'http://neuro.debian.net'),
          ('PyMVPA', 'http://www.pymvpa.org'))
 
@@ -46,8 +47,6 @@ CUSTOM_CSS = 'css/forrest.css'
 TYPOGRIFY = False
 
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
-
-MENUITEMS = [('Real-life cognition channel', 'http://f1000research.com/channels/real-cognition')]
 
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify']
