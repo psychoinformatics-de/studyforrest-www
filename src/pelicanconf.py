@@ -49,14 +49,16 @@ TYPOGRIFY = False
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify', 'tipue_search']
+PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify', 'tipue_search',
+           'tag_cloud']
 #,           'better_figures_and_images']
 
 DISPLAY_PAGES_ON_MENU = True
 
 DISPLAY_TAGS_INLINE = True
+DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
-DISPLAY_BREADCRUMBS = False
+DISPLAY_BREADCRUMBS = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
 CC_LICENSE = 'CC-BY-SA'
