@@ -29,7 +29,7 @@ interoceptive processing during natural emotional experience. These findings
 provide an ecologically-valid framework for elucidating the neural
 underpinnings of emotional deficits in neuropsychiatric disorders.
 
-This study employed the high-resolution 7T fMRI from the audio-visual movie
+This study employed the high-resolution 7T fMRI from the audio movie
 recording in conjunction with the simultaneous physiological recordings.
 
 Citation
