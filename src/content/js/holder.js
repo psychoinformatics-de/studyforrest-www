@@ -1,1 +1,1 @@
-../../../bower_components/holderjs/holder.js
+../../../holderjs/holder.js

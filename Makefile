@@ -12,9 +12,9 @@ all:
 prep: xtk/xtk.js d3/d3.v3.min.js
 # also needs phantomjs (from Debian package)
 	$(MAKE) -C dygraphs
-	npm install bower
-	node_modules/.bin/bower install bootstrap
-	node_modules/.bin/bower install holderjs
+	mkdir -p jquery
+	wget -O jquery/jquery.min.js http://code.jquery.com/jquery-2.1.4.min.js
+	wget -O jquery/jquery.min.map http://code.jquery.com/jquery-2.1.4.min.map
 
 publish:
 	rm -f generated/fonts

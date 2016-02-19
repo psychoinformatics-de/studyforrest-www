@@ -10,3 +10,9 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/twbs/bootstrap
+[submodule "holderjs"]
+	path = holderjs
+	url = https://github.com/imsky/holder
