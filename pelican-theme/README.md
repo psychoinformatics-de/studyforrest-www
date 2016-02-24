@@ -134,22 +134,10 @@ If you're using reStructuredText for writing articles and pages, you can include
 
 ### Content license
 
-You can optionally declare a [Creative Commons license](http://creativecommons.org) for the content of your site. It will appear in the site's footer. To enable, use one of the following two ways for configuration.
+The license info is generated using the cc-license2 Jinja template by hlapp:
+https://github.com/hlapp/cc-tools
 
-* To choose the license by name, set `CC_LICENSE` to the common abbreviated name of the license: `"CC-BY"` (require attribution), `"CC-BY-SA"` (require ShareAlike), `"CC-BY-ND"` (NoDerivatives) , `"CC-BY-NC"` (require attribution, no commercial reuse), `"CC-BY-NC-SA"` (require ShareAlike, no commercial reuse), or `"CC-BY-NC-ND"` (NoDerivatives, no commercial reuse).
-* Alternatively, choose the licence by features:
-    * `CC_LICENSE_DERIVATIVES` - `"yes"` if permitted, `"no"` if not permitted, and `"ShareAlike"` if derivatives must be shared under the same terms.
-    * `CC_LICENSE_COMMERCIAL` - `"yes"` if commercial reuse is permitted, and `"no"` otherwise.
-* Optionally, you can include attribution markup in the license mark by setting `CC_ATTR_MARKUP` to _True_.
-
-The license choice mirrors the [Creative Commons License Chooser](http://creativecommons.org/choose/). Source for the macro that renders the mark is at http://github.com/hlapp/cc-tools.
-
-Alternatively, if you want to use another license type, you can instead use the `CUSTOM_LICENSE` property to set a license string that will be showed at the bottom of every page.
-Raw HTML is allowed.
-As `CC_*` variables take precedence, be sure to avoid `CC_*` variables when using `CUSTOM_LICENSE`.
-
-For example, if you want to use the WTFPL license, you can set:
-`CUSTOM_LICENSE='Unless otherwise stated, all articles are published under the <a href="http://www.wtfpl.net/about/">WTFPL</a> license.'`
+To set the license, set `CC_LICENSE` to the abbreviated name (e.g. `"CC-BY-SA"`).
 
 ### Facebook Open Graph
 
