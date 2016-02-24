@@ -104,13 +104,6 @@ for the menu (such as a short single word) than the page title by adding a
 Menulabel metadata attribute to the page header (`Menulabel:` in
 markdown, `:Menulabel:` in rst).
 
-### About Me
-
-You can show a short blurb of text about yourself and a picture. The following two settings are used for this:
-
-* Your 'About Me' paragraph will be whatever the `ABOUT_ME` variable is set to (raw html is allowed)
-* Your avatar can be set by pointing the `AVATAR` variable to the relevant picture (e.g. 'images/profile.png')
-
 ### Sidebar options
 
 The following things can be displayed on the sidebar:
