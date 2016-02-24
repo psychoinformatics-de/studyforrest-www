@@ -4,9 +4,6 @@
 [submodule "dygraphs"]
 	path = dygraphs
 	url = https://github.com/danvk/dygraphs.git
-[submodule "pelican-bootstrap3"]
-	path = pelican-bootstrap3
-	url = https://github.com/hanke/pelican-bootstrap3
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins
