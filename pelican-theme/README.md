@@ -301,11 +301,3 @@ SIDEBAR_IMAGES = ["/path/to/image1.png", "/path/to/image2.png"]
 [This is my website](http://dandydev.net)
 
 If you want more examples of what you could do with this theme, have a [look here](EXAMPLES.md).
-
-## Screenshot
-
-![](screenshot.png)
-
-![](screenshot-article.png)
-
-
