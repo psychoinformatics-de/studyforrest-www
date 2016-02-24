@@ -12,9 +12,16 @@ all:
 prep: xtk/xtk.js d3/d3.v3.min.js
 # also needs phantomjs (from Debian package)
 	$(MAKE) -C dygraphs
-	mkdir -p jquery
-	wget -O jquery/jquery.min.js http://code.jquery.com/jquery-2.1.4.min.js
-	wget -O jquery/jquery.min.map http://code.jquery.com/jquery-2.1.4.min.map
+
+updatedeps:
+	wget -O pelican-theme/static/js/jquery.min.js http://code.jquery.com/jquery-2.2.1.min.js
+	wget -O pelican-theme/static/js/jquery.min.map http://code.jquery.com/jquery-2.2.1.min.map
+	wget -O bs.zip https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip
+	unzip -j bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
+	unzip -j bs.zip bootstrap-*/css/bootstrap.min.* -d pelican-theme/static/css/
+	wget -O fa.zip https://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.5.0.zip
+	unzip -j fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
+	unzip -j fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
 
 publish:
 	rm -f generated/fonts
