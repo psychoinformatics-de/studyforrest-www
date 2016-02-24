@@ -7,7 +7,7 @@ SITENAME = u'studyforrest.org'
 SITESUBTITLE = u'A de-centralized mass-collaboration attempt'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = u'en'
 LOCALE = u'en_US.UTF-8'
@@ -64,9 +64,6 @@ ADDTHIS_DATA_TRACK_ADDRESSBAR = False
 DISQUS_SITENAME = 'studyforrest'
 
 RESPONSIVE_IMAGES = True
-
-#ABOUT_ME = "Some crap on me"
-#AVARTAR = "img"
 
 GOOGLE_ANALYTICS = "UA-46839658-1"
 
