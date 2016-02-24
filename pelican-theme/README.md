@@ -1,23 +1,7 @@
-# pelican-bootstrap3
+# pelican-theme
 
-This is a Bootstrap 3 theme for Pelican. It's fully responsive. Pelican-bootstrap3 is compatible with Pelican 3.3.0 and 
-higher. I will try to regularly update this theme with new features and newer versions of Bootstrap & Bootswatch.
-
-## CONTRIBUTING
-
-If you want to adjust this theme to your own liking, I encourage you to fork it. This theme has started to gather more
-and more attention in the form of stars and forks. If you make improvements that are useful to others and can make the
-theme better in general **please don't hesitate to make a pull request**. For contributing guidelines, [look here](CONTRIBUTING.md)
-
-## Installation
-
-First:
-
-`git clone https://github.com/DandyDev/pelican-bootstrap3.git`
-
-Then:
-
-Point the `THEME` variable in your `pelicanconf.py` to `/path/to/pelican-bootstrap3`
+This theme is derived from pelican-bootstrap3 by DandyDev (among others)
+https://github.com/DandyDev/pelican-bootstrap3
 
 ## Usage
 
@@ -223,9 +207,3 @@ The footer will display a copyright message using the AUTHOR variable and the ye
 Include a series of images in the sidebar.
 
 SIDEBAR_IMAGES = ["/path/to/image1.png", "/path/to/image2.png"]
-
-## Live example
-
-[This is my website](http://dandydev.net)
-
-If you want more examples of what you could do with this theme, have a [look here](EXAMPLES.md).
