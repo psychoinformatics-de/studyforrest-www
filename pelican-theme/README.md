@@ -65,34 +65,6 @@ EXTRA_PATH_METADATA = {
 }
 ```
 
-### Pygments
-
-You can choose the syntax highlighting style by using the `PYGMENTS_STYLE` variable to specify one of the built-in Pygments styles. By default the `native` style is used. The following styles are avaiable:
-
-- autumn
-- borland
-- bw
-- colorful
-- default
-- emacs
-- friendly
-- fruity
-- manni
-- monokai
-- murphy
-- native
-- pastie
-- perldoc
-- solarizeddark
-- solarizedlight
-- tango
-- trac
-- vim
-- vs
-- zenburn
-
-For a demo of the different Pygment styles, have a look [here](http://pygments.org/demo/218030/)
-
 ### Pagination
 
 Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses the Bootstrap3 [Pagination component](http://getbootstrap.com/components/#pagination), but you can optionally use the Boostrap3 _Pager_ by setting `USE_PAGER` to `True`.
