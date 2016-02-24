@@ -227,21 +227,6 @@ You can enable sharing buttons through [AddThis](http://www.addthis.com/) by set
 * AddThis automatically adds a short hashtag to the end of your URLs. This lets you reveal how often visitors copy your URL from their address bar to share. Example of URL: `http://domain.com/page.html#UF0983`. This function can be disabled by setting `ADDTHIS_DATA_TRACK_ADDRESSBAR` to _False_.
 * All social buttons are enabled by default. You can disable certain button by setting following properties to _False_: `ADDTHIS_FACEBOOK_LIKE`, `ADDTHIS_TWEET`, `ADDTHIS_GOOGLE_PLUSONE`.
 
-### Shariff
-
-As an alternative, you may use [Shariff](https://github.com/heiseonline/shariff) by setting `SHARIFF = True`. This will display the privacy enabled social media buttons developed by [heiseonline](https://github.com/heiseonline).
-
-  * By default, `data-url` is set to the URL of the current article.
-  * To customize the social media buttons, set
-    * `SHARIFF_BACKEND_URL` (see [Shariff Backends](https://github.com/heiseonline/shariff#backends))
-    * `SHARIFF_LANG` (`de` (default), `en` or `fr`)
-    * `SHARIFF_ORIENTATION` (`horizontal` (defualt) or `vertical`)
-    * `SHARIFF_SERVICES` (default: `[&quot;facebook&quot;,&quot;googleplus&quot;]`)
-    * `SHARIFF_THEME` (`standard` or `gray`)
-    * `SHARIFF_TWITTER_VIA` (`True`/`False`, uses `TWITTER_USERNAME`)
-
-For a detailed description of each setting, refer to [data attributes](https://github.com/heiseonline/shariff#options-data-attributes) description at the [Shariff README](https://github.com/heiseonline/shariff).
-
 ### Tipue Search
 
 This theme has support for the
