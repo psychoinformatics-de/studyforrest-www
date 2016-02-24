@@ -14,12 +14,12 @@ This theme honors the following standard Pelican settings:
 	* `DISPLAY_PAGES_ON_MENU`
 	* `DISPLAY_CATEGORIES_ON_MENU`
 	* `MENUITEMS`
-	* `LINKS` (Blogroll will be put in the sidebar instead of the head)
+	* `LINKS`
 * Analytics
 	* `GOOGLE_ANALYTICS` (classic tracking code)
 	* `GOOGLE_ANALYTICS_UNIVERSAL` and `GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY` (Universal tracking code)
 
-It uses the `tag_cloud` variable for displaying tags in the sidebar. You can control the amount of tags shown with: `TAG_CLOUD_MAX_ITEMS`
+The `tag_cloud` variable is for displaying tags. You can control the number of tags shown with: `TAG_CLOUD_MAX_ITEMS`
 
 ## Extras
 
@@ -79,8 +79,6 @@ This theme supports the [Series plugin](https://github.com/getpelican/pelican-pl
 
 You may customize the header of this list setting the `SERIES_TEXT` variable, which can also include the `index` and `name` variables. The first is the index of the current article in the series (starting from 1) and the second is the name of the series. The default string is `Part %(index)s of the %(name)s series`.
 
-You may display on the sidebar the link to the previous and next article in the series setting `DISPLAY_SERIES_ON_SIDEBAR` to `True`.
-
 You may display information on the series just under the article title setting `SHOW_SERIES` to `True`.
 
 ### IPython Notebook support
@@ -103,30 +101,6 @@ label of the corresponding menu item. You can choose a different label
 for the menu (such as a short single word) than the page title by adding a
 Menulabel metadata attribute to the page header (`Menulabel:` in
 markdown, `:Menulabel:` in rst).
-
-### Sidebar options
-
-The following things can be displayed on the sidebar:
-
-* **Social links** can be provided through the `SOCIAL` variable. If it's empty, the section will not be shown
-	* In your `pelicanconf.py` provide your social links like this:
-
-```
-SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
-          ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
-          ('github', 'http://github.com/DandyDev'),
-          ('stackoverflow', 'http://stackoverflow.com/users/872397/dandydev', 'stack-overflow')
-```
-The first string in each item will be used for both the name as shown in the sidebar, and to determine the [FontAwesome](http://fontawesome.io/icons/)
-icon to show. You can provide an alternative icon string as the third string (as shown in the _stackoverflow_ item).
-* **Tags** will be shown if `DISPLAY_TAGS_ON_SIDEBAR` is set to _True_ and the [tag_cloud](https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud) plugin is enabled. Normally, tags are shown as a list.
-	* Set `DISPLAY_TAGS_INLINE` to _True_, to display the tags inline (ie. as tagcloud)
-	* Set `TAGS_URL` to the relative URL of the tags index page (typically `tags.html`)
-* **Categories** will be shown if `DISPLAY_CATEGORIES_ON_SIDEBAR` is set to _True_
-* **Recent Posts** will be shown if `DISPLAY_RECENT_POSTS_ON_SIDEBAR` is set to _True_
-	* Use `RECENT_POST_COUNT` to control the amount of recent posts. Defaults to **5**
-
-To remove the sidebar entirely, set `HIDE_SIDEBAR` to _True_.
 
 ### reStructuredText styles
 
@@ -154,7 +128,7 @@ The same image options for Open Graph (see above) can be used for setting images
 
 ### Twitter Timeline
 
-The theme can show your twitter timeline in the sidebar. To enable, provide a `TWITTER_USERNAME` and a `TWITTER_WIDGET_ID`.
+To enable, provide a `TWITTER_USERNAME` and a `TWITTER_WIDGET_ID`.
 
 To get a `TWITTER_WIDGET_ID`, go to: https://twitter.com/settings/widgets and select `Create new`. You'll find the TWITTER_WIDGET_ID under the html or in the site url:
 
@@ -182,9 +156,3 @@ setting, which comes in handy if you have fancy rewrite rules in your Apache or 
 ### Footer
 
 The footer will display a copyright message using the AUTHOR variable and the year of the latest post. If a content license mark is enabled (see above), that will be shown as well.
-
-### Sidebar Images
-
-Include a series of images in the sidebar.
-
-SIDEBAR_IMAGES = ["/path/to/image1.png", "/path/to/image2.png"]
