@@ -191,14 +191,6 @@ As `CC_*` variables take precedence, be sure to avoid `CC_*` variables when usin
 For example, if you want to use the WTFPL license, you can set:
 `CUSTOM_LICENSE='Unless otherwise stated, all articles are published under the <a href="http://www.wtfpl.net/about/">WTFPL</a> license.'`
 
-### GitHub
-
-The theme can show your most recently active GitHub repos in the sidebar. To enable, provide a `GITHUB_USER`. Appearance and behaviour can be controlled using the following variables:
-
-* `GITHUB_REPO_COUNT`
-* `GITHUB_SKIP_FORK`
-* `GITHUB_SHOW_USER_LINK`
-
 ### Facebook Open Graph
 
 In order to make the Facebook like button and other social sharing options work better, the template contains Open Graph metatags like `<meta property="og:type" content="article"/>`. You can disable them by setting `USE_OPEN_GRAPH` to _False_. You can use `OPEN_GRAPH_FB_APP_ID` to provide a Facebook _app id_.
