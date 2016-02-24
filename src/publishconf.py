@@ -20,7 +20,6 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
 
 #PLUGIN_PATH = "../pelican-plugins"
@@ -32,7 +31,6 @@ DELETE_OUTPUT_DIRECTORY = True
 #CATEGORY_SAVE_AS = ''
 #AUTHOR_SAVE_AS = ''
 #RECENT_ARTICLES_COUNT (integer)  
-#COMMENTS_INTRO ('string')
 #SITE_LICENSE ('string')
 #SITE_DESCRIPTION ('string')
 #EMAIL_SUBSCRIPTION_LABEL ('string')

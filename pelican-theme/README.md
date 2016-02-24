@@ -31,10 +31,9 @@ This theme honors the following standard Pelican settings:
 	* `DISPLAY_CATEGORIES_ON_MENU`
 	* `MENUITEMS`
 	* `LINKS` (Blogroll will be put in the sidebar instead of the head)
-* Analytics & Comments
+* Analytics
 	* `GOOGLE_ANALYTICS` (classic tracking code)
 	* `GOOGLE_ANALYTICS_UNIVERSAL` and `GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY` (Universal tracking code)
-	* `DISQUS_SITENAME`
 
 It uses the `tag_cloud` variable for displaying tags in the sidebar. You can control the amount of tags shown with: `TAG_CLOUD_MAX_ITEMS`
 
@@ -155,13 +154,6 @@ To remove the sidebar entirely, set `HIDE_SIDEBAR` to _True_.
 ### reStructuredText styles
 
 If you're using reStructuredText for writing articles and pages, you can include the extra CSS styles that are used by the `docutils`-generated HTML by setting `DOCUTIL_CSS` to True. This can be done as a global setting or  setting it in the metadata of a specific article or page.
-
-### Disqus comments
-
-* This theme sets identifiers for each article's comment threads. If you are switching from a theme that doesn't (such as the Pelican built-in default) this will result in existing comments getting lost. To prevent this, set DISQUS_NO_ID to _True_.
-* Set DISQUS_ID_PREFIX_SLUG to _True_ if you have configured your article URLs such that the slug alone will likely not be unique. Ignored if DISQUS_NO_ID is _True_.
-* You can also enable Disqus comments for pages. This is a per-page setting you can control by adding a field `comments` to you pages' metadata. Set it to _enabled_ to enable comments for that page. Comment-threads for pages will have an id that is prefixed by 'page-'.
-* To show Disqus comment counts on the index page, set DISQUS_DISPLAY_COUNTS to _True_.
 
 ### Content license
 

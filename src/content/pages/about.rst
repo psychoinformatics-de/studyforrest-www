@@ -11,7 +11,7 @@ from a data release |---| from the publication of scientific findings derived
 from this dataset, algorithms and methods evaluated on this dataset, and/or
 extensions of this dataset by acquisition and incorporation of new data.
 
-For questions and inquiries leave a comment, or email `info@studyforrest.org
+For questions and inquiries, feel free to email us `info@studyforrest.org
 <mailto:info@studyforrest.org?subject=studyforrest.org>`_.
 
 This website is maintained by the `Psychoinformatics lab

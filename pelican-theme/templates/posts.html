@@ -5,7 +5,6 @@
             <article>
                 <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
                 <div class="lead">{{ article.summary }}
-                    {% include 'includes/comment_count.html' %}
                 </div>
                 {% if DISPLAY_ARTICLE_INFO_ON_INDEX %}
                     <div>
