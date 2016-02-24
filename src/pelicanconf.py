@@ -39,12 +39,9 @@ DEFAULT_PAGINATION = 10
 #FAVICON = '../pics/favicon.png'
 
 BOOTSTRAP_NAVBAR_INVERSE = False
-#BOOTSTRAP_THEME = 'united'
 
 DOCUTIL_CSS = True
 CUSTOM_CSS = 'css/forrest.css'
-
-TYPOGRIFY = False
 
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
