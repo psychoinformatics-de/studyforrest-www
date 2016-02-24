@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = u'en'
 LOCALE = u'en_US.UTF-8'
 
-THEME = '../pelican-bootstrap3'
+THEME = '../pelican-theme'
 
 DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search']
 

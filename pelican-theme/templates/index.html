@@ -1,0 +1,157 @@
+{% extends "posts.html" %}
+
+{% block head_suffix %}
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+{% endblock head_suffix %}
+
+{% block topcontent %}
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="pics/carus_7T_CBBS_Image_DMahler.jpg" alt="fMRI scanner">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>High-resolution, ultra-highfield fMRI</h1>
+              <p>State-of-the-art functional magnetic resonance imaging data
+              acquired with a Siemens Magnetom 7-Tesla scanner.</p>
+              <p><a class="btn btn-primary" href="pages/mod_fmri.html" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_jennyboat.jpg" alt="Shrimp boat">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Rich stimulus</h1>
+              <p>Participants listened to a narrated, audio-only version of the two-hour
+                 Hollywood movie "Forrest Gump". The stimulus
+                 is aligned to the commercial DVD release to facilitate further annotation.</p>
+              <p><a class="btn btn-primary" href="pages/mod_annot.html" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_t1t2.jpg" alt="Anatomical brain scans">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>High-resolution anatomical images</h1>
+              <p>T1- and T2-weighted anatomical images with
+                 a voxel-size of 0.7&nbsp;mm for all participants.</p>
+              <p><a class="btn btn-primary" href="pages/resources.html" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_fmri_sag.jpg" alt="fMRI data">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Natural brain activity samples</h1>
+              <p>Quite likely the largest consecutive sample of brain imaging
+                 data recorded during natural language processing. The fMRI
+                 data is corrected for EPI distortions and is ready for analysis.</p>
+              <p><a class="btn btn-primary" href="pages/mod_fmri.html" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_angio.jpg" alt="Angiography maximum intensity projection">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Vascular structure imaging</h1>
+              <p>High-resolution blood vessel localizers. Arterography for the
+                 field-of-view of the functional brain scans, and a full-brain
+                 venography.</p>
+              <p><a class="btn btn-primary" href="pages/mod_angio.html" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pics/carus_noise_deco.png" alt="A bit of decoration">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Versatile noise estimates</h1>
+              <p>Simultaneous measurements of cardiac and respiratory trace
+                 during fMRI recording. Motion estimates extracted from fMRI
+                 data prior distortion correction. Independent evaluation of
+                 technical noise with a full-length phantom recording.</p>
+              <p><a class="btn btn-primary" href="pages/mod_physio.html" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+    <div class="row" style="margin-top:-30px">
+      <div class="col-md-12">
+        <p class="lead" style="text-align:justify">
+         The human brain is designed to process vast amounts of input that
+         are continuously gathered through the senses. However, most experiments
+         study the brain via simplified stimuli that do not resemble the
+         complexity of a natural environment &mdash; a mismatch that needs to
+         be addressed in order to better understand how the brain works.
+         This project aims to provide essential components to enable
+         inter-disciplinary research to study the brain's natural behavior and
+         the versatile interactions of concurrent cognitive processes in
+         everyday life.
+       </p>
+      </div><!-- /.col-md-12 -->
+    </div><!-- /.row -->
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-sm-4" style="text-align:center">
+		  <div class="ribbon-wrapper-green"><!--<div class="ribbon-green">Win<br /> 5000 Euro!</div>--></div>
+        <a href="pages/challenge.html" class="iconlink">
+        <span class="glyphicon glyphicon-exclamation-sign" style="font-size:500%"></span>
+        <h2>Challenge</h2></a>
+        <p>Studying neural processing in real-life, rich natural environments
+        requires adequate <strong>data</strong>, tested analysis
+        <strong>strategies</strong>, and proven software <strong>tools</strong>
+        that are capable deciphering brain activity
+        pattern elicited by multiple concurrent neural processes.</p>
+        <p><a class="btn btn-primary" href="pages/challenge.html" role="button">Read more &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-sm-4" style="text-align:center">
+        <a href="pages/resources.html" class="iconlink">
+        <span class="glyphicon glyphicon-tasks" style="font-size:500%"></span>
+        <h2>Resources</h2></a>
+         <p>We provide <strong>extensive functional brain imaging data</strong>
+         from natural stimulation, a rich set of auxiliary data,
+         (such as structural brain scans, measurements of physiological, and
+         technical confounds), as well as stimulus annotations.</p>
+        <p><a class="btn btn-primary" href="pages/resources.html" role="button">See overview &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-sm-4" style="text-align:center">
+        <a href="pages/access.html" class="iconlink">
+        <span class="glyphicon glyphicon-download-alt" style="font-size:500%"></span>
+        <h2>Access</h2></a>
+        <p>All data and software components are publicly available. There is
+         no required sign-up or registration procedure.
+         Data are released under an extremely permissive license and
+         can be used by academic and commercial entities.</p>
+        <p><a class="btn btn-primary" href="pages/access.html" role="button">View instructions &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    </div><!-- /.marketing -->
+
+    <div class="row">
+      <div class="container">
+        <h1>Project activity log</h1>
+      </div>
+    </div><!-- /.row -->
+{% endblock topcontent %}
