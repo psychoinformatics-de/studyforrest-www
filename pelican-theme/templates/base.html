@@ -95,7 +95,7 @@
 <body>
 
 <div class="navbar {% if BOOTSTRAP_NAVBAR_INVERSE %}navbar-inverse{% else %}navbar-default{% endif %} navbar-fixed-top" role="navigation">
-	<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}">
+	<div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -145,7 +145,7 @@
 
 {% block topcontent %}{% endblock %}
 
-<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}">
+<div class="container">
     <div class="row">
         <div class="col-lg-12">
         {% block breadcrumbs %}
@@ -158,8 +158,6 @@
 {% include 'includes/footer.html' %}
 
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.min.js"></script>
 
 {% include 'includes/ga.html' %}
