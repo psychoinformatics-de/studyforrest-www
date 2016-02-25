@@ -41,7 +41,6 @@ DEFAULT_PAGINATION = 10
 BOOTSTRAP_NAVBAR_INVERSE = False
 
 DOCUTIL_CSS = True
-CUSTOM_CSS = 'css/forrest.css'
 
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 

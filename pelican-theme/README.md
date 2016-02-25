@@ -27,26 +27,6 @@ The `tag_cloud` variable is for displaying tags. You can control the number of t
 
 Set `SHOW_ARTICLE_AUTHOR` to True to show the author of the article at the top of the article and in the index of articles. Set `SHOW_ARTICLE_CATEGORY` to show the Category of each article. Set `SHOW_DATE_MODIFIED` to True to show the article modified date next to the published date.
 
-### Custom CSS
-
-If you want to add custom css to the theme, without having to clone and maintain your own version of the theme, you can use the `CUSTOM_CSS` variable. The value is the location where you tell Pelican to put the file (see below):
-
-```
-CUSTOM_CSS = 'static/custom.css'
-```
-
-To tell Pelican to copy the relevant file to the desired destination, add the path to `STATIC_PATHS` and the destination to `EXTRA_PATH_METADATA`, like so:
-
-```
-# Tell Pelican to add 'extra/custom.css' to the output dir
-STATIC_PATHS = ['images', 'extra/custom.css']
-
-# Tell Pelican to change the path to 'static/custom.css' in the output dir
-EXTRA_PATH_METADATA = {
-    'extra/custom.css': {'path': 'static/custom.css'}
-}
-```
-
 ### Pagination
 
 Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses the Bootstrap3 [Pagination component](http://getbootstrap.com/components/#pagination), but you can optionally use the Boostrap3 _Pager_ by setting `USE_PAGER` to `True`.
