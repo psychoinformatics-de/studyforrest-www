@@ -43,5 +43,3 @@ function csvtable_preview(id, uri, header, lead, tail) {
   forrest_fill_table(scene_table, "tbody", rows);
   });
 }
-
-

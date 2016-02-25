@@ -57,12 +57,9 @@ einfache Schritte:
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 
-  <script src="/theme/js/jquery.min.js"></script>
   <script type="text/javascript">
     addViewer("main_viewer", params, main_viewer_loaded);
   </script>
 
 Mit den Schaltflächen oben rechts kann man den Bildkontrast verändern und auch
 andere Farb-Schemata auswählen.
-
-

@@ -3,6 +3,7 @@ Physiological measures and confounds
 
 :status: hidden
 :slug: mod_physio
+:JavaScripts: dygraph-combined.js
 
 **Cardiac and respiratory trace, and motion estimates**
 
@@ -57,12 +58,8 @@ an entire movie segment (approx. 15 min).
     </div>
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
- 
-.. raw:: html
 
-  <script type="text/javascript" src="/js/dygraph-combined.js"></script>
-  <script type="text/javascript" src="/js/jquery.min.js"></script>
-  
+.. raw:: html
   <script>
   $(document).ready(function () {
    phys = new Dygraph(
@@ -114,20 +111,18 @@ an entire movie segment (approx. 15 min).
      )
     }
   });
-  
+
   function showLF() {
     phys.updateOptions({
      dateWindow: [0, 60],
      rollPeriod: 500
     });
   }
-  
+
   function showDetail() {
     phys.updateOptions({
      dateWindow: [0, 10],
      rollPeriod: 1
     });
   }
-  
-  
   </script>

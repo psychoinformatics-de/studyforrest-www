@@ -3,6 +3,7 @@ Stimulus annotations & surveys
 
 :status: hidden
 :slug: mod_annot
+:JavaScripts: d3.v3.min.js, forrest_misc.js
 
 **Confounds and category labels**
 
@@ -11,7 +12,7 @@ Movie Stimulus
 
 .. raw:: html
 
-   <style>.embed-container { 
+   <style>.embed-container {
      position: relative;
      padding-bottom: 56.25%;
      height: 0;
@@ -163,9 +164,6 @@ well as familiarity with the "Forrest Gump" movie.
 
 .. raw:: html
 
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/d3.v3.min.js"></script>
-  <script src="/js/forrest_misc.js"></script>
   <script>
   csvtable_preview('#audio_descr_annot_table',
                    "/data/german_audio_description.csv",
@@ -176,6 +174,4 @@ well as familiarity with the "Forrest Gump" movie.
                    3, 3);
   </script>
 
-
 .. |---| unicode:: U+02014 .. em dash
-

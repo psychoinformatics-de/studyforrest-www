@@ -3,6 +3,8 @@ Cortical surface reconstruction
 
 :status: hidden
 :slug: mod_surf
+:JavaScripts: xtk.js
+
 
 **Tissue segmentation and 3D meshes**
 
@@ -22,30 +24,28 @@ each surface point.
    var r = new X.renderer3D();
    r.container = 'xtk_renderer';
    r.init();
- 
+
    var lh = new X.mesh();
    lh.file = '/data/lh.pial';
    lh.color = [0.7, 0.7, 0.7];
    lh.opacity = 1.0;
- 
+
    var rh = new X.mesh();
    rh.file = '/data/rh.orig';
    rh.opacity = 0.7;
    rh.scalars.file = '/data/rh.smoothwm.C.crv';
    rh.scalars.minColor = [0, 0, 1];
    rh.scalars.maxColor = [1, 1, 1];
- 
+
    r.add(lh);
    r.add(rh);
- 
+
    r.camera.position = [130, -130, 60];
    r.camera.up = [0, 0, 1];
    r.render();
  };
  </script>
 
-
- 
   <div class="row">
    <div class="col-md-12">
     <div id='xtk_renderer' class="xtk_renderer">
@@ -71,8 +71,4 @@ participant using the Freesurfer 5.3 image segmentation and cortical surface
 reconstruction pipeline.
 `More information on Freesurfer
 <http://surfer.nmr.mgh.harvard.edu>`_.
-
-.. raw:: html
-
-  <script src="/js/xtk.js"></script>
 

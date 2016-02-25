@@ -7,6 +7,7 @@ Lowering the barrier for non-neuroimaging scientists
 :author: Michael Hanke
 :summary: Aggregate time-series data available in standard file formats
 :slug: aggregate-timeseries-data
+:JavaScripts: d3.v3.min.js, movietime_roi_connectivity_chord.js
 
 .. |---| unicode:: U+02014 .. em dash
 
@@ -85,7 +86,6 @@ region label to highlight the chords of an individual brain area.
 
 .. raw:: html
 
-  <script src="/js/d3.v3.min.js"></script>
   <style>
     #chart {
       font: 10px sans-serif;
@@ -124,6 +124,3 @@ region label to highlight the chords of an individual brain area.
       <img src="/pics/sliding_connectome_preview.jpg" alt="ROi connectivity demo preview" />
     </span>
   </div>
-  <script type="text/javascript" src="/js/movietime_roi_connectivity_chord.js"></script>
-
-

@@ -55,12 +55,9 @@ look at your own brain! It only involves a few simple steps:
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 
-  <script src="/theme/js/jquery.min.js"></script>
   <script type="text/javascript">
     addViewer("main_viewer", params, main_viewer_loaded);
   </script>
 
 With the buttons on the top-right it is possible to change the contrast of
 images, or change the color-scheme.
-
-
