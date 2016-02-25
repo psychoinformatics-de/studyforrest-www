@@ -45,8 +45,8 @@ DOCUTIL_CSS = True
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify', 'tipue_search',]
-#,           'better_figures_and_images']
+PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify', 'tipue_search',
+           'pelican_javascript']
 
 DISPLAY_PAGES_ON_MENU = True
 

@@ -46,6 +46,14 @@
     {% endif %}
 {% endblock %}
 
+{% block CSS_EXTRA %}
+{% if article.stylesheets %}
+    {% for stylesheet in article.stylesheets %}
+        {{ stylesheet }}
+    {% endfor %}
+{% endif %}
+{% endblock %}
+
 {% block canonical_rel %}
 <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
 {% endblock %}
@@ -97,6 +105,11 @@
 {% endblock %}
 
 {% block scripts %}
+{% if article.javascripts %}
+    {% for javascript in article.javascripts %}
+        {{ javascript }}
+    {% endfor %}
+{% endif %}
 {% if ADDTHIS_PROFILE %}
     {% if ADDTHIS_DATA_TRACK_ADDRESSBAR|default(true) %}
         <script type="text/javascript">var addthis_config = {"data_track_addressbar": true};</script>

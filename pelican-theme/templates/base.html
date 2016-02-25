@@ -56,6 +56,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css" type="text/css"/>
     <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/font-awesome.min.css" rel="stylesheet">
+    {% block CSS_EXTRA %}{% endblock %}
 
     {% if 'tipue_search' in PLUGINS %}
     <link href="{{ SITEURL}}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.css" rel="stylesheet">
