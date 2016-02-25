@@ -102,13 +102,6 @@ markdown, `:Menulabel:` in rst).
 
 If you're using reStructuredText for writing articles and pages, you can include the extra CSS styles that are used by the `docutils`-generated HTML by setting `DOCUTIL_CSS` to True. This can be done as a global setting or  setting it in the metadata of a specific article or page.
 
-### Content license
-
-The license info is generated using the cc-license2 Jinja template by hlapp:
-https://github.com/hlapp/cc-tools
-
-To set the license, set `CC_LICENSE` to the abbreviated name (e.g. `"CC-BY-SA"`).
-
 ### Facebook Open Graph
 
 In order to make the Facebook like button and other social sharing options work better, the template contains Open Graph metatags like `<meta property="og:type" content="article"/>`. You can disable them by setting `USE_OPEN_GRAPH` to _False_. You can use `OPEN_GRAPH_FB_APP_ID` to provide a Facebook _app id_.
