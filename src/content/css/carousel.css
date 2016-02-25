@@ -1,6 +1,11 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+.carousel-control .fa, .carousel-control .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+}
+
 /* Carousel base class */
 .carousel {
   height: 400px;
