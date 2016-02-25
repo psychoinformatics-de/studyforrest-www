@@ -141,57 +141,57 @@ figure.floatcenter, .align-center {
 
 
 a.iconlink {
-    color: #5a5a5a;
+  color: #5a5a5a;
 }
 
 a.iconlink:hover,
 a.iconlink:focus {
-    color: #777;
-    text-decoration: none;
+  color: #777;
+  text-decoration: none;
 }
 
 a.iconlink > div:hover,
 a.iconlink > div:focus {
-    box-shadow: 1px 1px 5px #888;
+  box-shadow: 1px 1px 5px #888;
 }
 
 div.caption > h5 {
-    text-align: center;
+  text-align: center;
 }
 
 div.thumbnail {
-    height: 260px;
+  height: 260px;
 }
 
 div.papayaviewer {
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
 }
 
 div.papayaviewer > img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.xtk_renderer {
-    width: 80%;
-    height: 0;
-    padding-bottom: 60%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  height: 0;
+  padding-bottom: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.xtk_help {
-    text-align: center;
-    color: #777;
-    display: none;
+  text-align: center;
+  color: #777;
+  display: none;
 }
 
 div.dygraph_help {
-    text-align: center;
-    color: #777;
+  text-align: center;
+  color: #777;
 }
 
 div#footer > div.container > p {
@@ -199,8 +199,8 @@ div#footer > div.container > p {
 }
 
 div.figure {
-  margin-left: 0em;
-  margin-right: 0em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 div.figure > img {
@@ -212,4 +212,3 @@ div.figure > div.legend {
   margin-bottom: 10px;
   font-size: small;
 }
-
