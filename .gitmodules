@@ -1,6 +1,7 @@
 [submodule "papaya"]
 	path = papaya
 	url = https://github.com/rii-mango/Papaya.git
+	branch = master
 [submodule "dygraphs"]
 	path = dygraphs
 	url = https://github.com/danvk/dygraphs.git
