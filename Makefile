@@ -9,11 +9,11 @@ all:
 	ln -fs pages/access.html generated/access.html
 	ln -fs pages/resources.html generated/resources.html
 
-prep: xtk/xtk.js d3/d3.v3.min.js
+prep:
 # also needs phantomjs (from Debian package)
 	$(MAKE) -C dygraphs
 
-updatedeps:
+updatedeps: src/content/js/d3.v3.min.js src/content/js/xtk.js
 	wget -O pelican-theme/static/js/jquery.min.js http://code.jquery.com/jquery-2.2.1.min.js
 	wget -O pelican-theme/static/js/jquery.min.map http://code.jquery.com/jquery-2.2.1.min.map
 	wget -O bs.zip https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip
@@ -110,12 +110,10 @@ $(DATADIR)/wm_streamlines.trk:
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
 
-d3/d3.v3.min.js:
-	mkdir -p d3
+src/content/js/d3.v3.min.js:
 	wget -O $@ http://d3js.org/d3.v3.min.js
 
-xtk/xtk.js:
-	mkdir -p xtk
+src/content/js/xtk.js:
 	wget -O $@ http://get.goxtk.com/xtk.js
 
 xtk/xtk_xdat.gui.js:
