@@ -2,8 +2,9 @@ T2-weighted MRI scans
 *********************
 
 :status: hidden
-:Template: papaya_mod_demo
 :slug: mod_t2w
+:JavaScripts: papaya.js
+:Stylesheets: papaya.css
 
 **Images with fluid-tissue contrast**
 
@@ -16,30 +17,25 @@ protons have been flushed away by the time of the measurement.
 .. raw:: html
 
   <script type="text/javascript">
-       var params = [];
-       params["worldSpace"] = false;
-       params["images"] = ["/data/t2w.nii.gz"];
-       params["expandable"] = true;
-       params["kioskMode"] = true;
-       params["t2w.nii.gz"] = {"min": 0, "max": 150};
-       function main_viewer_loaded() {
-          $("#main_viewer").show();
-       }
+      var params = [];
+      params["worldSpace"] = false;
+      params["images"] = ["/data/t2w.nii.gz"];
+      params["expandable"] = true;
+      params["kioskMode"] = true;
+      params["t2w.nii.gz"] = {"min": 0, "max": 150};
   </script>
 
   <div class="row">
-   <div class="col-md-12">
-    <div class="papayaviewer"
-         id="main_viewer"
-         onclick='addViewer("main_viewer", params, main_viewer_loaded)'>
-     <img class="img-responsive"
-          src="/pics/mod_t2w_viewer_preview.jpg"
-          title="Click to load interactive viewer"
-          alit="T2-weighted example image" />
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <div class="papaya papayaviewer" data-params="[]"
+           onclick="papaya.Container.resetViewer(0, params); this.onclick=null;">
+        <img class="img-responsive"
+             src="/pics/mod_t2w_viewer_preview.jpg"
+             title="Click to load interactive viewer"
+             alt="T2-weighted example image" />
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
 
 
 Technical details

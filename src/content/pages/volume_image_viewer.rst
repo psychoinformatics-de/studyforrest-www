@@ -2,8 +2,9 @@ MRI image viewer
 ****************
 
 :status: hidden
-:Template: papaya_mod_demo
 :slug: volume_image_viewer
+:JavaScripts: papaya.js
+:Stylesheets: papaya.css
 :lang: en
 
 **Get to see MRI data in your browser**
@@ -40,24 +41,17 @@ look at your own brain! It only involves a few simple steps:
 .. raw:: html
 
   <script type="text/javascript">
-       var params = [];
-       params["worldSpace"] = false;
-       params["expandable"] = true;
-       params["kioskMode"] = false;
-       function main_viewer_loaded() {
-          $("#main_viewer").show();
-       }
+      var params = [];
+      params["worldSpace"] = false;
+      params["expandable"] = true;
+      params["kioskMode"] = false;
   </script>
 
   <div class="row">
-   <div class="col-md-12">
-    <div class="papayaviewer" id="main_viewer"></div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <div class="papaya papayaviewer" data-params="params"></div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
-  <script type="text/javascript">
-    addViewer("main_viewer", params, main_viewer_loaded);
-  </script>
 
 With the buttons on the top-right it is possible to change the contrast of
 images, or change the color-scheme.

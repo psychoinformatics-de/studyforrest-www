@@ -1,9 +1,9 @@
 T1-weighted MRI scans
 *********************
-
 :status: hidden
-:Template: papaya_mod_demo
 :slug: mod_t1w
+:JavaScripts: papaya.js
+:Stylesheets: papaya.css
 
 **Gray-white brain tissue contrast**
 
@@ -17,31 +17,25 @@ the fat layer in the scalp.
 .. raw:: html
 
   <script type="text/javascript">
-       var params = [];
-       params["worldSpace"] = false;
-       params["images"] = ["/data/t1w.nii.gz"];
-       params["expandable"] = true;
-       params["kioskMode"] = true;
-       params["t1w.nii.gz"] = {"min": 0, "max": 76};
-       function main_viewer_loaded() {
-          $("#main_viewer").show();
-       }
+      var params = [];
+      params["worldSpace"] = false;
+      params["images"] = ["/data/t1w.nii.gz"];
+      params["expandable"] = true;
+      params["kioskMode"] = true;
+      params["t1w.nii.gz"] = {"min": 0, "max": 76};
   </script>
 
   <div class="row">
-   <div class="col-md-12">
-    <div class="papayaviewer"
-         id="main_viewer"
-         onclick='addViewer("main_viewer", params, main_viewer_loaded)'>
-     <img class="img-responsive"
-          src="/pics/mod_t1w_viewer_preview.jpg"
-          title="Click to load interactive viewer"
-          alit="T1-weighted example image" />
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+     <div class="papaya papayaviewer" data-params="[]"
+           onclick="papaya.Container.resetViewer(0, params); this.onclick=null;">
+        <img class="img-responsive"
+             src="/pics/mod_t1w_viewer_preview.jpg"
+             title="Click to load interactive viewer"
+             alt="T1-weighted example image" />
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
-
 
 Technical details
 =================

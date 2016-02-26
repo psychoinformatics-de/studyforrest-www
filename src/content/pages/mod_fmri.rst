@@ -2,8 +2,9 @@ Functional brain imaging data
 *****************************
 
 :status: hidden
-:Template: papaya_mod_demo
 :slug: mod_fmri
+:JavaScripts: papaya.js
+:Stylesheets: papaya.css
 
 **Prolonged quasi-natural stimulation**
 
@@ -41,28 +42,24 @@ Group-aligned BOLD images
 .. raw:: html
 
   <script type="text/javascript">
-       var params = [];
-       params["worldSpace"] = false;
-        params["images"] = ["/data/7Tad_epi_grp_tmpl.nii.gz"];
-       params["expandable"] = true;
-       params["kioskMode"] = true;
-        params["7Tad_epi_grp_tmpl.nii.gz"] = {"min": 400, "max": 4000};
-       function main_viewer_loaded() {
-          $("#main_viewer").show();
-       }
+      var params = [];
+      params["worldSpace"] = false;
+      params["images"] = ["/data/7Tad_epi_grp_tmpl.nii.gz"];
+      params["expandable"] = true;
+      params["kioskMode"] = true;
+      params["7Tad_epi_grp_tmpl.nii.gz"] = {"min": 400, "max": 4000};
   </script>
 
   <div class="row">
-   <div class="col-md-12">
-    <div class="papayaviewer"
-         id="main_viewer"
-         onclick='addViewer("main_viewer", params, main_viewer_loaded)'>
-     <img class="img-responsive"
-          src="/pics/mod_fmri_7Tad_tmpl_viewer_preview.jpg"
-          title="Click to load interactive viewer"
-          alit="FMRI group template example image" />
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <div class="papaya papayaviewer" data-params="[]"
+           onclick="papaya.Container.resetViewer(0, params); this.onclick=null;">
+        <img class="img-responsive"
+             src="/pics/mod_fmri_7Tad_tmpl_viewer_preview.jpg"
+             title="Click to load interactive viewer"
+             alt="FMRI group template example image" />
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 
 
