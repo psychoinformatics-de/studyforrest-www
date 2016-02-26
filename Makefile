@@ -115,7 +115,3 @@ src/content/js/d3.v3.min.js:
 
 src/content/js/xtk.js:
 	wget -O $@ http://get.goxtk.com/xtk.js
-
-xtk/xtk_xdat.gui.js:
-	mkdir -p xtk
-	wget -O $@ http://get.goxtk.com/xtk_xdat.gui.js
