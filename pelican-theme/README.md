@@ -57,10 +57,6 @@ You may customize the header of this list setting the `SERIES_TEXT` variable, wh
 
 You may display information on the series just under the article title setting `SHOW_SERIES` to `True`.
 
-### IPython Notebook support
-
-This theme supports including IPython notebooks through the [Liquid Tags plugin](https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags). If you enable the plugin, the theme will automatically include the right CSS/JS to make the notebooks work.
-
 ### Favicon
 
 Set the `FAVICON` option in your `pelicanconf.py`. For example: `FAVICON = 'images/favicon.png'`
