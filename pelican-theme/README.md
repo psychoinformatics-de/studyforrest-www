@@ -9,7 +9,6 @@ This theme honors the following standard Pelican settings:
 
 * Putting feeds in the `<head>` section:
 	* `FEED_ALL_ATOM`
-	* `FEED_ALL_RSS`
 * Template settings:
 	* `DISPLAY_PAGES_ON_MENU`
 	* `DISPLAY_CATEGORIES_ON_MENU`

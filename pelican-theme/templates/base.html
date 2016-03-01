@@ -71,11 +71,6 @@
               title="{{ SITENAME }} ATOM Feed"/>
     {% endif %}
 
-    {% if FEED_ALL_RSS %}
-        <link href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"
-              title="{{ SITENAME }} RSS Feed"/>
-    {% endif %}
-
     {% if tag and TAG_FEED_ATOM %}
         <link href="{{ SITEURL }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate"
               title="{{ SITENAME }} {{ tag }} ATOM Feed"/>
