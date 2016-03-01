@@ -64,11 +64,6 @@ GOOGLE_ANALYTICS = "UA-46839658-1"
 TWITTER_USERNAME = 'studyforrest'
 TWITTER_WIDGET_ID = '435327568237965312'
 
-# Tell Pelican to change the path to 'static/custom.css' in the output dir
-#EXTRA_PATH_METADATA = {
-#    'pages/challenge.rst': {'path': 'challenge.html'}
-#}
-
 WITH_FUTURE_DATES = True
 
 SHOW_ARTICLE_AUTHOR = True

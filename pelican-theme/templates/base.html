@@ -120,13 +120,11 @@
                 {% endfor %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
-            {% if 'tipue_search' in PLUGINS %}
               <li>
-                <form class="navbar-search" action="{{ SEARCH_URL | default('/search.html') }}">
+                <form class="navbar-search" action="/search.html">
                   <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
                 </form>
               </li>
-            {% endif %}
               <li><a href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
             </ul>
         </div>
