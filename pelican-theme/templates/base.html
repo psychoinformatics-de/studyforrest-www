@@ -4,11 +4,14 @@
 {% endif %}
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}"{% if USE_OPEN_GRAPH %} prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml"{% endif %}>
 <head>
-    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-    <!-- Using the latest rendering mode for IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block meta %}
+        <meta name="author" content="{{ AUTHOR }}" />
+    {% endblock %}
+
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
     <!-- Once upon a time, favicons were a simple race; but then they grew to be greedy... -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=1">
@@ -33,14 +36,9 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=1">
     <meta name="theme-color" content="#ffffff">
 
-    {% block meta %}
-        <meta name="author" content="{{ AUTHOR }}" />
-    {% endblock %}
-
     {# Open Graph tags #}
     {% if USE_OPEN_GRAPH %}
     {% block opengraph %}
-    <!-- Open Graph tags -->
         {% if OPEN_GRAPH_FB_APP_ID %}
             <meta property="fb:app_id" content="{{ OPEN_GRAPH_FB_APP_ID }}"/>
         {% endif %}
@@ -56,26 +54,20 @@
     {% endblock %}
     {% endif %}
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css" type="text/css"/>
-    <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/theme/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/theme/tipuesearch/tipuesearch.css" />
+    <link rel="stylesheet" href="/theme/css/forrest.css" />
     {% block CSS_EXTRA %}{% endblock %}
-
-    {% if 'tipue_search' in PLUGINS %}
-    <link href="{{ SITEURL}}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.css" rel="stylesheet">
-    {% endif %}
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/forrest.css" type="text/css"/>
 
     {% if FEED_ALL_ATOM %}
         <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
               title="{{ SITENAME }} ATOM Feed"/>
     {% endif %}
-
     {% if tag and TAG_FEED_ATOM %}
         <link href="{{ SITEURL }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate"
               title="{{ SITENAME }} {{ tag }} ATOM Feed"/>
     {% endif %}
-
     {% if category and CATEGORY_FEED_ATOM %}
         <link href="{{ SITEURL }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate"
               title="{{ SITENAME }} {{ category }} ATOM Feed"/>
@@ -83,7 +75,6 @@
 
     {% block head_suffix %}
     {% endblock %}
-
 </head>
 <body>
 
