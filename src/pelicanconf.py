@@ -36,8 +36,6 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = False
 
-BOOTSTRAP_NAVBAR_INVERSE = False
-
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
 PLUGIN_PATHS = ['../pelican-plugins']
