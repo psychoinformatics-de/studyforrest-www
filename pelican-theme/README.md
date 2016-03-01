@@ -57,10 +57,6 @@ You may customize the header of this list setting the `SERIES_TEXT` variable, wh
 
 You may display information on the series just under the article title setting `SHOW_SERIES` to `True`.
 
-### Favicon
-
-Set the `FAVICON` option in your `pelicanconf.py`. For example: `FAVICON = 'images/favicon.png'`
-
 ### Index page
 
 * If `DISPLAY_ARTICLE_INFO_ON_INDEX` is set to _True_, article info (date, tags) will be show under the title for each article, otherwise only title and summary will be shown (default).
