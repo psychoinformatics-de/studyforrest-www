@@ -40,8 +40,6 @@ DEFAULT_PAGINATION = 10
 
 BOOTSTRAP_NAVBAR_INVERSE = False
 
-DOCUTIL_CSS = True
-
 STATIC_PATHS = ['images', 'pics', 'css', 'js', 'data']
 
 PLUGIN_PATHS = ['../pelican-plugins']

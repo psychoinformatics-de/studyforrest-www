@@ -78,10 +78,6 @@ for the menu (such as a short single word) than the page title by adding a
 Menulabel metadata attribute to the page header (`Menulabel:` in
 markdown, `:Menulabel:` in rst).
 
-### reStructuredText styles
-
-If you're using reStructuredText for writing articles and pages, you can include the extra CSS styles that are used by the `docutils`-generated HTML by setting `DOCUTIL_CSS` to True. This can be done as a global setting or  setting it in the metadata of a specific article or page.
-
 ### Facebook Open Graph
 
 In order to make the Facebook like button and other social sharing options work better, the template contains Open Graph metatags like `<meta property="og:type" content="article"/>`. You can disable them by setting `USE_OPEN_GRAPH` to _False_. You can use `OPEN_GRAPH_FB_APP_ID` to provide a Facebook _app id_.
