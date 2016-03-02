@@ -3,30 +3,15 @@ WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
 RSYNC_OPTS_UP = -rzlhv --delete --copy-links --exclude drafts
 DATADIR = www/data
 
+VER_JQUERY=2.2.1
+VER_BOOTSTRAP=3.3.6
+VER_FONTAWESOME=4.5.0
+
 all:
 	$(MAKE) -C src html
 	ln -fs pages/challenge.html generated/challenge.html
 	ln -fs pages/access.html generated/access.html
 	ln -fs pages/resources.html generated/resources.html
-
-prep:
-# also needs phantomjs (from Debian package)
-	$(MAKE) -C dygraphs
-
-updatedeps: src/content/js/d3.v3.min.js src/content/js/xtk.js
-	wget -O pelican-theme/static/js/jquery.min.js http://code.jquery.com/jquery-2.2.1.min.js
-	wget -O bs.zip https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip
-	unzip -j bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
-	unzip -j bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
-	wget -O fa.zip https://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.5.0.zip
-	unzip -j fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
-	unzip -j fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
-
-tipue:
-	wget -O ts.zip http://www.tipue.com/search/tipuesearch.zip
-	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d pelican-theme/static/js/
-	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d pelican-theme/static/js/
-	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d pelican-theme/static/css/
 
 publish:
 	rm -f generated/fonts
@@ -37,6 +22,39 @@ publish:
 
 upload: publish
 	rsync $(RSYNC_OPTS_UP) $(WWW_DIR)/* $(WWW_UPLOAD_URI)/
+
+prep:
+# also needs phantomjs (from Debian package)
+	$(MAKE) -C dygraphs
+
+updatedeps: src/content/js/d3.v3.min.js src/content/js/xtk.js \
+            pelican-theme/static/js/jquery.min.js \
+            bootstrap fontawesome tipue
+
+src/content/js/d3.v3.min.js:
+	wget -O $@ http://d3js.org/d3.v3.min.js
+
+src/content/js/xtk.js:
+	wget -O $@ http://get.goxtk.com/xtk.js
+
+pelican-theme/static/js/jquery.min.js:
+	wget -O $@ http://code.jquery.com/jquery-2.2.1.min.js
+
+bootstrap:
+	wget -O bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
+	unzip -j bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
+	unzip -j bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
+
+fontawesome:
+	wget -O fa.zip https://fortawesome.github.io/Font-Awesome/assets/font-awesome-$(VER_FONTAWESOME).zip
+	unzip -j fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
+	unzip -j fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
+
+tipue:
+	wget -O ts.zip http://www.tipue.com/search/tipuesearch.zip
+	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d pelican-theme/static/js/
+	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d pelican-theme/static/js/
+	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d pelican-theme/static/css/
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
       $(DATADIR)/swi_mag.nii.gz $(DATADIR)/angio.nii.gz \
@@ -114,9 +132,3 @@ $(DATADIR)/wm_streamlines.trk:
 	fast -t 2 -n 3 -H 0.1 -I 4 -l 20.0 -g --nopve -o dti_preproc/b0_brain dti_preproc/b0_brain
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
-
-src/content/js/d3.v3.min.js:
-	wget -O $@ http://d3js.org/d3.v3.min.js
-
-src/content/js/xtk.js:
-	wget -O $@ http://get.goxtk.com/xtk.js
