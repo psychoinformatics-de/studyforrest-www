@@ -4,7 +4,7 @@ Lowering the barrier for non-neuroimaging scientists
 :date: 2014-08-08 01:00
 :modified: 2014-08-08 01:00
 :tags: fMRI, aggregate data
-:author: Michael Hanke
+:authors: Michael Hanke
 :summary: Aggregate time-series data available in standard file formats
 :slug: aggregate-timeseries-data
 :JavaScripts: d3.v3.min.js, movietime_roi_connectivity_chord.js

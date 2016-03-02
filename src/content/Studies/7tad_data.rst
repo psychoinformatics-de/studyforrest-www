@@ -4,7 +4,7 @@ A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an 
 :date: 2014-01-27 01:00
 :modified: 2014-06-21 14:25
 :tags: data descriptor, 7-Tesla, fMRI, sMRI, dMRI, physiological data
-:author: Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule,
+:authors: Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule,
          Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
 :summary: Multi-modal brain imaging dataset with versatile auxiliary measurements
 :slug: ds_7tad

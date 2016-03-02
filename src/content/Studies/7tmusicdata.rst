@@ -4,7 +4,7 @@ High-resolution 7-Tesla fMRI data on the perception of musical genres
 :date: 2015-06-29 18:00
 :date: 2015-06-29 18:00
 :tags: data descriptor, stimulus, music, physiological data, encoding model
-:author: Michael Hanke, Richard Dinga, Christian Häusler,
+:authors: Michael Hanke, Richard Dinga, Christian Häusler,
          J. Swaroop Guntupalli, Michael Casey, Falko R. Kaule, Jörg Stadler
 :summary: enabling the validation of encoding models for music
           perception on data from natural stimulation

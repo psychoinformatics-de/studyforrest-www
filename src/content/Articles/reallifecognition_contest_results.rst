@@ -3,7 +3,7 @@ The results of the real-life cognition contest
 
 :date: 2014-12-01 09:00
 :tags: contest
-:author: Michael Hanke, Yaroslav Halchenko
+:authors: Michael Hanke, Yaroslav Halchenko
 :summary: the contest is over, and here is who has won
 :slug: reallifecognition_contest_results
 

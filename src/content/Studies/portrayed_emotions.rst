@@ -4,7 +4,7 @@ Portrayed emotions in the movie "Forrest Gump"
 :date: 2015-04-19 01:00
 :modified: 2015-04-19 01:00
 :tags: data descriptor, observation, stimulus, annotation, emotion
-:author: Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen,
+:authors: Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen,
          Mareike Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann,
          Sebastian Keil, Malú Perlow, Anne Katrin Peukmann, Lea Noell Rabe,
          Franca-Rosa von Sobbe, Michael Hanke

@@ -3,7 +3,7 @@ Running the real-life cognition contest: beyond winners
 
 :date: 2014-12-12 12:00
 :tags: contest
-:author: Michael Hanke
+:authors: Michael Hanke
 :summary: a look back at some lessons learned
 :slug: reallifecognition_contest_aftermath
 

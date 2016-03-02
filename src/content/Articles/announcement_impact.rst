@@ -3,7 +3,7 @@ On the impact of announcement strategies
 
 :date: 2014-06-28 13:00
 :tags: traffic, advertisement
-:author: Michael Hanke
+:authors: Michael Hanke
 :summary: Empirical data on the effect of different ways to announce a project
 :slug: announcement_impact
 

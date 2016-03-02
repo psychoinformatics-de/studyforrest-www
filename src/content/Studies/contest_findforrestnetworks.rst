@@ -3,7 +3,7 @@ Identifying task-related activity using periodic graph properties
 
 :date: 2014-11-01 12:14
 :tags: fMRI, 7-Tesla, contest, networks, graph analysis
-:author: Lars Marstaller, Jeiran Choupan, Arend Hintze
+:authors: Lars Marstaller, Jeiran Choupan, Arend Hintze
 :summary: use simulated annealing to find functional brain networks that
           periodically change their graph properties while participants
           listen to an audio-only version of the movie 'Forrest Gump'

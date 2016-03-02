@@ -3,7 +3,7 @@ Interactive surface-based visualization of second-order representational similar
 
 :date: 2014-11-01 19:51
 :tags: fMRI, 7-Tesla, contest, similarity, surface
-:author: Nikolaas N. Oosterhof
+:authors: Nikolaas N. Oosterhof
 :summary: shows how surface-based whole brain second-order representational similarity can be visualized interactively at a random-effect group level using PyMVPA, Python, and AFNI / SUMA
 :slug: contest_surfacebased_2ndorder_similarity
 

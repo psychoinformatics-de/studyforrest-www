@@ -3,7 +3,7 @@ FuSeISC: Functional Segmentation of Brain fMRI during naturalistic stimulus base
 
 :date: 2014-11-01 13:38
 :tags: fMRI, 7-Tesla, contest, segmentation
-:author: Juha Pajula, Jussi Tohka, Jukka-Pekka Kauppi
+:authors: Juha Pajula, Jussi Tohka, Jukka-Pekka Kauppi
 :summary: a coarse functional brain parcellation into seven functionally
          similar regions
 :slug: contest_fuseisc

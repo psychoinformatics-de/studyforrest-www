@@ -3,7 +3,7 @@ Data acquisition for phase 2 has begun
 
 :date: 2014-07-12 16:00
 :tags: 3-Tesla, fMRI, eye-tracking
-:author: Michael Hanke
+:authors: Michael Hanke
 :summary: Final setup for simultaneous fMRI and eye-tracking
 :slug: phase2_recording_started
 
