@@ -30,12 +30,6 @@ Set `SHOW_ARTICLE_AUTHOR` to True to show the author of the article at the top o
 
 Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses the Bootstrap3 [Pagination component](http://getbootstrap.com/components/#pagination), but you can optionally use the Boostrap3 _Pager_ by setting `USE_PAGER` to `True`.
 
-### Site Brand
-
-You can provide a logo for your site using `SITELOGO`. For example: `SITELOGO = 'images/my_site_logo.png'`. You c>
-
-By default the `SITENAME` will be shown as well. It's also possible to hide the site name using the `HIDE_SITENAM>
-
 ### Index page
 
 * If `DISPLAY_ARTICLE_INFO_ON_INDEX` is set to _True_, article info (date, tags) will be show under the title for each article, otherwise only title and summary will be shown (default).

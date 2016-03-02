@@ -42,11 +42,8 @@ PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['twitter_bootstrap_rst_directives', 'bootstrapify', 'tipue_search',
            'pelican_javascript']
 
-DISPLAY_PAGES_ON_MENU = True
-
 DISPLAY_TAGS_INLINE = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
-DISPLAY_CATEGORIES_ON_MENU = True
 
 ADDTHIS_PROFILE = 'ra-53a573780cc42d73'
 ADDTHIS_DATA_TRACK_ADDRESSBAR = False
