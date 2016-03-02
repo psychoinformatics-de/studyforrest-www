@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block title %}Search - {{ SITENAME }}{% endblock %}
 {% block CSS_EXTRA %}
-    <link rel="stylesheet" href="/theme/tipuesearch/tipuesearch.css">
+    <link rel="stylesheet" href="/theme/css/tipuesearch.css">
 {% endblock %}
 
 {% block content %}
@@ -13,8 +13,8 @@
 {% endblock content %}
 
 {% block scripts %}
-  <script type="text/javascript" src="/theme/tipuesearch/tipuesearch_set.js"></script>
-  <script type="text/javascript" src="/theme/tipuesearch/tipuesearch.min.js"></script>
+  <script type="text/javascript" src="/theme/js/tipuesearch_set.js"></script>
+  <script type="text/javascript" src="/theme/js/tipuesearch.min.js"></script>
   <script>
   $(document).ready(function() {
        $('#tipue_search_input').tipuesearch({

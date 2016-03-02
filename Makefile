@@ -22,6 +22,12 @@ updatedeps: src/content/js/d3.v3.min.js src/content/js/xtk.js
 	unzip -j fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
 	unzip -j fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
 
+tipue:
+	wget -O ts.zip http://www.tipue.com/search/tipuesearch.zip
+	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d pelican-theme/static/js/
+	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d pelican-theme/static/js/
+	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d pelican-theme/static/css/
+
 publish:
 	rm -f generated/fonts
 	$(MAKE) -C src publish
