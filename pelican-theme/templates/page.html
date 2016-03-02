@@ -20,17 +20,6 @@
 {% endif %}
 {% endblock %}
 
-{% block breadcrumbs %}
-    {% if DISPLAY_BREADCRUMBS %}
-    <ol class="breadcrumb">
-        <li><a href="{{ SITEURL }}" title="{{ SITENAME }}"><i class="fa fa-home fa-lg"></i></a></li>
-	  {% if page.url %}
-        <li class="active">{{ page.title }}</li>
-	  {% endif %}
-    </ol>
-    {% endif %}
-{% endblock %}
-
 {% block content %}
     <section id="content" class="body">
         <h1 class="entry-title">{{ page.title }}</h1>
