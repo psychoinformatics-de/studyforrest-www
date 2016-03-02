@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-{% if USE_OPEN_GRAPH is not defined %}
-    {% set USE_OPEN_GRAPH = True %}
-{% endif %}
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}"{% if USE_OPEN_GRAPH %} prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml"{% endif %}>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,24 +32,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=1">
     <meta name="theme-color" content="#ffffff">
-
-    {# Open Graph tags #}
-    {% if USE_OPEN_GRAPH %}
-    {% block opengraph %}
-        {% if OPEN_GRAPH_FB_APP_ID %}
-            <meta property="fb:app_id" content="{{ OPEN_GRAPH_FB_APP_ID }}"/>
-        {% endif %}
-        <meta property="og:site_name" content="{{ SITENAME }}" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="{{ SITENAME }}"/>
-        <meta property="og:url" content="{{ SITEURL }}"/>
-        <meta property="og:description" content="{{ SITENAME }}"/>
-        {% if OPEN_GRAPH_IMAGE %}
-            <meta property="og:image"
-                  content="{{ SITEURL }}/{{ OPEN_GRAPH_IMAGE }}"/>
-        {% endif %}
-    {% endblock %}
-    {% endif %}
 
     <link rel="stylesheet" href="/theme/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/theme/css/font-awesome.min.css" />

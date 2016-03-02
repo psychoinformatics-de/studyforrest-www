@@ -65,11 +65,6 @@ for the menu (such as a short single word) than the page title by adding a
 Menulabel metadata attribute to the page header (`Menulabel:` in
 markdown, `:Menulabel:` in rst).
 
-### Facebook Open Graph
-
-In order to make the Facebook like button and other social sharing options work better, the template contains Open Graph metatags like `<meta property="og:type" content="article"/>`. You can disable them by setting `USE_OPEN_GRAPH` to _False_. You can use `OPEN_GRAPH_FB_APP_ID` to provide a Facebook _app id_.
-You can also provide a default image that will be passed as an Open Graph tag  by setting `OPEN_GRAPH_IMAGE` to a relative file path, which will be prefixed by your site's base url. Optionally, you can override this default image on a per article and per page basis, by setting the `og_image` variable in an article or page.
-
 ### Twitter Timeline
 
 To enable, provide a `TWITTER_USERNAME` and a `TWITTER_WIDGET_ID`.
