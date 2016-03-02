@@ -32,21 +32,9 @@ Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses 
 
 ### Site Brand
 
-You can provide a logo for your site using `SITELOGO`. For example: `SITELOGO = 'images/my_site_logo.png'`. You can then define the size of the logo using `SITELOGO_SIZE`. The `width` of the `<img>` element will be set accordingly.
+You can provide a logo for your site using `SITELOGO`. For example: `SITELOGO = 'images/my_site_logo.png'`. You c>
 
-By default the `SITENAME` will be shown as well. It's also possible to hide the site name using the `HIDE_SITENAME` flag.
-
-### Related Posts
-
-This theme has support for the [Related Posts plugin](https://github.com/getpelican/pelican-plugins/tree/master/related_posts). All you have to do, is enable the plugin, and the theme will do the rest.
-
-### Series
-
-This theme supports the [Series plugin](https://github.com/getpelican/pelican-plugins/tree/master/series). If you enable the plugin you will find in the footer the links to the previous and next articles in the series.
-
-You may customize the header of this list setting the `SERIES_TEXT` variable, which can also include the `index` and `name` variables. The first is the index of the current article in the series (starting from 1) and the second is the name of the series. The default string is `Part %(index)s of the %(name)s series`.
-
-You may display information on the series just under the article title setting `SHOW_SERIES` to `True`.
+By default the `SITENAME` will be shown as well. It's also possible to hide the site name using the `HIDE_SITENAM>
 
 ### Index page
 

@@ -52,8 +52,7 @@
               title="{{ SITENAME }} {{ category }} ATOM Feed"/>
     {% endif %}
 
-    {% block head_suffix %}
-    {% endblock %}
+    {% block head_suffix %}{% endblock %}
 </head>
 <body>
 
@@ -113,13 +112,12 @@
         </div>
     </div>
 </div>
+
 {% include 'includes/footer.html' %}
 
 <script src="/theme/js/jquery.min.js"></script>
 <script src="/theme/js/bootstrap.min.js"></script>
-
 {% include 'includes/google_analytics.html' %}
-
 {% block scripts %}{% endblock %}
 </body>
 </html>
