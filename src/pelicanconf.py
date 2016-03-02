@@ -47,7 +47,6 @@ SOCIAL = (('twitter', 'http://twitter.com/studyforrest'),
           ('github', 'http://github.com/hanke/gumpdata'),)
 
 ADDTHIS_PROFILE = 'ra-53a573780cc42d73'
-ADDTHIS_DATA_TRACK_ADDRESSBAR = False
 GOOGLE_ANALYTICS = "UA-46839658-1"
 TWITTER_USERNAME = 'studyforrest'
 TWITTER_WIDGET_ID = '435327568237965312'
