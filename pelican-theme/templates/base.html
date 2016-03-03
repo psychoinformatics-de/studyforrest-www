@@ -35,7 +35,6 @@
 
     <link rel="stylesheet" href="/theme/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/theme/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="/theme/css/tipuesearch.css" />
     <link rel="stylesheet" href="/theme/css/forrest.css" />
     {% block CSS_EXTRA %}{% endblock %}
 
@@ -85,8 +84,14 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <form class="navbar-search" action="/search.html">
-                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                <form class="input-group navbar-search" action="{{ SITEURL }}/search.html" role="search">
+                  <input id="tipue_search_input" class="form-control" aria-label="Search"
+                         type="search" placeholder="Search" name="q">
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default" aria-label='Search'>
+                      <span class="fa fa-search"></span>
+                    </button>
+                  </span>
                 </form>
               </li>
             </ul>

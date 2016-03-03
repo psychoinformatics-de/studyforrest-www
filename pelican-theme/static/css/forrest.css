@@ -208,3 +208,25 @@ div.figure > div.legend {
   margin-bottom: 10px;
   font-size: small;
 }
+
+/*
+ *  Tipue Search
+ */
+.navbar-search { /* .navbar-search values are copied from other BS nav items */
+  margin: 0 15px;
+  width: 200px;
+}
+@media (min-width: 768px) {
+  .navbar-search {
+    margin: 7.5px 0;
+  }
+}
+
+#tipue_search_input {
+  font: 13px/1.6 'open sans', sans-serif;
+  border-radius: 0;
+}
+
+#tipue_search_foot_boxes li a {
+  cursor: pointer;
+}
