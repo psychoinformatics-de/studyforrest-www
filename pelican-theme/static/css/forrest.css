@@ -2,45 +2,15 @@ body {
   padding-top: 70px;
 }
 
-/* for list-groups nested within a list-group-item, reset the bottom margin */
-.list-group-item > .list-group {
-  margin-bottom: 0;
 }
 
-/* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has padding already
  */
-.list-group-item .list-group-item:last-child {
-  padding-bottom: 0;
+
 }
 
-.list-group-item {
-  border: none;
 }
 
-.tag-0 {
-  font-size: 16pt;
-}
 
-.tag-1 {
-  font-size: 13pt;
-}
-
-.tag-2 {
-  font-size: 10pt;
-}
-
-.tag-3 {
-  font-size: 8pt;
-}
-
-.tag-4 {
-  font-size: 6pt;
-}
-
-.icon-label {
-  margin-left: 10px;
-}
 
 a, a:hover {
   color: inherit;
@@ -50,7 +20,6 @@ a, a:hover {
   text-decoration: none;
   border-bottom: 1px dotted;
 }
-
 .entry-content a:hover {
   text-decoration: none;
   border-bottom: 1px solid;
@@ -98,20 +67,6 @@ figure.floatcenter, .align-center {
   margin-bottom: 11px;
 }
 
-.highlighttable pre {
-  /* Removes bootstrap default margin-bottom */
-  margin-bottom: 0;
-}
-
-.highlighttable {
-  /* Adds them margin-bottom to highlightable instead of <pre> */
-  margin-bottom: 11px;
-}
-
-.highlighttable {
-  width: 100%;
-}
-
 #categories ul, #tags ul {
   list-style: none;
   padding: 0;
@@ -134,27 +89,6 @@ figure.floatcenter, .align-center {
   font-size: 0.9em;
   margin-right: 10px;
 }
-
-.tagcloud li {
-  padding: 0;
-}
-
-
-a.iconlink {
-  color: #5a5a5a;
-}
-
-a.iconlink:hover,
-a.iconlink:focus {
-  color: #777;
-  text-decoration: none;
-}
-
-a.iconlink > div:hover,
-a.iconlink > div:focus {
-  box-shadow: 1px 1px 5px #888;
-}
-
 div.caption > h5 {
   text-align: center;
 }
