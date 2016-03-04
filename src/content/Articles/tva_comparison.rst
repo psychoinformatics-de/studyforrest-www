@@ -38,12 +38,12 @@ see `NeuroVault <http://neurovault.org/images/106/>`_ for more information).
 
 .. raw:: html
 
-    <div class="papaya papayaviewer" data-params="[]"
-         onclick="papaya.Container.resetViewer(0, params); this.onclick=null;">
+    <div class="papaya-preview" data-params="params">
       <img class="img-responsive"
            src="/pics/study_7Tad_tscorr_tva_viewer_preview.jpg"
            title="Click to load interactive viewer"
-           alt="Study results figure (click me!)" />
+           alt="Study results figure (click me!)"
+           onclick="$(this.parentNode).addClass('papaya'); papaya.Container.startPapaya(); this.parentNode.removeChild(this);" />
     </div>
 
 .. |---| unicode:: U+02014 .. em dash

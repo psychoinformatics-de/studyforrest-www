@@ -27,12 +27,12 @@ protons have been flushed away by the time of the measurement.
 
   <div class="row">
     <div class="col-md-12">
-      <div class="papaya papayaviewer" data-params="[]"
-           onclick="papaya.Container.resetViewer(0, params); this.onclick=null;">
+      <div class="papaya-preview" data-params="params">
         <img class="img-responsive"
              src="/pics/mod_t2w_viewer_preview.jpg"
              title="Click to load interactive viewer"
-             alt="T2-weighted example image" />
+             alt="T2-weighted example image"
+             onclick="$(this.parentNode).addClass('papaya'); papaya.Container.startPapaya(); this.parentNode.removeChild(this);" />
       </div>
     </div><!-- /.col-md-12 -->
   </div><!-- /.row -->

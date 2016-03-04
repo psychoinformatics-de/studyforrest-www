@@ -49,7 +49,7 @@ look at your own brain! It only involves a few simple steps:
 
   <div class="row">
     <div class="col-md-12">
-      <div class="papaya papayaviewer" data-params="params"></div>
+      <div class="papaya" data-params="params"></div>
     </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 

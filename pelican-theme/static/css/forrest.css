@@ -135,16 +135,11 @@ div.thumbnail {
   height: 260px;
 }
 
-div.papayaviewer {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 20px;
+div.papaya-preview {
+  padding: 0 8px 20px 8px;
 }
-
-div.papayaviewer > img {
+div.papaya-preview > img {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 div.xtk_renderer {
