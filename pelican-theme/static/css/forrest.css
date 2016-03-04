@@ -1,19 +1,57 @@
+/*
+ *  Fonts
+/*
+
+/* Font Licensed under OFL 1.1 */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(/theme/fonts/librebaskerville.woff) format('woff');
+}
+/* Font Licensed under Apache 2.0 */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), local('OpenSans'), url(/theme/fonts/opensans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/theme/fonts/opensans_bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/theme/fonts/opensans_italic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(/theme/fonts/opensans_bold_italic.woff) format('woff');
+}
+
+/*
+ * Element Overrides
+ */
+a, a:hover {
+  color: inherit;
+}
+
 body {
+  font-family: 'Open Sans', sans-serif;
   padding-top: 70px;
 }
 
-}
-
+/*
+ *  Styling
  */
-
-}
-
-}
-
-
-
-a, a:hover {
-  color: inherit;
+#content {
+  line-height: 26px;
 }
 
 .entry-content a {
