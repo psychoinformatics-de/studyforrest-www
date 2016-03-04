@@ -7,7 +7,6 @@ from __future__ import unicode_literals
 #
 AUTHOR = u'Michael Hanke'
 SITENAME = u'studyforrest.org'
-SITESUBTITLE = u'A de-centralized mass-collaboration attempt'
 SITEURL = ''
 
 TIMEZONE = 'Europe/Berlin'
