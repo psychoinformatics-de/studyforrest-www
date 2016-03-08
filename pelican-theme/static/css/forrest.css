@@ -50,6 +50,10 @@ body {
 /*
  *  Styling
  */
+#about img {
+  margin: 5px 0;
+}
+
 #content {
   line-height: 26px;
 }

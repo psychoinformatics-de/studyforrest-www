@@ -1,8 +1,12 @@
 About this Project
 ******************
-
 :slug: about
 :menulabel: About
+
+.. raw:: html
+
+  <div class="row">
+    <div class="col-sm-8">
 
 This project is an open invitation to anyone and everyone to participate in a
 decentralized effort to explore the opportunities of open science in
@@ -24,66 +28,75 @@ Acknowledgements
 This project has been made possible by funds and support of various grants
 and institutions.
 
+A grant from the German Federal Ministry of Education and Research (BMBF) funded
+the initial data acquisition as part of the US-German collaboration in
+computational neuroscience (CRCNS) project: *Development of general
+high-dimensional models of neuronal representation spaces* (`Haxby
+<http://haxbylab.dartmouth.edu/>`_ / `Ramagde
+<http://www.ee.princeton.edu/ramadge/doku.php>`_ / `Hanke
+<http://www.psychoinformatics.de/>`_), co-funded by the BMBF and the US National
+Science Foundation (BMBF 01GQ1112; NSF 1129855).
+
+Moreover, development of data sharing technology used for dissemination and
+management of this dataset is supported by another US-German collaboration grant
+awarded to `Halchenko <http://haxbylab.dartmouth.edu/ppl/yarik.html>`_ and
+Hanke: *DataLad: Converging catalogues, warehouses, and deployment logistics
+into a federated 'datadistribution'*, also co-funded by BMBF (01GQ1411) and NSF
+(1129855).
+
+The German federal state of Saxony-Anhalt, Project: `Center for Behavioral Brain
+Sciences`_ provided data acquisition hardware and
+personnel.
+
+The Otto-von-Guericke-University_, Magdeburg, Germany.
+
+The `Leibniz Institute for Neurobiology`_ and the `Combinatorial NeuroImaging
+Core Facility`_ in Magdeburg, Germany provided MR imaging expertise and access
+to its data acquisition instruments.
+
 .. raw:: html
 
- 	<div class="row">
-          <div class="col-sm-6">
-            <p>A grant from the German Federal Ministry of Education and
-             Research (BMBF) funded the initial data acquisition as part of
-             the US-German collaboration in computational neuroscience (CRCNS)
-             project: <em>Development of general high-dimensional models of
-             neuronal representation spaces"</em>
-             (<a href="http://haxbylab.dartmouth.edu">Haxby</a>/<a
-             href="http://www.ee.princeton.edu/ramadge/doku.php">Ramagde</a>/<a
-             href="http://www.psychoinformatics.de">Hanke</a>),
-             co-funded by the BMBF and the US National
-             Science Foundation (BMBF 01GQ1112; NSF 1129855).</p>
-             <p>Moreover, development of data sharing technology used for
-             dissemination and management of this dataset is supported
-             by another US-German collaboration grant awarded to
-             <a href="http://haxbylab.dartmouth.edu/ppl/yarik.html">Halchenko</a>
-             and Hanke: <em>DataLad: Converging catalogues, warehouses, and
-             deployment logistics into a federated 'datadistribution'</em>, also
-             co-funded by BMBF (01GQ1411) and NSF (1129855).</p>
-          </div><!-- /.col-sm-6 -->
-          <div class="col-sm-6">
-            <img style="display:inline" src="/pics/bmbf_logo.jpg" alt="BMBF logo">
-            <img style="display:inline" src="/pics/binc_germany_usa.jpg" alt="Bernstein international collaboration logo">
-            <img style="display:inline" src="/pics/nsf_logo.png" alt="NSF logo">
-          </div><!-- /.col-sm-6 -->
-        </div><!-- /.row -->
-        <div class="row">
-          <div class="col-sm-7">
-            <p>The German federal state of Saxony-Anhalt,
-             Project: <a href="http://www.cbbs.eu">Center for Behavioral Brain
-             Sciences</a> provided data acquisition hardware and personnel.</p>
-	  </div><!-- /.col-sm-7 -->
-          <div class="col-sm-5">
-            <img style="display:inline"  src="/pics/cbbs_logo.png" alt="CBBS logo">
-          </div><!-- /.col-sm-5 -->
-        </div><!-- /.row -->
-        <div class="row">
-          <div class="col-sm-7">
-            <p>The <a href="http://www.ovgu.de">Otto-von-Guericke-University</a>,
-             Magdeburg, Germany.</p>
-          </div><!-- /.col-sm-7 -->
-          <div class="col-sm-5">
-            <img  style="display:inline" src="/pics/ovgu_logo.png" alt="OvGU logo">
-          </div><!-- /.col-sm-5 -->
-        </div><!-- /.row -->
-        <div class="row">
-          <div class="col-sm-7">
-            <p>The <a href="http://www.lin-magdeburg.de">Leibniz Institute for
-             Neurobiology</a> and the <a href="http://cni.ifn-magdeburg.de">
-             Combinatorial NeuroImaging Core Facility</a> in
-             Magdeburg, Germany provided MR imaging expertise and access to its
-             data acquisition instruments.</p>
-	  </div><!-- /.col-sm-7 -->
-          <div class="col-sm-5">
-            <img  style="display:inline" src="/pics/lin_logo.png" alt="LIN logo">
-            <img  style="display:inline" src="/pics/cni_logo.png" alt="CNI logo">
-          </div><!-- /.col-sm-5 -->
-        </div><!-- /.row -->
+    </div><!-- /.col-sm-8 -->
+    </div><!-- /#acknowledgements -->
+    <div id="about" class="col-sm-4">
+
+.. image:: {filename}/img/logo/bmbf.png
+   :alt: German Federal Ministry of Education and Research (BMBF) Logo
+   :target: https://www.bmbf.de/en/index.html
+
+.. image:: {filename}/img/logo/binc.png
+   :alt: Bernstein International Collaboration (Germany-USA) Logo
+   :target: http://www.nncn.de
+
+.. image:: {filename}/img/logo/nsf.png
+   :alt: National Science Foundation Logo
+   :target: http://www.nsf.gov
+
+.. image:: {filename}/img/logo/cbbs.png
+   :alt: Center for Behavioral Brain Sciences Logo
+   :target: `Center for Behavioral Brain Sciences`_
+
+.. image:: {filename}/img/logo/ovgu.png
+   :alt: Otto-von-Guericke-University Magdeburg Logo
+   :target: Otto-von-Guericke-University_
+
+.. image:: {filename}/img/logo/lin.png
+   :alt: Leibniz Institute for Neurobiology in Magdeburg Logo
+   :target: `Leibniz Institute for Neurobiology`_
+
+.. image:: {filename}/img/logo/cni.png
+   :alt: Combinatorial Neuroimaging Core Facility Logo
+   :target: `Combinatorial Neuroimaging Core Facility`_
+
+.. raw:: html
+
+    </div><!-- /#about /.col-sm-4 -->
+  </div><!-- /.row -->
+
+.. _Center for Behavioral Brain Sciences: http://www.cbbs.eu
+.. _Otto-von-Guericke-University: http://www.ovgu.de
+.. _Leibniz Institute for Neurobiology: http://www.lin-magdeburg.de
+.. _Combinatorial Neuroimaging Core Facility: http://cni.ifn-magdeburg.de
 
 Legal info
 ==========
