@@ -1,7 +1,5 @@
 Real-life cognition challenge
 *****************************
-
-:Menulabel: Challenge
 :slug: challenge
 :status: hidden
 

@@ -1,7 +1,6 @@
 About this Project
 ******************
 :slug: about
-:menulabel: About
 
 .. raw:: html
 

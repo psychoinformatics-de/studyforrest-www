@@ -1,7 +1,5 @@
 How to get data
 ***************
-
-:Menulabel: Data access
 :slug: access
 
 The released data are hosted at multiple locations, including `openfmri.org

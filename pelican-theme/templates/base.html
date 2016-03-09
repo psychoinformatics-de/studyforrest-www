@@ -70,18 +70,13 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                {% for p in PAGES %}
-                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">
-                        {{ p.menulabel|default(p.title) }}
-                    </a></li>
-                  {% endfor %}
+                {% for title, link in MENUITEMS %}
+                    <li><a href="{{ link }}">{{ title }}</a></li>
+                {% endfor %}
                 {% for cat, null in categories %}
                     <li {% if cat == category %}class="active"{% endif %}>
                         <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat | capitalize }}</a>
                     </li>
-                {% endfor %}
-                {% for title, link in MENUITEMS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
