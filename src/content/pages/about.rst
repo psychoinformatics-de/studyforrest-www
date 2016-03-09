@@ -98,29 +98,4 @@ to its data acquisition instruments.
 .. _Leibniz Institute for Neurobiology: http://www.lin-magdeburg.de
 .. _Combinatorial Neuroimaging Core Facility: http://cni.ifn-magdeburg.de
 
-Legal info
-==========
-
-.. raw:: html
-
-    <p>This page is built using Twitter's <a href="http://getbootstrap.com/"
-     target="_blank">Bootstrap toolkit</a>: Copyright 2013 Twitter, Inc
-     under the <a href="http://opensource.org/licenses/MIT"
-     target="_blank">MIT license</a>.</p>
-    <p>The <a
-     href="http://commons.wikimedia.org/wiki/File:ForrestGump-Jenny-Boat-2055.jpg"
-     target="_blank">original image of the "Jenny" boat</a> is by David R.
-     Tribble and licensed under <a
-     href="http://creativecommons.org/licenses/by-sa/3.0/deed.en"
-     target="_blank">CC BY SA 3.0</a>.</p>
-    <p>The 7T magnet image is by D. Mahler and (c) 2012
-     <a href="http://www.cbbs.eu">Center for Behavioral Brain Sciences</a>,
-     Magdeburg.</p>
-    <p>All linked and referenced publications and figures are copyrighted by
-     their respective authors and/or publishers &mdash; used with permission.</p>
-    <p>All other images and artwork are copyright by Michael Hanke and
-     licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/"
-     target="_blank">CC BY SA 4.0</a>.</p>
-
 .. |---| unicode:: U+02014 .. em dash
-
