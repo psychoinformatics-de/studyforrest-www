@@ -6,6 +6,7 @@ DATADIR = www/data
 VER_JQUERY=2.2.1
 VER_BOOTSTRAP=3.3.6
 VER_FONTAWESOME=4.5.0
+VER_DYGRAPH=1.1.1
 
 all:
 	$(MAKE) -C src html
@@ -23,16 +24,15 @@ publish:
 upload: publish
 	rsync $(RSYNC_OPTS_UP) $(WWW_DIR)/* $(WWW_UPLOAD_URI)/
 
-prep:
-# also needs phantomjs (from Debian package)
-	$(MAKE) -C dygraphs
-
-updatedeps: src/content/js/d3.v3.min.js src/content/js/xtk.js \
-            pelican-theme/static/js/jquery.min.js \
+updatedeps: src/content/js/d3.v3.min.js src/content/js/dygraph-combined.js \
+            src/content/js/xtk.js pelican-theme/static/js/jquery.min.js \
             bootstrap fontawesome tipue
 
 src/content/js/d3.v3.min.js:
 	curl -L -o $@ http://d3js.org/d3.v3.min.js
+
+src/content/js/dygraph-combined.js:
+	curl -L -o $@ http://dygraphs.com/$(VER_DYGRAPH)/dygraph-combined.js
 
 src/content/js/xtk.js:
 	curl -L -o $@ http://get.goxtk.com/xtk.js
