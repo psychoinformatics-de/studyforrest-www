@@ -1,40 +1,113 @@
-WWW_DIR = generated
-WWW_UPLOAD_URI=kumo.ovgu.de:/var/www/studyforrest/www
-RSYNC_OPTS_UP = -rzlhv --delete --copy-links --exclude drafts
-DATADIR = www/data
+PY=python
+PELICAN=pelican
+PELICANOPTS=
+
+BASEDIR=$(CURDIR)
+INPUTDIR=$(BASEDIR)/content
+OUTPUTDIR=$(BASEDIR)/output
+CONFFILE=$(BASEDIR)/pelicanconf.py
+PUBLISHCONF=$(BASEDIR)/publishconf.py
+DATADIR=$(BASEDIR)/data
+
+SSH_HOST=kumo.ovgu.de
+SSH_PORT=22
+SSH_USER=root
+SSH_TARGET_DIR=/var/www/studyforrest/www
+RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts
 
 VER_JQUERY=2.2.1
 VER_BOOTSTRAP=3.3.6
 VER_FONTAWESOME=4.5.0
 VER_DYGRAPH=1.1.1
 
-all:
-	$(MAKE) -C src html
-	ln -fs pages/challenge.html generated/challenge.html
-	ln -fs pages/access.html generated/access.html
-	ln -fs pages/resources.html generated/resources.html
+DEBUG ?= 0
+ifeq ($(DEBUG), 1)
+	PELICANOPTS += -D
+endif
+
+help:
+	@echo 'Makefile for the Studyforrest website                                  '
+	@echo '                                                                       '
+	@echo 'Usage:                                                                 '
+	@echo '   make all                         (re)generate the website and data  '
+	@echo '   make clean                       remove the generated files         '
+	@echo '   make html                        (re)generate the website           '
+	@echo '   make regenerate                  regenerate files upon modification '
+	@echo '   make publish                     generate using production settings '
+	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
+	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
+	@echo '   make stopserver                  stop local server                  '
+	@echo '   make ssh_upload                  upload the website via SSH         '
+	@echo '   make rsync_upload                upload the website via rsync+ssh   '
+	@echo '                                                                       '
+	@echo '   make data                        acquire and process the data       '
+	@echo '                                      see makefile for additional      '
+	@echo '                                      data targets                     '
+	@echo '                                                                       '
+	@echo '   make updatedeps                  update all website dependencies    '
+	@echo '                                      see makefile for additional      '
+	@echo '                                      dependency targets               '
+	@echo '   make bootstrap                   download and extract Bootstrap     '
+	@echo '   make fontawesome                 download and extract FontAwesome   '
+	@echo '   make tipue                       download and extract Tipue Search  '
+	@echo '                                                                       '
+	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
+	@echo '                                                                       '
+
+all: html data
+
+clean:
+	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+
+html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	if test -d $(BASEDIR)/extra; then cp $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
+	if test -d $(BASEDIR)/data; then rsync -avh $(BASEDIR)/data/ $(OUTPUTDIR)/data/; fi
+
+regenerate:
+	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+serve:
+ifdef PORT
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+else
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server
+endif
+
+devserver:
+ifdef PORT
+	$(BASEDIR)/develop_server.sh restart $(PORT)
+else
+	$(BASEDIR)/develop_server.sh restart
+endif
+
+stopserver:
+	kill -9 `cat pelican.pid`
+	kill -9 `cat srv.pid`
+	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish:
-	rm -f generated/fonts
-	$(MAKE) -C src publish
-	ln -ft generated src/static/*
-	mkdir -p generated/publications
-	ln -ft generated/publications publications/*
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	if test -d $(BASEDIR)/extra; then cp -R $(BASEDIR)/extra/* $(OUTPUTDIR)/; fi
+	if test -d $(BASEDIR)/data; then rsync -avh $(BASEDIR)/data/ $(OUTPUTDIR)/data/; fi
 
-upload: publish
-	rsync $(RSYNC_OPTS_UP) $(WWW_DIR)/* $(WWW_UPLOAD_URI)/
+ssh_upload: data publish
+	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-updatedeps: src/content/js/d3.v3.min.js src/content/js/dygraph-combined.js \
-            src/content/js/xtk.js pelican-theme/static/js/jquery.min.js \
+rsync_upload: data publish
+	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+
+updatedeps: content/js/d3.v3.min.js content/js/dygraph-combined.js \
+            content/js/xtk.js pelican-theme/static/js/jquery.min.js \
             bootstrap fontawesome tipue
 
-src/content/js/d3.v3.min.js:
+content/js/d3.v3.min.js:
 	curl -L -o $@ http://d3js.org/d3.v3.min.js
 
-src/content/js/dygraph-combined.js:
+content/js/dygraph-combined.js:
 	curl -L -o $@ http://dygraphs.com/$(VER_DYGRAPH)/dygraph-combined.js
 
-src/content/js/xtk.js:
+content/js/xtk.js:
 	curl -L -o $@ http://get.goxtk.com/xtk.js
 
 pelican-theme/static/js/jquery.min.js:
@@ -58,7 +131,7 @@ tipue:
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
       $(DATADIR)/swi_mag.nii.gz $(DATADIR)/angio.nii.gz \
-      $(DATADIR)/7Tad_epi_grptmpl.nii.gz \
+      $(DATADIR)/7Tad_epi_grp_tmpl.nii.gz \
       $(DATADIR)/lh.pial $(DATADIR)/rh.orig $(DATADIR)/rh.smoothwm.C.crv \
       $(DATADIR)/scenes.csv $(DATADIR)/german_audio_description.csv \
       $(DATADIR)/demographics.csv \
@@ -119,7 +192,7 @@ $(DATADIR)/physio.csv:
 
 $(DATADIR)/moco_rot.csv:
 	curl -L -o moco.txt http://psydata.ovgu.de/forrest_gump/sub004/BOLD/task001_run005/bold_dico_moco.txt
-	tools/moco2webcsv moco.txt www/data/moco
+	tools/moco2webcsv moco.txt data/moco
 	rm -f moco.txt
 
 $(DATADIR)/wm_streamlines.trk:
@@ -132,3 +205,5 @@ $(DATADIR)/wm_streamlines.trk:
 	fast -t 2 -n 3 -H 0.1 -I 4 -l 20.0 -g --nopve -o dti_preproc/b0_brain dti_preproc/b0_brain
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
+
+.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data

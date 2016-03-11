@@ -16,10 +16,10 @@ LOCALE = u'en_US.UTF-8'
 #
 # Configure Pelican a bit
 #
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['tipue_search', 'pelican_javascript', 'bootstrap-rst', ]
 
-THEME = '../pelican-theme'
+THEME = 'pelican-theme'
 DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search'] # unset all templates; use these
 
 #

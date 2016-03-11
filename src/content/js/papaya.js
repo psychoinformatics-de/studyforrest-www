@@ -1,1 +1,0 @@
-../../../papaya/release/current/nojquery/papaya.js
