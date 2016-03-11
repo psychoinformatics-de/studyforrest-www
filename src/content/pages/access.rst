@@ -134,7 +134,7 @@ missing information.
         :alt: Otto-von-Guericke-University Magdeburg Logo
         :target: http://www.ovgu.de
 
-     .. image:: {filename}/pics/openfmri_logo.png
+     .. image:: {filename}/img/logo/openfmri.png
         :alt: OpenfMRI Logo
         :target: https://openfmri.org
 
