@@ -8,6 +8,7 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 DATADIR=$(BASEDIR)/data
+TMPDIR=$(BASEDIR)/tmp
 
 SSH_HOST=kumo.ovgu.de
 SSH_PORT=22
@@ -58,6 +59,8 @@ all: html data
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	[ ! -d $(TMPDIR) ] || rm -rf $(TMPDIR)
+	pyclean ./
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -97,9 +100,12 @@ ssh_upload: data publish
 rsync_upload: data publish
 	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
-updatedeps: content/js/d3.v3.min.js content/js/dygraph-combined.js \
+updatedeps: $(TMPDIR) content/js/d3.v3.min.js content/js/dygraph-combined.js \
             content/js/xtk.js pelican-theme/static/js/jquery.min.js \
             bootstrap fontawesome tipue
+
+$(TMPDIR):
+	mkdir -p $@
 
 content/js/d3.v3.min.js:
 	curl -L -o $@ http://d3js.org/d3.v3.min.js
@@ -114,20 +120,20 @@ pelican-theme/static/js/jquery.min.js:
 	curl -L -o $@ http://code.jquery.com/jquery-2.2.1.min.js
 
 bootstrap:
-	curl -L -o bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
-	unzip -j bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
-	unzip -j bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
+	curl -L -o $(TMPDIR)/bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
+	unzip -j $(TMPDIR)/bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
+	unzip -j $(TMPDIR)/bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
 
 fontawesome:
-	curl -L -o fa.zip https://fortawesome.github.io/Font-Awesome/assets/font-awesome-$(VER_FONTAWESOME).zip
-	unzip -j fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
-	unzip -j fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
+	curl -L -o $(TMPDIR)/fa.zip https://fortawesome.github.io/Font-Awesome/assets/font-awesome-$(VER_FONTAWESOME).zip
+	unzip -j $(TMPDIR)/fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
+	unzip -j $(TMPDIR)/fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
 
 tipue:
-	curl -L -o ts.zip http://www.tipue.com/search/tipuesearch.zip
-	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d pelican-theme/static/js/
-	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d pelican-theme/static/js/
-	unzip -j ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d pelican-theme/static/css/
+	curl -L -o $(TMPDIR)/ts.zip http://www.tipue.com/search/tipuesearch.zip
+	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d pelican-theme/static/js/
+	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d pelican-theme/static/js/
+	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d pelican-theme/static/css/
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
       $(DATADIR)/swi_mag.nii.gz $(DATADIR)/angio.nii.gz \
