@@ -14,90 +14,48 @@ hundred gigabytes. This page provides an overview of the dataset in order
 to aid a researcher's selection of sub-components. The full description
 of the data releases are available in dedicated publications.
 
-.. raw:: html
+.. list-table::
+   :class: table-striped
+   :header-rows: 1
 
-  <table class="table table-striped">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Publication</th>
-      <th>Authors</th>
-      <th>Get access</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>
-        A high-resolution 7-Tesla fMRI dataset from complex natural
-        stimulation with an audio movie.
-        Scientific Data, 1 (2014)
-      </td>
-      <td>
-        Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule,
-        Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
-      </td>
-      <td>
-        <a class="btn btn-success"
-           href="http://www.nature.com/articles/sdata20143"
-           role="button">Open-access</a>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>
-         Portrayed emotions in the movie “Forrest Gump”.
-         F1000Research, 4:92 (2015)
-      </td>
-      <td>
-         Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen,
-         Mareike Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann,
-         Sebastian Keil, Malú Perlow, Anne Katrin Peukmann, Lea Noell Rabe,
-         Franca-Rosa von Sobbe, Michael Hanke
-      </td>
-      <td>
-        <a class="btn btn-success"
-           href="http://f1000research.com/articles/4-92"
-           role="button">Open-access</a>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>
-         High-resolution 7-Tesla fMRI data on the perception
-         of musical genres – an extension to the studyforrest
-         dataset.
-         F1000Research, 4:174 (2015)
-      </td>
-      <td>
-      Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli,
-      Michael Casey, Falko R. Kaule, and Jörg Stadler
-      </td>
-      <td>
-        <a class="btn btn-success"
-           href="http://f1000research.com/articles/4-174"
-           role="button">Open-access</a>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>
-         A block-design fMRI localizer for visual areas – an extension to the
-         studyforrest dataset.
-         (in prep.)
-      </td>
-      <td>
-      </td>
-      <td>
-        <a class="btn btn-success disabled"
-           href=""
-           role="button">not yet</a>
-      </td>
-    </tr>
-  </tbody>
-  </table>
+   * - #
+     - Publication
+     - Authors
+     - Get Access
+   * - 1
+     - A high-resolution 7-Tesla fMRI dataset from complex natural stimulation
+       with an audio movie. Scientific Data, 1 (2014)
+     - Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule, Stefan
+       Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
+     - .. button:: Open-access
+          :class: success
+          :target: http://www.nature.com/articles/sdata20143
+   * - 2
+     - Portrayed emotions in the movie “Forrest Gump”. F1000Research, 4:92
+       (2015)
+     - Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen, Mareike
+       Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann, Sebastian Keil, Malú
+       Perlow, Anne Katrin Peukmann, Lea Noell Rabe, Franca-Rosa von Sobbe,
+       Michael Hanke
+     - .. button:: Open-access
+          :class: success
+          :target: http://f1000research.com/articles/4-92
+   * - 3
+     - High-resolution 7-Tesla fMRI data on the perception of musical genres –
+       an extension to the studyforrest dataset. F1000Research, 4:174 (2015)
+     - Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli,
+       Michael Casey, Falko R. Kaule, and Jörg Stadler
+     - .. button:: Open-access
+          :class: success
+          :target: http://f1000research.com/articles/4-174
+   * - 4
+     - A block-design fMRI localizer for visual areas – an extension to the
+       studyforrest dataset. (in prep.)
+     -
+     - .. button:: Not-Yet
+          :class: success disabled
 
-Note that this dataset is continously maintained and additions or bug fixes are
+Note that this dataset is continuously maintained and additions or bug fixes are
 made public as soon as they become available. There is a `revision log
 <http://psydata.ovgu.de/forrest_gump/release_history.txt>`_ that lists all
 significant updates. Data mirrors may not always provide the latest revision.
