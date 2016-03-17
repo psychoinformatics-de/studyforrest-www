@@ -47,9 +47,6 @@ DEFAULT_PAGINATION = 10
 #
 # Social media jazz
 #
-SOCIAL = (('twitter', 'http://twitter.com/studyforrest'),
-          ('github', 'http://github.com/hanke/gumpdata'),)
-
 ADDTHIS_PROFILE = 'ra-53a573780cc42d73'
 GOOGLE_ANALYTICS = "UA-46839658-1"
 TWITTER_USERNAME = 'studyforrest'

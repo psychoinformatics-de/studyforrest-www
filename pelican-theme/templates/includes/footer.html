@@ -1,25 +1,21 @@
 <footer>
-   <div class="container">
-      <hr>
-      <div class="row">
-         {% if articles %}
-            {% set copy_date = articles[0].date.strftime('%Y') %}
-         {% else %}
-            {% set copy_date = '' %}
-         {% endif %}
-         <div class="col-xs-10">&copy; {{ copy_date }} {{ AUTHOR }}
-            &middot; Powered by <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>
-            and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+  <ul class='footer-links'>
+    <li><a aria-label='Study Forrest @ GitHub' href='https://github.com/psychoinformatics-de?query=studyforrest'>
+      <span class='fa fa-5x fa-github'></span>
+    </a></li>
+    <li><a aria-label='Study Forrest @ Twitter' href='https://twitter.com/studyforrest'>
+      <span class='fa fa-5x fa-twitter twitter-blue'></span>
+    </a></li>
+  </ul>
 
-            <p><small>
-              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                <img alt="Creative Commons License" src="/theme/img/cc-by-sa_80x15.png">
-              </a>
-              Content is licensed <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>,
-              except where <a rel="license" href='/pages/copyright.html'>indicated otherwise</a>.
-            </small></p>
-         </div>
-         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
-      </div>
-   </div>
+  {% if articles %}
+    {% set copy_date = articles[0].date.strftime('%Y') %}
+  {% else %}
+    {% set copy_date = '' %}
+  {% endif %}
+  <p><small>
+    content licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a>
+    &mdash; &copy; {{ copy_date }} {{ AUTHOR }} &mdash;
+    unless <a rel="license" href='/pages/copyright.html'>indicated otherwise</a>
+  </small></p>
 </footer>

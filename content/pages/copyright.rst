@@ -99,17 +99,6 @@ License:
 ----
 
 Files:
-  theme/img/cc-\*
-Copyright:
-  2008, Creative Commons
-License:
-  `Creative Commons Trademark Policy`_
-
-.. _Creative Commons Trademark Policy: https://creativecommons.org/policies/
-
-----
-
-Files:
   js/\*, css\*
 Copyright:
   2014-2016, Michael Hanke and Alex Waite

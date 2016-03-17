@@ -47,6 +47,9 @@ body {
   padding-top: 70px;
 }
 
+}
+
+
 /*
  *  Styling
  */
@@ -107,6 +110,31 @@ figure.floatleft, .align-left {
 
 figure.floatcenter, .align-center {
   margin-bottom: 11px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 2em;
+  padding: 1.5em 0 1em 0;
+  text-align: center;
+}
+footer p {
+  color: #777;
+  margin: 0;
+}
+
+.footer-links {
+  font-size: 2rem;
+  padding: 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 1em;
+}
+
+.twitter-blue {
+  color: #55acee;
 }
 
 #categories ul, #tags ul {
