@@ -8,7 +8,7 @@ This page loosely follows `Debian's copyright file syntax`_.
 Files:
   \*
 Copyright:
-  2014–2016, Michael Hanke
+  2014–2016, Michael Hanke and Alex Waite
 License:
   `Attribution-ShareAlike 4.0 International`_
 
