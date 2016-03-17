@@ -38,8 +38,13 @@
 /*
  * Element Overrides
  */
-a, a:hover {
+a {
   color: inherit;
+  text-decoration: underline dotted;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline solid;
 }
 
 body {
@@ -47,6 +52,8 @@ body {
   padding-top: 70px;
 }
 
+nav a {
+  text-decoration: none;
 }
 
 
@@ -61,14 +68,6 @@ body {
   line-height: 26px;
 }
 
-.entry-content a {
-  text-decoration: none;
-  border-bottom: 1px dotted;
-}
-.entry-content a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid;
-}
 
 .entry-content img {
   max-width: 100%;
