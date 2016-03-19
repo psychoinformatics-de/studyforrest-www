@@ -35,8 +35,9 @@ TRANSLATION_FEED_ATOM = None
 STATIC_PATHS = ['img', 'pics', 'css', 'js', 'data']
 MENUITEMS = (
             ('About', 'pages/about.html'),
-            ('Data Access', 'pages/access.html'),
-            ('Resources', 'pages/resources.html'),
+            ('Access', 'pages/access.html'),
+            ('Data', 'pages/resources.html'),
+            ('Publications', 'categories.html'),
 )
 LINKS = (('Psychoinformatics', 'http://psychoinformatics.de'),
          ('Real-Life Cognition Channel', 'http://f1000research.com/channels/real-cognition'),
