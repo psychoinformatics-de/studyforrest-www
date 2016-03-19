@@ -1,0 +1,21 @@
+# Enable expires
+<IfModule mod_expires.c>
+  # Enable expirations
+  ExpiresActive On
+  # Default
+  ExpiresDefault "access plus 1 week"
+  # Images; rarely will change
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  # CSS; might have layout fixes
+  ExpiresByType text/css "access plus 1 week"
+  # JS; rarely changes
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Top-level pages
+Redirect permanent "/pages/about.html" "about.html"
+Redirect permanent "/pages/access.html" "access.html"
+Redirect permanent "/pages/resources.html" "data.html"
