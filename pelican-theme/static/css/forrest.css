@@ -52,6 +52,11 @@ body {
   padding-top: 70px;
 }
 
+main {
+  display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
+  line-height: 26px;
+}
+
 nav a {
   text-decoration: none;
 }
@@ -63,11 +68,6 @@ nav a {
 #about img {
   margin: 5px 0;
 }
-
-#content {
-  line-height: 26px;
-}
-
 
 .entry-content img {
   max-width: 100%;
