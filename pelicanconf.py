@@ -34,9 +34,9 @@ TRANSLATION_FEED_ATOM = None
 #
 STATIC_PATHS = ['img', 'pics', 'css', 'js', 'data']
 MENUITEMS = (
-            ('About', 'pages/about.html'),
-            ('Access', 'pages/access.html'),
-            ('Data', 'pages/resources.html'),
+            ('About', 'about.html'),
+            ('Access', 'access.html'),
+            ('Data', 'data.html'),
             ('Publications', 'categories.html'),
 )
 LINKS = (('Psychoinformatics', 'http://psychoinformatics.de'),

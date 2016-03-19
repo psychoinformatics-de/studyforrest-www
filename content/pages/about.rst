@@ -1,6 +1,6 @@
 About this Project
 ******************
-:slug: about
+:save_as: about.html
 
 .. row::
 
