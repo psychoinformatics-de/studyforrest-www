@@ -48,12 +48,16 @@ a:hover {
 }
 
 body {
+  display: flex;
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  flex-direction: column;
   padding-top: 70px;
 }
 
 main {
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
+  flex: 1;
   line-height: 26px;
 }
 
