@@ -10,10 +10,7 @@ This theme honors the following standard Pelican settings:
 * Putting feeds in the `<head>` section:
 	* `FEED_ALL_ATOM`
 * Template settings:
-	* `DISPLAY_PAGES_ON_MENU`
-	* `DISPLAY_CATEGORIES_ON_MENU`
 	* `MENUITEMS`
-	* `LINKS`
 * Analytics
 	* `GOOGLE_ANALYTICS` (classic tracking code)
 	* `GOOGLE_ANALYTICS_UNIVERSAL` and `GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY` (Universal tracking code)
@@ -33,15 +30,6 @@ Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses 
 ### Index page
 
 * If `DISPLAY_ARTICLE_INFO_ON_INDEX` is set to _True_, article info (date, tags) will be show under the title for each article, otherwise only title and summary will be shown (default).
-
-### Short menu labels for pages
-
-By default, the title of a page is used both for showing the title as
-part of a page's content, and, if pages in menu is enabled, as the
-label of the corresponding menu item. You can choose a different label
-for the menu (such as a short single word) than the page title by adding a
-Menulabel metadata attribute to the page header (`Menulabel:` in
-markdown, `:Menulabel:` in rst).
 
 ### Twitter Timeline
 
