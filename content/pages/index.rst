@@ -17,8 +17,8 @@ Study Forrest
      eye-tracking data, and extensive annotations overlaying the movie *Forrest
      Gump*. Our aim is for it to be high quality, diverse, comprehensive,
      and yet also modular |---| so you can easily acquire only what you need.
-     Check out our "DATA PAGE" to see exactly what kind of data we have to
-     offer.
+     Check out our `Data page <{filename}/pages/resources.rst>`_ to see exactly
+     what kind of data we have to offer.
 
 .. row::
 
