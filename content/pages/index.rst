@@ -12,14 +12,12 @@ Study Forrest
      :width: 8
      :offset: 2
 
-     The Study Forrest dataset aims to be high quality, diverse, comprehensive,
+     Study Forrest is a dataset composing of fMRI scans, EEG recordings,
+     eye-tracking data, and extensive annotations overlaying the movie *Forrest
+     Gump*. Our aim is for it to be high quality, diverse, comprehensive,
      and yet also modular |---| so you can easily acquire only what you need.
-     It contains fMRI scans, EEG recordings, eye-tracking data, extensive
-     annotations overlaying the movie, and more. Check out our "DATA PAGE" to
-     see exactly what kinds of data we have to offer.
-
-     The diversity of the dataset is explicity intended to have significant
-     value for people from many different backgrounds.
+     Check out our "DATA PAGE" to see exactly what kind of data we have to
+     offer.
 
 .. row::
 
@@ -34,13 +32,14 @@ Study Forrest
      :h3:`Neuroscience Researchers`
 
      Rather than study the brain using simplified stimuli, the movie Forrest
-     Gump is used to provide complex sensory input that is reproduceable, yet
-     richly laden with real-life-like content and contexts.
+     Gump is used to provide a complex sensory input that is reproduceable, yet
+     also richly laden with real-life-like content and contexts.
 
      While a dataset like this is interesting and valuable enough in its own
-     right, coupling it with both eye-tracking data and an ever-expanding set of
-     movie annotations provides an oppourtunity to delve into and understand the
-     contexts delivered by such a complex stimulus.
+     right, it is coupled with both eye-tracking data and an ever-expanding set
+     of movie annotations. This provides, we believe, a unique oppourtunity to
+     delve into and understand the actual contexts delivered by such a complex
+     stimulus.
 
      Provide some Neurosciency Jargon. Too much 3T - 7T to handle with all that
      EEG that's goin' on. Perhaps appended to/after the first paragraph.
@@ -54,13 +53,14 @@ Study Forrest
 
      :h3:`Scientific Developers`
 
-     We feel Study Forrest has the potential to become the reference dataset of
-     choice. Its modular nature allows it to be easily adopted by many different
-     tools, and its diversity allows it to grow along with tools even as they
-     develop cross-modal features.
+     We feel that Study Forrest has the potential to become the reference
+     dataset of choice. Its modular nature allows it to be easily adopted by
+     many different tools, and its diversity allows it to grow along with tools
+     as they improve and evolve |---| even across acquisition methods.
 
-     There's nothing like having a publicly available, real-world dataset to
-     test a new algorithm against.
+     Benchmarking new algorithms or comparing implementations across projects
+     becomes much easier |---| and more meaningful |---| with a real-world
+     reference dataset to test against.
 
      How about integrating a real-world dataset into your CI infrastructure to
      catch regressions, performance and otherwise, before they're released?
@@ -75,7 +75,7 @@ Study Forrest
 
      :h3:`Everyone — and You`
 
-     We are interested in everything that we don't even know we should be asking
+     We are interested in everything that we don't know we even should be asking
      for. Humanity's interests are limitless and stretch for beyond the bounds
      of Neuroscience and scientific tooling. We hope and believe that the Study
      Forrest dataset has real value in fields beyond our own. And we are excited
