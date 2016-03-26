@@ -156,19 +156,42 @@ License:
 ----
 
 Files:
-  pics/carus_jennyboat.jpg
+  img/beaker.svg
 Copyright:
-  2009, David R. Tribble
+  Edward Boatman
 License:
-  `Creative Commons Attribution-Share Alike 3.0 Unported`_
+  `Attribution 3.0 United States`_
 
-.. _Creative Commons Attribution-Share Alike 3.0 Unported: https://creativecommons.org/licenses/by-sa/3.0/
+.. _Attribution 3.0 United States: https://creativecommons.org/licenses/by/3.0/us/
+.. _Edward Boatman: https://thenounproject.com/edward
 
 ----
 
 Files:
-  pics/carus_7T_CBBS_Image_DMahler.jpg
+  img/brain.svg
 Copyright:
-  Center for Behavioral Brain Sciences, OvGU Magdeburg, Photo: Dirk Mahler
+  `Arjun Adamson`_
+License:
+  `Attribution 3.0 United States`_
+
+.. _Arjun Adamson: https://thenounproject.com/arjunadamson
+
+----
+
+Files:
+  img/run_forrest_web.jpg
+Copyright:
+  1994, Paramount Pictures Corporation
 License:
   All Rights Reserved
+
+----
+
+Files:
+  img/world.svg
+Copyright:
+  Iacopo Neri
+License:
+  `Attribution 3.0 United States`_
+
+.. _Iacopo Neri: https://thenounproject.com/iacopo3

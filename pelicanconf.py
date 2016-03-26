@@ -20,7 +20,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['better_tables', 'bootstrap-rst', 'pelican_javascript', 'tipue_search',]
 
 THEME = 'pelican-theme'
-DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search'] # unset all templates; use these
+DIRECT_TEMPLATES = ['categories', 'authors', 'archives', 'search'] # unset all templates; use these
 
 #
 # Disable when developing

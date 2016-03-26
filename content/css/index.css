@@ -1,0 +1,32 @@
+#header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(/theme/img/run_forrest_web.jpg);
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  min-height: 60vh;
+}
+#header h2 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  max-width: 60%;
+  text-align: center;
+  text-shadow: 0px 0px 25px #000;
+}
+@media(max-width:767px){ #header h2 { font-size: 1.5em; } }
+@media(max-width:992px){ #header h2 { max-width: 90%; } }
+
+main {
+  text-align: center;
+}
+main h2 {
+  font-size: 3em;
+}
+main svg {
+  max-height: 10rem;
+}
