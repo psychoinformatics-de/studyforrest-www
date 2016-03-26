@@ -1,6 +1,7 @@
 Copyright
 #########
 :save_as: copyright.html
+:url: copyright.html
 
 This page loosely follows `Debian's copyright file syntax`_.
 

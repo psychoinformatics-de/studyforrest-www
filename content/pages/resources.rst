@@ -1,6 +1,7 @@
 Resources
 *********
 :save_as: data.html
+:url: data.html
 
 Data records
 ============

@@ -1,6 +1,7 @@
 How to Get Data
 ***************
 :save_as: access.html
+:url: access.html
 
 The released data are hosted at multiple locations, including `openfmri.org
 <http://www.openfmri.org>`_. Due to its permissive license, it is easy to add
