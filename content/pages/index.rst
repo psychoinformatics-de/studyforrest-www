@@ -74,7 +74,7 @@ Study Forrest
      .. raw:: html
         :file: ../img/world.svg
 
-     :h3:`Everyone — and You`
+     :h3:`Everyone |---|&nbsp;and&nbsp;You`
 
      We are interested in everything that we don't know we even should be asking
      for. Humanity's interests are limitless and stretch for beyond the bounds
