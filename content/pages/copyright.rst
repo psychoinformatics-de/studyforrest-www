@@ -90,7 +90,7 @@ License:
 ----
 
 Files:
-  theme/fonts/opensans\*
+  theme/fonts/open-sans\*
 Copyright:
   Steve Matteson
 License:
