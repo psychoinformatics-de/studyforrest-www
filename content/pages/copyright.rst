@@ -101,6 +101,15 @@ License:
 ----
 
 Files:
+  theme/fonts/raleway\*
+Copyright:
+  Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida
+License:
+  `SIL OFL 1.1`_
+
+----
+
+Files:
   js/\*, css\*
 Copyright:
   2014-2016, Michael Hanke and Alex Waite

@@ -55,6 +55,10 @@ body {
   padding-top: 70px;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', serif;
+}
+
 main {
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
   flex: 1;
