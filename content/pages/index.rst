@@ -16,7 +16,7 @@ Study Forrest
      Study Forrest is an ever-expanding dataset composed of fMRI scans, EEG
      recordings, eye-tracking data, and extensive annotations overlaying the
      movie *Forrest Gump*. Our aim is high quality, diversity, and
-     comprehensiveness |---| while also maintaining modularity, so you can
+     comprehensiveness — while also maintaining modularity, so you can
      easily and efficiently acquire the subset of data you need. Explore our
      `Data Page <{filename}/pages/resources.rst>`_ to take a closer look at
      exactly what kinds of data we have to offer.
@@ -75,7 +75,7 @@ Study Forrest
      .. raw:: html
         :file: ../img/world.svg
 
-     :h3:`Everyone &mdash;&nbsp;and&nbsp;You`
+     :h3:`Everyone —&nbsp;and&nbsp;You`
 
      We are interested in everything that we don't know we even should be asking
      for. Humanity's interests are limitless and stretch for beyond the bounds
