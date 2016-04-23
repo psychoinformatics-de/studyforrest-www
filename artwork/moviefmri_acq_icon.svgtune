@@ -1,0 +1,21 @@
+# Load the file we should use
+%file moviefmri_acq_icon.svg
+
+# Disable ALL layers
+layers style=display:none
+
+layer label=head style=display:inline
+layer label=physio style=display:inline
+layer label=ao_cogproc style=display:inline
+layer label=auditory_stim style=display:inline
+layer label=highres_fmri style=display:inline
+%save ao_hrfmri
+
+
+layer label=highres_fmri style=display:none
+layer label=ao_cogproc style=display:none
+layer label=av_cogproc style=display:inline
+layer label=lowres_fmri style=display:inline
+layer label=video_stim style=display:inline
+layer label=eyetracking style=display:inline
+%save av_lrfmri_eyegaze
