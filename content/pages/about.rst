@@ -45,7 +45,8 @@ About this Project
      federated 'data distribution'*, also co-funded by BMBF (01GQ1411) and NSF
      (1129855).
 
-     The German federal state of Saxony-Anhalt, Project: `Center for Behavioral
+     The German federal state of Saxony-Anhalt and the European Regional
+     Development Fund (ERDF), Project: `Center for Behavioral
      Brain Sciences`_ provided data acquisition hardware and personnel.
 
      The Otto-von-Guericke-University_, Magdeburg, Germany.
