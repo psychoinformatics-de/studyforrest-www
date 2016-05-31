@@ -3,7 +3,7 @@ How to Get Data
 :save_as: access.html
 :url: access.html
 
-The released data are hosted at multiple locations, including `openfmri.org
+The released data are hosted at multiple locations, including `OpenfMRI
 <http://www.openfmri.org>`_. Due to its permissive license, it is easy to add
 additional hosting locations or alternative access methods. All known data
 resources are listed below. Please contact `info@studyforrest.org
@@ -78,7 +78,7 @@ missing information.
      tarballs varies from a few hundred kilobytes to almost a hundred gigabytes.
      A README file detailing the tarball content and checksums is available.
 
-     .. button:: Visit openfmri.org
+     .. button:: Visit OpenfMRI
         :class: success
         :target: http://openfmri.org/dataset/ds000113
 
@@ -99,7 +99,7 @@ missing information.
      through OpenfMRI's `XNAT server <http://xnat.org>`_. XNAT supports single,
      and multiple file downloads, as well as complex metadata-based queries.
 
-     .. button:: Access openfmri.org's XNAT
+     .. button:: Access OpenfMRI's XNAT
         :class: success
         :target: http://xnat.openfmri.org/xnat-openfmri/app/template/Index.vm
 
