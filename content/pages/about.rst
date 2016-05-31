@@ -42,7 +42,7 @@ About this Project
      grant awarded to `Halchenko
      <http://haxbylab.dartmouth.edu/ppl/yarik.html>`_ and Hanke: *DataLad:
      Converging catalogues, warehouses, and deployment logistics into a
-     federated 'datadistribution'*, also co-funded by BMBF (01GQ1411) and NSF
+     federated 'data distribution'*, also co-funded by BMBF (01GQ1411) and NSF
      (1129855).
 
      The German federal state of Saxony-Anhalt, Project: `Center for Behavioral
