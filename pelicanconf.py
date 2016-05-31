@@ -26,8 +26,6 @@ DIRECT_TEMPLATES = ['categories', 'authors', 'archives', 'search'] # unset all t
 # Disable when developing
 #
 FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
 
 #
 # Configure the site
