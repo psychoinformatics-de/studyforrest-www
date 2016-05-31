@@ -16,7 +16,7 @@ SSH_USER=root
 SSH_TARGET_DIR=/var/www/studyforrest/www
 RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts
 
-VER_JQUERY=2.2.1
+VER_JQUERY=2.2.4
 VER_BOOTSTRAP=3.3.6
 VER_FONTAWESOME=4.6.3
 VER_DYGRAPH=1.1.1
@@ -117,7 +117,7 @@ content/js/xtk.js:
 	curl -L -o $@ http://get.goxtk.com/xtk.js
 
 pelican-theme/static/js/jquery.min.js:
-	curl -L -o $@ http://code.jquery.com/jquery-2.2.1.min.js
+	curl -L -o $@ http://code.jquery.com/jquery-$(VER_JQUERY).min.js
 
 bootstrap:
 	curl -L -o $(TMPDIR)/bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
@@ -212,4 +212,4 @@ $(DATADIR)/wm_streamlines.trk:
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
 
-.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data
+.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data pelican-theme/static/js/jquery.min.js
