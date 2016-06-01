@@ -96,7 +96,7 @@ methods are supported.
      #. Download (selected) data files |---| repeat as necessary. Example: All
         BOLD time series for the movie acquisition::
 
-          git annex get sub*/ses-movie/func/*bolld.nii.gz
+          git annex get sub*/ses-movie/func/*bold.nii.gz
 
 
   .. column::
