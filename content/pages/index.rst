@@ -102,6 +102,31 @@ studyforrest
      :width: 8
      :offset: 2
 
-     "Stuff". ;-)
+       "[...] magnetic resonance advection imaging might have future potential to
+       contribute to the modeling of the cerebrovascular system and to serve as a
+       biomarker for cerebrovascular disease."
+
+       |---| `Voss et al., Journal of Cerebral Blood Flow & Metabolism, 2016
+       <http://dx.doi.org/10.1177/0271678X16651449>`_
+
+     ..
+
+       "Our study for the first time demonstrates the insular hierarchy for
+       interoceptive processing during natural emotional experience"
+
+       |---| `Nguyen et al., NeuroImage, 2015
+       <http://dx.doi.org/10.1016/j.neuroimage.2015.08.078>`_
+
+     ..
+
+       "This also opens the door for the identification of shared and
+       individual [brain] responses [...] to assess the degree to which
+       functional topography is shared across subjects. We posit that this
+       technique can be adapted to examine an array of situations where group
+       differences are the key experimental variable."
+
+       |---| `Chen et al, NIPS, 2015
+       <http://papers.nips.cc/paper/5855-a-reduced-dimension-fmri-shared-response-model.pdf>`_
 
 .. |---| unicode:: U+02014 .. em dash
+
