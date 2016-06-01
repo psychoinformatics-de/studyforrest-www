@@ -16,9 +16,9 @@ SSH_USER=root
 SSH_TARGET_DIR=/var/www/studyforrest/www
 RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts
 
-VER_JQUERY=2.2.1
+VER_JQUERY=2.2.4
 VER_BOOTSTRAP=3.3.6
-VER_FONTAWESOME=4.5.0
+VER_FONTAWESOME=4.6.3
 VER_DYGRAPH=1.1.1
 
 DEBUG ?= 0
@@ -117,7 +117,7 @@ content/js/xtk.js:
 	curl -L -o $@ http://get.goxtk.com/xtk.js
 
 pelican-theme/static/js/jquery.min.js:
-	curl -L -o $@ http://code.jquery.com/jquery-2.2.1.min.js
+	curl -L -o $@ http://code.jquery.com/jquery-$(VER_JQUERY).min.js
 
 bootstrap:
 	curl -L -o $(TMPDIR)/bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
@@ -125,9 +125,9 @@ bootstrap:
 	unzip -j $(TMPDIR)/bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
 
 fontawesome:
-	curl -L -o $(TMPDIR)/fa.zip https://fortawesome.github.io/Font-Awesome/assets/font-awesome-$(VER_FONTAWESOME).zip
-	unzip -j $(TMPDIR)/fa.zip font-awesome-*/css/*.min.css -d pelican-theme/static/css/
-	unzip -j $(TMPDIR)/fa.zip font-awesome-*/fonts/*webfont* -d pelican-theme/static/fonts/
+	curl -L -o $(TMPDIR)/fa.zip https://github.com/FortAwesome/Font-Awesome/archive/v$(VER_FONTAWESOME).zip
+	unzip -j $(TMPDIR)/fa.zip Font-Awesome-$(VER_FONTAWESOME)/css/font-awesome.min.css -d pelican-theme/static/css/
+	unzip -j $(TMPDIR)/fa.zip Font-Awesome-$(VER_FONTAWESOME)/fonts/*webfont* -d pelican-theme/static/fonts/
 
 tipue:
 	curl -L -o $(TMPDIR)/ts.zip http://www.tipue.com/search/tipuesearch.zip
@@ -212,4 +212,4 @@ $(DATADIR)/wm_streamlines.trk:
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
 
-.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data
+.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data pelican-theme/static/js/jquery.min.js
