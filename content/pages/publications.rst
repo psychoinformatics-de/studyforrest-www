@@ -31,56 +31,47 @@ Publications
      - Authors
      - Publication
      - Year
-     - Provides
-     - Uses
+     - Type
    * - `Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience`_
      - Xintao Hu, Lei Guo, Junwei Han, Tianming Liu
      - Brain Imaging and Behavior
      - 2016
-     -
-     -
+     - Study
    * - `A Reduced-Dimension fMRI Shared Response Model`_
      - Po-Hsuan (Cameron) Chen, Janice Chen, Yaara Yeshurun, Uri Hasson, James Haxby, Peter J. Ramadge
      - Advances in Neural Information Processing Systems
      - 2015
-     -
-     -
+     - Benchmark
    * - `The integration of the internal and external milieu in the insula during dynamic emotional experiences`_
      - Vinh Thai Nguyen, Michael Breakspear, Xintao Hu, Christine Cong Guo
      - NeuroImage
      - 2015
-     -
-     -
+     - Study
    * - `High-resolution 7-Tesla fMRI data on the perception of musical genres`_
      - Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli, Michael Casey, Falko R. Kaule, Jörg Stadler
      - F1000Research
      - 2015
-     -
-     -
+     - Data
    * - `Portrayed emotions in the movie "Forrest Gump"`_
      - Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen, Mareike Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann, Sebastian Keil, Malú Perlow, Anne Katrin Peukmann, Lea Noell Rabe, Franca-Rosa von Sobbe, Michael Hanke
      - F1000Research
      - 2015
-     -
-     -
+     - Data
    * - FuSeISC: Functional Segmentation of Brain fMRI during naturalistic stimulus based on Inter-Subject Correlation
      - Juha Pajula, Jussi Tohka, Jukka-Pekka Kauppi
      - studyforrest.org
      - 2014
-     -
-     -
+     - Study
    * - Identifying task-related activity using periodic graph properties
      - Lars Marstaller, Jeiran Choupan, Arend Hintze
      - studyforrest.org
      - 2014
-     -
-     -
+     - Study
    * - `A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie`_
      - Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule, Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
      - Scientific Data
      - 2014
-     -
-     -
+     - Data
 
 .. _Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience: http://dx.doi.org/10.1007/s11682-016-9515-8
 .. _A Reduced-Dimension fMRI Shared Response Model: http://papers.nips.cc/paper/5855-a-reduced-dimension-fmri-shared-response-model.pdf
