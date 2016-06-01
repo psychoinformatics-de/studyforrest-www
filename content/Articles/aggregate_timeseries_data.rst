@@ -72,7 +72,7 @@ investment will pay off.
 
 Here is a quick demo of what kind of data analysis is now easily possible with
 `a few lines of Python code
-<https://raw.githubusercontent.com/hanke/studyforrest/master/tools/sliding_connectome.py>`_
+<https://raw.githubusercontent.com/psychoinformatics-de/studyforrest-www/master/tools/sliding_connectome.py>`_
 after downloading a few megabytes of data (in contrast to dozens of gigabytes).
 The interactive demo below uses the powerful D3 javascript library to render a
 chord plot that shows the correlation of fMRI signal time series for selected
