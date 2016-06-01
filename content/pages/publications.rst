@@ -4,6 +4,25 @@ Publications
 :url: publications.html
 :JavaScripts: jquery.tablesorter.min.js, publications.js
 
+.. raw:: html
+
+   <div class="row">
+     <div class="col-md-4 col-md-offset-8">
+       <form action='javascript:void(0)'
+             onsubmit='filterForm($("#filter_field").val());'>
+         <div class="input-group">
+           <input id='filter_field' type="text" class="form-control"
+                  placeholder="Filter table for..." aria-label="Filter table for..." >
+           <span class="input-group-btn">
+             <button id='filter_button' class="btn btn-default" type="submit">
+               <span class="fa fa-table"></span>
+             </button>
+           </span>
+         </div><!-- /input-group -->
+     </div><!-- /.col-lg-6 -->
+   </div><!-- /.row -->
+
+
 .. list-table::
    :class: table-striped tablesorter
    :header-rows: 1
