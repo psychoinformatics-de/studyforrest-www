@@ -23,11 +23,11 @@ studyforrest
      which provides complex sensory input that is both reproducible and is also
      richly laden with real-life-like content and contexts.
 
-     Over the last few years, the *studyforrest* dataset has grown significantly,
-     and it now encompasses fMRI scans, EEG recordings, eye-tracking data, and
-     extensive annotations overlaying the movie. Explore our `Data Page
-     <{filename}/pages/resources.rst>`_ to more closely examine the data we have
-     available.
+     Over the last few years, the *studyforrest* dataset has grown
+     significantly, and it now encompasses many hours of fMRI scans, structural
+     brain scans, eye-tracking data, and extensive annotations of the movie.
+     Explore our `Data Page <{filename}/pages/resources.rst>`_ to more closely
+     examine the data we have available.
 
 .. row::
 
@@ -41,8 +41,15 @@ studyforrest
 
      :h3:`Neuroscience Researchers`
 
-     Provide some Neurosciency Jargon. Too much 3T and 7T to handle with all
-     the EEG that's goin' on up in their eyeballs.
+     This is a one-of-a-kind resource for studying high-level cognition in the
+     human brain under complex, natural stimulation. However, the versatility
+     of the provided data, for some individuals almost ten hours of fMRI data
+     alone, enables studies far beyond this main focus. This covers a vast
+     range from studies of low-level signal properties and brain structure,
+     over sensory integration and attentional processes, to computational
+     modeling of representational spaces and brain area interactions. Take a
+     look the `Publications Page <{filename}/pages/publications.rst>`_ to get
+     inspired.
 
 
   .. column::
@@ -53,16 +60,17 @@ studyforrest
 
      :h3:`Scientific Developers`
 
-     We feel that *studyforrest* has the potential to become *the* reference
-     dataset in Neuroscience. It's a comprehensive, modular, multi-modal,
-     real-world dataset, making it an ideal choice when benchmarking
-     algorithms or comparing implementations across projects.
+     The *studyforrest* project provides ideal reference datasets for brain
+     imaging. It's a comprehensive, modular, multi-modal, real-world
+     dataset, making it an optimal choice when benchmarking algorithms or
+     comparing implementations across projects.
 
      Liberally licensed (`PDDL
      <http://opendatacommons.org/licenses/pddl/1.0/>`_) and hosted across many
      `different services <{filename}/pages/access.rst>`_ (S3, rsync, OpenfMRI,
-     etc), the *studyforrest* dataset is easily accessible and is ready to be
-     integrated into your CI infrastructure.
+     etc) with fine-grained access options, the *studyforrest* dataset is
+     easily accessible and is ready to be integrated into your CI
+     infrastructure.
 
 
   .. column::
@@ -73,17 +81,18 @@ studyforrest
 
      :h3:`Everyone —&nbsp;and&nbsp;You`
 
-     Cinematographers,
+     Not keen on brain research? This project still has something to offer to
+     you! For example, our ongoing effort to analyze the structure of the
+     "Forrest Gump" movie and to annotate its properties continously enables
+     additional topics that can be explored. Do breathing and heart rate
+     reflect more than just the emotional content of the movie? Why does
+     everybody look at the same spot in some movie scenes, but others show no
+     similarity at all? Does it make a difference to watch a movie sitting up,
+     or while lying on your back?
 
      What we're most interested in, we admit, is that which we cannot
-     anticipate.
-
-     We admit, there's a limit to our imaginations, and that's a good thing.
-     Whether you're working in Hollywood and you're interested in eye-tracking
-     data through a feature-length film,
-
-     Most of all, we're interesting in what applications and ideas you have
-     that we aren't even aware of |---| yet.
+     anticipate. So please, invent applications and explore ideas *you* have
+     that we aren't even aware of |---| yet.... and do tell us about them!
 
 .. row::
 
