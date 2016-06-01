@@ -3,18 +3,8 @@ Resources
 :save_as: data.html
 :url: data.html
 
-At this point, data from 20 human participants is publicly
-available.  For each participant a number of different scans and auxiliary
-recordings have been obtained. In addition, several types of minimally
-preprocessed data are also provided. The total size of all data is several
-hundred gigabytes. This page provides an overview of the dataset in order
-to aid a researcher's selection of sub-components. The full description
-of the data releases are available in dedicated publications.
-
-Note that this dataset is continuously maintained and additions or bug fixes are
-made public as soon as they become available. There is a `revision log
-<http://psydata.ovgu.de/forrest_gump/release_history.txt>`_ that lists all
-significant updates. Data mirrors may not always provide the latest revision.
+Behavior and brain function
+---------------------------
 
 .. raw:: html
 
@@ -39,17 +29,46 @@ significant updates. Data mirrors may not always provide the latest revision.
       </div>
       </a>
     </div>
+  </div>
+  <div class="row">
     <div class="col-sm-4">
-      <a class="iconlink" href="mod_annot.html">
+      <!--<a class="iconlink" class="disabled" href="">-->
       <div class="thumbnail">
-        <img src="/pics/annotations_thumb.png" class="img-responsive" alt="Annotation icon">
+        <img src="/pics/eyemove_thumb.jpg" class="img-responsive" alt="Eyemovement icon" style="opacity:.5">
         <div class="caption">
-          <h5>Annotations &amp; surveys</h5>
+          <h5>Eye movements</h5>
         </div>
       </div>
-      </a>
+      <!--</a>-->
+    </div>
+    <div class="col-sm-4">
+      <!-- <a class="iconlink" href=""> -->
+      <div class="thumbnail">
+        <img src="/pics/eeg_thumb.jpg" class="img-responsive" alt="EEG topography icon" style="opacity:.5">
+        <div class="caption">
+          <h5>EEG</h5>
+        </div>
+      </div>
+      <!--</a>-->
+    </div>
+    <div class="col-sm-4">
+      <!-- <a class="iconlink" href=""> -->
+      <div class="thumbnail">
+        <img src="/pics/eegfmri_thumb.jpg" class="img-responsive" alt="EEG/FMRI icon" style="opacity:.5">
+        <div class="caption">
+          <h5>Simultaneous EEG/FMRI</h5>
+        </div>
+      </div>
+      <!--</a>-->
     </div>
   </div>
+
+
+Brain structure
+---------------
+
+.. raw:: html
+
   <div class="row">
     <div class="col-sm-4">
       <a class="iconlink" href="mod_t1w.html">
@@ -112,35 +131,22 @@ significant updates. Data mirrors may not always provide the latest revision.
       </a>
     </div>
   </div>
+
+
+Movie stimulus annotations
+--------------------------
+
+.. raw:: html
+
   <div class="row">
     <div class="col-sm-4">
-      <!--<a class="iconlink" class="disabled" href="">-->
+      <a class="iconlink" href="mod_annot.html">
       <div class="thumbnail">
-        <img src="/pics/eyemove_thumb.jpg" class="img-responsive" alt="Eyemovement icon" style="opacity:.5">
+        <img src="/pics/annotations_thumb.png" class="img-responsive" alt="Annotation icon">
         <div class="caption">
-          <h5>Eye movements</h5>
+          <h5>Annotations &amp; surveys</h5>
         </div>
       </div>
-      <!--</a>-->
-    </div>
-    <div class="col-sm-4">
-      <!-- <a class="iconlink" href=""> -->
-      <div class="thumbnail">
-        <img src="/pics/eeg_thumb.jpg" class="img-responsive" alt="EEG topography icon" style="opacity:.5">
-        <div class="caption">
-          <h5>EEG</h5>
-        </div>
-      </div>
-      <!--</a>-->
-    </div>
-    <div class="col-sm-4">
-      <!-- <a class="iconlink" href=""> -->
-      <div class="thumbnail">
-        <img src="/pics/eegfmri_thumb.jpg" class="img-responsive" alt="EEG/FMRI icon" style="opacity:.5">
-        <div class="caption">
-          <h5>Simultaneous EEG/FMRI</h5>
-        </div>
-      </div>
-      <!--</a>-->
+      </a>
     </div>
   </div>
