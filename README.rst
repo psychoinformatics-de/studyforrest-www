@@ -1,15 +1,15 @@
 Sources for studyforrest.org
 ============================
 
-This repository should contain everything to build a clone of the
-website running at http://www.studyforrest.org
+This contains everything needed to build the website running at
+http://www.studyforrest.org
 
-See the Makefile for information on dependencies. In short:
+The site is generated with Pelican and is built primarily using Bootstrap,
+jQuery, Tipue Search, and FontAwesome.
 
-* Bootstrap
-* JQuery
-* dygraphs
-* papaya viewer
-* XTK
+Some pages, to provide a more rich experience, use additional frameworks such
+as D3.js, dygraphs, xtk.js, and Papaya.
 
-Dipy, FSL, and Nibabel are needed to produce the data demos on the site.
+Additional data files are needed for the demo pages --- and Dipy, FSL, and
+Nibabel are needed to process them. See ``make data``.
+
