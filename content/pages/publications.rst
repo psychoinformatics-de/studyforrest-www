@@ -2,7 +2,7 @@ Publications
 ************
 :save_as: publications.html
 :url: publications.html
-:JavaScripts: jquery.tablesorter.min.js, publications.js
+:JavaScripts: stupidtable.js, publications.js
 
 .. raw:: html
 

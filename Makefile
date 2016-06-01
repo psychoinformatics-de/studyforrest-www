@@ -116,6 +116,9 @@ content/js/dygraph-combined.js:
 content/js/xtk.js:
 	curl -L -o $@ http://get.goxtk.com/xtk.js
 
+content/js/stupidtable.js:
+	curl -L -o $@ https://raw.githubusercontent.com/joequery/Stupid-Table-Plugin/master/stupidtable.min.js
+
 pelican-theme/static/js/jquery.min.js:
 	curl -L -o $@ http://code.jquery.com/jquery-$(VER_JQUERY).min.js
 
@@ -212,4 +215,4 @@ $(DATADIR)/wm_streamlines.trk:
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
 
-.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data pelican-theme/static/js/jquery.min.js
+.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data pelican-theme/static/js/jquery.min.js content/js/stupidtable.js

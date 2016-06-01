@@ -39,8 +39,33 @@ function filterTable(term) {
 
 
 $(document).ready(function() {
-  $("table").tablesorter();
+  // Table sorting
 
+  // annoyingly, injecting these data-sort attributes is more sane here rather
+  // than the horrors of getting pelican/rst to generate them
+  $("tr > th").each(function() {
+    switch ($(this).text()) {
+      case "Year":
+        $(this).attr('data-sort', 'int');
+        break;
+      default:
+        $(this).attr('data-sort', 'string-ins');
+        break;
+    }
+  });
+
+  var table = $('table').stupidtable();
+
+  table.on("aftertablesort", function (event, data) {
+    var th = $(this).find("th");
+    th.find(".fa").remove();
+    var dir = $.fn.stupidtable.dir;
+    var arrow = data.direction === dir.ASC ? 'fa-arrow-up' : 'fa-arrow-down';
+    th.eq(data.column).prepend('<i class="fa ' + arrow + '" aria-hidden="true"></i> ');
+  });
+
+
+  // table filtering
   var term = getURLParam('filter');
 
   $('#filter_field').val(term); // populate filter input box
