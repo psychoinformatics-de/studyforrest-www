@@ -3,105 +3,100 @@ How to Get Data
 :save_as: access.html
 :url: access.html
 
-The released data are hosted at multiple locations, including `OpenfMRI
-<http://www.openfmri.org>`_. Due to its permissive license, it is easy to add
-additional hosting locations or alternative access methods. All known data
-resources are listed below. Please contact `info@studyforrest.org
-<mailto:info@studyforrest.org?subject=studyforrest.org>`_ regarding outdated or
-missing information.
+The released data are hosted at multiple locations, and multiple data access
+methods are supported.
 
 .. row::
 
   .. column::
      :width: 8
 
-     :h2:`HTTP`
+     :h2:`Browse`
 
-     Fully extracted dataset for HTTP-based, single-file access with tools like
-     :code:`wget`, :code:`curl`, or any web browser.
+     All data files are directly accessible via any web-browser. This type
+     of access is best for a first look at the data, and for downloading
+     less than *a lot of files*.
 
-     .. button:: Browse Dataset
+     .. button:: Browse Datasets
         :class: success
-        :target: http://psydata.ovgu.de/forrest_gump/
+        :target: http://psydata.ovgu.de/studyforrest/
 
+     :h2:`Download`
 
-     :h2:`rsync`
+     The simplest way to dowload complete data releases is to obtain data
+     archives (tarballs) from `OpenFMRI <http://www.openfmri.org>`_. At
+     present OpenFMRI hosts the following datasets:
 
-     rsync-daemon with flexible support for single-file and directory-based
-     access, and efficient, repeated synchronization.  Note, the entire dataset
-     is over *350 GB*. Browse the dataset to determine relevant subsets for
-     synchronization, and consult the rsync documentation for details.
+     * `A high-resolution 7-Tesla fMRI dataset from complex natural stimulation
+       with an audio movie <https://openfmri.org/dataset/ds000113>`_
+
+     * `High-resolution 7-Tesla fMRI data on the perception of musical
+       genres <https://openfmri.org/dataset/ds000113b>`_
+
+     * `Multi-resolution 7T fMRI data on the representation of visual
+       orientation <https://openfmri.org/dataset/ds000113c>`_
+
+     * `Simultaneous fMRI/eyetracking while movie watching, plus visual
+       localizers <https://openfmri.org/dataset/ds000113d>`_
+
+     For details on these datasets and further instructions visit the
+     respective pages on OpenFMRI.org.
+
+     For users requiring more flexibility rsync-based data access is provided,
+     too. Available datasets can be listed via:
 
      .. code:: sh
 
-         rsync -aL psydata.ovgu.de::forrest_gump dest
+         rsync psydata.ovgu.de::studyforrest
 
-     .. button:: Learn About rsync
-        :class: success
-        :target: http://rsync.samba.org
+     When using rsync to obtain a dataset, it is recommended to use the
+     ``-L/--copy-links`` and the ``-a/--archive`` flags, for example:
+
+     .. code:: sh
+
+         rsync -aL psydata.ovgu.de::studyforrest/phase2 dest
 
 
-     :h2:`git-annex`
+     :h2:`Cloud access`
 
-     Highly flexible data access with built-in versioning. Use this to track the
-     complete evolution of this dataset and easily obtain any future updates.
+     While users running cloud-based analysis can also use any of the methods
+     above, please note that all datasets are also available on Amazon's S3
+     cloud storage. This should be the preferred data source if you are working
+     in their cloud (e.g. with `NITRC-CE
+     <http://www.nitrc.org/plugins/mwiki/index.php/nitrc:User_Guide_-_NITRC_Computational_Environment>`_).
+     The bucket names follow the following pattern::
+     
+
+         s3://openfmri/ds113
+
+     :h2:`Geek mode`
+
+     If you consider all of the above mediocre, this one may be for you.
+     `git-annex <http://git-annex.branchable.com>`_ offers highly flexible data
+     access with built-in versioning and enables tracking the
+     complete evolution of these datasets and obtaining any future updates.
      This access method allows for complete meta-data access in combination with
      full or partial data download. Additional data portions can be obtained at
      any point in the future. Previous versions of data files are accessible
      also.
 
+     All `data repositories
+     <https://github.com/psychoinformatics-de?query=studyforrest-data>`_ for
+     the method are publicly available on GitHub (no account required).
+
      #. Obtain meta-data repository::
 
-          git clone http://psydata.ovgu.de/forrest_gump/.git studyforrest
+          git clone https://github.com/psychoinformatics-de/studyforrest-data-phase2.git phase2
 
-     #. Enter data repository::
+     #. Enter directory and initialize::
 
-          cd studyforrest
+          cd phase2
+          git annex init
 
-     #. Download (selected) data files |---| repeat as necessary. Example: ROI
-        time series in CSV format for all subjects and all runs)::
+     #. Download (selected) data files |---| repeat as necessary. Example: All
+        BOLD time series for the movie acquisition::
 
-          git annex get sub*/BOLD/task001_run*/*timeseries*.csv.gz
-
-     .. button:: Learn About git
-        :class: success
-        :target: http://git-scm.com
-
-     .. button:: Learn About git-annex
-        :class: success
-        :target: https://git-annex.branchable.com
-
-
-     :h2:`Tarballs`
-
-     Individual tarballs for all available data modalities. The size of the
-     tarballs varies from a few hundred kilobytes to almost a hundred gigabytes.
-     A README file detailing the tarball content and checksums is available.
-
-     .. button:: Visit OpenfMRI
-        :class: success
-        :target: http://openfmri.org/dataset/ds000113
-
-
-     :h2:`S3`
-
-     Thanks to OpenfMRI, the entire dataset is also available on Amazon's S3
-     cloud storage. This should be the preferred data source if you are working
-     in their cloud (e.g. with `NITRC-CE
-     <http://www.nitrc.org/plugins/mwiki/index.php/nitrc:User_Guide_-_NITRC_Computational_Environment>`_).::
-
-         s3://openfmri/ds113
-
-
-     :h2:`XNAT`
-
-     A subset of the dataset (fMRI, T1-weighted anatomical images) is available
-     through OpenfMRI's `XNAT server <http://xnat.org>`_. XNAT supports single,
-     and multiple file downloads, as well as complex metadata-based queries.
-
-     .. button:: Access OpenfMRI's XNAT
-        :class: success
-        :target: http://xnat.openfmri.org/xnat-openfmri/app/template/Index.vm
+          git annex get sub*/ses-movie/func/*bolld.nii.gz
 
 
   .. column::
@@ -115,7 +110,7 @@ missing information.
      Offering these data for download or through other means is encouraged; we
      only ask that you add a reference to this website. In order to provide a
      comprehensive overview of entities hosting these data, or any derived data
-     artifacts, please let us know at `info@studyforrest.org`_ what kind of data
+     artifacts, please let us know at info@studyforrest.org_ what kind of data
      access you are offering.
 
 
