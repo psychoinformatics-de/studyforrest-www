@@ -20,7 +20,7 @@ on the basic ISC analysis provided by our openly available ISC toolbox and
 couples this with a novel clustering algorithm to allow the detection of brain
 areas that have similar ISC properties.
 
-We analyzed a subset of data derived from a StudyForrest data set, where
+We analyzed a subset of data derived from a *studyforrest* data set, where
 participants listened to a German audio-description of the movie “Forrest
 Gump”. 5 interesting scenes were selected for the analysis based on their
 publicity in social media. For each scene and each voxel, an average ISC value
@@ -105,7 +105,7 @@ Data
 ----
 
 We analyzed preprocessed fMRI data sets of 19 subjects provided by the
-organization committee of the StudyForrest project and data challenge (Hanke et
+organization committee of the *studyforrest* project and data challenge (Hanke et
 al. 2014). The details of the experiment, data collection and preprocessing are
 also provided in (Hanke et al. 2014). In brief, the participants listened to a
 German audio-description (Koop, Michalski, Beckmann, Meinhardt & Benecke,
@@ -121,10 +121,10 @@ internet survey on online video services such as Youtube and movie discussion
 forums.
 
 The data set for the analysis was defined from the original preprocessed linear
-anatomical alignment set of Study Forrest data. The exact time points used to
+anatomical alignment set of *studyforrest* data. The exact time points used to
 create the five clips are listed in the following table 1:
 
-.. csv-table:: Table 1, Timepoints of used clips in original Study Forrest data.
+.. csv-table:: Table 1, Timepoints of used clips in original *studyforrest* data.
    :header-rows: 1
    :class: table table-condensed table-hover
    :widths: 6, 6, 14, 14, 10, 50
@@ -475,7 +475,7 @@ The method provides an ISC based functional parcellation of the brain based on
 differences in average ISCs and their subject-wise variation across different
 scenes of the movie stimulus, allowing simple and highly interesting
 interpretation of the activation/ISCs. We experimented the method with the
-StudyForrest dataset and identified a coarse functional brain parcellation into
+*studyforrest* dataset and identified a coarse functional brain parcellation into
 seven functionally similar regions. Less coarse parcellations are possible by
 simply decreasing the value of the parameter k controlling the coarseness of
 the clustering.
@@ -494,7 +494,7 @@ Data
 All resulting statistics and clusters are provided in following list.
 
 * `Sum binary mask for ISC analysis. Mask contains voxels which are common to functional data of all subjects <{filename}/data/contest_fuseisc/ISC_binmap.nii.gz>`_
-* `Masked MNI-152 template. Original MNI-152 template from Study Forrest data repository masked with ISC binary mask. <{filename}/data/contest_fuseisc/MNI-152_masked.nii.gz>`_
+* `Masked MNI-152 template. Original MNI-152 template from *studyforrest*t data repository masked with ISC binary mask. <{filename}/data/contest_fuseisc/MNI-152_masked.nii.gz>`_
 * `Full ISC map for Clip 0 <{filename}/data/contest_fuseisc/Clip0_ISCmap_Full.nii.gz>`_
 * `Full ISC map for Clip 1 <{filename}/data/contest_fuseisc/Clip1_ISCmap_Full.nii.gz>`_
 * `Full ISC map for Clip 2 <{filename}/data/contest_fuseisc/Clip2_ISCmap_Full.nii.gz>`_
@@ -517,8 +517,8 @@ after the step descriptions.
 Step 1
 ------
 
-The data is separated from the Study Forrest GIT-annex repository.  Before this
-step, the git-annex meta-data repository for Study Forrest must be cloned and
+The data is separated from the *studyforrest* GIT-annex repository.  Before this
+step, the git-annex meta-data repository for *studyforrest* must be cloned and
 set ready to use. See more instructions from
 http://studyforrest.org/pages/access.html.
 
@@ -527,7 +527,7 @@ separated from the original data. The data is also spatially smoothed with 3mm
 FWHM Gaussian kernel using fslmath. This procedure also generates a brain mask
 for ISC analysis. The brain mask is used to exclude those voxels which were not
 present in every functional data of subjects and it is smaller than the one
-originally provided by StudyForrest data.
+originally provided by *studyforrest* data.
 
 This whole step can be done in Linux environment using ForrestDataGenerator.m_
 script in Matlab (2014a or newer). The script requires that FSL is installed in
@@ -626,7 +626,7 @@ clusters and another from the selected clusters.
 The results can be visualized for example with fslview by using the reduced
 MNI-152 template as a background image. In the clustering results each voxel
 has a single label value corresponding to the cluster number. The results are
-in the same space as the linear alignment data of Study Forrest dataset.
+in the same space as the linear alignment data of *studyforrest* dataset.
 
 Data
 ----

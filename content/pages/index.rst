@@ -1,5 +1,5 @@
-Study Forrest
-*************
+studyforrest
+************
 :template: index
 :save_as: index.html
 :url: index.html
@@ -7,7 +7,7 @@ Study Forrest
 
 .. row::
 
-  :h2:`What Is Study Forrest?`
+  :h2:`What Is studyforrest?`
 
   .. column::
      :width: 8
@@ -23,7 +23,7 @@ Study Forrest
      which provides complex sensory input that is both reproducible and is also
      richly laden with real-life-like content and contexts.
 
-     Over the last few years, the Study Forrest dataset has grown significantly,
+     Over the last few years, the *studyforrest* dataset has grown significantly,
      and it now encompasses fMRI scans, EEG recordings, eye-tracking data, and
      extensive annotations overlaying the movie. Explore our `Data Page
      <{filename}/pages/resources.rst>`_ to more closely examine the data we have
@@ -53,7 +53,7 @@ Study Forrest
 
      :h3:`Scientific Developers`
 
-     We feel that Study Forrest has the potential to become *the* reference
+     We feel that *studyforrest* has the potential to become *the* reference
      dataset in Neuroscience. It's a comprehensive, modular, multi-modal,
      real-world dataset, making it an ideal choice when benchmarking
      algorithms or comparing implementations across projects.
@@ -61,7 +61,7 @@ Study Forrest
      Liberally licensed (`PDDL
      <http://opendatacommons.org/licenses/pddl/1.0/>`_) and hosted across many
      `different services <{filename}/pages/access.rst>`_ (S3, rsync, OpenfMRI,
-     etc), the Study Forrest dataset is easily accessible and is ready to be
+     etc), the *studyforrest* dataset is easily accessible and is ready to be
      integrated into your CI infrastructure.
 
 

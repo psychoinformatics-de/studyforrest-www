@@ -28,7 +28,7 @@ experimental manipulation. The results obtained from such experiments suffer
 from restricted ecological validity and it is questionable to what degree their
 conclusions can be generalized.
 
-Our contribution to the forrest challenge is motivated by the idea that graph
+Our contribution to the *studyforrest* challenge is motivated by the idea that graph
 theoretical properties are able to 'replace' control over the stimulus as the
 set of a priori assumptions necessary for the analysis of task-based functional
 connectivity. Instead of searching for functional networks related to certain
@@ -40,7 +40,7 @@ presumably involved in the task.
 Hypotheses
 ----------
 
-The stimulus used in the creation of the study forrest data is an audio-only
+The stimulus used in the creation of the *studyforrest* data is an audio-only
 version of the movie 'Forrest Gump'. We therefore expect to find activity
 patterns in superior and middle temporal gyri, inferior frontal gyrus, and
 medial temporal lobe related to auditory perception, spoken language
