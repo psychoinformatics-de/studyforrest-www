@@ -32,27 +32,32 @@ Publications
      - Publication
      - Year
      - Type
-   * - `Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience`_
+   * - `Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience
+       <http://dx.doi.org/10.1007/s11682-016-9515-8>`_
      - Xintao Hu, Lei Guo, Junwei Han, Tianming Liu
      - Brain Imaging and Behavior
      - 2016
      - Study
-   * - `A Reduced-Dimension fMRI Shared Response Model`_
+   * - `A Reduced-Dimension fMRI Shared Response Model
+       <http://papers.nips.cc/paper/5855-a-reduced-dimension-fmri-shared-response-model.pdf>`_
      - Po-Hsuan (Cameron) Chen, Janice Chen, Yaara Yeshurun, Uri Hasson, James Haxby, Peter J. Ramadge
      - Advances in Neural Information Processing Systems
      - 2015
      - Benchmark
-   * - `The integration of the internal and external milieu in the insula during dynamic emotional experiences`_
+   * - `The integration of the internal and external milieu in the insula during dynamic emotional experiences
+       <http://dx.doi.org/10.1016/j.neuroimage.2015.08.078>`_
      - Vinh Thai Nguyen, Michael Breakspear, Xintao Hu, Christine Cong Guo
      - NeuroImage
      - 2015
      - Study
-   * - `High-resolution 7-Tesla fMRI data on the perception of musical genres`_
+   * - `High-resolution 7-Tesla fMRI data on the perception of musical genres
+       <http://dx.doi.org/10.12688/f1000research.6679.1>`_
      - Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli, Michael Casey, Falko R. Kaule, Jörg Stadler
      - F1000Research
      - 2015
      - Data
-   * - `Portrayed emotions in the movie "Forrest Gump"`_
+   * - `Portrayed emotions in the movie "Forrest Gump"
+       <http://dx.doi.org/10.12688/f1000research.6230.1>`_
      - Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen, Mareike Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann, Sebastian Keil, Malú Perlow, Anne Katrin Peukmann, Lea Noell Rabe, Franca-Rosa von Sobbe, Michael Hanke
      - F1000Research
      - 2015
@@ -67,19 +72,11 @@ Publications
      - studyforrest.org
      - 2014
      - Study
-   * - `A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie`_
+   * - `A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie
+       <http://www.nature.com/articles/sdata20143>`_
      - Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule, Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
      - Scientific Data
      - 2014
      - Data
-
-.. _Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience: http://dx.doi.org/10.1007/s11682-016-9515-8
-.. _A Reduced-Dimension fMRI Shared Response Model: http://papers.nips.cc/paper/5855-a-reduced-dimension-fmri-shared-response-model.pdf
-.. _The integration of the internal and external milieu in the insula during dynamic emotional experiences: http://dx.doi.org/10.1016/j.neuroimage.2015.08.078
-.. _High-resolution 7-Tesla fMRI data on the perception of musical genres: http://dx.doi.org/10.12688/f1000research.6679.1
-.. _Portrayed emotions in the movie "Forrest Gump": http://dx.doi.org/10.12688/f1000research.6230.1
-.. .. _FuSeISC\: Functional Segmentation of Brain fMRI during naturalistic stimulus based on Inter-Subject Correlation:
-.. .. _Identifying task-related activity using periodic graph properties:
-.. _A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie: http://www.nature.com/articles/sdata20143
 
 .. |---| unicode:: U+02014 .. em dash
