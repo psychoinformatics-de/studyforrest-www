@@ -7,7 +7,7 @@ studyforrest
 
 .. row::
 
-  :h2:`What Is studyforrest?`
+  :h2:`What Is <em>studyforrest</em>?`
 
   .. column::
      :width: 8
@@ -96,7 +96,7 @@ studyforrest
 
 .. row::
 
-  :h2:`How Has It Already Been Used?`
+  :h2:`How Have People Been Using It?`
 
   .. column::
      :width: 8
