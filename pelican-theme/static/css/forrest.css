@@ -95,6 +95,7 @@ main {
 
 nav a {
   text-decoration: none;
+  border-bottom: none;
 }
 
 
