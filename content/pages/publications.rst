@@ -22,6 +22,7 @@ This page lists publications that either describe data provided by the
              </button>
            </span>
          </div><!-- /input-group -->
+     <p id='pub_count' style='text-align:right;'>Showing all publications</p>
      </div><!-- /.col-lg-6 -->
    </div><!-- /.row -->
 
