@@ -56,7 +56,7 @@ to have a working AFNI installation on a unix-like platform, then:
 
 - In the SUMA surface window, use ctrl+shift+rclick (where rclick indicates a
   click with the right-hand mouse button) multiple times to select different
-  nodes. 
+  nodes.
 
 
 Methods
@@ -124,18 +124,18 @@ The demo video was based using the following parameters:
 
 - searchlight size: 100 voxels (features).
 
-- participants: BOLD data  studyforrest dataset were used.
+- participants: BOLD data *studyforrest* dataset were used.
 
-- input data: first run of forrest gump dataset of participants 11-20, with the
+- input data: first run of *studyforrest* dataset of participants 11-20, with the
   data binned in sets of 4 consecutive timepoints.
 
-- visualization was based on the freesurfer surface template.
+- visualization was based on the FreeSurfer surface template.
 
 
 Possible extensions and future work
 -----------------------------------
 
-- depending on available computational resources, higher resolution surfacs and
+- depending on available computational resources, higher resolution surfaces and
   longer time series can be used for a better estimate of similarity. (server
   issues around the time of the deadline prevented computing these for the
   submission).
