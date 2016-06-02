@@ -65,11 +65,13 @@
  */
 a {
   color: inherit;
-  text-decoration: underline dotted;
+  text-decoration: none;
+  border-bottom: 1px dotted; /* text-decoration is only supported by FF ATM :-/ */
 }
 a:hover {
   color: inherit;
-  text-decoration: underline solid;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 body {
