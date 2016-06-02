@@ -21,8 +21,8 @@ couples this with a novel clustering algorithm to allow the detection of brain
 areas that have similar ISC properties.
 
 We analyzed a subset of data derived from a *studyforrest* data set, where
-participants listened to a German audio-description of the movie “Forrest
-Gump”. 5 interesting scenes were selected for the analysis based on their
+participants listened to a German audio-description of the movie "Forrest
+Gump". 5 interesting scenes were selected for the analysis based on their
 publicity in social media. For each scene and each voxel, an average ISC value
 was computed across the subjects and its between-subject variation using the
 Jackknife technique. This provided 10 dimensional feature vector for each
@@ -40,7 +40,7 @@ Introduction
 
 Inter-subject correlation (ISC) analysis has been successfully used in many
 functional magnetic resonance imaging (fMRI) studies based on experiments
-involving “naturalistic” stimuli, such as movies (Hasson et al. 2004,
+involving "naturalistic" stimuli, such as movies (Hasson et al. 2004,
 Jääskeläinen et al. 2008, Golland et al. 2007). ISC analysis is conceptually
 simple, as it merely involves voxel-wise computation of a correlation
 coefficient between time-series of the subjects. Once the correlation
@@ -109,7 +109,7 @@ organization committee of the *studyforrest* project and data challenge (Hanke e
 al. 2014). The details of the experiment, data collection and preprocessing are
 also provided in (Hanke et al. 2014). In brief, the participants listened to a
 German audio-description (Koop, Michalski, Beckmann, Meinhardt & Benecke,
-produced by Bayrischer Rundfunk, 2009) of the movie “Forrest Gump” (R.
+produced by Bayrischer Rundfunk, 2009) of the movie "Forrest Gump" (R.
 Zemeckis, Paramount Pictures, 1994) as broadcast as an additional audio track
 for visually impaired listeners on Swiss public television. The audio content
 is largely identical to the dubbed German soundtrack of the movie except for
@@ -187,7 +187,7 @@ and in feasible time. The steps of our clustering algorithm are as follows:
   (Jarvis and Patrick, 1973). The connections are further weighted by the
   number of shared data points the connected points share in their k-NN lists.
 
-* **Compute SNN density of each data point.** SNN “density” is simply a sum of
+* **Compute SNN density of each data point.** SNN "density" is simply a sum of
   the connection weights associated with each data point in the weighted SNN
   graph (note that despite of its name, SNN density is not a real measure of
   density). The highly interesting property of the SNN density is that it
@@ -229,7 +229,7 @@ and in feasible time. The steps of our clustering algorithm are as follows:
   component.
 
 * **As a post-processing, for each cluster, find their spatially distinct
-  “subclusters” and remove those subclusters whose sizes are smaller than k as
+  "subclusters" and remove those subclusters whose sizes are smaller than k as
   noise.**
 
 * **For each retained subcluster, find their densest data point for better
@@ -246,8 +246,8 @@ equal to the number of data points in the smallest cluster of interest. This
 choice guarantees high SNN density values within all clusters (despite of
 cluster size and irrespective of the total number of clusters) whose modes are
 captured by our algorithm. In practice, the choice of k depends on the goal of
-the analysis, because the difference between “noise” (non-interesting
-structure) and “cluster” (meaningful structure) in complex fMRI data is subtle.
+the analysis, because the difference between "noise" (non-interesting
+structure) and "cluster" (meaningful structure) in complex fMRI data is subtle.
 For instance, it may not be meaningful to use very small k to avoid capturing
 non-interesting structures related to noise or effects of spatial smoothing. In
 this study, we wanted to analyze a relatively low number of clusters to
@@ -571,7 +571,7 @@ clip:
     * total of 10 000 000 realizations
 
 * If supported cluster environment is available it can be used by de-selecting
-  “Always force local computing” and defining the grid parameters according the
+  "Always force local computing" and defining the grid parameters according the
   available grid. Toolbox supports currently Slurm and SGE grid engines.
 
 ISC analysis for each clip can take hours depending on the used computer and
