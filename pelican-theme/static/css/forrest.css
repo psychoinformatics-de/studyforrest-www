@@ -75,6 +75,7 @@ a:hover {
 body {
   display: flex;
   font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
   min-height: 100vh;
   flex-direction: column;
   padding-top: 70px;
