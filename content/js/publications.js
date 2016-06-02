@@ -22,7 +22,7 @@ function filterForm(term) {
   filterTable(term);
 
   // add to address bar and history
-  var new_url = location.href.split('=')[0] + '=' + term;
+  var new_url = location.href.split('?')[0] + '?filter=' + term;
   history.pushState({}, "Publications - " + term, new_url);
 
   return false;
@@ -30,16 +30,27 @@ function filterForm(term) {
 
 
 function filterTable(term) {
-  $('tbody > tr').show();
+  var $rows = window.$rows;
+  var total = $rows.length;
+  var shown = total;
+
+  $rows.show();
 
   if (term && term.trim().length) {
-    $('tbody > tr:not(:inscontains(' + term + '))').hide();
+    $hrows = $rows.filter(':not(:inscontains(' + term + '))');
+    $hrows.hide();
+    shown = total - $hrows.length;
   }
+
+  window.$count.html('<strong>Showing ' + shown + ' of ' + total + ' publications</strong>');
+  console.log(shown + '/' + total);
 }
 
 
 $(document).ready(function() {
-  // Table sorting
+  //
+  // Table Sorting
+  //
 
   // annoyingly, injecting these data-sort attributes is more sane here rather
   // than the horrors of getting pelican/rst to generate them
@@ -64,8 +75,14 @@ $(document).ready(function() {
     th.eq(data.column).prepend('<i class="fa ' + arrow + '" aria-hidden="true"></i> ');
   });
 
+  // sort Year by default
+  table.find("th:contains('Year')").first().stupidsort('desc');
 
-  // table filtering
+  //
+  // Table Filtering
+  //
+  window.$rows = table.find('tbody > tr');
+  window.$count = $('#pub_count');
   var term = getURLParam('filter');
 
   $('#filter_field').val(term); // populate filter input box

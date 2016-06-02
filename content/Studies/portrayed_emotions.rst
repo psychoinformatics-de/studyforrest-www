@@ -25,7 +25,7 @@ hand, many aspects that are extremely relevant for social cognition are much
 harder to extract. One example is the emotional content.
 
 Here we present a dataset with a description of portrayed emotions in the movie
-”Forrest Gump”. A total of 12 observers independently annotated emotional
+"Forrest Gump". A total of 12 observers independently annotated emotional
 episodes regarding their temporal location and duration. The nature of an
 emotion was characterized with basic attributes, such as arousal and valence,
 as well as explicit emotion category labels. In addition, annotations include a
@@ -50,9 +50,9 @@ emotions are provided to facilitate adoption of these data.
     [high/low], valence [pos/neg], and direction [self/other]), the 22 emotion
     categories, and the six emotion onset indicators for the audio-visual
     movie. The upper triangular matrix shows the corresponding correlations for
-    the audio-only movie. There were no observations for the emotion “fears
-    confirmed”, or the facial expression onset cue in the audio-only movie.
-    Likewise, there were no observations for the “narrator” onset cue in the
+    the audio-only movie. There were no observations for the emotion "fears
+    confirmed", or the facial expression onset cue in the audio-only movie.
+    Likewise, there were no observations for the "narrator" onset cue in the
     audio-visual movie. The corresponding undefined correlations are depicted
     as zeros.
 
@@ -90,7 +90,7 @@ Citation
 Labs, A., Reich, T., Schulenburg, H., Boennen, M., Gehrke, M., Golz, M.,
 Hartings, B., Hoffmann, N., Keil, S., Perlow, M., Peukmann, A.  K., Rabe, L.
 N., von Sobbe, F.-R. & Hanke, M. (2015). `Portrayed emotions in the movie
-“Forrest Gump” <http://dx.doi.org/10.12688/f1000research.6230.1>`_.
+"Forrest Gump" <http://dx.doi.org/10.12688/f1000research.6230.1>`_.
 F1000Research, 4:92.
 
 .. |---| unicode:: U+02014 .. em dash

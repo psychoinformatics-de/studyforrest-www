@@ -7,7 +7,7 @@ studyforrest
 
 .. row::
 
-  :h2:`What Is studyforrest?`
+  :h2:`What Is <em>studyforrest</em>?`
 
   .. column::
      :width: 8
@@ -24,7 +24,7 @@ studyforrest
      richly laden with real-life-like content and contexts.
 
      Over the last few years, the *studyforrest* dataset has grown
-     significantly, and it now encompasses many hours of fMRI scans, structural
+     significantly and now encompasses many hours of fMRI scans, structural
      brain scans, eye-tracking data, and extensive annotations of the movie.
      Explore our `Data Page <{filename}/pages/resources.rst>`_ to more closely
      examine the data we have available.
@@ -83,12 +83,12 @@ studyforrest
 
      Not keen on brain research? This project still has something to offer to
      you! For example, our ongoing effort to analyze the structure of the
-     "Forrest Gump" movie and to annotate its properties continously enables
-     additional topics that can be explored. Do breathing and heart rate
+     "Forrest Gump" movie and to annotate its properties continues to add even
+     more topics that can be explored. Do breathing and heart rate
      reflect more than just the emotional content of the movie? Why does
-     everybody look at the same spot in some movie scenes, but others show no
-     similarity at all? Does it make a difference to watch a movie sitting up,
-     or while lying on your back?
+     everybody look at the same spot in some movie scenes but others show no
+     similarity at all? Does it make a difference to watch a movie sitting up
+     versus lying on your back?
 
      What we're most interested in, we admit, is that which we cannot
      anticipate. So please, invent applications and explore ideas *you* have
@@ -96,7 +96,7 @@ studyforrest
 
 .. row::
 
-  :h2:`What Have People Already Done With It?`
+  :h2:`How Have People Been Using It?`
 
   .. column::
      :width: 8
