@@ -22,7 +22,7 @@ function filterForm(term) {
   filterTable(term);
 
   // add to address bar and history
-  var new_url = location.href.split('=')[0] + '=' + term;
+  var new_url = location.href.split('?')[0] + '?filter=' + term;
   history.pushState({}, "Publications - " + term, new_url);
 
   return false;
