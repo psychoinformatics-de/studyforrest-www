@@ -74,10 +74,10 @@ a:hover {
 
 body {
   display: flex;
+  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   min-height: 100vh;
-  flex-direction: column;
   padding-top: 70px;
 }
 
@@ -104,8 +104,8 @@ nav a {
 }
 
 .entry-content img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .entry-content figcaption, .caption {
@@ -114,8 +114,8 @@ nav a {
 }
 
 .summary img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 img[src*="/logo/"] {
@@ -176,19 +176,19 @@ footer p {
 
 #categories ul, #tags ul {
   list-style: none;
-  padding: 0;
   margin-left: 0;
+  padding: 0;
 }
 
 .docutils.footnote td.label {
+  border-radius: inherit;
+  color: inherit;
   display: table-cell;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
-  color: inherit;
   text-align: inherit;
   white-space: inherit;
-  border-radius: inherit;
 }
 
 .categories-timestamp {
@@ -212,22 +212,22 @@ div.papaya-preview > img {
 }
 
 div.xtk_renderer {
-  width: 80%;
   height: 0;
-  padding-bottom: 60%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 60%;
+  width: 80%;
 }
 
 div.xtk_help {
-  text-align: center;
   color: #777;
   display: none;
+  text-align: center;
 }
 
 div.dygraph_help {
-  text-align: center;
   color: #777;
+  text-align: center;
 }
 
 div.figure {
@@ -259,8 +259,8 @@ div.figure > div.legend {
 }
 
 #tipue_search_input {
-  font: 13px/1.6 'open sans', sans-serif;
   border-radius: 0;
+  font: 13px/1.6 'Open Sans', sans-serif;
 }
 
 #tipue_search_foot_boxes li a {
