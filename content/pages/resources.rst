@@ -10,21 +10,31 @@ Behavior and brain function
 
   <div class="row">
     <div class="col-sm-4">
-      <a class="iconlink" href="mod_fmri.html">
+      <a class="iconlink" href="XXX.html">
       <div class="thumbnail">
-        <img src="/pics/fmri_thumb.jpg" class="img-responsive" alt="Sample FMRI slices">
+        <img src="/pics/moviefmri_acq_icon_ao_hrfmri.jpg" class="img-responsive" alt="">
         <div class="caption">
-          <h5>Functional MRI</h5>
+          <h5>High-res 7T fMRI on 2h audio movie (+cardiac/respiration)</h5>
         </div>
       </div>
       </a>
     </div>
     <div class="col-sm-4">
-      <a class="iconlink" href="mod_physio.html">
+      <a class="iconlink" href="XXX.html">
       <div class="thumbnail">
-        <img src="/pics/physio_thumb.png" class="img-responsive" alt="Sample curves">
+        <img src="/pics/" class="img-responsive" alt="">
         <div class="caption">
-          <h5>Physiological measurements</h5>
+          <h5>High-res 7T fMRI listening to music (cardiac/respiration)</h5>
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a class="iconlink" href="XXX.html">
+      <div class="thumbnail">
+        <img src="/pics/moviefmri_acq_icon_av_lrfmri_eyegaze.jpg" class="img-responsive" alt="">
+        <div class="caption">
+          <h5>3T fMRI on 2h movie, eyegaze, cardiac/respiration</h5>
         </div>
       </div>
       </a>
@@ -32,36 +42,37 @@ Behavior and brain function
   </div>
   <div class="row">
     <div class="col-sm-4">
-      <!--<a class="iconlink" class="disabled" href="">-->
+      <a class="iconlink" href="XXX.html">
       <div class="thumbnail">
-        <img src="/pics/eyemove_thumb.jpg" class="img-responsive" alt="Eyemovement icon" style="opacity:.5">
+        <img src="/pics/retmap_acq_icon.jpg" class="img-responsive" alt="">
         <div class="caption">
-          <h5>Eye movements</h5>
+          <h5>Retinotopic mapping</h5>
         </div>
       </div>
-      <!--</a>-->
+      </a>
     </div>
     <div class="col-sm-4">
-      <!-- <a class="iconlink" href=""> -->
+      <a class="iconlink" href="XXX.html">
       <div class="thumbnail">
-        <img src="/pics/eeg_thumb.jpg" class="img-responsive" alt="EEG topography icon" style="opacity:.5">
+        <img src="/pics/visloc_acq_icon.jpg" class="img-responsive" alt="">
         <div class="caption">
-          <h5>EEG</h5>
+          <h5>Higher visual area localizer</h5>
         </div>
       </div>
-      <!--</a>-->
+      </a>
     </div>
     <div class="col-sm-4">
-      <!-- <a class="iconlink" href=""> -->
+      <a class="iconlink" href="XXX.html">
       <div class="thumbnail">
-        <img src="/pics/eegfmri_thumb.jpg" class="img-responsive" alt="EEG/FMRI icon" style="opacity:.5">
+        <img src="/pics/" class="img-responsive" alt="">
         <div class="caption">
-          <h5>Simultaneous EEG/FMRI</h5>
+          <h5>Multi-resolution 7T fMRI on visual orientation</h5>
         </div>
       </div>
-      <!--</a>-->
+      </a>
     </div>
   </div>
+
 
 
 Brain structure
