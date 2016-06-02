@@ -117,6 +117,10 @@ nav a {
   height: auto;
 }
 
+img[src*="/logo/"] {
+  padding: 5px 0;
+}
+
 
 .floatright, .align-right {
   float: right;
