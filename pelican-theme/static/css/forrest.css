@@ -63,13 +63,18 @@
 /*
  * Element Overrides
  */
+
+/* Link rules from http://mrmrs.io/links/ - MIT License */
 a {
-  color: inherit;
-  text-decoration: underline dotted;
+  color: #265C83;
+  transition: color .4s;
 }
-a:hover {
-  color: inherit;
-  text-decoration: underline solid;
+a:link,
+a:visited { color: #265C83; }
+a:hover { color: #7FDBFF; }
+a:active {
+  color: #007BE6;
+  transition: color .3s;
 }
 
 body {
