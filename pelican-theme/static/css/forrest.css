@@ -200,8 +200,8 @@ div.caption > h5 {
   text-align: center;
 }
 
-div.thumbnail {
-  height: 260px;
+div.caption > a.btn {
+  width: 100%;
 }
 
 div.papaya-preview {
