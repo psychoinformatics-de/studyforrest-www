@@ -8,6 +8,7 @@ layer label=head style=display:inline
 layer label=physio style=display:inline
 layer label=ao_cogproc style=display:inline
 layer label=auditory_stim style=display:inline
+layer label=auditory_stim_verbal style=display:inline
 layer label=highres_fmri style=display:inline
 %save ao_hrfmri
 
