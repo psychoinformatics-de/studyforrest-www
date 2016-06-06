@@ -9,6 +9,7 @@ methods are supported.
 .. row::
 
   .. column::
+     :size: md
      :width: 8
 
      :h2:`Browse`
@@ -99,7 +100,9 @@ methods are supported.
 
 
   .. column::
+     :size: md
      :width: 4
+     :class: sidebar-logos
 
      :h2:`Terms of Use`
 

@@ -10,6 +10,7 @@ studyforrest
   :h2:`What Is <em>studyforrest</em>?`
 
   .. column::
+     :size: md
      :width: 8
      :offset: 2
 
@@ -34,6 +35,7 @@ studyforrest
   :h2:`Why Should You Use It?`
 
   .. column::
+     :size: md
      :width: 4
 
      .. raw:: html
@@ -53,6 +55,7 @@ studyforrest
 
 
   .. column::
+     :size: md
      :width: 4
 
      .. raw:: html
@@ -74,6 +77,7 @@ studyforrest
 
 
   .. column::
+     :size: md
      :width: 4
 
      .. raw:: html
@@ -99,6 +103,7 @@ studyforrest
   :h2:`How Have People Been Using It?`
 
   .. column::
+     :size: md
      :width: 8
      :offset: 2
 

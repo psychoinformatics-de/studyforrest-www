@@ -71,7 +71,7 @@ a {
 }
 a:link,
 a:visited { color: #265C83; }
-a:hover { color: #7FDBFF; }
+a:hover { color: #5FBBDF; }
 a:active {
   color: #007BE6;
   transition: color .3s;
@@ -123,10 +123,9 @@ nav a {
   max-width: 100%;
 }
 
-img[src*="/logo/"] {
+.sidebar-logos img {
   padding: 5px 0;
 }
-
 
 .floatright, .align-right {
   float: right;
@@ -175,9 +174,8 @@ footer p {
   padding: 0 1em;
 }
 
-.twitter-blue {
-  color: #55acee;
-}
+.github-black { color: #000; }
+.twitter-blue { color: #55acee; }
 
 #categories ul, #tags ul {
   list-style: none;
