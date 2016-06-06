@@ -229,7 +229,8 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_irony_icon.jpg
+         :alt: Hidden beach CC-BY from https://www.flickr.com/photos/carbonnyc/76468122
 
       .. caption::
 
