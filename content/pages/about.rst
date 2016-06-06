@@ -59,6 +59,7 @@ About this Project
   .. column::
      :size: md
      :width: 4
+     :class: sidebar-logos
 
      .. image:: {filename}/img/logo/bmbf.png
         :alt: German Federal Ministry of Education and Research (BMBF) Logo

@@ -123,10 +123,9 @@ nav a {
   max-width: 100%;
 }
 
-img[src*="/logo/"] {
+.sidebar-logos img {
   padding: 5px 0;
 }
-
 
 .floatright, .align-right {
   float: right;

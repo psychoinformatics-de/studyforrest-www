@@ -102,6 +102,7 @@ methods are supported.
   .. column::
      :size: md
      :width: 4
+     :class: sidebar-logos
 
      :h2:`Terms of Use`
 
