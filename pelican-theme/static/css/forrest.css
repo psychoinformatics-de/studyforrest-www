@@ -175,9 +175,8 @@ footer p {
   padding: 0 1em;
 }
 
-.twitter-blue {
-  color: #55acee;
-}
+.github-black { color: #000; }
+.twitter-blue { color: #55acee; }
 
 #categories ul, #tags ul {
   list-style: none;
