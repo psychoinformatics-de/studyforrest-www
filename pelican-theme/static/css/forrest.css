@@ -203,8 +203,10 @@ div.caption > h5 {
   text-align: center;
 }
 
-div.caption > a.btn {
+div.caption > a.btn,
+div.caption > button {
   width: 100%;
+  margin-bottom: .3em;
 }
 
 div.papaya-preview {
