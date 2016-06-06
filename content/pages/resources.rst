@@ -193,7 +193,7 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_emotion_icon.jpg
 
       .. caption::
 
@@ -207,7 +207,7 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_bodycontact_icon.jpg
 
       .. caption::
 
@@ -218,7 +218,7 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_eyegaze_icon.jpg
 
       .. caption::
 
