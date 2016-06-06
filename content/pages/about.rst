@@ -6,6 +6,7 @@ About this Project
 .. row::
 
   .. column::
+     :size: md
      :width: 8
 
      This project is an open invitation to anyone and everyone to participate in
@@ -56,6 +57,7 @@ About this Project
      expertise and access to its data acquisition instruments.
 
   .. column::
+     :size: md
      :width: 4
 
      .. image:: {filename}/img/logo/bmbf.png
