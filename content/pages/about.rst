@@ -48,7 +48,8 @@ About this Project
 
      The German federal state of Saxony-Anhalt and the European Regional
      Development Fund (ERDF), Project: `Center for Behavioral
-     Brain Sciences`_ provided data acquisition hardware and personnel.
+     Brain Sciences`_ provided support for data acquisition hardware and
+     personnel.
 
      The Otto-von-Guericke-University_, Magdeburg, Germany.
 
