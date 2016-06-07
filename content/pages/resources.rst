@@ -70,7 +70,7 @@ Resources
 
    .. thumbnail::
 
-      .. image:: MISSING
+      .. image:: /pics/orientfmri_acq_icon.jpg
 
       .. caption::
 

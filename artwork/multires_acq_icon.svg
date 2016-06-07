@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   viewBox="0 0 200.00001 200.00001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="multires_acq_icon.svg"
+   inkscape:export-filename="/tmp/studyforrest_screenshots/multires_webpage.svg.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="white"
+     bordercolor="black"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="39.292977"
+     inkscape:cy="84.181527"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     units="px"
+     borderlayer="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-10.606602,-89.802566"
+       orientation="0,1"
+       id="guide4377" />
+    <sodipodi:guide
+       position="100.05561,80.256624"
+       orientation="1,0"
+       id="guide4417" />
+    <sodipodi:guide
+       position="100.05561,100.05561"
+       orientation="0,1"
+       id="guide4419" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4397">
+      <rect
+         style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4399"
+         width="50"
+         height="50"
+         x="-561.84924"
+         y="1004.4921" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4401">
+      <rect
+         y="1004.4921"
+         x="-469.84924"
+         height="50"
+         width="50"
+         id="rect4403"
+         style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4409">
+      <rect
+         style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4411"
+         width="50"
+         height="50"
+         x="-367.84924"
+         y="1004.4921" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4413">
+      <rect
+         y="1004.4921"
+         x="-261.84924"
+         height="50"
+         width="50"
+         id="rect4415"
+         style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </mask>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(422.2857,-798.12812)">
+    <image
+       y="965.94122"
+       x="-275.40207"
+       id="image4353"
+       xlink:href="/tmp/angio3.png"
+       preserveAspectRatio="none"
+       height="132.72794"
+       width="113.14136"
+       inkscape:transform-center-x="-1608.8277"
+       inkscape:transform-center-y="2964.6356"
+       mask="url(#mask4413)"
+       transform="matrix(2.1097367,0,0,2.1097367,126.61484,-1222.1937)" />
+    <image
+       y="965.9762"
+       x="-382.87177"
+       id="image4342"
+       xlink:href="/tmp/angio4.png"
+       preserveAspectRatio="none"
+       height="132.02083"
+       width="116.91882"
+       mask="url(#mask4409)"
+       transform="matrix(2.1523152,0,0,2.1523152,468.26778,-1265.5923)" />
+    <image
+       y="967.51416"
+       x="-483.49878"
+       id="image4331"
+       xlink:href="/tmp/angio6.png"
+       preserveAspectRatio="none"
+       height="129.89951"
+       width="106.96268"
+       mask="url(#mask4401)"
+       transform="matrix(2.1376896,0,0,2.1376896,680.81836,-1354.2287)" />
+    <image
+       y="970.3111"
+       x="-574.98596"
+       id="image4320"
+       xlink:href="/tmp/angio5.png"
+       preserveAspectRatio="none"
+       height="120.00001"
+       width="98.259323"
+       mask="url(#mask4397)"
+       transform="matrix(2.097581,0,0,2.097581,753.19097,-1311.9207)" />
+    <rect
+       style="opacity:1;fill:#999;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4369"
+       width="123.33452"
+       height="99.018173"
+       x="-380.77097"
+       y="850.35358" />
+    <g
+       id="g4268"
+       transform="matrix(1.2333452,0,0,1.2333452,78.385813,-209.32189)">
+      <image
+         width="50.17765"
+         height="80.284241"
+         preserveAspectRatio="none"
+         xlink:href="/tmp/angio1.png"
+         id="image4230"
+         x="-372.28571"
+         y="859.18805" />
+      <image
+         width="50.17765"
+         height="80.284241"
+         preserveAspectRatio="none"
+         xlink:href="/tmp/angio2.png"
+         id="image4405"
+         x="-322.46335"
+         y="859.18805" />
+      <path
+         transform="matrix(-0.91912049,0.39397656,-0.40400444,-0.91475702,0,0)"
+         sodipodi:open="true"
+         d="m 659.26841,-698.79485 a 1.3698211,1.3559368 0 0 1 -1.78541,0.29331 1.3698211,1.3559368 0 0 1 -0.521,-1.71565 1.3698211,1.3559368 0 0 1 1.65286,-0.72976 1.3698211,1.3559368 0 0 1 0.94149,1.53"
+         sodipodi:end="0.17453293"
+         sodipodi:start="0.6847077"
+         sodipodi:ry="1.3559368"
+         sodipodi:rx="1.3698211"
+         sodipodi:cy="-699.6524"
+         sodipodi:cx="658.20734"
+         sodipodi:type="arc"
+         id="path4414"
+         style="fill:none;fill-opacity:1;stroke:black;stroke-width:0.63166612;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
