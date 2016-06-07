@@ -160,7 +160,7 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_structure_icon.png
 
       .. caption::
 
@@ -171,7 +171,7 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_speech_icon.jpg
 
       .. caption::
 
@@ -182,7 +182,8 @@ Resources
 
    .. thumbnail::
 
-      .. image:: /pics/
+      .. image:: /pics/annot_music_icon.jpg
+         :alt: https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg CC-BY-SA
 
       .. caption::
 
