@@ -77,6 +77,8 @@ a:active {
   transition: color .3s;
 }
 
+a.btn { color: #fff; }
+
 body {
   display: flex;
   flex-direction: column;
