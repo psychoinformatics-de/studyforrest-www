@@ -144,7 +144,7 @@ linked publications and summary pages.
          :h5:`Angiography`
 
          .. button:: Get the gist »
-            :target: /
+            :target: /pages/mod_angio
 
    .. thumbnail::
 
