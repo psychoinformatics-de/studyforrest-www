@@ -18,7 +18,7 @@ has been published in:
   <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
 
 The sample image below is a low-resolution demo of the actual angiographies in
-the dataset.  `More information on this image type
+the dataset.  For more information on this image type see `Wikipedia
 <http://en.wikipedia.org/wiki/Magnetic_resonance_angiography>`_.
 
 .. raw:: html

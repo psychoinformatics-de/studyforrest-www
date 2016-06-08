@@ -25,8 +25,8 @@ a full-length `gel phantom scan
 
 Due to the high scan resolution, the brain coverage of the scans was limited.
 The following demo illustrates the average volume captured across participants
-(click on the image for an interactive demonstration). In addition to the raw
-data, BOLD scans corrected for motion and spatial distortions (see below), and
+(click on the image for interactive exploration). In addition to the raw data,
+BOLD scans corrected for motion and spatial distortions (see below), and
 group-aligned images are provided as part of the data release.
 
 .. raw:: html
