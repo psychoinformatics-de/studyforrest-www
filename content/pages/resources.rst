@@ -188,29 +188,14 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_music_icon.jpg
-         :alt: https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg CC-BY-SA
-
-      .. caption::
-
-         :h5:`Music`
-
-         .. button:: Get the gist »
-            :target: /
-
-   .. thumbnail::
-
       .. image:: /pics/annot_emotion_icon.jpg
 
       .. caption::
 
          :h5:`Portrayed emotions`
 
-         .. button:: Get the gist »
-            :target: /
-
          .. button:: Read publication »
-            :target: /
+            :target: http://dx.doi.org/10.12688/f1000research.6230.1
 
    .. thumbnail::
 
@@ -245,5 +230,18 @@ linked publications and summary pages.
 
          .. button:: Publication in prep.
             :class: disabled
+
+   .. thumbnail::
+
+      .. image:: /pics/annot_music_icon.jpg
+         :alt: https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg CC-BY-SA
+
+      .. caption::
+
+         :h5:`Music`
+
+         .. button:: In preparation
+            :class: disabled
+
 
 .. |---| unicode:: U+02014 .. em dash
