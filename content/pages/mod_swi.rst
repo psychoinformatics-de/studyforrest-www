@@ -8,10 +8,10 @@ Susceptibility-weighted scans
 
 **Venography**
 
-Susceptibility-weighted imaging is sensitive to venous blood, hemorrhage and
-iron storage. For example, veins appear black in the example magnitude image
-below.
-`More information on this image type 
+Susceptibility-weighted imaging is used for **venography**, as it is sensitive
+to venous blood, hemorrhage and iron storage. For example, veins appear black
+in the example magnitude image below.
+For more information on this image type see `Wikipedia
 <http://en.wikipedia.org/wiki/Susceptibility_weighted_imaging">`_.
 
 .. raw:: html
@@ -36,13 +36,3 @@ below.
       </div>
     </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
-
-Technical details
-=================
-
-Full-brain volumetric images (512x512x500) in NIfTI format recorded with a
-Philips MR scanner at 3 Tesla using a 3D Presto FFE sequence
-(0.43x0.43x0.3 mm voxel size). Facial features have been removed from
-these images for de-identification. Separate phase and magnitude images are
-provided.

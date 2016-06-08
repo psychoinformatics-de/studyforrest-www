@@ -100,7 +100,7 @@ linked publications and summary pages.
          :h5:`T1-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /
+            :target: /pages/mod_t1w
 
    .. thumbnail::
 
@@ -111,7 +111,7 @@ linked publications and summary pages.
          :h5:`T2-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /
+            :target: /pages/mod_t2w
 
    .. thumbnail::
 
@@ -122,7 +122,7 @@ linked publications and summary pages.
          :h5:`Susceptibility-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /
+            :target: /pages/mod_swi
 
    .. thumbnail::
 
@@ -133,7 +133,7 @@ linked publications and summary pages.
          :h5:`Diffusion-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /
+            :target: /pages/mod_dwi
 
    .. thumbnail::
 
@@ -155,7 +155,7 @@ linked publications and summary pages.
          :h5:`Cortical surface reconstruction`
 
          .. button:: Get the gist »
-            :target: /
+            :target: /pages/deriv_surfaces
 
 
 .. column::
