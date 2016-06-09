@@ -59,17 +59,17 @@ minute of data at 50 Hz sampling rate (actual data is sampled at 200 Hz).
 .. raw:: html
 
   <div class="row">
-   <div class="col-md-12">
-       <button type="button" class="btn btn-default" onclick="showLF()">Show trends</button>
-       <button type="button" class="btn btn-default" onclick="showDetail()">Show details</button>
-     <span id="physio_legend" style='width:100%;text-align:right'></span>
-     <div id="physio_chart" style='margin-top:10px;width:100%;height=300px'></div>
-    <div class="dygraph_help">
-         <p>Usage: Click and drag on the lower focus chart to move along the
-         time axis. Perform temporal data averaging by specifying the length
-         of the window (in samples) in the lower left of the plot.</p>
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <button type="button" class="btn btn-default" onclick="showLF()">Show trends</button>
+      <button type="button" class="btn btn-default" onclick="showDetail()">Show details</button>
+      <span id="physio_legend" style='width:100%;text-align:right'></span>
+      <div id="physio_chart" style='margin-top:10px;width:100%;height=300px'></div>
+      <div class="dygraph_help">
+        <p>Usage: Click and drag on the lower focus chart to move along the
+           time axis. Perform temporal data averaging by specifying the length
+           of the window (in samples) in the lower left of the plot.</p>
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 
 Lastly, motion estimates are provided for the distortion-corrected scan to
@@ -79,17 +79,17 @@ from one subject for an entire movie segment (approx. 15 min).
 .. raw:: html
 
   <div class="row">
-   <div class="col-md-12">
-     <span id="moco_transl_legend" style='width:100%;text-align:right'></span>
-     <div id="moco_transl_chart" style='margin-top:10px;width:100%;height=200px'></div>
-     <span id="moco_rot_legend" style='width:100%;text-align:right'></span>
-     <div id="moco_rot_chart" style='margin-top:10px;width:100%;height=200px'></div>
-    <div class="dygraph_help">
-         <p>Usage: Click and drag on the lower focus chart to move along the
-         time axis. Perform temporal data averaging by specifying the length
-         of the window (in samples) in the lower left of the plot.</p>
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <span id="moco_transl_legend" style='width:100%;text-align:right'></span>
+      <div id="moco_transl_chart" style='margin-top:10px;width:100%;height=200px'></div>
+      <span id="moco_rot_legend" style='width:100%;text-align:right'></span>
+      <div id="moco_rot_chart" style='margin-top:10px;width:100%;height=200px'></div>
+      <div class="dygraph_help">
+        <p>Usage: Click and drag on the lower focus chart to move along the
+           time axis. Perform temporal data averaging by specifying the length
+           of the window (in samples) in the lower left of the plot.</p>
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 
 .. |---| unicode:: U+02014 .. em dash

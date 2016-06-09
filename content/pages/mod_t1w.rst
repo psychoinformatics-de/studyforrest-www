@@ -34,7 +34,7 @@ has been published in:
 
   <div class="row">
     <div class="col-md-12">
-     <div class="papaya-preview" data-params="params">
+      <div class="papaya-preview" data-params="params">
         <img class="img-responsive"
              src="/pics/mod_t1w_viewer_preview.jpg"
              title="Click to load interactive viewer"
