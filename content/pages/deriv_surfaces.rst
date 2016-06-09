@@ -1,12 +1,10 @@
-Cortical surface reconstruction
-*******************************
+Cortical surface reconstructions
+********************************
 
 :status: hidden
-:slug: mod_surf
+:slug: deriv_surfaces
 :JavaScripts: xtk.js
 
-
-**Tissue segmentation and 3D meshes**
 
 Structural brain scans can be used to reconstruct the cortical surface of the
 brain. This process estimates various properties of the brain, such as
@@ -15,6 +13,17 @@ shows both hemispheres of an individual brain. For the left hemisphere the
 outer ("pial") surface is shown. For the right hemisphere the white matter
 surface is shown with a colored overlay indicating the cortical curvature at
 each surface point.
+
+**Reconstructed cortial surfaces meshes** and various associated estimates were
+generated from the `T1 <mod_t1w>`_ and `T2-weighted <mod_t2w>`_
+images of each participant using the Freesurfer 5.3 image segmentation and
+reconstruction pipeline.
+The complete description of this processing step has been published in:
+
+  Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
+  natural stimulation with an audio movie
+  <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
+
 
 
 .. raw:: html
@@ -61,14 +70,3 @@ each surface point.
     </div>
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
-
-Technical details
-=================
-
-These data were generated from the T1 and T2-weighted images of each
-participant using the Freesurfer 5.3 image segmentation and cortical surface
-reconstruction pipeline.
-`More information on Freesurfer
-<http://surfer.nmr.mgh.harvard.edu>`_.
-

@@ -2,20 +2,29 @@ Diffusion tensor MRI scans
 **************************
 
 :status: hidden
-:slug: mod_dti
+:slug: mod_dwi
 
-**Nerve fibre bundles**
-
-Diffusion tensor imaging (DTI) is a technique that can be used to visualize
-neural tracts or nerve fibre bundles by measuring the direction of water
+Diffusion-weighted imaging (DWI) is a technique that can be used to visualize
+neural tracts or **nerve fibre bundles** by measuring the direction of water
 diffusion in brain tissue. The example figure below shows a so-called
-**connectome** |---| the structure of all nerve fibre pathways in the brain
-|---| estimated from the DTI data of a single individual. The red horizontal
+**connectome** |---| the structure of nerve fibre pathways in the brain
+|---| estimated from the DWI data of a single individual. The red horizontal
 lines in the center of the image show the `corpus callosum
 <http://en.wikipedia.org/wiki/Corpus_callosum>`_, the bridge between the two
 brain halves. The blue vertical lines in the lower center of the image show the
 `corticospinal tract <http://en.wikipedia.org/wiki/Pyramidal_tracts>`_, where
 the brain is connected with the nervous system in other parts of the body.
+The provided scans have been made with a standard clinical procedure at 2 mm
+spatial resolution. For more more information on this image type see
+`Wikipedia <http://en.wikipedia.org/wiki/Diffusion_tensor_imaging>`_
+The complete description of this acquisition
+has been published in:
+
+  Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
+  natural stimulation with an audio movie
+  <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
+
+
 Click on the image to load an interactive viewer to study the complex
 three-dimensional structure of the connectome.
 
@@ -31,7 +40,7 @@ three-dimensional structure of the connectome.
    // create a new X.fibers
    var fibers = new X.fibers();
    // .. associate the TrackVis .TRK file
-   fibers.file = '/data/testme.trk';
+   fibers.file = '/data/wm_streamlines.trk';
    // .. add the fibers
    r.add(fibers);
 
@@ -55,21 +64,6 @@ three-dimensional structure of the connectome.
     </div>
    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
- 
-Technical details
-=================
-
-Full-brain volumetric images (144x144x70) in NIfTI format recorded with a
-Philips MR scanner at 3 Tesla using a diffusion-weighted single-shot spin-echo
-EPI sequence (2mm isotropic voxel size). Facial features have been
-removed from these images for de-identification. Records of B-values and
-B-vector orientations are provided, as well as a fieldmap (3 mm isotropic
-voxel size) for distortion correction.
-`More information on this image type
-<http://en.wikipedia.org/wiki/Diffusion_tensor_imaging>`_
-
-.. raw:: html
-
   <script src="/js/xtk.js"></script>
 
 .. |---| unicode:: U+02014 .. em dash

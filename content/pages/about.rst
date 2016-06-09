@@ -78,6 +78,14 @@ About this Project
         :alt: Center for Behavioral Brain Sciences Logo
         :target: `Center for Behavioral Brain Sciences`_
 
+     .. image:: {filename}/img/logo/lsa.png
+        :alt: German State of Sachsen-Anhalt
+        :target: http://www.sachsen-anhalt.de/lang/english
+
+     .. image:: {filename}/img/logo/erdf.png
+        :alt: European Reginal Development Fund
+        :target: http://ec.europa.eu/regional_policy/en/funding/erdf/
+
      .. image:: {filename}/img/logo/ovgu.png
         :alt: Otto-von-Guericke-University Magdeburg Logo
         :target: Otto-von-Guericke-University_

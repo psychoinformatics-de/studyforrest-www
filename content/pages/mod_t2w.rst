@@ -6,13 +6,20 @@ T2-weighted MRI scans
 :JavaScripts: papaya.js
 :Stylesheets: papaya.css
 
-**Images with fluid-tissue contrast**
-
-In T2-weighted MR images stationary water (like cerebrospinal fluid) appears
-white, while brain tissue is darker. Blood vessels are black as the magnetized
+This type of MR scan exhibits **fluid-tissue contrast**.
+Stationary water (like cerebrospinal fluid) appears
+white, while brain tissue is darker. Blood vessels are black, as the magnetized
 protons have been flushed away by the time of the measurement.
-`More information on this image type 
+The provided images have been recorded in 0.67 mm resolution.
+For more information on this image type see `Wikipedia
 <http://en.wikipedia.org/wiki/Spin-spin_relaxation_time>`_.
+The complete description of this acquisition
+has been published in:
+
+  Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
+  natural stimulation with an audio movie
+  <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
+
 
 .. raw:: html
 
@@ -36,12 +43,3 @@ protons have been flushed away by the time of the measurement.
       </div>
     </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
-
-Technical details
-=================
-
-Full-brain volumetric images (384x384x274) in NIfTI format recorded with a
-Philips MR scanner at 3 Tesla using a 3D TSE sequence (0.67 mm isotropic
-voxel size). Facial features have been removed from these images for
-de-identification.

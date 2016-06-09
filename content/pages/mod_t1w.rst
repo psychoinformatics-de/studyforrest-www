@@ -5,14 +5,21 @@ T1-weighted MRI scans
 :JavaScripts: papaya.js
 :Stylesheets: papaya.css
 
-**Gray-white brain tissue contrast**
 
-In T1-weighted MR images white brain tissue (fibers) appears bright, while the
-gray matter, where most neurons are located, is darker, and cerebrospinal fluid
-(liquor) is black. The bright "shell" around the brain is not the skull, but
-the fat layer in the scalp.
-`More information on this image type 
+This type of MR scan exhibits **gray-white brain tissue contrast**. White brain
+tissue (fibers) appears bright, while the gray matter, where most neurons are
+located, is darker, and cerebrospinal fluid (liquor) is black. The bright
+"shell" around the brain is not the skull, but the fat layer in the scalp.
+The provided images have been recorded in 0.67 mm resolution.
+For more information on this image type see `Wikipedia
 <http://en.wikipedia.org/wiki/Spin%E2%80%93lattice_relaxation>`_.
+The complete description of this acquisition
+has been published in:
+
+  Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
+  natural stimulation with an audio movie
+  <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
+
 
 .. raw:: html
 
@@ -36,11 +43,3 @@ the fat layer in the scalp.
       </div>
     </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
-
-Technical details
-=================
-
-Full-brain volumetric images (384x384x274) in NIfTI format recorded with a
-Philips MR scanner at 3 Tesla using a 3D TFE sequence (0.67mm isotropic
-voxel size). Facial features have been removed from these images for
-de-identification.
