@@ -78,6 +78,7 @@ a:active {
 }
 
 a.btn { color: #fff; }
+a.btn-default { color: inherit; }
 
 body {
   display: flex;
