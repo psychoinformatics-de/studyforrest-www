@@ -18,14 +18,14 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/moviefmri_acq_icon_ao_hrfmri.jpg
+      .. image:: {filename}/pics/moviefmri_acq_icon_ao_hrfmri.jpg
 
       .. caption::
 
          :h5:`High-res 7T fMRI on 2h audio movie (+cardiac/respiration)`
 
          .. button:: Get the gist »
-            :target: /pages/acq_aomovie.html
+            :target: {filename}/pages/acq_aomovie.rst
 
          .. button:: Read publication »
             :target: http://www.nature.com/articles/sdata20143
@@ -33,7 +33,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/musicfmri_acq_icon.jpg
+      .. image:: {filename}/pics/musicfmri_acq_icon.jpg
 
       .. caption::
 
@@ -44,7 +44,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/moviefmri_acq_icon_av_lrfmri_eyegaze.jpg
+      .. image:: {filename}/pics/moviefmri_acq_icon_av_lrfmri_eyegaze.jpg
 
       .. caption::
 
@@ -55,7 +55,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/retmap_acq_icon.jpg
+      .. image:: {filename}/pics/retmap_acq_icon.jpg
 
       .. caption::
 
@@ -66,7 +66,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/visloc_acq_icon.jpg
+      .. image:: {filename}/pics/visloc_acq_icon.jpg
 
       .. caption::
 
@@ -77,7 +77,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/orientfmri_acq_icon.jpg
+      .. image:: {filename}/pics/orientfmri_acq_icon.jpg
 
       .. caption::
 
@@ -95,69 +95,69 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/t1w_thumb.jpg
+      .. image:: {filename}/pics/t1w_thumb.jpg
 
       .. caption::
 
          :h5:`T1-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /pages/mod_t1w
+            :target: {filename}/pages/mod_t1w.rst
 
    .. thumbnail::
 
-      .. image:: /pics/t2w_thumb.jpg
+      .. image:: {filename}/pics/t2w_thumb.jpg
 
       .. caption::
 
          :h5:`T2-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /pages/mod_t2w
+            :target: {filename}/pages/mod_t2w.rst
 
    .. thumbnail::
 
-      .. image:: /pics/swi_thumb.jpg
+      .. image:: {filename}/pics/swi_thumb.jpg
 
       .. caption::
 
          :h5:`Susceptibility-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /pages/mod_swi
+            :target: {filename}/pages/mod_swi.rst
 
    .. thumbnail::
 
-      .. image:: /pics/dti_thumb.jpg
+      .. image:: {filename}/pics/dti_thumb.jpg
 
       .. caption::
 
          :h5:`Diffusion-weighted MRI`
 
          .. button:: Get the gist »
-            :target: /pages/mod_dwi
+            :target: {filename}/pages/mod_dwi.rst
 
    .. thumbnail::
 
-      .. image:: /pics/angio_thumb.jpg
+      .. image:: {filename}/pics/angio_thumb.jpg
 
       .. caption::
 
          :h5:`Angiography`
 
          .. button:: Get the gist »
-            :target: /pages/mod_angio
+            :target: {filename}/pages/mod_angio.rst
 
    .. thumbnail::
 
-      .. image:: /pics/surf_thumb.jpg
+      .. image:: {filename}/pics/surf_thumb.jpg
 
       .. caption::
 
          :h5:`Cortical surface reconstruction`
 
          .. button:: Get the gist »
-            :target: /pages/deriv_surfaces
+            :target: {filename}/pages/deriv_surfaces.rst
 
 
 .. column::
@@ -169,7 +169,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_structure_icon.png
+      .. image:: {filename}/pics/annot_structure_icon.png
 
       .. caption::
 
@@ -180,7 +180,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_speech_icon.jpg
+      .. image:: {filename}/pics/annot_speech_icon.jpg
 
       .. caption::
 
@@ -191,7 +191,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_emotion_icon.jpg
+      .. image:: {filename}/pics/annot_emotion_icon.jpg
 
       .. caption::
 
@@ -202,7 +202,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_bodycontact_icon.jpg
+      .. image:: {filename}/pics/annot_bodycontact_icon.jpg
 
       .. caption::
 
@@ -213,7 +213,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_eyegaze_icon.jpg
+      .. image:: {filename}/pics/annot_eyegaze_icon.jpg
 
       .. caption::
 
@@ -224,7 +224,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_irony_icon.jpg
+      .. image:: {filename}/pics/annot_irony_icon.jpg
          :alt: Hidden beach CC-BY from https://www.flickr.com/photos/carbonnyc/76468122
 
       .. caption::
@@ -236,7 +236,7 @@ linked publications and summary pages.
 
    .. thumbnail::
 
-      .. image:: /pics/annot_music_icon.jpg
+      .. image:: {filename}/pics/annot_music_icon.jpg
          :alt: https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg CC-BY-SA
 
       .. caption::
