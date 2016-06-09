@@ -7,7 +7,7 @@ studyforrest
 
 .. row::
 
-  :h2:`What Is <em>studyforrest</em>?`
+  :h2:`What is <em>studyforrest</em>?`
 
   .. column::
      :size: md
