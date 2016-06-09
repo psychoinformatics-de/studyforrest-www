@@ -12,6 +12,7 @@ linked publications and summary pages.
 .. column::
    :width: 4
    :size: sm
+   :class: resource-col
 
    :h3:`Behavior and brain function`
 
@@ -88,6 +89,7 @@ linked publications and summary pages.
 .. column::
    :width: 4
    :size: sm
+   :class: resource-col middle
 
    :h3:`Brain structure and connectivity`
 
@@ -161,6 +163,7 @@ linked publications and summary pages.
 .. column::
    :width: 4
    :size: sm
+   :class: resource-col
 
    :h3:`Movie stimulus annotations`
 

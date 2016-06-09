@@ -252,6 +252,34 @@ div.figure > div.legend {
   font-size: small;
 }
 
+/* Resources Page Specific */
+.resource-col > .thumbnail {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px dotted #ddd;
+}
+.resource-col > .thumbnail:last-child {
+  border-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .resource-col.middle {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+.resource-col h3, .resource-col h5 {
+  text-align: center;
+}
+
+.resource-col .caption > a.btn,
+.resource-col .caption > button {
+  width: 100%;
+  margin-bottom: .3em;
+}
+
+
 /*
  *  Tipue Search
  */
