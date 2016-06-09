@@ -107,54 +107,36 @@ nav a {
 /*
  *  Styling
  */
-#about img {
-  margin: 5px 0;
+.docutils.footnote td.label {
+  border-radius: inherit;
+  color: inherit;
+  display: table-cell;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  white-space: inherit;
 }
 
 .entry-content img {
   height: auto;
   max-width: 100%;
 }
-
 .entry-content figcaption, .caption {
   font-size: small;
   margin-bottom: 2px;
 }
 
-.summary img {
-  height: auto;
-  max-width: 100%;
-}
-
-.sidebar-logos img {
-  padding: 5px 0;
-}
-
-.floatright, .align-right {
-  float: right;
-}
-
-.floatleft, .align-left {
-  float: left;
-}
-
+.floatright, .align-right { float: right; }
+.floatleft, .align-left { float: left; }
 .floatcenter, .align-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-figure.floatright, .align-right {
-  margin-left: 4px;
-}
-
-figure.floatleft, .align-left {
-  margin-right: 4px;
-}
-
-figure.floatcenter, .align-center {
-  margin-bottom: 11px;
-}
+figure.floatright, .align-right { margin-left: 4px; }
+figure.floatleft, .align-left { margin-right: 4px; }
+figure.floatcenter, .align-center { margin-bottom: 11px; }
 
 footer {
   background-color: #f8f8f8;
@@ -167,7 +149,6 @@ footer p {
   color: #777;
   margin: 0;
 }
-
 .footer-links {
   font-size: 2rem;
   padding: 0;
@@ -176,42 +157,15 @@ footer p {
   display: inline;
   padding: 0 1em;
 }
-
 .github-black { color: #000; }
 .twitter-blue { color: #55acee; }
 
-#categories ul, #tags ul {
-  list-style: none;
-  margin-left: 0;
-  padding: 0;
+.summary img {
+  height: auto;
+  max-width: 100%;
 }
 
-.docutils.footnote td.label {
-  border-radius: inherit;
-  color: inherit;
-  display: table-cell;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  text-align: inherit;
-  white-space: inherit;
-}
-
-.categories-timestamp {
-  color: #AAA;
-  font-size: 0.9em;
-  margin-right: 10px;
-}
-div.caption > h5 {
-  text-align: center;
-}
-
-div.caption > a.btn,
-div.caption > button {
-  width: 100%;
-  margin-bottom: .3em;
-}
-
+/* Papaya */
 div.papaya-preview {
   padding: 0 8px 20px 8px;
 }
@@ -219,6 +173,7 @@ div.papaya-preview > img {
   width: 100%;
 }
 
+/* XTK */
 div.xtk_renderer {
   height: 0;
   margin-left: auto;
@@ -233,6 +188,7 @@ div.xtk_help {
   text-align: center;
 }
 
+/* Dygraph */
 div.dygraph_help {
   color: #777;
   text-align: center;
@@ -278,6 +234,12 @@ div.figure > div.legend {
 .resource-col .caption > button {
   width: 100%;
   margin-bottom: .3em;
+}
+
+
+/* Sidebar logos (About and access pages) */
+.sidebar-logos img {
+  padding: 5px 0;
 }
 
 
