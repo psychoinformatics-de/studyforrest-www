@@ -52,7 +52,7 @@ group-aligned images are provided as part of the data release.
     </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
 
-Recordings of cardiac and respiratory trace were syncronized with the fMRI scan
+Recordings of cardiac and respiratory trace were synchronized with the fMRI scan
 for precise temporal alignment. The interactive plot below shows an exemplary
 minute of data at 50 Hz sampling rate (actual data is sampled at 200 Hz).
 
