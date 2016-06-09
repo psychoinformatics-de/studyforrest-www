@@ -3,8 +3,8 @@ Resources
 :save_as: data.html
 :url: data.html
 
-The project has made several data releases over the past years. This page
-provides an overview of the provided resources. Often, multiple data types are
+*Studyforrest* has made several data releases over the past years, and this page
+provides an overview of the available resources. Often, multiple data types are
 available for the same set of participants |---| for example, up to 10 hours of
 different fMRI scans per participant. Further details are available from the
 linked publications and summary pages.
