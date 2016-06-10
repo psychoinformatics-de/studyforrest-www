@@ -36,6 +36,8 @@ MENUITEMS = (
             ('Access', 'access.html'),
             ('Data', 'data.html'),
             ('Publications', 'publications.html'),
+            ('Log', 'archives.html'),
+
 )
 LINKS = (('Psychoinformatics', 'http://psychoinformatics.de'),
          ('Real-Life Cognition Channel', 'http://f1000research.com/channels/real-cognition'),
