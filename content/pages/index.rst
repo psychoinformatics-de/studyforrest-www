@@ -14,21 +14,21 @@ studyforrest
      :width: 8
      :offset: 2
 
-     The human brain is designed to process vast amounts of diverse input that
-     are continuously gathered across the senses. However, most experiments
-     study the brain via simplified stimuli that do little to resemble the
-     complexity of a natural environment |---| a mismatch that must be addressed
-     if we are to better understand how the brain works.
+     The **human brain** is designed to process vast amounts of diverse input
+     that are continuously gathered across the senses. However, most
+     experiments study the brain via simplified stimuli that do little to
+     resemble the complexity of a **natural environment** |---| a mismatch that
+     must be addressed if we are to better understand how the brain works.
 
-     This project centers around the use of the movie *Forrest Gump*,
+     This project centers around the use of the **movie** *Forrest Gump*,
      which provides complex sensory input that is both reproducible and is also
      richly laden with real-life-like content and contexts.
 
      Over the last few years, the *studyforrest* dataset has grown
-     significantly and now encompasses many hours of fMRI scans, structural
-     brain scans, eye-tracking data, and extensive annotations of the movie.
-     Explore our `Data Page <{filename}/pages/resources.rst>`_ to more closely
-     examine the data we have available.
+     significantly and now encompasses many **hours of fMRI scans**, structural
+     brain scans, **eye-tracking** data, and extensive **annotations** of the
+     movie.  Explore our `Data Page <{filename}/pages/resources.rst>`_ to more
+     closely examine the data we have available.
 
 .. row::
 
@@ -43,15 +43,15 @@ studyforrest
 
      :h3:`Neuroscience Researchers`
 
-     This is a one-of-a-kind resource for studying high-level cognition in the
-     human brain under complex, natural stimulation. However, the versatility
-     of the provided data, for some individuals almost ten hours of fMRI data
-     alone, enables studies far beyond this main focus. This covers a vast
-     range from studies of low-level signal properties and brain structure,
-     over sensory integration and attentional processes, to computational
-     modeling of representational spaces and brain area interactions. Take a
-     look the `Publications Page <{filename}/pages/publications.rst>`_ to get
-     inspired.
+     This is a **one-of-a-kind resource** for studying high-level cognition in
+     the human brain under complex, natural stimulation. However, the
+     versatility of the provided data, for some individuals almost ten hours of
+     fMRI data alone, enables studies far beyond this main focus. This covers a
+     vast range from studies of low-level signal properties and brain
+     structure, over sensory integration and attentional processes, to
+     computational modeling of representational spaces and brain area
+     interactions. Take a look the `Publications Page
+     <{filename}/pages/publications.rst>`_ to get inspired.
 
 
   .. column::
@@ -63,10 +63,10 @@ studyforrest
 
      :h3:`Scientific Developers`
 
-     The *studyforrest* project provides ideal reference datasets for brain
-     imaging. It's a comprehensive, modular, multi-modal, real-world
-     dataset, making it an optimal choice when benchmarking algorithms or
-     comparing implementations across projects.
+     The *studyforrest* project provides **ideal reference datasets** for brain
+     imaging. It's a comprehensive, modular, multi-modal, real-world dataset,
+     making it an optimal choice when benchmarking algorithms or comparing
+     implementations across projects.
 
      Liberally licensed (`PDDL
      <http://opendatacommons.org/licenses/pddl/1.0/>`_) and hosted across many
@@ -86,8 +86,8 @@ studyforrest
      :h3:`Everyone —&nbsp;and&nbsp;You`
 
      Not keen on brain research? This project still has something to offer to
-     you! For example, our ongoing effort to analyze the structure of the
-     "Forrest Gump" movie and to annotate its properties continues to add even
+     you! For example, our ongoing effort to analyze the **structure of the
+     "Forrest Gump" movie** and to annotate its properties continues to add even
      more topics that can be explored. Do breathing and heart rate
      reflect more than just the emotional content of the movie? Why does
      everybody look at the same spot in some movie scenes but others show no
