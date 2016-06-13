@@ -176,7 +176,7 @@ linked publications and summary pages.
          :h5:`Scenes and shots`
 
          .. button:: Get the gist »
-            :target: /
+            :target: {filename}/pages/annot_structure.rst
 
    .. thumbnail::
 
