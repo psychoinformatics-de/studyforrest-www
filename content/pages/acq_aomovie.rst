@@ -6,7 +6,7 @@ Prolonged quasi-natural stimulation with an audio-movie
 :JavaScripts: papaya.js, dygraph-combined.js, mod_physio.js
 :Stylesheets: papaya.css
 
-This dataset contains functional brain scans for 20 participants that listened
+This dataset contains functional brain scans for 20 participants who listened
 to a two-hour presentation of an audio-only version of the Hollywood feature
 film `Forrest Gump <http://en.wikipedia.org/wiki/Forrest_Gump>`_ made for a
 visually impaired audience (German dubbing). The complete description of this
@@ -26,7 +26,7 @@ a full-length `gel phantom scan
 Due to the high scan resolution, the brain coverage of the scans was limited.
 The following demo illustrates the average volume captured across participants
 (click on the image for interactive exploration). In addition to the raw data,
-BOLD scans corrected for motion and spatial distortions (see below), and
+BOLD scans corrected for motion and spatial distortions (see below) and
 group-aligned images are provided as part of the data release.
 
 .. raw:: html

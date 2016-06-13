@@ -15,8 +15,8 @@ brain halves. The blue vertical lines in the lower center of the image show the
 `corticospinal tract <http://en.wikipedia.org/wiki/Pyramidal_tracts>`_, where
 the brain is connected with the nervous system in other parts of the body.
 The provided scans have been made with a standard clinical procedure at 2 mm
-spatial resolution. For more more information on this image type see
-`Wikipedia <http://en.wikipedia.org/wiki/Diffusion_tensor_imaging>`_
+spatial resolution. For more more information on this image type, see
+`Wikipedia <http://en.wikipedia.org/wiki/Diffusion_tensor_imaging>`_.
 The complete description of this acquisition
 has been published in:
 

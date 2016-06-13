@@ -7,10 +7,10 @@ Cortical surface reconstructions
 
 
 Structural brain scans can be used to reconstruct the cortical surface of the
-brain. This process estimates various properties of the brain, such as
-thickness of the gray matter, or cortical curvature. The example image below
-shows both hemispheres of an individual brain. For the left hemisphere the
-outer ("pial") surface is shown. For the right hemisphere the white matter
+brain. This process estimates various properties of the brain, such as the
+thickness of the gray matter or cortical curvature. The example image below
+shows both hemispheres of an individual brain. For the left hemisphere, the
+outer ("pial") surface is shown. For the right hemisphere, the white matter
 surface is shown with a colored overlay indicating the cortical curvature at
 each surface point.
 
@@ -23,7 +23,6 @@ The complete description of this processing step has been published in:
   Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
   natural stimulation with an audio movie
   <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
-
 
 
 .. raw:: html
@@ -56,17 +55,17 @@ The complete description of this processing step has been published in:
  </script>
 
   <div class="row">
-   <div class="col-md-12">
-    <div id='xtk_renderer' class="xtk_renderer">
-     <img class="img-responsive center-block"
-          onmousedown="load_xtk_renderer();$(this).hide();$('.xtk_help').show()"
-          src="/pics/mod_surf_viewer_preview.jpg"
-          title="Click to load interactive viewer"
-          alt="Surface rendering example" />
-    </div>
-    <div class="xtk_help">
-         <p>Usage: Left-click and drag to rotate the view, middle-click
-         to pan, and right-click (or scroll) to zoom in and out.</p>
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <div id='xtk_renderer' class="xtk_renderer">
+        <img class="img-responsive center-block"
+             onmousedown="load_xtk_renderer();$(this).hide();$('.xtk_help').show()"
+             src="/pics/mod_surf_viewer_preview.jpg"
+             title="Click to load interactive viewer"
+             alt="Surface rendering example" />
+      </div>
+      <div class="xtk_help">
+        <p>Usage: Left-click and drag to rotate the view, middle-click
+           to pan, and right-click (or scroll) to zoom in and out.</p>
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
