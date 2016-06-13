@@ -187,7 +187,7 @@ linked publications and summary pages.
          :h5:`Speech`
 
          .. button:: Get the gist »
-            :target: /
+            :target: {filename}/pages/annot_speech.rst
 
    .. thumbnail::
 

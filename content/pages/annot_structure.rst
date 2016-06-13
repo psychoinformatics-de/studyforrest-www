@@ -39,10 +39,6 @@ later curated by hand.
 
   <script>
   $(function() {
-    csvtable_preview('#audio_descr_annot_table',
-                     "/data/german_audio_description.csv",
-                     ["Start", "End", "Transcript"],
-                     3, 3);
     csvtable_preview('#scene_annot_table', "/data/scenes.csv",
                      ["Time", "Location", "Time of day", "Interior/exterior"],
                      3, 3);
