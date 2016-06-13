@@ -8,9 +8,9 @@ Movie structure annotations
 A movie is a highly engineered stimulus that primarily consists of scenes
 (parts of the plot that take places at a consecutive segment of space and time)
 and shots (uninterupted observation of events by the camera). The sequence and
-particular composition of these two elements conveys a lot of information that
+particular composition of these two elements convey a lot of information that
 is critical for story comprehension and helps the viewer (or listener) orient
-himself or herself in the world of the movie.
+itself in the world of the movie.
 
 Here we collect information on the movie structure. All published annotations
 are available in a `repository on GitHub
