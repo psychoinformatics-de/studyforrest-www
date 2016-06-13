@@ -88,11 +88,8 @@ studyforrest
      Not keen on brain research? This project still has something to offer to
      you! For example, our ongoing effort to analyze the **structure of the
      movie "Forrest Gump"** and annotate its properties continues to expand the
-     breadth of topics that can be explored. Do breathing and heart rate
-     reflect more than just the emotional content of the movie? Why does
-     everybody look at the same spot in some movie scenes while others show no
-     similarity at all? Does it make a difference to watch a movie sitting up
-     versus lying on your back?
+     breadth of topics that can be explored. Check out the `Data Page
+     <{filename}/pages/resources.rst>`_ to see what is already in store.
 
      What we're most interested in, we admit, is that which we cannot
      anticipate. So please, invent applications and **explore ideas you have**
