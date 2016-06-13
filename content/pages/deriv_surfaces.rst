@@ -55,17 +55,17 @@ The complete description of this processing step has been published in:
  </script>
 
   <div class="row">
-   <div class="col-md-12">
-    <div id='xtk_renderer' class="xtk_renderer">
-     <img class="img-responsive center-block"
-          onmousedown="load_xtk_renderer();$(this).hide();$('.xtk_help').show()"
-          src="/pics/mod_surf_viewer_preview.jpg"
-          title="Click to load interactive viewer"
-          alt="Surface rendering example" />
-    </div>
-    <div class="xtk_help">
-         <p>Usage: Left-click and drag to rotate the view, middle-click
-         to pan, and right-click (or scroll) to zoom in and out.</p>
-    </div>
-   </div><!-- /.col-md-12 -->
+    <div class="col-md-12">
+      <div id='xtk_renderer' class="xtk_renderer">
+        <img class="img-responsive center-block"
+             onmousedown="load_xtk_renderer();$(this).hide();$('.xtk_help').show()"
+             src="/pics/mod_surf_viewer_preview.jpg"
+             title="Click to load interactive viewer"
+             alt="Surface rendering example" />
+      </div>
+      <div class="xtk_help">
+        <p>Usage: Left-click and drag to rotate the view, middle-click
+           to pan, and right-click (or scroll) to zoom in and out.</p>
+      </div>
+    </div><!-- /.col-md-12 -->
   </div><!-- /.row -->
