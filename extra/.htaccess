@@ -16,18 +16,18 @@
 </IfModule>
 
 # Top-level pages
-Redirect permanent "/pages/about.html" "about.html"
-Redirect permanent "/pages/access.html" "access.html"
-Redirect permanent "/pages/resources.html" "data.html"
-Redirect permanent "/category/articles.html" "archives.html"
-Redirect permanent "/category/studies.html" "archives.html"
+Redirect permanent "/pages/about.html" "/about.html"
+Redirect permanent "/pages/access.html" "/access.html"
+Redirect permanent "/pages/resources.html" "/data.html"
+Redirect permanent "/category/articles.html" "/archives.html"
+Redirect permanent "/category/studies.html" "/archives.html"
 
 # data pages
-Redirect permanent "/pages/mod_fmri.html" "pages/acq_aomovie.html"
-Redirect permanent "/pages/mod_physio.html" "pages/acq_aomovie.html"
-Redirect permanent "/pages/mod_annot.html" "pages/annot_structure.html"
-Redirect permanent "/pages/mod_dti.html" "pages/mod_dwi.html"
-Redirect permanent "/pages/mod_surf.html" "pages/deriv_surfaces.html"
+Redirect permanent "/pages/mod_fmri.html" "/pages/acq_aomovie.html"
+Redirect permanent "/pages/mod_physio.html" "/pages/acq_aomovie.html"
+Redirect permanent "/pages/mod_annot.html" "/pages/annot_structure.html"
+Redirect permanent "/pages/mod_dti.html" "/pages/mod_dwi.html"
+Redirect permanent "/pages/mod_surf.html" "/pages/deriv_surfaces.html"
 
 # gone
 Redirect gone "/pages/challenge.html"
