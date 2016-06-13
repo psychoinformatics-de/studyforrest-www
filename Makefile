@@ -12,7 +12,6 @@ TMPDIR=$(BASEDIR)/tmp
 
 SSH_HOST=kumo.ovgu.de
 SSH_PORT=22
-SSH_USER=root
 SSH_TARGET_DIR=/var/www/studyforrest/www
 RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts
 
@@ -95,10 +94,10 @@ publish:
 	if test -d $(BASEDIR)/data; then rsync -avh $(BASEDIR)/data/ $(OUTPUTDIR)/data/; fi
 
 ssh_upload: data publish
-	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_upload: data publish
-	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
 updatedeps: $(TMPDIR) content/js/d3.v3.min.js content/js/dygraph-combined.js \
             content/js/xtk.js pelican-theme/static/js/jquery.min.js \
