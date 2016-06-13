@@ -44,7 +44,6 @@
                 {{ article.content }}
             </div>
             <!-- /.entry-content -->
-            {% include 'includes/addthis.html' %}
         </article>
     </section>
 {% endblock %}
@@ -54,8 +53,5 @@
     {% for javascript in article.javascripts %}
         {{ javascript }}
     {% endfor %}
-{% endif %}
-{% if ADDTHIS_PROFILE %}
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ ADDTHIS_PROFILE }}"></script>
 {% endif %}
 {% endblock %}

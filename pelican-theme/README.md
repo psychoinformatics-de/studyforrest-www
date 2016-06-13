@@ -39,12 +39,6 @@ To get a `TWITTER_WIDGET_ID`, go to: https://twitter.com/settings/widgets and se
 
 `https://twitter.com/settings/widgets/TWITTER_WIDGET_ID/edit`
 
-### AddThis
-
-You can enable sharing buttons through [AddThis](http://www.addthis.com/) by setting `ADDTHIS_PROFILE` to your AddThis profile-id. This will display a **Tweet**, **Facebook Like** and **Google +1** button under each post.
-
-* All social buttons are enabled by default. You can disable certain button by setting following properties to _False_: `ADDTHIS_FACEBOOK_LIKE`, `ADDTHIS_TWEET`, `ADDTHIS_GOOGLE_PLUSONE`.
-
 ### Footer
 
 The footer will display a copyright message using the AUTHOR variable and the year of the latest post. If a content license mark is enabled (see above), that will be shown as well.
