@@ -20,7 +20,7 @@ studyforrest
      resemble the complexity of a **natural environment** |---| a mismatch that
      must be addressed if we are to better understand how the brain works.
 
-     This project centers around the use of the **movie** *Forrest Gump*,
+     This project centers around the use of **the movie Forrest Gump**,
      which provides complex sensory input that is both reproducible and is also
      richly laden with real-life-like content and contexts.
 
@@ -64,8 +64,8 @@ studyforrest
      :h3:`Scientific Developers`
 
      The *studyforrest* project provides **ideal reference datasets** for brain
-     imaging. It's a comprehensive, modular, multi-modal, real-world dataset,
-     making it an optimal choice when benchmarking algorithms or comparing
+     imaging. It's a comprehensive, modular, multi-modal, real-world dataset
+     |---| making it an optimal choice when benchmarking algorithms or comparing
      implementations across projects.
 
      Liberally licensed (`PDDL
@@ -87,15 +87,15 @@ studyforrest
 
      Not keen on brain research? This project still has something to offer to
      you! For example, our ongoing effort to analyze the **structure of the
-     "Forrest Gump" movie** and to annotate its properties continues to add even
-     more topics that can be explored. Do breathing and heart rate
+     movie "Forrest Gump"** and annotate its properties continues to expand the
+     breadth of topics that can be explored. Do breathing and heart rate
      reflect more than just the emotional content of the movie? Why does
-     everybody look at the same spot in some movie scenes but others show no
+     everybody look at the same spot in some movie scenes while others show no
      similarity at all? Does it make a difference to watch a movie sitting up
      versus lying on your back?
 
      What we're most interested in, we admit, is that which we cannot
-     anticipate. So please, invent applications and explore ideas *you* have
+     anticipate. So please, invent applications and **explore ideas you have**
      that we aren't even aware of |---| yet.... and do tell us about them!
 
 .. row::
