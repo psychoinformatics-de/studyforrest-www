@@ -5,10 +5,10 @@ Speech annotation
 :slug: annot_speech
 :JavaScripts: d3.v3.min.js, forrest_misc.js
 
-In a movie, speech does not only convey abstract information, but also provides
+In a movie, speech not only conveys abstract information, but also provides
 insight into the emotional state of the speaker. Additionally, in our
-audio-movie stimulus almost all information about the story, including the
-visual appearance, is communicated  via speech.
+audio-movie stimulus, almost all information about the story |---| including the
+visual appearance |---| is communicated via speech.
 
 Here we collect information on the speech content of the movie. All published
 annotations are available in a `repository on GitHub
@@ -21,7 +21,7 @@ Audio-description transcript
 
 Any content of the audio-movie stimulus that cannot be inferred from the
 regular DVD release is provided as an annotation. This is the transcript
-of the additional voicover narrator that describes the visual content of
+of the additional voice-over narrator that describes the visual content of
 the movie.
 
 .. raw:: html
@@ -31,7 +31,7 @@ the movie.
 Dialog transcript
 -----------------
 
-A complete transcript of the dialog in the movie (for the English original, as
+A complete transcript of the dialog in the movie (for the English original as
 well as the German dubbing) has been created. It is currently being validated
 and will be made available shortly. Please contact `info@studyforrest.org
 <mailto:info@studyforrest.org?subject=studyforrest.org>`_ if you are interested
