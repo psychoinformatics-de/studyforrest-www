@@ -7,10 +7,10 @@ Movie structure annotations
 
 A movie is a highly engineered stimulus that primarily consists of scenes
 (parts of the plot that take places at a consecutive segment of space and time)
-and shots (uninterupted observation of events by the camera). The sequence and
+and shots (uninterrupted observation of events by the camera). The sequence and
 particular composition of these two elements convey a lot of information that
 is critical for story comprehension and helps the viewer (or listener) orient
-itself in the world of the movie.
+themselves in the world of the movie.
 
 Here we collect information on the movie structure. All published annotations
 are available in a `repository on GitHub
@@ -32,8 +32,8 @@ Movie shots
 -----------
 
 Temporal location of all cuts in the movie (only applicable to visual
-stimulation). Cuts were initially detected using an automated procedure and
-later curated by hand.
+stimulation). Cuts were initially detected using an automated procedure and were
+then later curated by hand.
 
 .. raw:: html
 
