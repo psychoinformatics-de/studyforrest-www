@@ -165,13 +165,15 @@ well as familiarity with the "Forrest Gump" movie.
 .. raw:: html
 
   <script>
-  csvtable_preview('#audio_descr_annot_table',
-                   "/data/german_audio_description.csv",
-                   ["Start", "End", "Transcript"],
-                   3, 3);
-  csvtable_preview('#scene_annot_table', "/data/scenes.csv",
-                   ["Time", "Location", "Time of day", "Interior/exterior"],
-                   3, 3);
+  $(function() {
+    csvtable_preview('#audio_descr_annot_table',
+                     "/data/german_audio_description.csv",
+                     ["Start", "End", "Transcript"],
+                     3, 3);
+    csvtable_preview('#scene_annot_table', "/data/scenes.csv",
+                     ["Time", "Location", "Time of day", "Interior/exterior"],
+                     3, 3);
+  });
   </script>
 
 .. |---| unicode:: U+02014 .. em dash
