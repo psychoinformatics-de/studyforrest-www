@@ -7,10 +7,10 @@ Cortical surface reconstructions
 
 
 Structural brain scans can be used to reconstruct the cortical surface of the
-brain. This process estimates various properties of the brain, such as
-thickness of the gray matter, or cortical curvature. The example image below
-shows both hemispheres of an individual brain. For the left hemisphere the
-outer ("pial") surface is shown. For the right hemisphere the white matter
+brain. This process estimates various properties of the brain, such as the
+thickness of the gray matter or cortical curvature. The example image below
+shows both hemispheres of an individual brain. For the left hemisphere, the
+outer ("pial") surface is shown. For the right hemisphere, the white matter
 surface is shown with a colored overlay indicating the cortical curvature at
 each surface point.
 
@@ -23,7 +23,6 @@ The complete description of this processing step has been published in:
   Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
   natural stimulation with an audio movie
   <http://www.nature.com/articles/sdata20143>`_. Scientific Data, 1.
-
 
 
 .. raw:: html

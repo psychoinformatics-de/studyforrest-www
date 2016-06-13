@@ -9,7 +9,7 @@ Susceptibility-weighted scans
 **Venography**
 
 Susceptibility-weighted imaging is used for **venography**, as it is sensitive
-to venous blood, hemorrhage and iron storage. For example, veins appear black
+to venous blood, hemorrhage, and iron storage. For example, veins appear black
 in the example magnitude image below.
 For more information on this image type see `Wikipedia
 <http://en.wikipedia.org/wiki/Susceptibility_weighted_imaging">`_.
