@@ -52,7 +52,8 @@ About this Project
      personnel.
 
      Data acquisition was, in part, funded by a grant from the German Research
-     Foundation (DFG) awarded to S.~Pollmann and O.~Speck (DFG PO 548/15-1).
+     Foundation (DFG) awarded to Stefan Pollmann and Oliver Speck
+     (DFG PO 548/15-1).
 
      The Otto-von-Guericke-University_, Magdeburg, Germany.
 
