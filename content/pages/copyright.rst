@@ -68,28 +68,6 @@ License:
 ----
 
 Files:
-  theme/css/font-awesome.min.css
-Copyright:
-  `Font Awesome`_
-License:
-  `MIT`_
-
-.. _Font Awesome: http://fontawesome.io/
-
-----
-
-Files:
-  theme/fonts/fontawesome-\*
-Copyright:
-  `Font Awesome`_
-License:
-  `SIL OFL 1.1`_
-
-.. _SIL OFL 1.1: http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
-
-----
-
-Files:
   theme/fonts/open-sans\*
 Copyright:
   Steve Matteson
@@ -106,6 +84,8 @@ Copyright:
   Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida
 License:
   `SIL OFL 1.1`_
+
+.. _SIL OFL 1.1: http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
 
 ----
 
@@ -168,7 +148,7 @@ License:
 Files:
   img/beaker.svg
 Copyright:
-  Edward Boatman
+  `Edward Boatman`_
 License:
   `Attribution 3.0 United States`_
 
@@ -189,7 +169,7 @@ License:
 ----
 
 Files:
-  img/run_forrest_web.jpg
+  /theme/img/run_forrest_web.jpg
 Copyright:
   1994, Paramount Pictures Corporation
 License:
@@ -200,8 +180,44 @@ License:
 Files:
   img/world.svg
 Copyright:
-  Iacopo Neri
+  `Iacopo Neri`_
 License:
   `Attribution 3.0 United States`_
 
 .. _Iacopo Neri: https://thenounproject.com/iacopo3
+
+----
+
+Files:
+  /theme/img/search.svg
+Copyright:
+  `Sofi Ovchinnikova`_
+License:
+  `Attribution 3.0 United States`_
+
+.. _Sofi Ovchinnikova: https://thenounproject.com/sofi.ovchinnikova/
+
+----
+
+Files:
+  /theme/img/mark-github.svg
+Copyright:
+  `GitHub Octicons`_
+License:
+   `SIL OFL 1.1`_
+
+.. _GitHub Octicons: https://github.com/primer/octicons
+
+----
+
+Files:
+  /theme/img/logo-twitter.svg
+Source:
+  `Wikipedia - Twitter Bird Logo`_
+Copyright:
+  `Twitter`_
+License:
+   Unknown, likely All Rights Reserved
+
+.. _Wikipedia - Twitter Bird Logo: https://en.wikipedia.org/wiki/File:Twitter_bird_logo_2012.svg
+.. _Twitter: https://about.twitter.com/company/brand-assets

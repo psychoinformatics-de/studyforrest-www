@@ -69,10 +69,10 @@ $(document).ready(function() {
 
   table.on("aftertablesort", function (event, data) {
     var th = $(this).find("th");
-    th.find(".fa").remove();
+    th.find(".arrow").remove();
     var dir = $.fn.stupidtable.dir;
-    var arrow = data.direction === dir.ASC ? 'fa-arrow-up' : 'fa-arrow-down';
-    th.eq(data.column).prepend('<i class="fa ' + arrow + '" aria-hidden="true"></i> ');
+    var arrow = data.direction === dir.ASC ? '▲' : '▼';
+    th.eq(data.column).prepend('<span class="arrow">' + arrow + '</span> ');
   });
 
   // sort Year by default

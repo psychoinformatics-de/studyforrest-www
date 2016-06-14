@@ -6,7 +6,7 @@
         {% if article.modified %}
             <span class="label label-default">Modified</span>
             <span class="modified">
-                <i class="fa fa-calendar"></i><time datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }}</time>
+              <time datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }}</time>
             </span>
         {% endif %}
     {% endif %}
@@ -20,7 +20,7 @@
 
     {% if SHOW_ARTICLE_AUTHOR %}
         {% if article.author %}
-        <a href="{{ SITEURL }}/{{ article.author.url }}"><i class="fa fa-user"></i> {{ article.author }}</a>
+        <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
         {% endif %}
     {% endif %}
 
