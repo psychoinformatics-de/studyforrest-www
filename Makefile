@@ -17,7 +17,6 @@ RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts
 
 VER_JQUERY=2.2.4
 VER_BOOTSTRAP=3.3.6
-VER_FONTAWESOME=4.6.3
 VER_DYGRAPH=1.1.1
 
 DEBUG ?= 0
@@ -48,7 +47,6 @@ help:
 	@echo '                                      see makefile for additional      '
 	@echo '                                      dependency targets               '
 	@echo '   make bootstrap                   download and extract Bootstrap     '
-	@echo '   make fontawesome                 download and extract FontAwesome   '
 	@echo '   make tipue                       download and extract Tipue Search  '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
@@ -101,7 +99,7 @@ rsync_upload: data publish
 
 updatedeps: $(TMPDIR) content/js/d3.v3.min.js content/js/dygraph-combined.js \
             content/js/xtk.js pelican-theme/static/js/jquery.min.js \
-            bootstrap fontawesome tipue
+            bootstrap tipue
 
 $(TMPDIR):
 	mkdir -p $@
@@ -125,11 +123,6 @@ bootstrap:
 	curl -L -o $(TMPDIR)/bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
 	unzip -j $(TMPDIR)/bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
 	unzip -j $(TMPDIR)/bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
-
-fontawesome:
-	curl -L -o $(TMPDIR)/fa.zip https://github.com/FortAwesome/Font-Awesome/archive/v$(VER_FONTAWESOME).zip
-	unzip -j $(TMPDIR)/fa.zip Font-Awesome-$(VER_FONTAWESOME)/css/font-awesome.min.css -d pelican-theme/static/css/
-	unzip -j $(TMPDIR)/fa.zip Font-Awesome-$(VER_FONTAWESOME)/fonts/*webfont* -d pelican-theme/static/fonts/
 
 tipue:
 	curl -L -o $(TMPDIR)/ts.zip http://www.tipue.com/search/tipuesearch.zip
@@ -214,4 +207,4 @@ $(DATADIR)/wm_streamlines.trk:
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
 
-.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap fontawesome tipue data pelican-theme/static/js/jquery.min.js content/js/stupidtable.js
+.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap tipue data pelican-theme/static/js/jquery.min.js content/js/stupidtable.js

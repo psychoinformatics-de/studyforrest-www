@@ -5,7 +5,7 @@ This contains everything needed to build the website running at
 http://www.studyforrest.org
 
 The site is generated with Pelican and is built primarily using Bootstrap,
-jQuery, Tipue Search, and FontAwesome.
+jQuery, and Tipue Search.
 
 Some pages, to provide a more rich experience, use additional frameworks such
 as D3.js, dygraphs, xtk.js, and Papaya.
