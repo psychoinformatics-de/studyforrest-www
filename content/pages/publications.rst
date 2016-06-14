@@ -18,7 +18,7 @@ This page lists publications that either describe data provided by the
                   placeholder="Filter table for..." aria-label="Filter table for..." >
            <span class="input-group-btn">
              <button id='filter_button' title='Filter table' class="btn btn-default" type="submit">
-               <span class="fa fa-filter"></span>
+               ⚡
              </button>
            </span>
          </div><!-- /input-group -->
