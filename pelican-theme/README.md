@@ -31,14 +31,6 @@ Pelican-Bootstrap3 follows the standard Pagination settings of Pelican and uses 
 
 * If `DISPLAY_ARTICLE_INFO_ON_INDEX` is set to _True_, article info (date, tags) will be show under the title for each article, otherwise only title and summary will be shown (default).
 
-### Twitter Timeline
-
-To enable, provide a `TWITTER_USERNAME` and a `TWITTER_WIDGET_ID`.
-
-To get a `TWITTER_WIDGET_ID`, go to: https://twitter.com/settings/widgets and select `Create new`. You'll find the TWITTER_WIDGET_ID under the html or in the site url:
-
-`https://twitter.com/settings/widgets/TWITTER_WIDGET_ID/edit`
-
 ### Footer
 
 The footer will display a copyright message using the AUTHOR variable and the year of the latest post. If a content license mark is enabled (see above), that will be shown as well.
