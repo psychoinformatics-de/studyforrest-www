@@ -153,16 +153,17 @@ footer p {
   color: #777;
   margin: 0;
 }
+footer svg {
+  height: 8rem;
+}
+
 .footer-links {
-  font-size: 2rem;
   padding: 0;
 }
 .footer-links li {
   display: inline;
-  padding: 0 1em;
+  padding: 0 2rem;
 }
-.github-black { color: #000; }
-.twitter-blue { color: #55acee; }
 
 .summary img {
   height: auto;

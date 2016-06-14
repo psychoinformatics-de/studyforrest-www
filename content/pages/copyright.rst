@@ -216,3 +216,28 @@ License:
   `Attribution 3.0 United States`_
 
 .. _Sofi Ovchinnikova: https://thenounproject.com/sofi.ovchinnikova/
+
+----
+
+Files:
+  /theme/img/mark-github.svg
+Copyright:
+  `GitHub Octicons`_
+License:
+   `SIL OFL 1.1`_
+
+.. _GitHub Octicons: https://github.com/primer/octicons
+
+----
+
+Files:
+  /theme/img/logo-twitter.svg
+Source:
+  `Wikipedia - Twitter Bird Logo`_
+Copyright:
+  `Twitter`_
+License:
+   Unknown, likely All Rights Reserved
+
+.. _Wikipedia - Twitter Bird Logo: https://en.wikipedia.org/wiki/File:Twitter_bird_logo_2012.svg
+.. _Twitter: https://about.twitter.com/company/brand-assets
