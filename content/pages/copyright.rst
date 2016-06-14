@@ -168,7 +168,7 @@ License:
 Files:
   img/beaker.svg
 Copyright:
-  Edward Boatman
+  `Edward Boatman`_
 License:
   `Attribution 3.0 United States`_
 
@@ -189,7 +189,7 @@ License:
 ----
 
 Files:
-  img/run_forrest_web.jpg
+  /theme/img/run_forrest_web.jpg
 Copyright:
   1994, Paramount Pictures Corporation
 License:
@@ -200,7 +200,7 @@ License:
 Files:
   img/world.svg
 Copyright:
-  Iacopo Neri
+  `Iacopo Neri`_
 License:
   `Attribution 3.0 United States`_
 
@@ -209,7 +209,7 @@ License:
 ----
 
 Files:
-  img/world.svg
+  /theme/img/search.svg
 Copyright:
   `Sofi Ovchinnikova`_
 License:
