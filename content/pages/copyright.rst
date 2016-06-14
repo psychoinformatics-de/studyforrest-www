@@ -205,3 +205,14 @@ License:
   `Attribution 3.0 United States`_
 
 .. _Iacopo Neri: https://thenounproject.com/iacopo3
+
+----
+
+Files:
+  img/world.svg
+Copyright:
+  `Sofi Ovchinnikova`_
+License:
+  `Attribution 3.0 United States`_
+
+.. _Sofi Ovchinnikova: https://thenounproject.com/sofi.ovchinnikova/

@@ -102,6 +102,10 @@ main {
 nav a {
   text-decoration: none;
 }
+nav svg {
+  height: 1em;
+  vertical-align: middle;
+}
 
 
 /*
