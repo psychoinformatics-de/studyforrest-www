@@ -49,8 +49,6 @@ DEFAULT_PAGINATION = 10
 # Social media jazz
 #
 GOOGLE_ANALYTICS = "UA-46839658-1"
-TWITTER_USERNAME = 'studyforrest'
-TWITTER_WIDGET_ID = '435327568237965312'
 
 #
 # Likely to be removed
