@@ -95,12 +95,12 @@ This page lists publications that either describe data provided by the
      - F1000Research
      - 2015
      - Data
-   * - FuSeISC: Functional Segmentation of Brain fMRI during naturalistic stimulus based on Inter-Subject Correlation
+   * - `FuSeISC: Functional Segmentation of Brain fMRI during naturalistic stimulus based on Inter-Subject Correlation <{filename}/Studies/contest_fuseisc.rst>`_
      - Juha Pajula, Jussi Tohka, Jukka-Pekka Kauppi
      - studyforrest.org
      - 2014
      - Study
-   * - Identifying task-related activity using periodic graph properties
+   * - `Identifying task-related activity using periodic graph properties <{filename}/Studies/contest_findforrestnetworks.rst>`_
      - Lars Marstaller, Jeiran Choupan, Arend Hintze
      - studyforrest.org
      - 2014
