@@ -3,7 +3,6 @@ studyforrest
 :template: index
 :save_as: index.html
 :url: index.html
-:Stylesheets: index.css
 
 .. row::
 
