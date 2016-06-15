@@ -1,6 +1,12 @@
 {% extends "page.html" %}
 {% block title %}{{ SITENAME }}{% endblock %}
 
+{% block CSS_EXTRA %}
+<style type="text/css">
+{% include 'static/css/index.css' %}
+</style>
+{% endblock %}
+
 {% block head_suffix %}
   <meta itemprop="name" content="The studyforrest project">
   <meta itemprop="description" content="This project is an open invitation to anyone and everyone to participate in a decentralized effort to explore the opportunities of open science in neuroimaging. We aim to document how much (scientific) value can be generated from a data release — from the publication of scientific findings derived from this dataset, algorithms and methods evaluated on this dataset, and/or extensions of this dataset by acquisition and incorporation of new data.">
