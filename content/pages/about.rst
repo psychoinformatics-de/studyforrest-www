@@ -21,8 +21,8 @@ About this Project
      <mailto:info@studyforrest.org?subject=studyforrest.org>`_.
 
      This website is maintained by the `Psychoinformatics Lab
-     <http://www.ipsy.ovgu.de/ipsy/en/psychoinformatics.html>`_ at the
-     Otto-von-Guericke University Magdeburg, Germany.
+     <http://psychoinformatics.de/>`_ at the Otto-von-Guericke University
+     Magdeburg, Germany.
 
      :h2:`Acknowledgements`
 
