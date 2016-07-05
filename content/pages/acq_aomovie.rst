@@ -6,11 +6,12 @@ Prolonged quasi-natural stimulation with an audio-movie
 :JavaScripts: papaya.js, dygraph-combined.js, mod_physio.js
 :Stylesheets: papaya.css
 
-This dataset contains functional brain scans for 20 participants who listened
-to a two-hour presentation of an audio-only version of the Hollywood feature
-film `Forrest Gump <http://en.wikipedia.org/wiki/Forrest_Gump>`_ made for a
-visually impaired audience (German dubbing). The complete description of this
-dataset, including a number of validation analyses, has been published in:
+This dataset contains functional brain scans for 20 participants and a gel
+phantom who listened to a two-hour presentation of an audio-only version of the
+Hollywood feature film `Forrest Gump
+<http://en.wikipedia.org/wiki/Forrest_Gump>`_ made for a visually impaired
+audience (German dubbing). The complete description of this dataset, including
+a number of validation analyses, has been published in:
 
   Hanke et al. (2014). `A high-resolution 7-Tesla fMRI dataset from complex
   natural stimulation with an audio movie
