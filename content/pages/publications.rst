@@ -116,5 +116,10 @@ This page lists publications that either describe data provided by the
      - Submitted
      -
      - Data
+   * - An annotation of cuts, depicted locations, and temporal progression in the motion picture "Forrest Gump"
+     - Christian O. Häusler, Michael Hanke
+     - Submitted
+     -
+     - Data
 
 .. |---| unicode:: U+02014 .. em dash
