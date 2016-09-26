@@ -37,10 +37,10 @@ This page lists publications that either describe data provided by the
      - Year
      - Type
 
-   * - Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump"
+   * - `Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump" <https://f1000research.com/articles/5-2375>`_
      - Michael Hanke, Pierre Ibe
-     - Submitted
-     -
+     - 2016
+     - F1000Research
      - Data
    * - `An annotation of cuts, depicted locations, and temporal progression in the motion picture "Forrest Gump" <http://f1000research.com/articles/5-2273>`_
      - Christian O. Häusler, Michael Hanke
