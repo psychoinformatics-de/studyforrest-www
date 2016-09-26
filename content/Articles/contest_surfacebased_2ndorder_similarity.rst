@@ -23,10 +23,10 @@ Demos and download materials
    </video>
 
 - Download the `demo video
-  <{filename}/data/contest_cosmomvpa/demo_video.mov>`_.
+  </data/contest_cosmomvpa/demo_video.mov>`_.
 
 - `Scripts, data and documentation (zip archive)
-  <{filename}/data/contest_cosmomvpa/surf_2ndorder_insta_rsa.zip>`_.
+  </data/contest_cosmomvpa/surf_2ndorder_insta_rsa.zip>`_.
 
 Functionality
 -------------
@@ -45,7 +45,7 @@ Instructions to run the demo
 ----------------------------
 
 Get the `precomputed results
-<{filename}/data/contest_cosmomvpa/surf_2ndorder_insta_rsa.zip>`_ and make sure
+</data/contest_cosmomvpa/surf_2ndorder_insta_rsa.zip>`_ and make sure
 to have a working AFNI installation on a unix-like platform, then:
 
 - ``cd group``

@@ -91,7 +91,7 @@ smoothed it with a 3mm Gaussian kernel, and calculated the final average image.
 Final images were thresholded at 2 standard deviations above the mean, which
 equates to p < 0.05.
 
-MATLAB Code: `FIND_NETWORKS_V3.M <{filename}/data/contest_findforrestnetworks/find_networks_v3.m>`_
+MATLAB Code: `FIND_NETWORKS_V3.M </data/contest_findforrestnetworks/find_networks_v3.m>`_
 
 Code was compiled and run on the `University of Queensland's Linux cluster`_.
 We used the `Brain Connectivity Toolbox`_ for calculation of graph properties

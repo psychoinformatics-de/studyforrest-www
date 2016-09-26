@@ -37,20 +37,25 @@ This page lists publications that either describe data provided by the
      - Year
      - Type
 
-   * - The Effect of Acquisition Resolution on BOLD fMRI Decoding Analyses at 7 Tesla
-     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
-     - Submitted
-     -
-     - Study
-   * - Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex
-     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
+   * - Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump"
+     - Michael Hanke, Pierre Ibe
      - Submitted
      -
      - Data
+   * - `An annotation of cuts, depicted locations, and temporal progression in the motion picture "Forrest Gump" <http://f1000research.com/articles/5-2273>`_
+     - Christian O. Häusler, Michael Hanke
+     - 2016
+     - F1000Research
+     - Data
+   * - `Brains on Beats <http://arxiv.org/abs/1606.02627>`_
+     - Umut Güçlü, Jordy Thielen, Michael Hanke, Marcel van Gerven
+     - NIPS
+     - 2016
+     - Study
    * - `Simultaneous fMRI and eye gaze recordings during prolonged natural stimulation -- a studyforrest extension
        <http://biorxiv.org/content/early/2016/03/31/046581>`_
      - Michael Hanke, Nico Adelhöfer, Daniel Kottke, Vittorio Iacovella, Ayan Sengupta, Falko R. Kaule, Roland Nigbur, Alexander Q. Waite, Florian J. Baumgartner, Jörg Stadler
-     - biorxiv.org
+     - Scientific Data
      - 2016
      - Data
    * - `An extension of the studyforrest dataset for vision research
@@ -110,6 +115,16 @@ This page lists publications that either describe data provided by the
      - Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule, Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
      - Scientific Data
      - 2014
+     - Data
+   * - The Effect of Acquisition Resolution on BOLD fMRI Decoding Analyses at 7 Tesla
+     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
+     - Submitted
+     -
+     - Study
+   * - Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex
+     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
+     - Submitted
+     -
      - Data
 
 .. |---| unicode:: U+02014 .. em dash

@@ -493,19 +493,19 @@ Data
 
 All resulting statistics and clusters are provided in following list.
 
-* `Sum binary mask for ISC analysis. Mask contains voxels which are common to functional data of all subjects <{filename}/data/contest_fuseisc/ISC_binmap.nii.gz>`_
-* `Masked MNI-152 template. Original MNI-152 template from *studyforrest*t data repository masked with ISC binary mask. <{filename}/data/contest_fuseisc/MNI-152_masked.nii.gz>`_
-* `Full ISC map for Clip 0 <{filename}/data/contest_fuseisc/Clip0_ISCmap_Full.nii.gz>`_
-* `Full ISC map for Clip 1 <{filename}/data/contest_fuseisc/Clip1_ISCmap_Full.nii.gz>`_
-* `Full ISC map for Clip 2 <{filename}/data/contest_fuseisc/Clip2_ISCmap_Full.nii.gz>`_
-* `Full ISC map for Clip 3 <{filename}/data/contest_fuseisc/Clip3_ISCmap_Full.nii.gz>`_
-* `Full ISC map for Clip 4 <{filename}/data/contest_fuseisc/Clip4_ISCmap_Full.nii.gz>`_
-* `Jackknife std estimate map for Clip 0 <{filename}/data/contest_fuseisc/Clip0_stdmap.nii.gz>`_
-* `Jackknife std estimate map for Clip 1 <{filename}/data/contest_fuseisc/Clip1_stdmap.nii.gz>`_
-* `Jackknife std estimate map for Clip 2 <{filename}/data/contest_fuseisc/Clip2_stdmap.nii.gz>`_
-* `Jackknife std estimate map for Clip 3 <{filename}/data/contest_fuseisc/Clip3_stdmap.nii.gz>`_
-* `Jackknife std estimate map for Clip 4 <{filename}/data/contest_fuseisc/Clip4_stdmap.nii.gz>`_
-* `Functional segmentation map with neighborhood size k=275 <{filename}/data/contest_fuseisc/k275WeightVar_AllClusters_FullCov.nii.gz>`_
+* `Sum binary mask for ISC analysis. Mask contains voxels which are common to functional data of all subjects </data/contest_fuseisc/ISC_binmap.nii.gz>`_
+* `Masked MNI-152 template. Original MNI-152 template from *studyforrest*t data repository masked with ISC binary mask. </data/contest_fuseisc/MNI-152_masked.nii.gz>`_
+* `Full ISC map for Clip 0 </data/contest_fuseisc/Clip0_ISCmap_Full.nii.gz>`_
+* `Full ISC map for Clip 1 </data/contest_fuseisc/Clip1_ISCmap_Full.nii.gz>`_
+* `Full ISC map for Clip 2 </data/contest_fuseisc/Clip2_ISCmap_Full.nii.gz>`_
+* `Full ISC map for Clip 3 </data/contest_fuseisc/Clip3_ISCmap_Full.nii.gz>`_
+* `Full ISC map for Clip 4 </data/contest_fuseisc/Clip4_ISCmap_Full.nii.gz>`_
+* `Jackknife std estimate map for Clip 0 </data/contest_fuseisc/Clip0_stdmap.nii.gz>`_
+* `Jackknife std estimate map for Clip 1 </data/contest_fuseisc/Clip1_stdmap.nii.gz>`_
+* `Jackknife std estimate map for Clip 2 </data/contest_fuseisc/Clip2_stdmap.nii.gz>`_
+* `Jackknife std estimate map for Clip 3 </data/contest_fuseisc/Clip3_stdmap.nii.gz>`_
+* `Jackknife std estimate map for Clip 4 </data/contest_fuseisc/Clip4_stdmap.nii.gz>`_
+* `Functional segmentation map with neighborhood size k=275 </data/contest_fuseisc/k275WeightVar_AllClusters_FullCov.nii.gz>`_
 
 
 Implementation, codes, and other details needed to reproduce the analysis
@@ -654,14 +654,14 @@ Data
 |      | visual inspection                                 |                                               |
 +------+---------------------------------------------------+-----------------------------------------------+
 
-.. _ForrestDataGenerator.m: {filename}/data/contest_fuseisc/ForrestDataGenerator.m
+.. _ForrestDataGenerator.m: /data/contest_fuseisc/ForrestDataGenerator.m
 .. _FSL Homepage: http://fsl.fmrib.ox.ac.uk/fsl/fslwiki
 .. _ISCtoolbox Homepage: https://code.google.com/p/isc-toolbox
-.. _StdEstimate.m: {filename}/data/contest_fuseisc/StdEstimate.m
+.. _StdEstimate.m: /data/contest_fuseisc/StdEstimate.m
 .. _ISCJackKnife.m: https://isc-toolbox.googlecode.com/svn/trunk/FuSe/ISCJackKnife.m
-.. _runFuSeISCclustering.m: {filename}/data/contest_fuseisc/runFuSeISCclustering.m
+.. _runFuSeISCclustering.m: /data/contest_fuseisc/runFuSeISCclustering.m
 .. _fuseISCclustering.zip: https://isc-toolbox.googlecode.com/svn/trunk/FuSe/fuseISCclustering.zip
-.. _ClusterCentroidsAndNifti.m: {filename}/data/contest_fuseisc/ClusterCentroidsAndNifti.m
+.. _ClusterCentroidsAndNifti.m: /data/contest_fuseisc/ClusterCentroidsAndNifti.m
 
 About this work
 ===============
