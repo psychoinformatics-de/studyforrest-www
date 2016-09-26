@@ -12,8 +12,9 @@ TMPDIR=$(BASEDIR)/tmp
 
 SSH_HOST=kumo.ovgu.de
 SSH_PORT=22
+SSH_USER=
 SSH_TARGET_DIR=/var/www/studyforrest/www
-RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts
+RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts --cvs-exclude
 
 VER_JQUERY=2.2.4
 VER_BOOTSTRAP=3.3.6
@@ -92,10 +93,18 @@ publish:
 	if test -d $(BASEDIR)/data; then rsync -avh $(BASEDIR)/data/ $(OUTPUTDIR)/data/; fi
 
 ssh_upload: data publish
+ifdef SSH_USER
+	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+else
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_HOST):$(SSH_TARGET_DIR)
+endif
 
 rsync_upload: data publish
-	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+ifdef SSH_USER
+	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+else
+	rsync -e "ssh -p $(SSH_PORT)" $(RSYNC_OPTS) $(OUTPUTDIR)/ $(SSH_HOST):$(SSH_TARGET_DIR)
+endif
 
 updatedeps: $(TMPDIR) content/js/d3.v3.min.js content/js/dygraph-combined.js \
             content/js/xtk.js pelican-theme/static/js/jquery.min.js \
