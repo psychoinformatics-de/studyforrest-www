@@ -39,13 +39,13 @@ This page lists publications that either describe data provided by the
 
    * - `Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump" <https://f1000research.com/articles/5-2375>`_
      - Michael Hanke, Pierre Ibe
-     - 2016
      - F1000Research
+     - 2016
      - Data
    * - `An annotation of cuts, depicted locations, and temporal progression in the motion picture "Forrest Gump" <http://f1000research.com/articles/5-2273>`_
      - Christian O. Häusler, Michael Hanke
-     - 2016
      - F1000Research
+     - 2016
      - Data
    * - `Brains on Beats <http://arxiv.org/abs/1606.02627>`_
      - Umut Güçlü, Jordy Thielen, Michael Hanke, Marcel van Gerven
@@ -118,13 +118,13 @@ This page lists publications that either describe data provided by the
      - Data
    * - The Effect of Acquisition Resolution on BOLD fMRI Decoding Analyses at 7 Tesla
      - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
-     - Submitted
      -
+     - Submitted
      - Study
    * - Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex
      - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
-     - Submitted
      -
+     - Submitted
      - Data
 
 .. |---| unicode:: U+02014 .. em dash
