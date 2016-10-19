@@ -116,10 +116,10 @@ This page lists publications that either describe data provided by the
      - Scientific Data
      - 2014
      - Data
-   * - The Effect of Acquisition Resolution on BOLD fMRI Decoding Analyses at 7 Tesla
+   * - `The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla <http://dx.doi.org/10.1101/081604>`_
      - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
      -
-     - Submitted
+     - Revision submitted
      - Study
    * - Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex
      - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
