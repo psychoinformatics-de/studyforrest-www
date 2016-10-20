@@ -202,6 +202,30 @@ linked publications and summary pages.
 
    .. thumbnail::
 
+      .. image:: {filename}/pics/annot_irony_icon.jpg
+         :alt: Hidden beach CC-BY from https://www.flickr.com/photos/carbonnyc/76468122
+
+      .. caption::
+
+         :h5:`Semantic conflict`
+
+         .. button:: Read publication »
+            :target: https://f1000research.com/articles/5-2375
+
+   .. thumbnail::
+
+      .. image:: {filename}/pics/annot_locationtime_icon.jpg
+         :alt: Cuts in the movie
+
+      .. caption::
+
+         :h5:`Location changes and time progression`
+
+         .. button:: Read publication »
+            :target: http://f1000research.com/articles/5-2273
+
+   .. thumbnail::
+
       .. image:: {filename}/pics/annot_bodycontact_icon.jpg
 
       .. caption::
@@ -218,18 +242,6 @@ linked publications and summary pages.
       .. caption::
 
          :h5:`Eye movement labels`
-
-         .. button:: Publication in prep.
-            :class: disabled
-
-   .. thumbnail::
-
-      .. image:: {filename}/pics/annot_irony_icon.jpg
-         :alt: Hidden beach CC-BY from https://www.flickr.com/photos/carbonnyc/76468122
-
-      .. caption::
-
-         :h5:`Semantic conflict`
 
          .. button:: Publication in prep.
             :class: disabled
