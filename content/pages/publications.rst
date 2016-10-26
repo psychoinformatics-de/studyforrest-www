@@ -52,14 +52,12 @@ This page lists publications that either describe data provided by the
      - NIPS
      - 2016
      - Study
-   * - `Simultaneous fMRI and eye gaze recordings during prolonged natural stimulation -- a studyforrest extension
-       <http://biorxiv.org/content/early/2016/03/31/046581>`_
+   * - `A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation <http://www.nature.com/articles/sdata201692>`_
      - Michael Hanke, Nico Adelhöfer, Daniel Kottke, Vittorio Iacovella, Ayan Sengupta, Falko R. Kaule, Roland Nigbur, Alexander Q. Waite, Florian J. Baumgartner, Jörg Stadler
      - Scientific Data
      - 2016
      - Data
-   * - `An extension of the studyforrest dataset for vision research
-       <http://biorxiv.org/content/early/2016/03/31/046573>`_
+   * - `A studyforrest extension, retinotopic mapping and localization of higher visual areas <http://www.nature.com/articles/sdata201693>`_
      -  Ayan Sengupta, Falko R. Kaule, J. Swaroop Guntupalli, Michael B. Hoffmann, Christian Häusler, Jörg Stadler, Michael Hanke, M
      - Scientific Data
      - 2016
