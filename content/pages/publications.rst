@@ -49,7 +49,7 @@ This page lists publications that either describe data provided by the
      - Data
    * - `Brains on Beats <http://arxiv.org/abs/1606.02627>`_
      - Umut Güçlü, Jordy Thielen, Michael Hanke, Marcel van Gerven
-     - NIPS
+     - Advances in Neural Information Processing Systems (NIPS)
      - 2016
      - Study
    * - `A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation <http://www.nature.com/articles/sdata201692>`_
