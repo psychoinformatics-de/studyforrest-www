@@ -103,6 +103,17 @@ studyforrest
      :width: 8
      :offset: 2
 
+       "[...] anatomical subdivisions of
+       auditory cortex revealed great functional diversity and lateralization
+       in intensity discrimination [...] naturalistic paradigm [...] improves the
+       ecological validity but also alleviate the discrepancies caused by the differences
+       in stimulus types and task designs in previous studies."
+
+       |---| `Hu et al., Brain Structure and Function, 2016
+       <http://dx.doi.org/10.1007/s00429-016-1324-8>`_
+
+     ..
+
        "[...] magnetic resonance advection imaging might have future potential to
        contribute to the modeling of the cerebrovascular system and to serve as a
        biomarker for cerebrovascular disease."
