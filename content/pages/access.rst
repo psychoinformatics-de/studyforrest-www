@@ -81,7 +81,7 @@ methods are supported.
      point in the future. Previous versions of data files are also accessible.
 
      All `data repositories
-     <https://github.com/psychoinformatics-de?query=studyforrest-data>`_ for
+     <https://github.com/psychoinformatics-de?q=studyforrest-data>`_ for
      this method are publicly available on GitHub (no account is required).
 
      #. Obtain the meta-data repository::
