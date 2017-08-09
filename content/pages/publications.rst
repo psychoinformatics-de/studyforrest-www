@@ -36,7 +36,21 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
-
+   * - `Music of the 7Ts: Predicting and Decoding Multivoxel fMRI Responses with Acoustic, Schematic, and Categorical Music Features <https://dx.doi.org/10.3389%2Ffpsyg.2017.01179>`_
+     - Michael Casey
+     - Frontiers in Psychology
+     - 2017
+     - Study
+   * - `The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla <http://dx.doi.org/10.1101/081604>`_
+     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
+     - NeuroImage
+     - 2017
+     - Study
+   * - `Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex <http://dx.doi.org/10.1016/j.dib.2017.05.014>`_
+     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
+     - Data in Brief
+     - 2017
+     - Data
    * - `Disentangling the Representation of Identity from Head View Along the Human Face Processing Pathway <https://doi.org/10.1093/cercor/bhw344>`_
      - Swaroop Guntupalli, Kelsey G. Wheeler, M. Ida Gobbini
      - Cerebral Cortex
@@ -123,16 +137,6 @@ This page lists publications that either describe data provided by the
      - Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule, Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler
      - Scientific Data
      - 2014
-     - Data
-   * - `The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla <http://dx.doi.org/10.1101/081604>`_
-     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
-     - NeuroImage
-     - 2017
-     - Study
-   * - Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex
-     - Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke
-     -
-     - Submitted
      - Data
 
 .. |---| unicode:: U+02014 .. em dash
