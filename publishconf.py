@@ -12,6 +12,4 @@ from pelicanconf import *
 SITEURL = 'http://studyforrest.org'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-
 DELETE_OUTPUT_DIRECTORY = True
