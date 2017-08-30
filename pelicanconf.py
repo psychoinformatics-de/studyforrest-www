@@ -23,6 +23,7 @@ THEME = 'pelican-theme'
 DIRECT_TEMPLATES = ['archives', 'search'] # unset all templates; use these
 
 FEED_ALL_ATOM = None
+AUTHOR_SAVE_AS = False
 
 #
 # Configure the site
