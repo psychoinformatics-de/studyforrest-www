@@ -62,7 +62,7 @@ clean:
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	if test -d $(BASEDIR)/extra; then rsync -avh $(BASEDIR)/extra/ $(OUTPUTDIR)/; fi
+	if test -d $(BASEDIR)/static; then rsync -avh $(BASEDIR)/static/ $(OUTPUTDIR)/; fi
 	if test -d $(BASEDIR)/data; then rsync -avh $(BASEDIR)/data/ $(OUTPUTDIR)/data/; fi
 
 regenerate:
@@ -89,7 +89,7 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	if test -d $(BASEDIR)/extra; then rsync -avh $(BASEDIR)/extra/ $(OUTPUTDIR)/; fi
+	if test -d $(BASEDIR)/static; then rsync -avh $(BASEDIR)/static/ $(OUTPUTDIR)/; fi
 	if test -d $(BASEDIR)/data; then rsync -avh $(BASEDIR)/data/ $(OUTPUTDIR)/data/; fi
 
 ssh_upload: data publish
