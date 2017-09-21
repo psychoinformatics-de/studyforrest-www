@@ -19,7 +19,7 @@ LOCALE = u'en_US.UTF-8'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['better_tables', 'bootstrap-rst', 'pelican_javascript', 'tipue_search',]
 
-THEME = 'pelican-theme'
+THEME = 'theme'
 DIRECT_TEMPLATES = ['archives', 'search'] # unset all templates; use these
 
 FEED_ALL_ATOM = None

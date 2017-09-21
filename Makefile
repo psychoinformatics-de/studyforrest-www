@@ -107,8 +107,7 @@ else
 endif
 
 updatedeps: $(TMPDIR) content/js/d3.v3.min.js content/js/dygraph-combined.js \
-            content/js/xtk.js pelican-theme/static/js/jquery.min.js \
-            bootstrap tipue
+            content/js/xtk.js theme/static/js/jquery.min.js tipue
 
 $(TMPDIR):
 	mkdir -p $@
@@ -125,19 +124,19 @@ content/js/xtk.js:
 content/js/stupidtable.js:
 	curl -L -o $@ https://raw.githubusercontent.com/joequery/Stupid-Table-Plugin/master/stupidtable.min.js
 
-pelican-theme/static/js/jquery.min.js:
+theme/static/js/jquery.min.js:
 	curl -L -o $@ http://code.jquery.com/jquery-$(VER_JQUERY).min.js
 
 bootstrap:
 	curl -L -o $(TMPDIR)/bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
-	unzip -j $(TMPDIR)/bs.zip bootstrap-*/js/bootstrap.min.js -d pelican-theme/static/js/
-	unzip -j $(TMPDIR)/bs.zip bootstrap-*/css/bootstrap.min.css -d pelican-theme/static/css/
+	unzip -j $(TMPDIR)/bs.zip bootstrap-*/js/bootstrap.min.js -d theme/static/js/
+	unzip -j $(TMPDIR)/bs.zip bootstrap-*/css/bootstrap.min.css -d theme/static/css/
 
 tipue:
 	curl -L -o $(TMPDIR)/ts.zip http://www.tipue.com/search/tipuesearch.zip
-	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d pelican-theme/static/js/
-	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d pelican-theme/static/js/
-	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d pelican-theme/static/css/
+	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.min.js -d theme/static/js/
+	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch_set.js -d theme/static/js/
+	unzip -j $(TMPDIR)/ts.zip Tipue\ Search\ */tipuesearch/tipuesearch.css -d theme/static/css/
 
 data: $(DATADIR) $(DATADIR)/t1w.nii.gz $(DATADIR)/t2w.nii.gz \
       $(DATADIR)/swi_mag.nii.gz $(DATADIR)/angio.nii.gz \
@@ -216,4 +215,4 @@ $(DATADIR)/wm_streamlines.trk:
 	tools/build_streamlines dti_preproc $@
 	rm -rf dti_preproc
 
-.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps bootstrap tipue data pelican-theme/static/js/jquery.min.js content/js/stupidtable.js
+.PHONY: all clean html help regenerate serve devserver stopserver publish ssh_upload rsync_upload updatedeps tipue data theme/static/js/jquery.min.js content/js/stupidtable.js

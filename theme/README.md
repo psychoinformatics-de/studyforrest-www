@@ -1,4 +1,4 @@
-# pelican-theme
+# Theme
 
 This theme is derived from pelican-bootstrap3 by DandyDev (among others)
 https://github.com/DandyDev/pelican-bootstrap3
