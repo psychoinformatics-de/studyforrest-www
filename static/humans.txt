@@ -3,28 +3,25 @@ throw out the robot-thinking that inspired a standard, a template. Bah!
 
 They have their robots file, but we, /we/ have our file! Unite!
 
-Outside my window, cool rain clouds are rolling by. I, Alex Waite of
-Michigan, Wisconsin, Illinois, Wisconsin again, and now Sachsen-Anhalt Germany,
-am easily distracted by any weather that's not 25C-and-sunny. I like funk jazz,
-spending good time with good people, and lumberjack sports.
+I, Alex Waite of Michigan, Wisconsin, Illinois, Wisconsin again, and now
+Sachsen-Anhalt Germany, am easily distracted by any weather that's not
+25C-and-sunny. I like funk jazz, spending good time with good people, and
+lumberjack sports.
 
 Michael Hanke, of... I don't really know his entire history to be honest. Some
 secrets are best kept that way I guess. In any case, he also worked on this
 site, and he's lived in (at least) Halle (DDR), Sachsen-Anhalt Germany, New
 Hampshire, and back to Sachsen-Anhalt Germany. He likes to grill whole chickens,
-make anything possible out of wood, and further the open science crusade.
+make anything and everything out of wood, and further the open science crusade.
 
-By the way, Vim is a wonderful text editor; just a public service announcement
-for, you know, the public.
-
-Also, big props to Robert Kreps for making us a wicked nice favicon. If you
-(yes, you, the person reading this) run into him at a bar, buy him a beer for
-me; he deserves it.
+Also, big props to Robert Kreps for making us a wicked nice icon. If you (as in
+you, human.txt reader) run into him at a bar, please buy him a beer for me; he
+deserves it.
 
 And, because /you/ deserve it for reading this file, here's a pretty tasty
 pulled pork recipe we've adapted over the years.
 
-Thanks for taking the time to check out who we are. It's nice to be humanized.
+Thanks for taking the time to check out who we are; it's nice to be humanized.
 
 You stay classy.
 
@@ -34,7 +31,7 @@ Chipotle Pulled Pork for Mere Mortals (serves 10)
 
  * 1 tablespoon lard or butter
  * 3 kg pork shoulder
- * 2 cups apple cider vinegar
+ * 500 ml apple cider vinegar
  * 9 tablespoons adobo sauce
  * 6 chipotle chilies chopped
  * 9 cloves garlic minced
@@ -59,8 +56,7 @@ And that's about it. It should tear apart with glorious ease. When scaling the
 recipe, it can sometimes be hard to control the moisture; you might need to
 adjust/drain. Use your head, you'll be fine.
 
-Sandwiches with this pulled pork and some avocado... mmm. Completely worth it.
+Combine with avocado to make a sandwich... so tasty.
 
 If you have any improvements, tips, adjustments, etc to this recipe, send them
-my way at alex at waite dawt eu. I always appreciate tasty feedback; it's
-rewarding.
+my way at alex at waite dawt eu. I always appreciate tasty feedback.
