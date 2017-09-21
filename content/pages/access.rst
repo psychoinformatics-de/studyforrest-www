@@ -112,7 +112,7 @@ methods are supported.
      Offering these data for download or through other means is encouraged; we
      only ask that you add a reference to this website. In order to provide a
      comprehensive overview of entities hosting these data, or any derived data
-     artifacts, please let us know at info@studyforrest.org_ what data access
+     artifacts, please let us know at info@studyforrest.org what data access
      you are providing.
 
 
