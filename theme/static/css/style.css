@@ -1,10 +1,7 @@
 /*
  *  Fonts
  */
-
-/* Font Licensed under OFL 1.1 */
-/* raleway-regular - latin */
-@font-face {
+@font-face { /* License: OFL 1.1 */
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -12,8 +9,7 @@
        url('/theme/fonts/raleway-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('/theme/fonts/raleway-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* raleway-italic - latin */
-@font-face {
+@font-face { /* License: OFL 1.1 */
   font-family: 'Raleway';
   font-style: italic;
   font-weight: 400;
@@ -21,10 +17,7 @@
        url('/theme/fonts/raleway-v10-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('/theme/fonts/raleway-v10-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* Font Licensed under Apache 2.0 */
-/* open-sans-regular - latin */
-@font-face {
+@font-face { /* License: Apache 2.0 */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -32,8 +25,7 @@
        url('/theme/fonts/open-sans-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('/theme/fonts/open-sans-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* open-sans-italic - latin */
-@font-face {
+@font-face { /* License: Apache 2.0 */
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
@@ -41,8 +33,7 @@
        url('/theme/fonts/open-sans-v13-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('/theme/fonts/open-sans-v13-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* open-sans-700 - latin */
-@font-face {
+@font-face { /* License: Apache 2.0 */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
@@ -50,8 +41,7 @@
        url('/theme/fonts/open-sans-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+ */
        url('/theme/fonts/open-sans-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* open-sans-700italic - latin */
-@font-face {
+@font-face { /* License: Apache 2.0 */
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
@@ -69,8 +59,7 @@ a {
   color: #265C83;
   transition: color .4s;
 }
-a:link,
-a:visited { color: #265C83; }
+a:link, a:visited { color: #265C83; }
 a:hover { color: #5FBBDF; }
 a:active {
   color: #007BE6;
@@ -89,9 +78,7 @@ body {
   padding-top: 70px;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Raleway', serif;
-}
+h1, h2, h3, h4, h5 { font-family: 'Raleway', serif; }
 
 main {
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
@@ -99,9 +86,7 @@ main {
   line-height: 26px;
 }
 
-nav a {
-  text-decoration: none;
-}
+nav a { text-decoration: none; }
 nav svg {
   height: 1em;
   vertical-align: middle;
@@ -153,13 +138,9 @@ footer p {
   color: #777;
   margin: 0;
 }
-footer svg {
-  height: 8rem;
-}
+footer svg { height: 8rem; }
 
-.footer-links {
-  padding: 0;
-}
+.footer-links { padding: 0; }
 .footer-links li {
   display: inline;
   padding: 0 2rem;
@@ -171,12 +152,8 @@ footer svg {
 }
 
 /* Papaya */
-div.papaya-preview {
-  padding: 0 8px 20px 8px;
-}
-div.papaya-preview > img {
-  width: 100%;
-}
+div.papaya-preview { padding: 0 8px 20px 8px; }
+div.papaya-preview > img { width: 100%; }
 
 /* XTK */
 div.xtk_renderer {
@@ -220,9 +197,7 @@ div.figure > div.legend {
   border-radius: 0;
   border-bottom: 1px dotted #ddd;
 }
-.resource-col > .thumbnail:last-child {
-  border-bottom: 0;
-}
+.resource-col > .thumbnail:last-child { border-bottom: 0; }
 
 @media (min-width: 768px) {
   .resource-col.middle {
@@ -231,9 +206,7 @@ div.figure > div.legend {
   }
 }
 
-.resource-col h3, .resource-col h5 {
-  text-align: center;
-}
+.resource-col h3, .resource-col h5 { text-align: center; }
 
 .resource-col .caption > a.btn,
 .resource-col .caption > button {
@@ -243,9 +216,7 @@ div.figure > div.legend {
 
 
 /* Sidebar logos (About and access pages) */
-.sidebar-logos img {
-  padding: 7px 0;
-}
+.sidebar-logos img { padding: 7px 0; }
 
 
 /*
@@ -256,9 +227,7 @@ div.figure > div.legend {
   width: 200px;
 }
 @media (min-width: 768px) {
-  .navbar-search {
-    margin: 7.5px 0;
-  }
+  .navbar-search { margin: 7.5px 0; }
 }
 
 #tipue_search_input {
@@ -266,6 +235,4 @@ div.figure > div.legend {
   font: 13px/1.6 'Open Sans', sans-serif;
 }
 
-#tipue_search_foot_boxes li a {
-  cursor: pointer;
-}
+#tipue_search_foot_boxes li a { cursor: pointer; }
