@@ -1,84 +1,82 @@
 <!DOCTYPE html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}" itemscope itemtype="http://schema.org/Blog">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% block meta %}
-        <meta name="author" content="{{ AUTHOR }}" />
-    {% endblock %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block meta %}
+  <meta name="author" content="{{ AUTHOR }}" />
+  {% endblock %}
 
-    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
-    <!-- Once upon a time, favicons were a simple race; but then they grew to be greedy... -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v4">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?v4" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?v4" sizes="16x16">
-    <link rel="manifest" href="/manifest.json?v4">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?v4" color="#5bbad5">
-    <link rel="shortcut icon" href="/favicon.ico?v4">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Once upon a time, favicons were a simple race; but then they grew to be greedy... -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v4">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png?v4" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png?v4" sizes="16x16">
+  <link rel="manifest" href="/manifest.json?v4">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v4" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicon.ico?v4">
+  <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="/theme/css/style.css" />
+  <link rel="stylesheet" href="/theme/css/style.css" />
 
-    <link type="text/html" rel="license" href="/copyright.html" />
-    <link type="text/plain" rel="author" href="/humans.txt" />
+  <link type="text/html" rel="license" href="/copyright.html" />
+  <link type="text/plain" rel="author" href="/humans.txt" />
 
-    {% if FEED_ALL_ATOM %}
-        <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
-              title="{{ SITENAME }} ATOM Feed"/>
-    {% endif %}
+  {% if FEED_ALL_ATOM %}
+  <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed"/>
+  {% endif %}
 
-    <script src="/theme/js/jquery.min.js"></script>
+  <script src="/theme/js/jquery.min.js"></script>
 
   {% block extra_header %}{% endblock %}
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="{{ SITEURL }}/" class="navbar-brand">{{ SITENAME }}</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+        {% for title, link in MENUITEMS %}
+          <li {% if page and page.url == link %} class='active' {% endif %}>
+            <a href="{{ SITEURL }}/{{ link }}">{{ title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <form class="input-group navbar-search" action="{{ SITEURL }}/search.html" role="search">
+              <input id="tipue_search_input" class="form-control" aria-label="Search"
+                     type="search" placeholder="Search" name="q">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-default" aria-label='Search'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path d="M76.035 68.964L56.938 49.868c3.497-4.906 5.562-10.9 5.562-17.368 0-16.542-13.458-30-30-30s-30 13.458-30 30 13.458 30 30 30c6.47 0 12.462-2.065 17.368-5.562l19.097 19.097c.975.977 2.255 1.465 3.535 1.465 1.28 0 2.56-.488 3.535-1.464 1.953-1.953 1.953-5.12 0-7.072zM32.5 52.5c-11.046 0-20-8.954-20-20s8.954-20 20-20 20 8.954 20 20-8.954 20-20 20z"/></svg>
+                </button>
+              </span>
+            </form>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav><!-- /.navbar -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="{{ SITEURL }}/" class="navbar-brand">{{ SITENAME }}</a>
-    </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-      {% for title, link in MENUITEMS %}
-        <li {% if page and page.url == link %} class='active' {% endif %}>
-          <a href="{{ SITEURL }}/{{ link }}">{{ title }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <form class="input-group navbar-search" action="{{ SITEURL }}/search.html" role="search">
-            <input id="tipue_search_input" class="form-control" aria-label="Search"
-                   type="search" placeholder="Search" name="q">
-            <span class="input-group-btn">
-              <button type="submit" class="btn btn-default" aria-label='Search'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><path d="M76.035 68.964L56.938 49.868c3.497-4.906 5.562-10.9 5.562-17.368 0-16.542-13.458-30-30-30s-30 13.458-30 30 13.458 30 30 30c6.47 0 12.462-2.065 17.368-5.562l19.097 19.097c.975.977 2.255 1.465 3.535 1.465 1.28 0 2.56-.488 3.535-1.464 1.953-1.953 1.953-5.12 0-7.072zM32.5 52.5c-11.046 0-20-8.954-20-20s8.954-20 20-20 20 8.954 20 20-8.954 20-20 20z"/></svg>
-              </button>
-            </span>
-          </form>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav><!-- /.navbar -->
+  {% block topcontent %}{% endblock %}
 
-{% block topcontent %}{% endblock %}
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main><!-- /.container -->
 
-<main class="container">
-  {% block content %}{% endblock %}
-</main><!-- /.container -->
+  {% include 'includes/footer.html' %}
 
-{% include 'includes/footer.html' %}
-
-{% include 'includes/google_analytics.html' %}
+  {% include 'includes/google_analytics.html' %}
 </body>
 </html>
