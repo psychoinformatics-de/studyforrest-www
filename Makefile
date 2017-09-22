@@ -17,7 +17,6 @@ SSH_TARGET_DIR=/var/www/studyforrest/www
 RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts --cvs-exclude
 
 VER_JQUERY=2.2.4
-VER_BOOTSTRAP=3.3.6
 VER_DYGRAPH=1.1.1
 
 DEBUG ?= 0
@@ -47,7 +46,6 @@ help:
 	@echo '   make updatedeps                  update all website dependencies    '
 	@echo '                                      see makefile for additional      '
 	@echo '                                      dependency targets               '
-	@echo '   make bootstrap                   download and extract Bootstrap     '
 	@echo '   make tipue                       download and extract Tipue Search  '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
@@ -126,11 +124,6 @@ content/js/stupidtable.js:
 
 theme/static/js/jquery.min.js:
 	curl -L -o $@ http://code.jquery.com/jquery-$(VER_JQUERY).min.js
-
-bootstrap:
-	curl -L -o $(TMPDIR)/bs.zip https://github.com/twbs/bootstrap/releases/download/v$(VER_BOOTSTRAP)/bootstrap-$(VER_BOOTSTRAP)-dist.zip
-	unzip -j $(TMPDIR)/bs.zip bootstrap-*/js/bootstrap.min.js -d theme/static/js/
-	unzip -j $(TMPDIR)/bs.zip bootstrap-*/css/bootstrap.min.css -d theme/static/css/
 
 tipue:
 	curl -L -o $(TMPDIR)/ts.zip http://www.tipue.com/search/tipuesearch.zip
