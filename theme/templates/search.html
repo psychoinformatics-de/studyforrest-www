@@ -1,18 +1,7 @@
 {% extends 'base.html' %}
 {% block title %}Search - {{ SITENAME }}{% endblock %}
-{% block CSS_EXTRA %}
-    <link rel="stylesheet" href="/theme/css/tipuesearch.css">
-{% endblock %}
-
-{% block content %}
-<article>
-    <div class="span8 offset2">
-        <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
-    </div>
-</article>
-{% endblock content %}
-
-{% block scripts %}
+{% block extra_header %}
+  <link rel="stylesheet" href="/theme/css/tipuesearch.css">
   <script type="text/javascript" src="/theme/js/tipuesearch_set.js"></script>
   <script type="text/javascript" src="/theme/js/tipuesearch.min.js"></script>
   <script>
@@ -26,3 +15,11 @@
   });
   </script>
 {% endblock %}
+
+{% block content %}
+<article>
+    <div class="span8 offset2">
+        <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
+    </div>
+</article>
+{% endblock content %}

@@ -15,12 +15,17 @@
     {% endif %}
 {% endblock %}
 
-{% block CSS_EXTRA %}
-{% if article.stylesheets %}
+{% block extra_header %}
+  {% if article.stylesheets %}
     {% for stylesheet in article.stylesheets %}
-        {{ stylesheet }}
+      {{ stylesheet }}
     {% endfor %}
-{% endif %}
+  {% endif %}
+  {% if article.javascripts %}
+    {% for javascript in article.javascripts %}
+      {{ javascript }}
+    {% endfor %}
+  {% endif %}
 {% endblock %}
 
 {% block content %}
@@ -46,12 +51,4 @@
             <!-- /.entry-content -->
         </article>
     </section>
-{% endblock %}
-
-{% block scripts %}
-{% if article.javascripts %}
-    {% for javascript in article.javascripts %}
-        {{ javascript }}
-    {% endfor %}
-{% endif %}
 {% endblock %}

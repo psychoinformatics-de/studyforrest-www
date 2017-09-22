@@ -20,7 +20,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="/theme/css/style.css" />
-    {% block CSS_EXTRA %}{% endblock %}
 
     <link type="text/html" rel="license" href="/copyright.html" />
     <link type="text/plain" rel="author" href="/humans.txt" />
@@ -32,7 +31,7 @@
 
     <script src="/theme/js/jquery.min.js"></script>
 
-    {% block head_suffix %}{% endblock %}
+  {% block extra_header %}{% endblock %}
 </head>
 <body>
 
@@ -81,6 +80,5 @@
 {% include 'includes/footer.html' %}
 
 {% include 'includes/google_analytics.html' %}
-{% block scripts %}{% endblock %}
 </body>
 </html>

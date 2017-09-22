@@ -2,12 +2,17 @@
 {% block title %}{{ page.title }} - {{ SITENAME }}{% endblock %}
 {% block html_lang %}{{ page.lang }}{% endblock %}
 
-{% block CSS_EXTRA %}
-{% if page.stylesheets %}
+{% block extra_header %}
+  {% if page.stylesheets %}
     {% for stylesheet in page.stylesheets %}
-        {{ stylesheet }}
+      {{ stylesheet }}
     {% endfor %}
-{% endif %}
+  {% endif %}
+  {% if page.javascripts %}
+    {% for javascript in page.javascripts %}
+      {{ javascript }}
+    {% endfor %}
+  {% endif %}
 {% endblock %}
 
 {% block content %}
@@ -17,12 +22,4 @@
             {{ page.content }}
         </div>
     </section>
-{% endblock %}
-
-{% block scripts %}
-{% if page.javascripts %}
-    {% for javascript in page.javascripts %}
-        {{ javascript }}
-    {% endfor %}
-{% endif %}
 {% endblock %}
