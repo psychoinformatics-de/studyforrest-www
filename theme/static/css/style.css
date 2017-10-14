@@ -279,3 +279,40 @@ div.figure > div.legend {
 }
 
 #tipue_search_foot_boxes li a { cursor: pointer; }
+
+/* Index */
+
+#header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(/theme/img/run_forrest_web.jpg);
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+}
+#header h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin: 0;
+  max-width: 60%;
+  text-align: center;
+  text-shadow: 0px 0px 25px #000;
+}
+@media(max-width:767px){ #header h2 { font-size: 1.5em; } }
+@media(max-width:992px){ #header h2 { max-width: 90%; } }
+
+main {
+  text-align: center;
+}
+main h2 {
+  font-size: 42px;
+  margin: 35px 0 20px 0;
+}
+main svg {
+  margin-top: 10px;
+  max-height: 10rem;
+}
