@@ -29,26 +29,22 @@
 {% endblock %}
 
 {% block content %}
-    <section>
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="{{ SITEURL }}/{{ article.url }}"
-                       rel="bookmark"
-                       title="Permalink to {{ article.title|striptags }}">
-                        {{ article.title }}
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-                        {% include "includes/article_info.html" %}
-                    </div>
-                </div>
-                {{ article.content }}
-            </div>
-            <!-- /.entry-content -->
-        </article>
-    </section>
+  <section>
+    <article>
+      <header>
+        <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+      </header>
+      <footer class="post-info">
+        <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }}</time>
+        {% if article.tags %}
+          &mdash;
+          {% for tag in article.tags %}
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+            {% if not loop.last %} / {% endif %}
+          {% endfor %}
+        {% endif %}
+      </footer>
+      {{ article.content }}
+    </article>
+  </section>
 {% endblock %}
