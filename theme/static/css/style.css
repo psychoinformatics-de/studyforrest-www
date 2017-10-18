@@ -229,21 +229,38 @@ footer {
   background-color: #f8f8f8;
   border-top: 1px solid #e7e7e7;
   margin-top: 2em;
-  padding: 1.5em 0 1em 0;
   text-align: center;
 }
-footer p {
-  color: #777;
+footer ul.social-links {
   margin: 0;
+  padding: 0;
 }
-footer svg { height: 8rem; }
-
-.footer-links { padding: 0; }
-.footer-links li {
-  display: inline;
-  padding: 0 2rem;
+footer .social-links li {
+  display: inline-block;
+  padding: 0 1rem;
 }
+footer .social-links a {
+  border-color: transparent;
+  display: inline-block;
+  font-size: 8em;
+  text-decoration: none;
+  transition: transform 0.2s linear;
+}
+.social-links .icon-github  { color: #111010; }
+.social-links .icon-twitter { color: #4da7de; }
 
+footer .social-links a:hover { transform: translateY(-0.3rem); }
+footer p {
+  border-top: 1px solid #ddd;
+  color: #666;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+footer p a { color: #666; }
+footer span.break { display: block; }
+@media screen and (min-width: 768px) {
+  footer span.break { display: inline; }
+}
 .summary img {
   height: auto;
   max-width: 100%;
