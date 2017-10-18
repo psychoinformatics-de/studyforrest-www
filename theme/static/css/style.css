@@ -189,6 +189,11 @@ nav li a.active {
 /*
  *  Styling
  */
+.cards [class^="icon-"] {
+  font-size: 8em;
+  line-height: 1em;
+}
+
 .docutils.footnote td.label {
   border-radius: inherit;
   color: inherit;
