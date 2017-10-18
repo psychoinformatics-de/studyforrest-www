@@ -50,6 +50,44 @@
        url('/theme/fonts/open-sans-v13-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+  font-family: 'fontello';
+  src: url('/theme/fonts/fontello.woff2?78697579') format('woff2'),
+       url('/theme/fonts/fontello.woff?78697579') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-world:before { content: '\e800'; }
+.icon-beaker:before { content: '\e801'; }
+.icon-brain:before { content: '\e803'; }
+.icon-search:before { content: '\e80d'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-github:before { content: '\f09b'; }
+
 /*
  * Element Overrides
  */
