@@ -90,12 +90,19 @@ nav {
   background: #f8f8f8;
   border-bottom: 1px solid #ddd;
   color: #e7e7e7;
+  font-size: 15px;
+  padding: 1.3rem 0;
+  position: fixed;
+  width: 100%;
+}
+nav > div {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  font-size: 15px;
-  padding: 1.3rem 0;
+  margin: 0 auto;
+  max-width: 1024px;
 }
+nav ul { padding: 0; }
 nav li:first-child {
   font-size: 18px;
 }
@@ -106,7 +113,7 @@ nav li a:link, nav li a:visited {
   text-decoration: none;
 }
 @media screen and (min-width: 768px) {
-  nav { padding: 0.5rem 20rem; }
+  nav { padding: 0.5rem 0; }
   nav ul { margin: 0.5em 0; }
   nav li { display: inline-block; }
   nav li a {
@@ -290,6 +297,7 @@ div.figure > div.legend {
   background-position: center 35%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2.5rem;
   min-height: 60vh;
 }
 #header h2 {
