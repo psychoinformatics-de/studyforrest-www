@@ -116,12 +116,18 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5 { font-family: 'Raleway', serif; }
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', serif;
+  font-weight: normal;
+  line-height: 1.1;
+}
 
 main {
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
   flex: 1;
   line-height: 26px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav {
@@ -138,7 +144,7 @@ nav > div {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1200px;
 }
 nav ul { padding: 0; }
 nav li:first-child {
@@ -195,7 +201,17 @@ nav li a.active {
 /*
  *  Styling
  */
-.cards [class^="icon-"] {
+.index-card-solo {
+  max-width: 50em;
+  margin: 0 auto;
+}
+.index-card-tri {
+  display: flex;
+  justify-content: space-between;
+}
+.index-card-tri > div { width: 30%; }
+.index-card-tri h3 { font-size: 1.6em; }
+.index-card-tri [class^="icon-"] {
   font-size: 8em;
   line-height: 1em;
 }
