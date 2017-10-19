@@ -10,7 +10,7 @@ This page loosely follows `Debian's copyright file syntax`_.
 Files:
   \*
 Copyright:
-  2014–2016, Michael Hanke and Alex Waite
+  2014–2017, Michael Hanke and Alex Waite
 License:
   `Attribution-ShareAlike 4.0 International`_
 
@@ -21,27 +21,16 @@ License:
 Files:
   theme/\*
 Copyright:
-  2013, Daan Debie; 2016 Alex Waite
+  2013, Daan Debie; 2016–2017 Alex Waite
 License:
   `MIT`_
 Notes:
   The theme is derived from Daan Debie's `pelican-bootstrap3`_ theme for
-  `Pelican`_. It was significantly modified by Alex Waite.
+  `Pelican`_. It has been almost entirely rewritten since then by Alex Waite.
 
 .. _MIT: http://opensource.org/licenses/MIT
 .. _pelican-bootstrap3: https://github.com/DandyDev/pelican-bootstrap3
 .. _Pelican: http://blog.getpelican.com
-
-----
-
-Files:
-  theme/css/bootstrap\*, theme/js/bootstrap\*
-Copyright:
-  `Bootstrap`_
-License:
-  `MIT`_
-
-.. _Bootstrap: http://getbootstrap.com
 
 ----
 
@@ -86,6 +75,20 @@ License:
   `SIL OFL 1.1`_
 
 .. _SIL OFL 1.1: http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web
+
+----
+
+Files:
+  theme/fonts/fontello\*
+Copyright:
+  `Font Awesome`_, `Iacopo Neri`_ (world), `Edward Boatman`_ (beaker), `Arjun Adamson`_ (brain)
+License:
+  `SIL OFL 1.1`_, `Attribution 3.0 United States`_ (world, beaker, brain)
+
+.. _Font Awesome: http://fontawesome.io/
+.. _Iacopo Neri: https://thenounproject.com/iacopo3
+.. _Edward Boatman: https://thenounproject.com/edward
+.. _Attribution 3.0 United States: https://creativecommons.org/licenses/by/3.0/us/
 
 ----
 
@@ -146,78 +149,8 @@ License:
 ----
 
 Files:
-  img/beaker.svg
-Copyright:
-  `Edward Boatman`_
-License:
-  `Attribution 3.0 United States`_
-
-.. _Attribution 3.0 United States: https://creativecommons.org/licenses/by/3.0/us/
-.. _Edward Boatman: https://thenounproject.com/edward
-
-----
-
-Files:
-  img/brain.svg
-Copyright:
-  `Arjun Adamson`_
-License:
-  `Attribution 3.0 United States`_
-
-.. _Arjun Adamson: https://thenounproject.com/arjunadamson
-
-----
-
-Files:
   /theme/img/run_forrest_web.jpg
 Copyright:
   1994, Paramount Pictures Corporation
 License:
   All Rights Reserved
-
-----
-
-Files:
-  img/world.svg
-Copyright:
-  `Iacopo Neri`_
-License:
-  `Attribution 3.0 United States`_
-
-.. _Iacopo Neri: https://thenounproject.com/iacopo3
-
-----
-
-Files:
-  /theme/img/search.svg
-Copyright:
-  `Sofi Ovchinnikova`_
-License:
-  `Attribution 3.0 United States`_
-
-.. _Sofi Ovchinnikova: https://thenounproject.com/sofi.ovchinnikova/
-
-----
-
-Files:
-  /theme/img/mark-github.svg
-Copyright:
-  `GitHub Octicons`_
-License:
-   `SIL OFL 1.1`_
-
-.. _GitHub Octicons: https://github.com/primer/octicons
-
-----
-
-Files:
-  /theme/img/logo-twitter.svg
-Source:
-  `Wikipedia - Twitter Bird Logo`_
-Copyright:
-  `Twitter`_
-License:
-   Unknown, likely All Rights Reserved
-
-.. _Wikipedia - Twitter Bird Logo: https://en.wikipedia.org/wiki/File:Twitter_bird_logo_2012.svg
-.. _Twitter: https://about.twitter.com/company/brand-assets
