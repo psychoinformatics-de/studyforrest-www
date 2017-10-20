@@ -370,15 +370,15 @@ div.figure > div.legend {
 
 
 /* About page */
-.about-container {
+.split-container {
   display: flex;
   justify-content: space-between;
 }
-.about-main { width: 60%; }
-.about-sidebar { width: 35%; }
-.about-sidebar img { padding: 0.5em 0; }
-.about-sidebar ul { padding: 0; }
-.about-sidebar li { list-style: none; }
+.split-main { width: 60%; }
+.split-sidebar { width: 35%; }
+.split-sidebar img { padding: 0.5em 0; }
+.split-sidebar ul { padding: 0; }
+.split-sidebar li { list-style: none; }
 
 
 /*
