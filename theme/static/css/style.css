@@ -96,6 +96,7 @@
 a {
   color: #265C83;
   transition: color .4s;
+  text-decoration: none;
 }
 a:link, a:visited { color: #265C83; }
 a:hover { color: #5FBBDF; }
@@ -171,7 +172,6 @@ nav li a:link, nav li a:visited {
   color: #777;
   border-bottom: 1px solid transparent;
   padding: 0;
-  text-decoration: none;
 }
 @media screen and (min-width: 768px) {
   nav { padding: 0.5rem 0; }
@@ -206,6 +206,7 @@ nav form button {
   height: 2.5em;
   padding: 0.2em 0.5em;
 }
+nav + div, nav + main { margin-top: 2.5rem; }
 
 table { border-collapse: collapse; }
 thead {
@@ -222,9 +223,7 @@ td, th { padding: 0.5em 0.7em; }
 /*
  *  State
  */
-nav li a.active {
-  border-bottom: 2px solid #aaa;
-}
+nav li a.active { border-bottom: 2px solid #aaa; }
 
 
 /*
@@ -233,10 +232,12 @@ nav li a.active {
 .index-card-solo {
   max-width: 50em;
   margin: 0 auto;
+  text-align: center;
 }
 .index-card-tri {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 .index-card-tri > div { width: 30%; }
 .index-card-tri h3 { font-size: 1.6em; }
@@ -294,7 +295,6 @@ footer .social-links a {
   border-color: transparent;
   display: inline-block;
   font-size: 8em;
-  text-decoration: none;
   transition: transform 0.2s linear;
 }
 .social-links .icon-github  { color: #111010; }
@@ -416,8 +416,8 @@ div.figure > div.legend {
   background-position: center 35%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 2.5rem;
   min-height: 60vh;
+  text-align: center;
 }
 #header h2 {
   color: #fff;
@@ -426,15 +426,11 @@ div.figure > div.legend {
   line-height: 1.3;
   margin: 0;
   max-width: 60%;
-  text-align: center;
   text-shadow: 0px 0px 25px #000;
 }
 @media(max-width:767px){ #header h2 { font-size: 1.5em; } }
 @media(max-width:992px){ #header h2 { max-width: 90%; } }
 
-main {
-  text-align: center;
-}
 main h2 {
   font-size: 42px;
   margin: 35px 0 20px 0;
