@@ -369,8 +369,16 @@ div.figure > div.legend {
 }
 
 
-/* Sidebar logos (About and access pages) */
-.sidebar-logos img { padding: 7px 0; }
+/* About page */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-main { width: 60%; }
+.about-sidebar { width: 35%; }
+.about-sidebar img { padding: 0.5em 0; }
+.about-sidebar ul { padding: 0; }
+.about-sidebar li { list-style: none; }
 
 
 /*
