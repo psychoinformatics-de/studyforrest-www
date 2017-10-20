@@ -207,6 +207,18 @@ nav form button {
   padding: 0.2em 0.5em;
 }
 
+table { border-collapse: collapse; }
+thead {
+  text-align: left;
+  vertical-align: bottom;
+}
+thead > tr { border-bottom: 2px solid #ddd; }
+tbody { vertical-align: top; }
+tbody > tr { border-top: 1px solid #ddd; }
+tbody > tr:nth-of-type(odd) { background-color: #f9f9f9; }
+td, th { padding: 0.5em 0.7em; }
+
+
 /*
  *  State
  */
