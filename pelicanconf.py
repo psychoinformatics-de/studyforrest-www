@@ -17,7 +17,8 @@ LOCALE = u'en_US.UTF-8'
 # Configure Pelican a bit
 #
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['better_tables', 'bootstrap-rst', 'pelican_javascript', 'tipue_search',]
+PLUGINS = ['better_tables', 'bootstrap-rst', 'pelican_javascript', 'sitemap', 'tipue_search',]
+SITEMAP = { 'format': 'xml' }
 
 THEME = 'theme'
 DIRECT_TEMPLATES = ['archives', 'search'] # unset all templates; use these
