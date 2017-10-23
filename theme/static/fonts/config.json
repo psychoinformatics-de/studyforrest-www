@@ -71,6 +71,18 @@
       "search": [
         "beaker"
       ]
+    },
+    {
+      "uid": "7e89c12b577c31bc91bfb61bb597f01f",
+      "css": "down-dir",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "401b644723fb2f20b0df30cce7745c18",
+      "css": "up-dir",
+      "code": 59396,
+      "src": "entypo"
     }
   ]
 }

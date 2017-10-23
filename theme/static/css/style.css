@@ -52,8 +52,8 @@
 
 @font-face {
   font-family: 'fontello';
-  src: url('/theme/fonts/fontello.woff2?78697579') format('woff2'),
-       url('/theme/fonts/fontello.woff?78697579') format('woff');
+  src: url('/theme/fonts/fontello.woff2?64430986') format('woff2'),
+       url('/theme/fonts/fontello.woff?64430986') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -83,7 +83,9 @@
 }
 .icon-world:before { content: '\e800'; }
 .icon-beaker:before { content: '\e801'; }
+.icon-down-dir:before { content: '\e802'; }
 .icon-brain:before { content: '\e803'; }
+.icon-up-dir:before { content: '\e804'; }
 .icon-search:before { content: '\e80d'; }
 .icon-twitter:before { content: '\f099'; }
 .icon-github:before { content: '\f09b'; }
