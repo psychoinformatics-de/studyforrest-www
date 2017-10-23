@@ -3,7 +3,7 @@ Cortical surface reconstructions
 
 :status: hidden
 :slug: deriv_surfaces
-:JavaScripts: xtk.js
+:JavaScripts: jquery.min.js, xtk.js
 
 
 Structural brain scans can be used to reconstruct the cortical surface of the

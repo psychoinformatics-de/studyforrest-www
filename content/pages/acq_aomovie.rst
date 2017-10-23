@@ -3,7 +3,7 @@ Prolonged quasi-natural stimulation with an audio-movie
 
 :status: hidden
 :slug: acq_aomovie
-:JavaScripts: papaya.js, dygraph-combined.js, mod_physio.js
+:JavaScripts: jquery.min.js, papaya.js, dygraph-combined.js, mod_physio.js
 :Stylesheets: papaya.css
 
 This dataset contains functional brain scans for 20 participants and a gel

@@ -2,7 +2,7 @@ T1-weighted MRI scans
 *********************
 :status: hidden
 :slug: mod_t1w
-:JavaScripts: papaya.js
+:JavaScripts: jquery.min.js, papaya.js
 :Stylesheets: papaya.css
 
 

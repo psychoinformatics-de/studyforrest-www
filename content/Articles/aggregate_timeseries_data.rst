@@ -7,7 +7,7 @@ Lowering the barrier for non-neuroimaging scientists
 :authors: Michael Hanke
 :summary: Aggregate time-series data available in standard file formats
 :slug: aggregate-timeseries-data
-:JavaScripts: d3.v3.min.js, movietime_roi_connectivity_chord.js
+:JavaScripts: jquery.min.js, d3.v3.min.js, movietime_roi_connectivity_chord.js
 
 .. |---| unicode:: U+02014 .. em dash
 

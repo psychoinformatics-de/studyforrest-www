@@ -3,7 +3,7 @@ Movie structure annotations
 
 :status: hidden
 :slug: annot_structure
-:JavaScripts: d3.v3.min.js, forrest_misc.js
+:JavaScripts: jquery.min.js, d3.v3.min.js, forrest_misc.js
 
 A movie is a highly engineered stimulus that primarily consists of scenes
 (parts of the plot that take places at a consecutive segment of space and time)

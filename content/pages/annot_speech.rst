@@ -3,7 +3,7 @@ Speech annotation
 
 :status: hidden
 :slug: annot_speech
-:JavaScripts: d3.v3.min.js, forrest_misc.js
+:JavaScripts: jquery.min.js, d3.v3.min.js, forrest_misc.js
 
 In a movie, speech not only conveys abstract information, but also provides
 insight into the emotional state of the speaker. Additionally, in our

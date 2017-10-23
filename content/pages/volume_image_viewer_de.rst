@@ -3,7 +3,7 @@ MRT Bildbetrachter
 
 :status: hidden
 :slug: volume_image_viewer
-:JavaScripts: papaya.js
+:JavaScripts: jquery.min.js, papaya.js
 :Stylesheets: papaya.css
 :lang: de
 

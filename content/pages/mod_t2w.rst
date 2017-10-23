@@ -3,7 +3,7 @@ T2-weighted MRI scans
 
 :status: hidden
 :slug: mod_t2w
-:JavaScripts: papaya.js
+:JavaScripts: jquery.min.js, papaya.js
 :Stylesheets: papaya.css
 
 This type of MR scan exhibits **fluid-tissue contrast**.

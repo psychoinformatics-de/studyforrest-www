@@ -3,7 +3,7 @@ Susceptibility-weighted scans
 
 :status: hidden
 :slug: mod_swi
-:JavaScripts: papaya.js
+:JavaScripts: jquery.min.js, papaya.js
 :Stylesheets: papaya.css
 
 **Venography**

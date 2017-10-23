@@ -3,7 +3,7 @@ Time-of-flight inflow angiography
 
 :status: hidden
 :slug: mod_angio
-:JavaScripts: papaya.js
+:JavaScripts: jquery.min.js, papaya.js
 :Stylesheets: papaya.css
 
 An **Arteriography** is available for every participant.  In time-of-flight
