@@ -210,8 +210,13 @@ nav form button {
 }
 nav + div, nav + main { margin-top: 2.5rem; }
 
-table { border-collapse: collapse; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 thead {
+  cursor: default;
+  user-select: none;
   text-align: left;
   vertical-align: bottom;
 }
@@ -221,11 +226,18 @@ tbody > tr { border-top: 1px solid #ddd; }
 tbody > tr:nth-of-type(odd) { background-color: #f9f9f9; }
 td, th { padding: 0.5em 0.7em; }
 
-
 /*
  *  State
  */
 nav li a.active { border-bottom: 2px solid #aaa; }
+
+th[data-sort]:after {
+  font-family: "fontello";
+  margin-left: 0.2em;
+}
+th[data-sort="asc"]:after { content: '\e804'; }
+th[data-sort="desc"]:after { content: '\e802'; }
+
 
 
 /*
