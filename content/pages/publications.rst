@@ -36,6 +36,11 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI <http://dx.doi.org/10.12688/f1000research.13689.1>`_
+     - Ayan Sengupta, Stefan Pollmann, Michael Hanke
+     - F1000 Research
+     - 2018
+     - Study
    * - `Music of the 7Ts: Predicting and Decoding Multivoxel fMRI Responses with Acoustic, Schematic, and Categorical Music Features <https://dx.doi.org/10.3389%2Ffpsyg.2017.01179>`_
      - Michael Casey
      - Frontiers in Psychology
