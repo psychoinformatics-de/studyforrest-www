@@ -36,8 +36,3 @@ MENUITEMS = (
             ('Publications', 'publications.html'),
             ('Log', 'archives.html'),
 )
-
-#
-# Social media jazz
-#
-GOOGLE_ANALYTICS = "UA-46839658-1"
