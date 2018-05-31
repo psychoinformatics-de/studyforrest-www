@@ -36,6 +36,26 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `A critical analysis of neuroanatomical software protocols reveals clinically relevant differences in parcellation schemes <https://doi.org/10.1016/j.neuroimage.2017.02.082>`_
+     - Shadia Mikhael, Corné Hoogendoorn, Maria Valdes-Hernandez, Cyril Pernet
+     - NeuroImage
+     - 2018
+     - Study
+   * - `Are you thinking what I'm thinking? Synchronization of resting fMRI time-series across subjects <https://doi.org/10.1016/j.neuroimage.2018.01.058>`_
+     - Anand A. Joshii, Minqi Chong, Jian Li, Soyoung Choi, Richard M. Leahy
+     - NeuroImage
+     - 2018
+     - Study
+   * - `The hippocampal film-editor: sensitivity and specificity to event boundaries in continuous experience <http://dx.doi.org/10.1101/273409>`_
+     - Aya Ben-Yakov, Richard Henson 
+     - BioRxiv
+     - 2018
+     - Study
+   * - `Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI <http://dx.doi.org/10.12688/f1000research.13689.1>`_
+     - Ayan Sengupta, Stefan Pollmann, Michael Hanke
+     - F1000 Research
+     - 2018
+     - Study
    * - `Music of the 7Ts: Predicting and Decoding Multivoxel fMRI Responses with Acoustic, Schematic, and Categorical Music Features <https://dx.doi.org/10.3389%2Ffpsyg.2017.01179>`_
      - Michael Casey
      - Frontiers in Psychology
