@@ -10,10 +10,10 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 DATADIR=$(BASEDIR)/data
 TMPDIR=$(BASEDIR)/tmp
 
-SSH_HOST=kumo.ovgu.de
+SSH_HOST=kartoffel.ohwaite.com
 SSH_PORT=22
-SSH_USER=
-SSH_TARGET_DIR=/var/www/studyforrest/www
+SSH_USER=puffer
+SSH_TARGET_DIR=/var/www/htdocs/study.ohwaite.com/
 RSYNC_OPTS = -rzhv -P --delete --copy-links --exclude drafts --cvs-exclude
 
 VER_JQUERY=2.2.4
