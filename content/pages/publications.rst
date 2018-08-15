@@ -36,6 +36,11 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `Hypersampling of pseudo-periodic signals by analytic phase projection <https://doi.org/10.1016/j.compbiomed.2018.05.008>`_
+     - Henning U. Voss
+     - Computers in Biology and Medicine
+     - 2018
+     - Study
    * - `A critical analysis of neuroanatomical software protocols reveals clinically relevant differences in parcellation schemes <https://doi.org/10.1016/j.neuroimage.2017.02.082>`_
      - Shadia Mikhael, Corné Hoogendoorn, Maria Valdes-Hernandez, Cyril Pernet
      - NeuroImage
