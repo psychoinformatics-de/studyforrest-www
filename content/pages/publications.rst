@@ -36,6 +36,11 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `A Conjugate-Gradient Approach to the Parameter Estimation Problem of Magnetic Resonance Advection Imaging <https://arxiv.org/abs/1809.06198>`_
+     - Simon Hubmer, Andreas Neubauer, Ronny Ramlau, Henning U. Voss
+     - ArXiv.org
+     - 2018
+     - Study
    * - `Hypersampling of pseudo-periodic signals by analytic phase projection <https://doi.org/10.1016/j.compbiomed.2018.05.008>`_
      - Henning U. Voss
      - Computers in Biology and Medicine
@@ -51,9 +56,9 @@ This page lists publications that either describe data provided by the
      - NeuroImage
      - 2018
      - Study
-   * - `The hippocampal film-editor: sensitivity and specificity to event boundaries in continuous experience <http://dx.doi.org/10.1101/273409>`_
+   * - `The hippocampal film-editor: sensitivity and specificity to event boundaries in continuous experience <https://doi.org/10.1523/JNEUROSCI.0524-18.2018>`_
      - Aya Ben-Yakov, Richard Henson 
-     - BioRxiv
+     - The Journal of Neuroscience
      - 2018
      - Study
    * - `Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI <http://dx.doi.org/10.12688/f1000research.13689.1>`_
