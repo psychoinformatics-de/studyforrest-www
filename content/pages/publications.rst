@@ -36,6 +36,11 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `Emotionotopy: Gradients encode emotion dimensions in right temporo-parietal territories <https://doi.org/10.1101/463166>`_
+     - Giada Lettieri, Giacomo Handjaras, Emiliano Ricciardi, Andrea Leo, Paolo Papale, Monica Betta, Pietro Pietrini, Luca Cecchetti
+     - bioRiv
+     - 2018
+     - Study
    * - `A Conjugate-Gradient Approach to the Parameter Estimation Problem of Magnetic Resonance Advection Imaging <https://arxiv.org/abs/1809.06198>`_
      - Simon Hubmer, Andreas Neubauer, Ronny Ramlau, Henning U. Voss
      - ArXiv.org
