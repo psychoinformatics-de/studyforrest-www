@@ -156,7 +156,9 @@ nav {
   color: #e7e7e7;
   font-size: 15px;
   padding: 1.3rem 0;
-  position: fixed;
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
   width: 100%;
 }
 nav > div {
@@ -208,7 +210,6 @@ nav form button {
   height: 2.5em;
   padding: 0.2em 0.5em;
 }
-nav + div, nav + main { margin-top: 2.5rem; }
 
 table {
   border-collapse: collapse;
