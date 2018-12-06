@@ -30,6 +30,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 AUTHOR_SAVE_AS = False
+CATEGORY_SAVE_AS = False
 
 #
 # Configure the site
