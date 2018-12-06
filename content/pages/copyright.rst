@@ -10,7 +10,7 @@ This page loosely follows `Debian's copyright file syntax`_.
 Files:
   \*
 Copyright:
-  2014–2017, Michael Hanke and Alex Waite
+  2014–2018, Michael Hanke and Alex Waite
 License:
   `Attribution-ShareAlike 4.0 International`_
 
@@ -21,7 +21,7 @@ License:
 Files:
   theme/\*
 Copyright:
-  2013, Daan Debie; 2016–2017 Alex Waite
+  2013, Daan Debie; 2016–2018 Alex Waite
 License:
   `MIT`_
 Notes:
