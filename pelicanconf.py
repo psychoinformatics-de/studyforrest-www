@@ -24,6 +24,11 @@ THEME = 'theme'
 DIRECT_TEMPLATES = ['archives', 'search'] # unset all templates; use these
 
 FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
 AUTHOR_SAVE_AS = False
 
 #
