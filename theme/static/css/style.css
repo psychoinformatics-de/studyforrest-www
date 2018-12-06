@@ -239,25 +239,26 @@ th[data-sort="asc"]:after { content: '\e804'; }
 th[data-sort="desc"]:after { content: '\e802'; }
 
 
-
 /*
  *  Styling
  */
-.index-card-solo {
+.card-solo {
   max-width: 50em;
   margin: 0 auto;
-  text-align: center;
 }
-.index-card-tri {
+.card-tri {
   display: flex;
   justify-content: space-between;
-  text-align: center;
 }
-.index-card-tri > div { width: 30%; }
-.index-card-tri h3 { font-size: 1.6em; }
-.index-card-tri [class^="icon-"] {
+.card-tri > div { width: 30%; }
+.card-tri h3 { font-size: 1.6em; }
+.card-tri [class^="icon-"] {
   font-size: 8em;
   line-height: 1em;
+}
+
+.index-content {
+  text-align: center;
 }
 
 .docutils.footnote td.label {
