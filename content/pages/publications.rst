@@ -36,9 +36,19 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `Intersubject MVPD: Empirical Comparison of fMRI Denoising Methods for Connectivity Analysis <https://www.biorxiv.org/content/biorxiv/early/2018/10/30/456970.full.pdf>`_
+     - Yichen Li, Rebecca Saxe, Stefano Anzellotti
+     - bioRxiv
+     - 2018
+     - Study
+   * - `Capturing Shared and Individual Information in fMRI Data <https://www.intel.ai/wp-content/uploads/sites/69/Capturing-Shared-and-Individual-Information-in-fMRI-Data.pdf>`_
+     - Javier S. Turek, Cameron T. Ellis, Lena J. Skalaban, Nicholas B. Turk-Browne, Theodore L. Willke
+     - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+     - 2018
+     - Study
    * - `Emotionotopy: Gradients encode emotion dimensions in right temporo-parietal territories <https://doi.org/10.1101/463166>`_
      - Giada Lettieri, Giacomo Handjaras, Emiliano Ricciardi, Andrea Leo, Paolo Papale, Monica Betta, Pietro Pietrini, Luca Cecchetti
-     - bioRiv
+     - bioRxiv
      - 2018
      - Study
    * - `A Conjugate-Gradient Approach to the Parameter Estimation Problem of Magnetic Resonance Advection Imaging <https://arxiv.org/abs/1809.06198>`_
