@@ -29,7 +29,7 @@ einfache Schritte:
 
 .. _Google Chrome: http://www.google.com/chrome
 .. _Firefox: http://www.mozilla.org/de/firefox
-.. _Michael Hanke: mailto:michael.hanke@ovgu.de
+.. _Michael Hanke: mailto:michael.hanke@gmail.com
 
 4. Nach dem Download kannst du das Bild einfach auf den Betrachter ziehen oder
    das "File" Menu benutzen, um das Bild zu öffnen.
