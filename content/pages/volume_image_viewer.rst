@@ -29,7 +29,7 @@ look at your own brain! It only involves a few simple steps:
 
 .. _Google Chrome: http://www.google.com/chrome
 .. _Firefox: http://www.mozilla.org/de/firefox
-.. _Michael Hanke: mailto:michael.hanke@ovgu.de
+.. _Michael Hanke: mailto:michael.hanke@gmail.com
 
 4. Drag & drop the downloaded image onto the viewer, or click on the "File" menu
 
