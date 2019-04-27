@@ -36,6 +36,11 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `REMoDNaV: Robust Eye Movement Detection for Natural Viewing <https://doi.org/10.1101/619254>`_
+     - Asim H. Dar, Adina S. Wagner, Michael Hanke
+     - bioRxiv
+     - 2019
+     - Study
    * - `Intersubject MVPD: Empirical Comparison of fMRI Denoising Methods for Connectivity Analysis <https://www.biorxiv.org/content/biorxiv/early/2018/10/30/456970.full.pdf>`_
      - Yichen Li, Rebecca Saxe, Stefano Anzellotti
      - bioRxiv
