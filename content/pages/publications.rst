@@ -106,11 +106,6 @@ This page lists publications that either describe data provided by the
      - Cerebral Cortex
      - 2016
      - Study
-   * - `Neural auditory intensity discrimination during naturalistic listening: a brain decoding study <https://doi.org/10.1007/s00429-016-1324-8>`_
-     - Xintao Hu, Lei Guo, Junwei Han, Christine Cong Guo
-     - Brain Structure and Function
-     - 2016
-     - Study
    * - `Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump" <https://f1000research.com/articles/5-2375>`_
      - Michael Hanke, Pierre Ibe
      - F1000Research
