@@ -36,6 +36,11 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `Inference of Dynamic Graph Changes for Functional Connectome <https://arxiv.org/abs/1905.09993>`_
+     - Dingjue Ji, Junwei Lu, Yiliang Zhang, Hongyu Zhao, Siyuan Gao
+     - arXiv
+     - 2019
+     - Study
    * - `REMoDNaV: Robust Eye Movement Detection for Natural Viewing <https://doi.org/10.1101/619254>`_
      - Asim H. Dar, Adina S. Wagner, Michael Hanke
      - bioRxiv
