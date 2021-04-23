@@ -36,6 +36,16 @@ This page lists publications that either describe data provided by the
      - Publication
      - Year
      - Type
+   * - `Inference of Dynamic Graph Changes for Functional Connectome <https://arxiv.org/abs/1905.09993>`_
+     - Dingjue Ji, Junwei Lu, Yiliang Zhang, Hongyu Zhao, Siyuan Gao
+     - arXiv
+     - 2019
+     - Study
+   * - `REMoDNaV: Robust Eye Movement Detection for Natural Viewing <https://doi.org/10.1101/619254>`_
+     - Asim H. Dar, Adina S. Wagner, Michael Hanke
+     - bioRxiv
+     - 2019
+     - Study
    * - `Intersubject MVPD: Empirical Comparison of fMRI Denoising Methods for Connectivity Analysis <https://www.biorxiv.org/content/biorxiv/early/2018/10/30/456970.full.pdf>`_
      - Yichen Li, Rebecca Saxe, Stefano Anzellotti
      - bioRxiv
@@ -99,11 +109,6 @@ This page lists publications that either describe data provided by the
    * - `Disentangling the Representation of Identity from Head View Along the Human Face Processing Pathway <https://doi.org/10.1093/cercor/bhw344>`_
      - Swaroop Guntupalli, Kelsey G. Wheeler, M. Ida Gobbini
      - Cerebral Cortex
-     - 2016
-     - Study
-   * - `Neural auditory intensity discrimination during naturalistic listening: a brain decoding study <https://doi.org/10.1007/s00429-016-1324-8>`_
-     - Xintao Hu, Lei Guo, Junwei Han, Christine Cong Guo
-     - Brain Structure and Function
      - 2016
      - Study
    * - `Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump" <https://f1000research.com/articles/5-2375>`_
