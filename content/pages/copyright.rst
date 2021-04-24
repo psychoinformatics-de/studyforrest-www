@@ -88,6 +88,7 @@ License:
 .. _Font Awesome: http://fontawesome.io/
 .. _Iacopo Neri: https://thenounproject.com/iacopo3
 .. _Edward Boatman: https://thenounproject.com/edward
+.. _Arjun Adamson: https://thenounproject.com/arjunadamson
 .. _Attribution 3.0 United States: https://creativecommons.org/licenses/by/3.0/us/
 
 ----
