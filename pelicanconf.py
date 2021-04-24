@@ -18,7 +18,7 @@ LOCALE = 'en_US.UTF-8'
 #
 PATH = 'content'
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['better_tables', 'bootstrap-rst', 'pelican_javascript', 'sitemap', 'tipue_search',]
+PLUGINS = ['pelican_javascript', 'tipue_search', 'sitemap']
 SITEMAP = { 'format': 'xml' }
 
 THEME = 'theme'
