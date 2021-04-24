@@ -1,26 +1,13 @@
 {% extends 'base.html' %}
-{% block title %}Search - {{ SITENAME }}{% endblock %}
+{% block title %} &mdash; Search{% endblock %}
 {% block extra_header %}
-  <link rel="stylesheet" href="/theme/css/tipuesearch.css">
-  <script type="text/javascript" src="/theme/js/jquery.min.js"></script>
-  <script type="text/javascript" src="/theme/js/tipuesearch_set.js"></script>
-  <script type="text/javascript" src="/theme/js/tipuesearch.min.js"></script>
-  <script>
-  $(document).ready(function() {
-       $('#search').tipuesearch({
-           'mode': 'json',
-           'show': 10,
-           'newWindow': false,
-           'contentLocation': 'tipuesearch_content.json'
-       });
-  });
-  </script>
+  <script src="/tipuesearch_content.js"></script>
+  <script src="/theme/tsl/tipuesearch_lite.js"></script>
 {% endblock %}
 
 {% block content %}
 <article>
-    <div class="span8 offset2">
-        <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
-    </div>
+  <h1>Search Results</h1>
+  <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
 </article>
 {% endblock content %}
