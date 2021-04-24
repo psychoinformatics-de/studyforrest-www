@@ -2,7 +2,7 @@
 {% block title %}{{ page.title }} - {{ SITENAME }}{% endblock %}
 {% block html_lang %}{{ page.lang }}{% endblock %}
 
-{% block extra_header %}
+{% block extra_headers %}
   {% if page.stylesheets %}
     {% for stylesheet in page.stylesheets %}
       {{ stylesheet }}
