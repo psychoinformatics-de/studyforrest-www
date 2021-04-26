@@ -19,9 +19,18 @@ License:
 ----
 
 Files:
+  img/\*
+Copyright:
+  Belongs to their respective owners
+License:
+  All Rights Reserved
+
+----
+
+Files:
   theme/\*
 Copyright:
-  2013, Daan Debie; 2016–2021 Alex Waite
+  2013, Daan Debie; 2014–2021 Alex Waite and Michael Hanke
 License:
   `MIT`_
 Notes:
@@ -31,39 +40,6 @@ Notes:
 .. _MIT: http://opensource.org/licenses/MIT
 .. _pelican-bootstrap3: https://github.com/DandyDev/pelican-bootstrap3
 .. _Pelican: http://blog.getpelican.com
-
-----
-
-Files:
-  theme/js/jquery\*
-Copyright:
-  `jQuery`_
-License:
-  `MIT`_
-
-.. _jQuery: https://jquery.com
-
-----
-
-Files:
-  theme/tsl/\*
-Copyright:
-  2013-2019, `Tipue`_; 2020, Jona Fischer and Alex Waite
-License:
-  `MIT`_
-
-.. _Tipue: http://www.tipue.com/search/
-
-----
-
-Files:
-  theme/fonts/open-sans\*
-Copyright:
-  Steve Matteson
-License:
-  `Apache, version 2.0`_
-
-.. _Apache, version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 ----
 
@@ -94,40 +70,13 @@ License:
 ----
 
 Files:
-  js/\*, css\*
+  theme/fonts/open-sans\*
 Copyright:
-  2014-2016, Michael Hanke and Alex Waite
+  Steve Matteson
 License:
-  `BSD-3-Clause`_
+  `Apache, version 2.0`_
 
-.. _BSD-3-Clause: https://opensource.org/licenses/BSD-3-Clause
-
-----
-
-Files:
-  js/papaya.js, css/papaya.css
-Copyright:
-  2012-2015, RII-UTHSCSA
-License:
-  `BSD-3-Clause`_
-
-----
-
-Files:
-  js/xtk.js
-Copyright:
-  2012, The X Toolkit Developers <dev@goXTK.com>
-License:
-  `MIT`_
-
-----
-
-Files:
-  img/\*
-Copyright:
-  Belongs to their respective owners
-License:
-  All Rights Reserved
+.. _Apache, version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 ----
 
@@ -137,3 +86,34 @@ Copyright:
   1994, Paramount Pictures Corporation
 License:
   All Rights Reserved
+
+----
+
+Files:
+  theme/js/papaya.js, theme/css/papaya.css
+Copyright:
+  2012-2015, RII-UTHSCSA
+License:
+  `BSD-3-Clause`_
+
+.. _BSD-3-Clause: https://opensource.org/licenses/BSD-3-Clause
+
+----
+
+Files:
+  theme/js/tsl/\*
+Copyright:
+  2013-2019, `Tipue`_; 2020, Jona Fischer and Alex Waite
+License:
+  `MIT`_
+
+.. _Tipue: http://www.tipue.com/search/
+
+----
+
+Files:
+  theme/js/xtk.js
+Copyright:
+  2012, The X Toolkit Developers <dev@goXTK.com>
+License:
+  `MIT`_
