@@ -332,7 +332,6 @@ Behavior and Brain Function
 * High-res 7T fMRI on 2h audio movie (+cardiac/respiration)
 
   * .. image:: {filename}/pics/moviefmri_acq_icon_ao_hrfmri.jpg
-  * `Get the gist <{filename}/pages/acq_aomovie.rst>`__
   * `Read publication » <http://www.nature.com/articles/sdata20143>`__
 
 * High-res 7T fMRI listening to music (cardiac/respiration)
@@ -366,32 +365,26 @@ Brain Structure and Connectivity
 * T1-weighted MRI
 
   * .. image:: {filename}/pics/t1w_thumb.jpg
-  * `Get the gist <{filename}/pages/mod_t1w.rst>`__
 
 * T2-weighted MRI
 
   * .. image:: {filename}/pics/t2w_thumb.jpg
-  * `Get the gist <{filename}/pages/mod_t2w.rst>`__
 
 * Susceptibility-weighted MRI
 
   * .. image:: {filename}/pics/swi_thumb.jpg
-  * `Get the gist <{filename}/pages/mod_swi.rst>`__
 
 * Diffusion-weighted MRI
 
   * .. image:: {filename}/pics/dti_thumb.jpg
-  * `Get the gist <{filename}/pages/mod_dwi.rst>`__
 
 * Angiography
 
   * .. image:: {filename}/pics/angio_thumb.jpg
-  * `Get the gist <{filename}/pages/mod_angio.rst>`__
 
 * Cortical surface reconstruction
 
   * .. image:: {filename}/pics/surf_thumb.jpg
-  * `Get the gist <{filename}/pages/deriv_surfaces.rst>`__
 
 
 Movie Stimulus Annotations
@@ -405,12 +398,10 @@ improving existing annotations as well, and updates may already be available.
 * Scenes and Shots
 
   * .. image:: {filename}/pics/annot_structure_icon.png
-  * `Get the gist <{filename}/pages/annot_structure.rst>`__
 
 * Speech
 
   * .. image:: {filename}/pics/annot_speech_icon.jpg
-  * `Get the gist <{filename}/pages/annot_speech.rst>`__
 
 * Portrayed Emotions
 
