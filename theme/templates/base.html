@@ -7,8 +7,8 @@
   {% block meta %}
   <meta name="author" content="{{ AUTHOR }}" />
   {% endblock %}
-  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-  <link type="text/html" rel="license" href="/copyright.html" />
+  <title>{{ SITENAME }}{% block title %}{% endblock %}</title>
+  <link rel="license" hreflang="en" href="/copyright.html" />
 
   <!-- Once upon a time, favicons were a simple race; but then they grew to be greedy... -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v4">
@@ -19,7 +19,7 @@
   <link rel="shortcut icon" href="/favicon.ico?v4">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/theme/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
   {% block extra_headers %}{% endblock %}
 </head>
 <body>
@@ -40,9 +40,11 @@
 
   {% block topcontent %}{% endblock %}
 
-  <main class="container">
+  <main>
+    <div id='content'>
     {% block content %}{% endblock %}
-  </main><!-- /.container -->
+    </div><!-- /.content -->
+  </main>
 
   <footer>
     <ul class='social-links'>
