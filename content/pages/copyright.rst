@@ -105,24 +105,6 @@ License:
 ----
 
 Files:
-  js/d3.\*
-Copyright:
-  2010-2016, Michael Bostock
-License:
-  `BSD-3-Clause`_
-
-----
-
-Files:
-  js/dygraph-combined.js
-Copyright:
-  2009, Dan Vanderkam
-License:
-  `MIT`_
-
-----
-
-Files:
   js/papaya.js, css/papaya.css
 Copyright:
   2012-2015, RII-UTHSCSA
