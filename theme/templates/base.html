@@ -7,8 +7,8 @@
   {% block meta %}
   <meta name="author" content="{{ AUTHOR }}" />
   {% endblock %}
-
   <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <link type="text/html" rel="license" href="/copyright.html" />
 
   <!-- Once upon a time, favicons were a simple race; but then they grew to be greedy... -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v4">
@@ -20,13 +20,6 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/theme/css/style.css" />
-
-  <link type="text/html" rel="license" href="/copyright.html" />
-  <link type="text/plain" rel="author" href="/humans.txt" />
-
-  {% if FEED_ALL_ATOM %}
-  <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed"/>
-  {% endif %}
   {% block extra_headers %}{% endblock %}
 </head>
 <body>
