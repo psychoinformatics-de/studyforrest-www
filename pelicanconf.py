@@ -22,7 +22,7 @@ PLUGINS = ['pelican_javascript', 'tipue_search', 'sitemap']
 SITEMAP = { 'format': 'xml' }
 
 THEME = 'theme'
-DIRECT_TEMPLATES = ['archives', 'search'] # unset all templates; use these
+DIRECT_TEMPLATES = ['search'] # unset all templates; use these
 STATIC_PATHS = ['img/']
 
 #HEADERID_LINK_CHAR = '<i class="icon-link"></i>'
@@ -39,5 +39,4 @@ MENUITEMS = ( ('studyforrest.org', '/'),
               ('Access', 'access.html'),
               ('Data', 'data.html'),
               ('Publications', 'publications.html'),
-              ('Log', 'archives.html'),
 )
