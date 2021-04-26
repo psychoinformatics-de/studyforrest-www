@@ -123,7 +123,7 @@ License:
 ----
 
 Files:
-  img/\*, pics/\*
+  img/\*
 Copyright:
   Belongs to their respective owners
 License:
