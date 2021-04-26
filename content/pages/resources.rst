@@ -331,32 +331,32 @@ Behavior and Brain Function
 
 * High-res 7T fMRI on 2h audio movie (+cardiac/respiration)
 
-  * .. image:: {filename}/pics/moviefmri_acq_icon_ao_hrfmri.jpg
+  * .. image:: {static}/pics/moviefmri_acq_icon_ao_hrfmri.jpg
   * `Read publication » <http://www.nature.com/articles/sdata20143>`__
 
 * High-res 7T fMRI listening to music (cardiac/respiration)
 
-  * .. image:: {filename}/pics/musicfmri_acq_icon.jpg
+  * .. image:: {static}/pics/musicfmri_acq_icon.jpg
   * `Read publication » <http://dx.doi.org/10.12688/f1000research.6679.1>`__
 
 * 3T fMRI on 2h movie, eyegaze, cardiac/respiration
 
-  * .. image:: {filename}/pics/moviefmri_acq_icon_av_lrfmri_eyegaze.jpg
+  * .. image:: {static}/pics/moviefmri_acq_icon_av_lrfmri_eyegaze.jpg
   * `Read publication » <http://www.nature.com/articles/sdata201692>`__
 
 * Retinotopic mapping
 
-  * .. image:: {filename}/pics/retmap_acq_icon.jpg
+  * .. image:: {static}/pics/retmap_acq_icon.jpg
   * `Read publication » <http://www.nature.com/articles/sdata201693>`__
 
 * Higher visual area localizer
 
-  * .. image:: {filename}/pics/visloc_acq_icon.jpg
+  * .. image:: {static}/pics/visloc_acq_icon.jpg
   * `Read publication » <ttp://www.nature.com/articles/sdata201693>`__
 
 * Multi-res 7T fMRI (0.8-3mm) on visual orientation
 
-  * .. image:: {filename}/pics/orientfmri_acq_icon.jpg
+  * .. image:: {static}/pics/orientfmri_acq_icon.jpg
   * `Read publication » <https://doi.org/10.1016/j.neuroimage.2016.12.040>`__
 
 Brain Structure and Connectivity
@@ -364,27 +364,27 @@ Brain Structure and Connectivity
 
 * T1-weighted MRI
 
-  * .. image:: {filename}/pics/t1w_thumb.jpg
+  * .. image:: {static}/pics/t1w_thumb.jpg
 
 * T2-weighted MRI
 
-  * .. image:: {filename}/pics/t2w_thumb.jpg
+  * .. image:: {static}/pics/t2w_thumb.jpg
 
 * Susceptibility-weighted MRI
 
-  * .. image:: {filename}/pics/swi_thumb.jpg
+  * .. image:: {static}/pics/swi_thumb.jpg
 
 * Diffusion-weighted MRI
 
-  * .. image:: {filename}/pics/dti_thumb.jpg
+  * .. image:: {static}/pics/dti_thumb.jpg
 
 * Angiography
 
-  * .. image:: {filename}/pics/angio_thumb.jpg
+  * .. image:: {static}/pics/angio_thumb.jpg
 
 * Cortical surface reconstruction
 
-  * .. image:: {filename}/pics/surf_thumb.jpg
+  * .. image:: {static}/pics/surf_thumb.jpg
 
 
 Movie Stimulus Annotations
@@ -397,41 +397,41 @@ improving existing annotations as well, and updates may already be available.
 
 * Scenes and Shots
 
-  * .. image:: {filename}/pics/annot_structure_icon.png
+  * .. image:: {static}/pics/annot_structure_icon.png
 
 * Speech
 
-  * .. image:: {filename}/pics/annot_speech_icon.jpg
+  * .. image:: {static}/pics/annot_speech_icon.jpg
 
 * Portrayed Emotions
 
-  * .. image:: {filename}/pics/annot_emotion_icon.jpg
+  * .. image:: {static}/pics/annot_emotion_icon.jpg
   * `Read publication » <http://dx.doi.org/10.12688/f1000research.6230.1>`__
 
 * Semantic Conflict
 
-  * .. image:: {filename}/pics/annot_irony_icon.jpg
+  * .. image:: {static}/pics/annot_irony_icon.jpg
        :alt: Hidden beach CC-BY from https://www.flickr.com/photos/carbonnyc/76468122
   * `Read publication » <https://f1000research.com/articles/5-2375>`__
 
 * Location Changes and Time Progression
 
-  * .. image:: {filename}/pics/annot_locationtime_icon.jpg
+  * .. image:: {static}/pics/annot_locationtime_icon.jpg
   * `Read publication » <http://f1000research.com/articles/5-2273>`__
 
 * Body Contact
 
-  * .. image:: {filename}/pics/annot_bodycontact_icon.jpg
+  * .. image:: {static}/pics/annot_bodycontact_icon.jpg
   * Publication in prep.
 
 * Eye Movement Labels
 
-  * .. image:: {filename}/pics/annot_eyegaze_icon.jpg
+  * .. image:: {static}/pics/annot_eyegaze_icon.jpg
   * Publication in prep.
 
 * Music
 
-  * .. image:: {filename}/pics/annot_music_icon.jpg
+  * .. image:: {static}/pics/annot_music_icon.jpg
        :alt: https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg CC-BY-SA
   * In preparation
 
