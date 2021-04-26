@@ -21,7 +21,7 @@ License:
 Files:
   theme/\*
 Copyright:
-  2013, Daan Debie; 2016–2018 Alex Waite
+  2013, Daan Debie; 2016–2021 Alex Waite
 License:
   `MIT`_
 Notes:
@@ -46,9 +46,9 @@ License:
 ----
 
 Files:
-  theme/js/tipuesearch\*, theme/css/tipuesearch.css
+  theme/tsl/\*
 Copyright:
-  `Tipue`_
+  2013-2019, `Tipue`_; 2020, Jona Fischer and Alex Waite
 License:
   `MIT`_
 
@@ -68,9 +68,9 @@ License:
 ----
 
 Files:
-  theme/fonts/raleway\*
+  theme/fonts/cormorant-garamond\*
 Copyright:
-  Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida
+  2015-2021, Christian Thalmann
 License:
   `SIL OFL 1.1`_
 
