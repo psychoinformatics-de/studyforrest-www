@@ -108,9 +108,6 @@ a:active {
   transition: color .3s;
 }
 
-a.btn { color: #fff; }
-a.btn-default { color: inherit; }
-
 blockquote {
   background: #f9f9f9;
   border: 1px solid #f0f0f0;
@@ -284,17 +281,6 @@ th[data-sort="desc"]:after { content: '\e802'; }
   margin-bottom: 2px;
 }
 
-.floatright, .align-right { float: right; }
-.floatleft, .align-left { float: left; }
-.floatcenter, .align-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-figure.floatright, .align-right { margin-left: 4px; }
-figure.floatleft, .align-left { margin-right: 4px; }
-figure.floatcenter, .align-center { margin-bottom: 11px; }
-
 footer {
   background-color: #f8f8f8;
   border-top: 1px solid #e7e7e7;
@@ -352,27 +338,6 @@ div.xtk_help {
   color: #777;
   display: none;
   text-align: center;
-}
-
-/* Dygraph */
-div.dygraph_help {
-  color: #777;
-  text-align: center;
-}
-
-div.figure {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-div.figure > img {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-div.figure > div.legend {
-  margin-bottom: 10px;
-  font-size: small;
 }
 
 /* Resources Page Specific */
