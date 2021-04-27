@@ -157,9 +157,6 @@ nav {
   color: #e7e7e7;
   font-size: 15px;
   padding: 1.3rem 0;
-  position: sticky;
-  -webkit-position: sticky;
-  top: 0;
   width: 100%;
 }
 nav > div {
