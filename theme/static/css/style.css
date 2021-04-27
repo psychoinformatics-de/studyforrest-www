@@ -132,7 +132,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0;
   min-height: 100vh;
 }
@@ -140,15 +140,22 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: normal;
-  line-height: 1.1;
+  line-height: 2em;
+  margin: 0.5em 0 0.3em 0;
 }
+h1 { font-size: 2.9em; }
+h2 { font-size: 2.7em; }
+h3 { font-size: 1.6em; }
 
 main {
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
   flex: 1;
-  line-height: 26px;
+  line-height: 2em;
   max-width: 1200px;
   margin: 0 auto;
+}
+main #content {
+  margin: 2em 4em;
 }
 
 nav {
@@ -248,14 +255,14 @@ th[data-sort="desc"]:after { content: '\e802'; }
  */
 .card-solo {
   max-width: 50em;
-  margin: 0 auto;
+  margin: 2em auto 3em auto;
 }
 .card-tri {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3em;
 }
 .card-tri > div { width: 30%; }
-.card-tri h3 { font-size: 1.6em; }
 .card-tri [class^="icon-"] {
   font-size: 8em;
   line-height: 1em;
@@ -288,7 +295,6 @@ th[data-sort="desc"]:after { content: '\e802'; }
 footer {
   background-color: #f8f8f8;
   border-top: 1px solid #e7e7e7;
-  margin-top: 2em;
   text-align: center;
 }
 footer ul.social-links {
@@ -379,19 +385,23 @@ div.xtk_help {
 }
 #header h2 {
   color: #fff;
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 2.2em;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.3;
   margin: 0;
   max-width: 60%;
   text-shadow: 0px 0px 25px #000;
 }
+#header h2 > em {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3em;
+  font-weight: bold;
+}
 @media(max-width:767px){ #header h2 { font-size: 1.5em; } }
 @media(max-width:992px){ #header h2 { max-width: 90%; } }
 
 main h2 {
-  font-size: 42px;
-  margin: 35px 0 20px 0;
+  margin: 1em 0 0.5em 0;
 }
 main svg {
   margin-top: 10px;
