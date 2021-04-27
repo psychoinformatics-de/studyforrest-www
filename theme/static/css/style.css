@@ -309,37 +309,67 @@ th[data-sort="desc"]:after { content: '\e802'; }
 footer {
   background-color: #f8f8f8;
   border-top: 1px solid #e7e7e7;
+  font-size: 0.9em;
+  padding: 1em;
   text-align: center;
 }
+@media (min-width: 550px) {
+  footer > div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  footer .left {
+    text-align: left;
+    flex-basis: calc(40% - 2em);
+  }
+  footer .center {
+    text-align: center;
+    flex-basis: calc(20% - 2em);
+  }
+  footer .right {
+    text-align: right;
+    flex-basis: calc(40% - 2em);
+  }
+}
+footer > div > div {
+  margin: 0.5em;
+}
+footer .icon-studyforrest {
+  font-size: 5.5em;
+}
 footer ul.social-links {
-  margin: 0;
+  margin: 0.7em 0.5em;
   padding: 0;
 }
 footer .social-links li {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0;
 }
 footer .social-links a {
   border-color: transparent;
   display: inline-block;
-  font-size: 8em;
+  font-size: 2em;
   transition: transform 0.2s linear;
 }
+footer .social-links a:hover { transform: translateY(-0.3rem); }
 .social-links .icon-github  { color: #111010; }
 .social-links .icon-twitter { color: #4da7de; }
 
-footer .social-links a:hover { transform: translateY(-0.3rem); }
+footer h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0.2em 1em;
+}
 footer p {
-  border-top: 1px solid #ddd;
-  color: #666;
-  margin: 0;
-  padding: 0.5em 1em;
+  margin: 0.7em 1em;
+  padding: 0;
 }
 footer p a { color: #666; }
-footer span.break { display: block; }
-@media screen and (min-width: 768px) {
-  footer span.break { display: inline; }
-}
+
+
 .summary img {
   height: auto;
   max-width: 100%;
