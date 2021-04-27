@@ -87,9 +87,12 @@
 .icon-down-dir:before { content: '\e802'; }
 .icon-brain:before { content: '\e803'; }
 .icon-up-dir:before { content: '\e804'; }
+.icon-studyforrest:before { content: '\e806'; }
 .icon-search:before { content: '\e80d'; }
 .icon-twitter:before { content: '\f099'; }
 .icon-github:before { content: '\f09b'; }
+.icon-filter:before { content: '\f0b0'; }
+.icon-sort:before { content: '\f0dc'; }
 
 /*
  * Element Overrides
