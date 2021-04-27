@@ -34,8 +34,7 @@ AUTHOR_SAVE_AS = False
 # Configure the site
 #
 STATIC_PATHS = ['img']
-MENUITEMS = ( ('studyforrest.org', '/'),
-              ('About', 'about.html'),
+MENUITEMS = ( ('About', 'about.html'),
               ('Access', 'access.html'),
               ('Data', 'data.html'),
               ('Publications', 'publications.html'),
