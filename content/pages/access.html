@@ -19,7 +19,7 @@
 
   <h3>Get the dataset</h3>
   <p>The dataset can be <code>cloned</code> by running:</p>
-  <pre>datalad clone https://github.com/psychoinformatics-de/studyforrest-data</pre>
+  <pre><code>datalad clone https://github.com/psychoinformatics-de/studyforrest-data</code></pre>
   <p>Once the dataset is cloned, it is a light-weight directory on your local
      machine. At this point, it contains only small metadata and information
      on the identity of the files in the dataset, but not actual
@@ -27,7 +27,7 @@
 
   <h3>Retrieve dataset content</h3>
   <p>After cloning the dataset, you can retrieve file contents by running:
-  <pre>datalad get path/to/directory/or/file</pre>
+  <pre><code>datalad get path/to/directory/or/file</code></pre>
   <p>This command will trigger a download of the files, directories, or
      subdatasets you have specified.</p>
 
@@ -36,7 +36,7 @@
      metadata and information on the identity of files, but appear to be
      empty directories. In order to retrieve file availability metadata in
      subdatasets, run:</p>
-  <pre>datalad get -n path/to/subdataset</pre>
+  <pre><code>datalad get -n path/to/subdataset</code></pre>
 
   <p>Afterwards, you can browse the retrieved metadata to find out about
      subdataset contents, and retrieve individual files with <code>datalad
