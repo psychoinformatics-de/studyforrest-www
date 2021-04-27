@@ -3,7 +3,7 @@ Resources
 :save_as: data.html
 :url: data.html
 
-*Studyforrest* has made several data releases over the past years, and this page
+*StudyForrest* has made several data releases over the past years, and this page
 provides an overview of the available resources. Often, multiple data types are
 available for the same set of participants |---| for example, up to 10 hours of
 different fMRI scans per participant. Further details are available from the
@@ -322,7 +322,7 @@ was preprocessed in a particular way, please contact info@studyforrest.org.
 
 Data Type Overview
 ==================
-This sections offers an overview of all major components of the studyforrest
+This sections offers an overview of all major components of the *StudyForrest*
 dataset. This includes data on brain structure, brain function, and movie
 stimulus properties.
 
