@@ -328,9 +328,11 @@ footer span.break { display: block; }
   max-width: 100%;
 }
 
+
 /* Papaya */
 div.papaya-preview { padding: 0 8px 20px 8px; }
 div.papaya-preview > img { width: 100%; }
+
 
 /* XTK */
 div.xtk_renderer {
@@ -347,31 +349,8 @@ div.xtk_help {
   text-align: center;
 }
 
-/* Resources Page Specific */
-.resource-col > .thumbnail {
-  border: 0;
-  border-radius: 0;
-  border-bottom: 1px dotted #ddd;
-}
-.resource-col > .thumbnail:last-child { border-bottom: 0; }
 
-@media (min-width: 768px) {
-  .resource-col.middle {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-}
-
-.resource-col h3, .resource-col h5 { text-align: center; }
-
-.resource-col .caption > a.btn,
-.resource-col .caption > button {
-  width: 100%;
-  margin-bottom: .3em;
-}
-
-
-/* About page */
+/* About Page */
 .split-container {
   display: flex;
   justify-content: space-between;
@@ -383,28 +362,13 @@ div.xtk_help {
 .split-sidebar li { list-style: none; }
 
 
-/*
- *  Tipue Search
- */
-.navbar-search { /* .navbar-search values are copied from other BS nav items */
-  margin: 0 15px;
-  width: 200px;
-}
-@media (min-width: 768px) {
-  .navbar-search { margin: 7.5px 0; }
-}
-
-#tipue_search_foot_boxes li a { cursor: pointer; }
-
 /* search results */
 .tipue_search_content_bold { font-weight: bold; }
 .tipue_search_content_title { margin-top: 1em; }
 .tipue_search_content_text { border-bottom: 1px solid #eee; }
-#tipue_search_image_modal { display: none; }
 
 
 /* Index */
-
 #header {
   align-items: center;
   display: flex;
