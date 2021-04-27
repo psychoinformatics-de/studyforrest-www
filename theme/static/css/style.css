@@ -368,18 +368,35 @@ div.xtk_help {
 
 
 /* About Page */
-.split-container {
+.thanks-logos {
+  align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
-.split-main { width: 60%; }
-.split-sidebar { width: 35%; }
-.split-sidebar img { padding: 0.5em 0; }
-.split-sidebar ul { padding: 0; }
-.split-sidebar li { list-style: none; }
+.thanks-logos a {
+  box-shadow: none;
+  margin: 1.5em 0.5em;
+  flex-basis: calc(100% - 2em);
+}
+.thanks-logos img {
+  max-height: 80px;
+  max-width: 100%;
+}
+@media (min-width: 550px) {
+  .thanks-logos a {
+    flex-basis: calc(calc(100% / 2) - 2em);
+  }
+}
+@media (min-width: 1024px) {
+  .thanks-logos a {
+    flex-basis: calc(calc(100% / 3) - 2em);
+  }
+}
 
 
-/* search results */
+/* Search Results */
 .tipue_search_content_bold { font-weight: bold; }
 .tipue_search_content_title { margin-top: 1em; }
 .tipue_search_content_text { border-bottom: 1px solid #eee; }
