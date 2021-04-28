@@ -256,7 +256,7 @@ nav form input {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
   }
   nav h1 { margin: 0 1.1em 0 0; }
   nav ul { margin: 0; }
