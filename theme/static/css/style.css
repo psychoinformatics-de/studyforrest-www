@@ -334,6 +334,30 @@ th[data-sort="desc"]:after { content: '\e802'; }
   .card-tri > div { width: 30%; }
 }
 
+.card-data {
+  border-bottom: 3px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+.card-data:nth-child(2n) {
+  background-color: #f6f6f6;
+}
+.card-data .thumbnail {
+  flex-basis: calc(20% - 1.5em);
+  margin: 1em;
+}
+.card-data .thumbnail img {
+  border: 1px solid #eee;
+  display: block;
+  width: 100%;
+}
+.card-data .description {
+  flex-basis: calc(80% - 1.5em);
+}
+
+.card-data h3 { margin-bottom: 0; }
+.card-data p.metadata { margin-top: 0; }
+
 
 footer {
   background-color: #f8f8f8;
