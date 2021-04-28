@@ -134,7 +134,7 @@ def restructure_to_html(metadata_db):
               <th>Authors</th>
               <th>Journal</th>
               <th>Date</th>
-              <th>Study</th>
+              <th>Type</th>
             </tr>
           </thead>
           <tbody>"""
