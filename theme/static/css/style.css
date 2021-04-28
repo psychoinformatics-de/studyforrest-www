@@ -335,25 +335,6 @@ th[data-sort="desc"]:after { content: '\e802'; }
   .card-tri > div { width: 30%; }
 }
 
-.docutils.footnote td.label {
-  border-radius: inherit;
-  color: inherit;
-  display: table-cell;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  text-align: inherit;
-  white-space: inherit;
-}
-
-.entry-content img {
-  height: auto;
-  max-width: 100%;
-}
-.entry-content figcaption, .caption {
-  font-size: small;
-  margin-bottom: 2px;
-}
 
 footer {
   background-color: #f8f8f8;
