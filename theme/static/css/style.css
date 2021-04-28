@@ -228,7 +228,7 @@ nav form input {
   color: #666;
   line-height: 1.7;
   padding: 0.2em 0.5em;
-  width: calc(100% - 2.4em - 2px);
+  width: calc(100% - 2.4em - 3px);
 }
 @media screen and (min-width: 400px) {
   nav { text-align: left; }
