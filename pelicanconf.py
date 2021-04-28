@@ -37,5 +37,6 @@ STATIC_PATHS = ['img']
 MENUITEMS = ( ('About', 'about.html'),
               ('Access', 'access.html'),
               ('Data', 'data.html'),
+              ('Explore', 'explore.html'),
               ('Publications', 'publications.html'),
 )
