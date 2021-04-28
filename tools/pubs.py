@@ -81,7 +81,7 @@ def update_metadata_db(ids, dbpath='article_database.json'):
         # add a custom field for human input to the JSON.
         JSON['articletype'] = 'TODO'
         if i not in metadata_db.keys():
-            print("""Found new citing research: {}.  
+            print("""Found new citing research: {}.
                   It is listed under PMCID {}""".format(JSON['title'],
                                                         i))
             metadata_db[i] = JSON
@@ -154,21 +154,21 @@ def parse_args():
     parser = argparse.ArgumentParser(
         formatter_class=formatter_class,
         description="""
-        A small helper tool to query PubMed for citing research of 
-        studyforrest data. 
-        
+        A small helper tool to query PubMed for citing research of
+        StudyForrest data.
+
         Usage: Run the script to query for citations of the 2014 and 2016
-        Studyforrest publications, update a database (expected to lie in the 
-        current directory) with article metadata, and generate an HTML table 
-        as output in the current directy.
+        StudyForrest publications, update a database (expected to lie in the
+        current directory) with article metadata, and generate an HTML table
+        as output in the current directly.
         With --nohtml, the HTML table will not be updated.
         With --ids, different PMCIDs can be specified - the tool will then
         add citations of those studies into the database.
-        
+
         In order to amend database records with publication types, manually
         add a classification of 'articletype' (Citing, Data, Study) to
-        differentiate articles that cite studyforrest, contribute new data,
-        or use the data in analyses. 
+        differentiate articles that cite StudyForrest, contribute new data,
+        or use the data in analyses.
         """
     )
     parser.add_argument(
@@ -184,7 +184,7 @@ def parse_args():
         metavar="<PMCID>",
         help="""PMC ID of all studies for which citation data should be
           returned. Should be supplied as '27779618' '27779621' for two
-          studies. By default, it searches for 3 pubs (data descriptors from 
+          studies. By default, it searches for 3 pubs (data descriptors from
           2014 and 2016)""",
     )
     parser.add_argument(
@@ -208,4 +208,4 @@ if __name__ == "__main__":
     if not args.nohtml:
         restructure_to_html(metadata_md)
     else:
-        print("The database was updated but the html table was not.")
+        print("The database was updated but the HTML table was not.")
