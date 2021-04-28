@@ -9,13 +9,14 @@ from bs4 import BeautifulSoup
 # Add more IDs here to extend the search:
 pmc_ids = ['27779618', '27779621', '25977761']
 # Simple HTML template that can be used to fill a table
-html_template = """<tr><td><a href={link}>{title}</a></td>
+html_template = """
+    <tr>
+      <td><a href={link}>{title}</a></td>
       <td>{authors}</td>
       <td>{venue}</td>
       <td>{year}</td>
       <td>{study}</td>
-      </tr>
-"""
+    </tr>"""
 
 
 def scrape_pubmed_IDs(pmc_ids):
@@ -138,7 +139,8 @@ def restructure_to_html(metadata_db):
           </thead>
           <tbody>"""
 
-        table_tail = """  </tbody>
+        table_tail = """
+          </tbody>
           </table>"""
 
         # write the HTML output to a file
