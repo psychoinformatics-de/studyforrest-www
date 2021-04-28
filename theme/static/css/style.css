@@ -132,9 +132,12 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   margin: 0;
   min-height: 100vh;
+}
+@media (min-width: 640px) {
+  body { font-size: 18px; }
 }
 
 form input[type=text], form input[type=search] {
@@ -160,21 +163,30 @@ h1, h2, h3, h4, h5 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: normal;
   line-height: 2em;
-  margin: 0.5em 0 0.3em 0;
+  margin: 0.3em 0;
 }
-h1 { font-size: 2.9em; }
-h2 { font-size: 2.7em; }
+h1 { font-size: 2.2em; }
+h2 { font-size: 2.0em; }
 h3 { font-size: 1.6em; }
+@media screen and (min-width: 768px) {
+  h1 { font-size: 2.9em; }
+  h2 { font-size: 2.7em; }
+  h3 { font-size: 1.6em; }
+}
 
 main {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-top: 0;
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
   flex: 1;
   line-height: 2em;
   max-width: 1200px;
   margin: 0 auto;
 }
-main #content {
-  margin: 2em 4em;
+main #content { margin: 1em 2em; }
+@media screen and (min-width: 768px) {
+  main #content { margin: 2em 4em; }
 }
 
 nav {
@@ -182,37 +194,73 @@ nav {
   border-bottom: 1px solid #ddd;
   color: #e7e7e7;
   font-size: 15px;
-  padding: 1.3rem 0;
-  width: 100%;
+  padding: 0 2em;
+  text-align: center;
 }
-nav > div {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1200px;
+nav h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-right: 1.1em;
 }
-nav ul { padding: 0; }
-nav li:first-child {
-  font-size: 18px;
+nav h1 .icon-studyforrest:before {
+  margin: 0;
+  text-align: left;
 }
+nav ul {
+  margin-top: 0.5em;
+  padding: 0;
+}
+nav li { list-style-type: none; }
 nav li a:link, nav li a:visited {
   color: #777;
   border-bottom: 1px solid transparent;
   padding: 0;
 }
-@media screen and (min-width: 768px) {
-  nav { padding: 0.5rem 0; }
-  nav ul { margin: 0.5em 0; }
+nav form {
+  border-top: 1px solid #bbb;
+  padding: 1em 0;
+}
+nav form input {
+  border: 1px solid #ccc;
+  color: #666;
+  line-height: 1.7;
+  padding: 0.2em 0.5em;
+  width: calc(100% - 2.4em - 2px);
+}
+@media screen and (min-width: 400px) {
+  nav { text-align: left; }
+  nav h1 { display: inline-block; }
+  nav ul {
+    display: inline-block;
+    margin: 0.5em 0 1em 0;
+  }
   nav li { display: inline-block; }
   nav li a {
     margin: 0.8em 1.1em;
     padding: 0 0.3em;
     transition: color 0.35s, border-color 0.35s;
   }
+  nav li:first-child a { margin-left: 0; }
+  nav li:last-child a { margin-right: 0; }
   nav li a:hover {
     border-color: #aaa;
     color: #333;
+  }
+}
+@media screen and (min-width: 820px) {
+  nav > div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  nav h1 { margin: 0 1.1em 0 0; }
+  nav ul { margin: 0; }
+  nav form  {
+    border-top: 0;
+    margin-left: 1.1em;
   }
 }
 
@@ -271,19 +319,17 @@ th[data-sort="desc"]:after { content: '\e802'; }
   max-width: 50em;
   margin: 2em auto 3em auto;
 }
-.card-tri {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 3em;
-}
-.card-tri > div { width: 30%; }
 .card-tri [class^="icon-"] {
   font-size: 8em;
   line-height: 1em;
 }
-
-.index-content {
-  text-align: center;
+@media (min-width: 768px) {
+  .card-tri {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+  .card-tri > div { width: 30%; }
 }
 
 .docutils.footnote td.label {
@@ -453,18 +499,17 @@ div.xtk_help {
   max-width: 60%;
   text-shadow: 0px 0px 25px #000;
 }
+@media(max-width:767px){ #header h2 { font-size: 1.5em; } }
+@media(max-width:992px){ #header h2 { max-width: 90%; } }
 #header h2 > em {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.3em;
   font-weight: bold;
 }
-@media(max-width:767px){ #header h2 { font-size: 1.5em; } }
-@media(max-width:992px){ #header h2 { max-width: 90%; } }
 
-main h2 {
-  margin: 1em 0 0.5em 0;
+.index-content {
+  text-align: center;
 }
-main svg {
-  margin-top: 10px;
-  max-height: 10rem;
+.index-content h2 {
+  margin: 1em 0 0.5em 0;
 }

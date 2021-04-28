@@ -25,13 +25,15 @@
 <body>
   <nav>
     <div>
-      <ul>
-        <li><a href='/'><span class="icon-studyforrest"></span>StudyForrest</a></li>
-      {% for title, link in MENUITEMS %}
-        {% if page and page.url == link %}{% set link_class = "class='active'" %}{% endif %}
-        <li><a href="{{ link }}" {{ link_class }}>{{ title }}</a></li>
-      {% endfor %}
-      </ul>
+      <div>
+        <h1><a href='/'><span class="icon-studyforrest"></span>StudyForrest</a></h1>
+        <ul>
+        {% for title, link in MENUITEMS %}
+          {% if page and page.url == link %}{% set link_class = "class='active'" %}{% endif %}
+          <li><a href="{{ link }}" {{ link_class }}>{{ title }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
       <form action="{{ SITEURL }}/search.html" role="search">
         <input id="tipue_search_input" aria-label="Search" type="search" placeholder="Search" name="q"><button type="submit" aria-label='Search'><span class="icon-search"></span></button>
       </form>
