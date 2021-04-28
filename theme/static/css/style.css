@@ -175,7 +175,6 @@ h3 { font-size: 1.6em; }
 }
 
 main {
-  border: 1px solid #ddd;
   border-bottom: 0;
   border-top: 0;
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
