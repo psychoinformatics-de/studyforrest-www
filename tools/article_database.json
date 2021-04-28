@@ -1,0 +1,3411 @@
+{
+    "25977761": {
+        "uid": "25977761",
+        "pubdate": "2014 May 27",
+        "epubdate": "2014 May 27",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Baumgartner F. J.",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ibe P",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kaule F",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pollmann S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Speck O",
+                "authtype": "Author"
+            },
+            {
+                "name": "Zinke W",
+                "authtype": "Author"
+            },
+            {
+                "name": "Stadler J",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie",
+        "volume": "1",
+        "issue": "",
+        "pages": "140003",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27779621"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/sdata.2014.3"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4322572"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2016/10/25 00:00",
+        "pmclivedate": "2016/11/11",
+        "articletype": "Data"
+    },
+    "26375211": {
+        "uid": "26375211",
+        "pubdate": "2016 Jan 1",
+        "epubdate": "2015 Sep 13",
+        "printpubdate": "",
+        "source": "NeuroImage",
+        "authors": [
+            {
+                "name": "Vinh Thai Nguyen",
+                "authtype": "Author"
+            },
+            {
+                "name": "Michael Breakspear",
+                "authtype": "Author"
+            },
+            {
+                "name": "Xintao Hu",
+                "authtype": "Author"
+            },
+            {
+                "name": "Christine Cong Guo",
+                "authtype": "Author"
+            }
+        ],
+        "title": "The integration of the internal and external milieu in the insula during dynamic emotional experiences",
+        "volume": "124",
+        "issue": "Pt A",
+        "pages": "455-463",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "26375211"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2015.08.078"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "hanke": {
+        "uid": "26375211",
+        "pubdate": "2015 Jun 15",
+        "epubdate": "2015 Jun 15",
+        "printpubdate": "",
+        "source": "F1000Research",
+        "authors": [
+            {
+                "name": "Michael Hanke",
+                "authtype": "Author"
+            },
+            {
+                "name": "Richard Dinga",
+                "authtype": "Author"
+            },
+            {
+                "name": "Christian H\u00e4usler",
+                "authtype": "Author"
+            },
+            {
+                "name": "J. Swaroop Guntupalli",
+                "authtype": "Author"
+            },
+            {
+                "name": "Michael Casey",
+                "authtype": "Author"
+            },
+            {
+                "name": "Falko R. Kaule",
+                "authtype": "Author"
+            },
+            {
+                "name": "J\u00f6rg Stadler",
+                "authtype": "Author"
+            }
+        ],
+        "title": "High-resolution 7-Tesla fMRI data on the perception of musical genres",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.6679.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Data"
+    },
+    "turek": {
+        "uid": "turek",
+        "pubdate": "2019 Sep 24",
+        "epubdate": "N/A",
+        "printpubdate": "",
+        "source": "2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "authors": [
+            {
+                "name": "Javier S. Turek",
+                "authtype": "Author"
+            },
+            {
+                "name": "Cameron T. Ellis",
+                "authtype": "Author"
+            },
+            {
+                "name": "Lena J. Skalaban",
+                "authtype": "Author"
+            },
+            {
+                "name": "Theodore L. Willke",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Capturing Shared and Individual Information in fMRI Data",
+        "volume": "N/A",
+        "issue": "N/A",
+        "pages": "N/A",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1109/ICASSP.2018.8462175"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "gu": {
+        "uid": "31550276",
+        "pubdate": "2016 Jun 08",
+        "epubdate": "N/A",
+        "printpubdate": "",
+        "source": "Advances in Neural Information Processing Systems (NIPS)",
+        "authors": [
+            {
+                "name": "Umut G\u00fc\u00e7l\u00fc",
+                "authtype": "Author"
+            },
+            {
+                "name": "Jordy Thielen",
+                "authtype": "Author"
+            },
+            {
+                "name": "Michael Hanke",
+                "authtype": "Author"
+            },
+            {
+                "name": "Marcel van Gerven",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Brains on Beats",
+        "volume": "N/A",
+        "issue": "N/A",
+        "pages": "N/A",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "https://arxiv.org/abs/1606.02627v1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "Advances in Neural Information Processing Systems (NIPS)",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "31550276": {
+        "uid": "31550276",
+        "pubdate": "2019 Sep 24",
+        "epubdate": "N/A",
+        "printpubdate": "",
+        "source": "PLoS One",
+        "authors": [
+            {
+                "name": "Yichen Li",
+                "authtype": "Author"
+            },
+            {
+                "name": "Rebecca Saxe",
+                "authtype": "Author"
+            },
+            {
+                "name": "Stefano Anzellotti",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Intersubject MVPD: Empirical comparison of fMRI denoising methods for connectivity analysis",
+        "volume": "14",
+        "issue": "9",
+        "pages": "e0222914",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31550276"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pone.0222914"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6759145"
+            }
+        ],
+        "fulljournalname": "PLoS One",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "hubmer": {
+        "uid": "N/A",
+        "pubdate": "2020 Jan 06",
+        "epubdate": "N/A",
+        "printpubdate": "",
+        "source": "Inverse Problems in Science and Engineering",
+        "authors": [
+            {
+                "name": "Simon Hubmer",
+                "authtype": "Author"
+            },
+            {
+                "name": "Andreas Neubauer",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ronny Ramlau",
+                "authtype": "Author"
+            },
+            {
+                "name": "Henning U. Voss",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A Conjugate-Gradient Approach to the Parameter Estimation Problem of Magnetic Resonance Advection Imaging",
+        "volume": "28",
+        "issue": "8",
+        "pages": "1154-1165",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pone.0222914"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "Inverse Problems in Science and Engineering",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "mikhael": {
+        "uid": "N/A",
+        "pubdate": "2018 Apr 15",
+        "epubdate": "N/A",
+        "printpubdate": "N/A",
+        "source": "NeuroImage",
+        "authors": [
+            {
+                "name": "Shadia Mikhael",
+                "authtype": "Author"
+            },
+            {
+                "name": "Corn\u00e9 Hoogendoorn",
+                "authtype": "Author"
+            },
+            {
+                "name": "Maria Valdes-Hernandez",
+                "authtype": "Author"
+            },
+            {
+                "name": "Cyril Pernet",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A critical analysis of neuroanatomical software protocols reveals clinically relevant differences in parcellation schemes",
+        "volume": "170",
+        "issue": "N/A",
+        "pages": "348-364",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2017.02.082"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "sengupta": {
+        "uid": "N/A",
+        "pubdate": "2017 March 1",
+        "epubdate": "2017 March 1",
+        "printpubdate": "",
+        "source": "NeuroImage",
+        "authors": [
+            {
+                "name": "Sengupta A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Yakupov R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Speck O",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pollmann S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla",
+        "volume": "148",
+        "issue": "",
+        "pages": "64-76",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2016.12.040"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "hu": {
+        "uid": "26375211",
+        "pubdate": "2016 Feb 9",
+        "epubdate": "2016 Feb 9",
+        "printpubdate": "",
+        "source": "Brain Imaging and Behavior",
+        "authors": [
+            {
+                "name": "Xintao Hu",
+                "authtype": "Author"
+            },
+            {
+                "name": "Lei Guo",
+                "authtype": "Author"
+            },
+            {
+                "name": "Junwei Han",
+                "authtype": "Author"
+            },
+            {
+                "name": "Tianming Liu",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience",
+        "volume": "11",
+        "issue": "",
+        "pages": "253\u2013263",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1007/s11682-016-9515-8"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "Brain Imaging and Behavior",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Study"
+    },
+    "chen": {
+        "uid": "N/A",
+        "pubdate": "2015 Feb 9",
+        "epubdate": "N/A",
+        "printpubdate": "",
+        "source": "Advances in Neural Information Processing Systems",
+        "authors": [
+            {
+                "name": "Po-Hsuan (Cameron) Chen",
+                "authtype": "Author"
+            },
+            {
+                "name": "Janice Chen",
+                "authtype": "Author"
+            },
+            {
+                "name": "Yaara Yeshurun",
+                "authtype": "Author"
+            },
+            {
+                "name": "Uri Hasson",
+                "authtype": "Author"
+            },
+            {
+                "name": "James Haxby",
+                "authtype": "Author"
+            },
+            {
+                "name": "Peter J. Ramadge",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A Reduced-Dimension fMRI Shared Response Model",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "N/A"
+            },
+            {
+                "idtype": "doi",
+                "value": "https://proceedings.neurips.cc/paper/2015/file/b3967a0e938dc2a6340e258630febd5a-Paper.pdf"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "N/A"
+            }
+        ],
+        "fulljournalname": "Advances in Neural Information Processing Systems",
+        "sortdate": "N/A",
+        "pmclivedate": "N/A",
+        "articletype": "Benchmark"
+    },
+    "7951909": {
+        "uid": "7951909",
+        "pubdate": "2021 Mar 11",
+        "epubdate": "2021 Mar 11",
+        "printpubdate": "",
+        "source": "PLoS One",
+        "authors": [
+            {
+                "name": "Isherwood SJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bazin PL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Alkemade A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Forstmann BU",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Quantity and quality: Normative open-access neuroimaging databases",
+        "volume": "16",
+        "issue": "3",
+        "pages": "e0248341",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33705468"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pone.0248341"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7951909"
+            }
+        ],
+        "fulljournalname": "PLoS ONE",
+        "sortdate": "2021/03/11 00:00",
+        "pmclivedate": "2021/03/22",
+        "articletype": "Study"
+    },
+    "7856658": {
+        "uid": "7856658",
+        "pubdate": "2020 Dec 24",
+        "epubdate": "2020 Dec 24",
+        "printpubdate": "",
+        "source": "Hum Brain Mapp",
+        "authors": [
+            {
+                "name": "Pinho AL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Amadon A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Fabre M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dohmatob E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Denghien I",
+                "authtype": "Author"
+            },
+            {
+                "name": "Torre JJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ginisty C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Becuwe\u2010Desmidt S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Roger S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Laurier L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Joly\u2010Testault V",
+                "authtype": "Author"
+            },
+            {
+                "name": "M\u00e9diouni\u2010Cloarec G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Doubl\u00e9 C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Martins B",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pinel P",
+                "authtype": "Author"
+            },
+            {
+                "name": "Eger E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Varoquaux G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pallier C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dehaene S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hertz\u2010Pannier L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Thirion B",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Subject\u2010specific segregation of functional territories based on deep phenotyping",
+        "volume": "42",
+        "issue": "4",
+        "pages": "841-870",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33368868"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1002/hbm.25189"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7856658"
+            }
+        ],
+        "fulljournalname": "Human Brain Mapping",
+        "sortdate": "2020/12/24 00:00",
+        "pmclivedate": "2021/02/05",
+        "articletype": "Citing"
+    },
+    "7738169": {
+        "uid": "7738169",
+        "pubdate": "2020 Dec 3",
+        "epubdate": "2020 Dec 3",
+        "printpubdate": "",
+        "source": "PLoS Comput Biol",
+        "authors": [
+            {
+                "name": "Kumar S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ellis CT",
+                "authtype": "Author"
+            },
+            {
+                "name": "O\u2019Connell TP",
+                "authtype": "Author"
+            },
+            {
+                "name": "Chun MM",
+                "authtype": "Author"
+            },
+            {
+                "name": "Turk-Browne NB",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Searching through functional space reveals distributed visual, auditory, and semantic coding in the human brain",
+        "volume": "16",
+        "issue": "12",
+        "pages": "e1008457",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33270655"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pcbi.1008457"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7738169"
+            }
+        ],
+        "fulljournalname": "PLoS Computational Biology",
+        "sortdate": "2020/12/03 00:00",
+        "pmclivedate": "2020/12/28",
+        "articletype": "Study"
+    },
+    "7658985": {
+        "uid": "7658985",
+        "pubdate": "2020 Nov 11",
+        "epubdate": "2020 Nov 11",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Visconti di Oleggio Castello M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Chauhan V",
+                "authtype": "Author"
+            },
+            {
+                "name": "Jiahui G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gobbini MI",
+                "authtype": "Author"
+            }
+        ],
+        "title": "An fMRI dataset in response to \u201cThe Grand Budapest Hotel\u201d, a socially-rich, naturalistic movie",
+        "volume": "7",
+        "issue": "",
+        "pages": "383",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33177526"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41597-020-00735-4"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7658985"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2020/11/11 00:00",
+        "pmclivedate": "2020/11/17",
+        "articletype": "Citing"
+    },
+    "7567863": {
+        "uid": "7567863",
+        "pubdate": "2020 Oct 16",
+        "epubdate": "2020 Oct 16",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Pinho AL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Amadon A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gauthier B",
+                "authtype": "Author"
+            },
+            {
+                "name": "Clairis N",
+                "authtype": "Author"
+            },
+            {
+                "name": "Knops A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Genon S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dohmatob E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Torre JJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ginisty C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Becuwe-Desmidt S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Roger S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Lecomte Y",
+                "authtype": "Author"
+            },
+            {
+                "name": "Berland V",
+                "authtype": "Author"
+            },
+            {
+                "name": "Laurier L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Joly-Testault V",
+                "authtype": "Author"
+            },
+            {
+                "name": "M\u00e9diouni-Cloarec G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Doubl\u00e9 C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Martins B",
+                "authtype": "Author"
+            },
+            {
+                "name": "Salmon E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Piazza M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Melcher D",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pessiglione M",
+                "authtype": "Author"
+            },
+            {
+                "name": "van Wassenhove V",
+                "authtype": "Author"
+            },
+            {
+                "name": "Eger E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Varoquaux G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dehaene S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hertz-Pannier L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Thirion B",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping",
+        "volume": "7",
+        "issue": "",
+        "pages": "353",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33067452"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41597-020-00670-4"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7567863"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2020/10/16 00:00",
+        "pmclivedate": "2020/10/19",
+        "articletype": "Citing"
+    },
+    "6892816": {
+        "uid": "6892816",
+        "pubdate": "2019 Dec 4",
+        "epubdate": "2019 Dec 4",
+        "printpubdate": "",
+        "source": "Nat Commun",
+        "authors": [
+            {
+                "name": "Wang L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Baumgartner F",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kaule FR",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pollmann S",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Individual face- and house-related eye movement patterns distinctively activate FFA and PPA",
+        "volume": "10",
+        "issue": "",
+        "pages": "5532",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31797874"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41467-019-13541-3"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6892816"
+            }
+        ],
+        "fulljournalname": "Nature Communications",
+        "sortdate": "2019/12/04 00:00",
+        "pmclivedate": "2019/12/06",
+        "articletype": "Study"
+    },
+    "6759145": {
+        "uid": "6759145",
+        "pubdate": "2019 Sep 24",
+        "epubdate": "2019 Sep 24",
+        "printpubdate": "",
+        "source": "PLoS One",
+        "authors": [
+            {
+                "name": "Li Y",
+                "authtype": "Author"
+            },
+            {
+                "name": "Saxe R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Anzellotti S",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Intersubject MVPD: Empirical comparison of fMRI denoising methods for connectivity analysis",
+        "volume": "14",
+        "issue": "9",
+        "pages": "e0222914",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31550276"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pone.0222914"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6759145"
+            }
+        ],
+        "fulljournalname": "PLoS ONE",
+        "sortdate": "2019/09/24 00:00",
+        "pmclivedate": "2019/10/04",
+        "articletype": "Study"
+    },
+    "6246887": {
+        "uid": "6246887",
+        "pubdate": "2018 Nov 21",
+        "epubdate": "",
+        "printpubdate": "2018 Nov 21",
+        "source": "J Neurosci",
+        "authors": [
+            {
+                "name": "Ben-Yakov A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Henson RN",
+                "authtype": "Author"
+            }
+        ],
+        "title": "The Hippocampal Film Editor: Sensitivity and Specificity to Event Boundaries in Continuous Experience",
+        "volume": "38",
+        "issue": "47",
+        "pages": "10057-10068",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "30301758"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1523/JNEUROSCI.0524-18.2018"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6246887"
+            }
+        ],
+        "fulljournalname": "The Journal of Neuroscience",
+        "sortdate": "2018/11/21 00:00",
+        "pmclivedate": "2018/11/27",
+        "articletype": "Study"
+    },
+    "5996851": {
+        "uid": "5996851",
+        "pubdate": "2018 Jun 12",
+        "epubdate": "2018 Jun 12",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Pinho AL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Amadon A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ruest T",
+                "authtype": "Author"
+            },
+            {
+                "name": "Fabre M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dohmatob E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Denghien I",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ginisty C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Becuwe-Desmidt S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Roger S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Laurier L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Joly-Testault V",
+                "authtype": "Author"
+            },
+            {
+                "name": "M\u00e9diouni-Cloarec G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Doubl\u00e9 C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Martins B",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pinel P",
+                "authtype": "Author"
+            },
+            {
+                "name": "Eger E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Varoquaux G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pallier C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dehaene S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hertz-Pannier L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Thirion B",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Individual Brain Charting, a high-resolution fMRI dataset for cognitive mapping",
+        "volume": "5",
+        "issue": "",
+        "pages": "180105",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "29893753"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/sdata.2018.105"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5996851"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2018/06/12 00:00",
+        "pmclivedate": "2018/06/15",
+        "articletype": "Citing"
+    },
+    "5962655": {
+        "uid": "5962655",
+        "pubdate": "2018 May 15",
+        "epubdate": "2018 May 15",
+        "printpubdate": "",
+        "source": "Front Neurosci",
+        "authors": [
+            {
+                "name": "Nastase SA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Halchenko YO",
+                "authtype": "Author"
+            },
+            {
+                "name": "Connolly AC",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gobbini MI",
+                "authtype": "Author"
+            },
+            {
+                "name": "Haxby JV",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Neural Responses to Naturalistic Clips of Behaving Animals in Two Different Task Contexts",
+        "volume": "12",
+        "issue": "",
+        "pages": "316",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "29867327"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3389/fnins.2018.00316"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5962655"
+            }
+        ],
+        "fulljournalname": "Frontiers in Neuroscience",
+        "sortdate": "2018/05/15 00:00",
+        "pmclivedate": "2018/06/04",
+        "articletype": "Study"
+    },
+    "5939212": {
+        "uid": "5939212",
+        "pubdate": "2016 Nov 22",
+        "epubdate": "2016 Nov 22",
+        "printpubdate": "2017 Jan",
+        "source": "Cereb Cortex",
+        "authors": [
+            {
+                "name": "Guntupalli JS",
+                "authtype": "Author"
+            },
+            {
+                "name": "Wheeler KG",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gobbini MI",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Disentangling the Representation of Identity from Head View Along the Human Face Processing Pathway",
+        "volume": "27",
+        "issue": "1",
+        "pages": "46-53",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "28051770"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1093/cercor/bhw344"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5939212"
+            }
+        ],
+        "fulljournalname": "Cerebral Cortex (New York, NY)",
+        "sortdate": "2016/11/22 00:00",
+        "pmclivedate": "2018/05/10",
+        "articletype": "Study"
+    },
+    "5851059": {
+        "uid": "5851059",
+        "pubdate": "2017 Jul 17",
+        "epubdate": "2017 Jul 17",
+        "printpubdate": "2018 Jan",
+        "source": "J Int Neuropsychol Soc",
+        "authors": [
+            {
+                "name": "Garcia-Diaz AI",
+                "authtype": "Author"
+            },
+            {
+                "name": "Segura B",
+                "authtype": "Author"
+            },
+            {
+                "name": "Baggio HC",
+                "authtype": "Author"
+            },
+            {
+                "name": "Marti MJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Valldeoriola F",
+                "authtype": "Author"
+            },
+            {
+                "name": "Compta Y",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bargallo N",
+                "authtype": "Author"
+            },
+            {
+                "name": "Uribe C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Campabadal A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Abos A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Junque C",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Structural Brain Correlations of Visuospatial and Visuoperceptual Tests in Parkinson\u2019s Disease",
+        "volume": "24",
+        "issue": "1",
+        "pages": "33-44",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "28714429"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1017/S1355617717000583"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5851059"
+            }
+        ],
+        "fulljournalname": "Journal of the International Neuropsychological Society",
+        "sortdate": "2017/07/17 00:00",
+        "pmclivedate": "2018/03/16",
+        "articletype": "Study"
+    },
+    "5459569": {
+        "uid": "5459569",
+        "pubdate": "2017 May 24",
+        "epubdate": "2017 May 24",
+        "printpubdate": "",
+        "source": "Data Brief",
+        "authors": [
+            {
+                "name": "Sengupta A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Yakupov R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Speck O",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pollmann S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Ultra high-field (7\u00a0T) multi-resolution fMRI data for orientation decoding in visual cortex",
+        "volume": "13",
+        "issue": "",
+        "pages": "219-222",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "28616455"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.dib.2017.05.014"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5459569"
+            }
+        ],
+        "fulljournalname": "Data in Brief",
+        "sortdate": "2017/05/24 00:00",
+        "pmclivedate": "2017/06/14",
+        "articletype": "Data"
+    },
+    "5079121": {
+        "uid": "5079121",
+        "pubdate": "2016 Oct 25",
+        "epubdate": "2016 Oct 25",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Adelh\u00f6fer N",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kottke D",
+                "authtype": "Author"
+            },
+            {
+                "name": "Iacovella V",
+                "authtype": "Author"
+            },
+            {
+                "name": "Sengupta A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kaule FR",
+                "authtype": "Author"
+            },
+            {
+                "name": "Nigbur R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Waite AQ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Baumgartner F",
+                "authtype": "Author"
+            },
+            {
+                "name": "Stadler J",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation",
+        "volume": "3",
+        "issue": "",
+        "pages": "160092",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27779621"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/sdata.2016.92"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5079121"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2016/10/25 00:00",
+        "pmclivedate": "2016/11/11",
+        "articletype": "Data"
+    },
+    "5034791": {
+        "uid": "5034791",
+        "pubdate": "2016 Sep 8",
+        "epubdate": "2016 Sep 8",
+        "printpubdate": "",
+        "source": "F1000Res",
+        "authors": [
+            {
+                "name": "H\u00e4usler CO",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "An annotation of cuts, depicted locations, and temporal progression in the motion picture \"Forrest Gump\"",
+        "volume": "5",
+        "issue": "",
+        "pages": "2273",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27781092"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.9536.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5034791"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "2016/09/08 00:00",
+        "pmclivedate": "2016/10/24",
+        "articletype": "Data"
+    },
+    "8005322": {
+        "uid": "8005322",
+        "pubdate": "2020 Jul 27",
+        "epubdate": "2020 Jul 27",
+        "printpubdate": "",
+        "source": "J Eye Mov Res",
+        "authors": [
+            {
+                "name": "Agtzidis I",
+                "authtype": "Author"
+            },
+            {
+                "name": "Startsev M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dorr M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Two hours in Hollywood: A manually annotated ground truth data set of eye movements during movie clip watching",
+        "volume": "13",
+        "issue": "4",
+        "pages": "10.16910/jemr.13.4.5",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33828806"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.16910/jemr.13.4.5"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC8005322"
+            }
+        ],
+        "fulljournalname": "Journal of Eye Movement Research",
+        "sortdate": "2020/07/27 00:00",
+        "pmclivedate": "2021/04/06",
+        "articletype": "Study"
+    },
+    "7958465": {
+        "uid": "7958465",
+        "pubdate": "2020 Apr 21",
+        "epubdate": "2020 Apr 21",
+        "printpubdate": "2020 Aug 15",
+        "source": "Neuroimage",
+        "authors": [
+            {
+                "name": "Nastase SA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Liu YF",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hillman H",
+                "authtype": "Author"
+            },
+            {
+                "name": "Norman KA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hasson U",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Leveraging shared connectivity to aggregate heterogeneous datasets into a common response space",
+        "volume": "217",
+        "issue": "",
+        "pages": "116865",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "32325212"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2020.116865"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7958465"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS1677335"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "2020/04/21 00:00",
+        "pmclivedate": "2021/03/15",
+        "articletype": "Citing"
+    },
+    "7921887": {
+        "uid": "7921887",
+        "pubdate": "2021 Jan 28",
+        "epubdate": "2021 Jan 28",
+        "printpubdate": "",
+        "source": "F1000Res",
+        "authors": [
+            {
+                "name": "H\u00e4usler CO",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A studyforrest extension, an annotation of spoken language in the German dubbed movie \u201cForrest Gump\u201d and its audio-description",
+        "volume": "10",
+        "issue": "",
+        "pages": "54",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33732435"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.27621.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7921887"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "2021/01/28 00:00",
+        "pmclivedate": "2021/03/16",
+        "articletype": "Data"
+    },
+    "7880959": {
+        "uid": "7880959",
+        "pubdate": "2020 Jul 24",
+        "epubdate": "2020 Jul 24",
+        "printpubdate": "2021",
+        "source": "Behav Res Methods",
+        "authors": [
+            {
+                "name": "Dar AH",
+                "authtype": "Author"
+            },
+            {
+                "name": "Wagner AS",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "REMoDNaV: robust eye-movement classification for dynamic stimulation",
+        "volume": "53",
+        "issue": "1",
+        "pages": "399-414",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "32710238"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3758/s13428-020-01428-x"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7880959"
+            }
+        ],
+        "fulljournalname": "Behavior Research Methods",
+        "sortdate": "2020/07/24 00:00",
+        "pmclivedate": "2021/02/18",
+        "articletype": "Study"
+    },
+    "7555491": {
+        "uid": "7555491",
+        "pubdate": "2020 Oct 13",
+        "epubdate": "2020 Oct 13",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Aliko S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Huang J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gheorghiu F",
+                "authtype": "Author"
+            },
+            {
+                "name": "Meliss S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Skipper JI",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A naturalistic neuroimaging database for understanding the brain using ecological stimuli",
+        "volume": "7",
+        "issue": "",
+        "pages": "347",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33051448"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41597-020-00680-2"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7555491"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2020/10/13 00:00",
+        "pmclivedate": "2020/10/19",
+        "articletype": "Study"
+    },
+    "7198323": {
+        "uid": "7198323",
+        "pubdate": "2019 Nov 5",
+        "epubdate": "2019 Nov 5",
+        "printpubdate": "2020 Aug 1",
+        "source": "Neuroimage",
+        "authors": [
+            {
+                "name": "DuPre E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Poline JB",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Nature abhors a paywall: How open science can realize the potential of naturalistic stimuli",
+        "volume": "216",
+        "issue": "",
+        "pages": "116330",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31704292"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2019.116330"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7198323"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS1543544"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "2019/11/05 00:00",
+        "pmclivedate": "",
+        "articletype": "Citing"
+    },
+    "7132907": {
+        "uid": "7132907",
+        "pubdate": "2019 Oct 9",
+        "epubdate": "2019 Oct 9",
+        "printpubdate": "2020 Mar",
+        "source": "Cereb Cortex",
+        "authors": [
+            {
+                "name": "Son J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ai L",
+                "authtype": "Author"
+            },
+            {
+                "name": "Lim R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Xu T",
+                "authtype": "Author"
+            },
+            {
+                "name": "Colcombe S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Franco AR",
+                "authtype": "Author"
+            },
+            {
+                "name": "Cloud J",
+                "authtype": "Author"
+            },
+            {
+                "name": "LaConte S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Lisinski J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Klein A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Craddock RC",
+                "authtype": "Author"
+            },
+            {
+                "name": "Milham M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Evaluating fMRI-Based Estimation of Eye Gaze During Naturalistic Viewing",
+        "volume": "30",
+        "issue": "3",
+        "pages": "1171-1184",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31595961"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1093/cercor/bhz157"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7132907"
+            }
+        ],
+        "fulljournalname": "Cerebral Cortex (New York, NY)",
+        "sortdate": "2019/10/09 00:00",
+        "pmclivedate": "2021/03/14",
+        "articletype": "Citing"
+    },
+    "6909003": {
+        "uid": "6909003",
+        "pubdate": "2019 Dec 6",
+        "epubdate": "2019 Dec 6",
+        "printpubdate": "",
+        "source": "Front Psychol",
+        "authors": [
+            {
+                "name": "Seghier ML",
+                "authtype": "Author"
+            },
+            {
+                "name": "Fahim MA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Habak C",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Educational fMRI: From the Lab to the Classroom",
+        "volume": "10",
+        "issue": "",
+        "pages": "2769",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31866920"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3389/fpsyg.2019.02769"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6909003"
+            }
+        ],
+        "fulljournalname": "Frontiers in Psychology",
+        "sortdate": "2019/12/06 00:00",
+        "pmclivedate": "2019/12/20",
+        "articletype": "Citing"
+    },
+    "6895053": {
+        "uid": "6895053",
+        "pubdate": "2019 Dec 5",
+        "epubdate": "2019 Dec 5",
+        "printpubdate": "",
+        "source": "Nat Commun",
+        "authors": [
+            {
+                "name": "Lettieri G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Handjaras G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ricciardi E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Leo A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Papale P",
+                "authtype": "Author"
+            },
+            {
+                "name": "Betta M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pietrini P",
+                "authtype": "Author"
+            },
+            {
+                "name": "Cecchetti L",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Emotionotopy in the human right temporo-parietal cortex",
+        "volume": "10",
+        "issue": "",
+        "pages": "5568",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31804504"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41467-019-13599-z"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6895053"
+            }
+        ],
+        "fulljournalname": "Nature Communications",
+        "sortdate": "2019/12/05 00:00",
+        "pmclivedate": "2019/12/09",
+        "articletype": "Study"
+    },
+    "6884625": {
+        "uid": "6884625",
+        "pubdate": "2019 Nov 29",
+        "epubdate": "2019 Nov 29",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Liu X",
+                "authtype": "Author"
+            },
+            {
+                "name": "Zhen Z",
+                "authtype": "Author"
+            },
+            {
+                "name": "Yang A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bai H",
+                "authtype": "Author"
+            },
+            {
+                "name": "Liu J",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A manually denoised audio-visual movie watching fMRI dataset for the studyforrest project",
+        "volume": "6",
+        "issue": "",
+        "pages": "295",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31784528"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41597-019-0303-3"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6884625"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2019/11/29 00:00",
+        "pmclivedate": "2019/12/06",
+        "articletype": "Data"
+    },
+    "6785543": {
+        "uid": "6785543",
+        "pubdate": "2019 Oct 9",
+        "epubdate": "2019 Oct 9",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Sharma K",
+                "authtype": "Author"
+            },
+            {
+                "name": "Castellini C",
+                "authtype": "Author"
+            },
+            {
+                "name": "van den Broek EL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Albu-Schaeffer A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Schwenker F",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A dataset of continuous affect annotations and physiological signals for emotion analysis",
+        "volume": "6",
+        "issue": "",
+        "pages": "196",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "31597919"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/s41597-019-0209-0"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6785543"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2019/10/09 00:00",
+        "pmclivedate": "2019/10/10",
+        "articletype": "Data"
+    },
+    "6338442": {
+        "uid": "6338442",
+        "pubdate": "2018 Feb 8",
+        "epubdate": "2018 Feb 8",
+        "printpubdate": "2018 May 15",
+        "source": "Neuroimage",
+        "authors": [
+            {
+                "name": "Joshi AA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Chong M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Li J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Choi S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Leahy RM",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Are you thinking what I\u2019m thinking? Synchronization of resting fMRI time-series across subjects",
+        "volume": "172",
+        "issue": "",
+        "pages": "740-752",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "29428580"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2018.01.058"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6338442"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS962971"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "2018/02/08 00:00",
+        "pmclivedate": "2019/01/18",
+        "articletype": "Study"
+    },
+    "6326731": {
+        "uid": "6326731",
+        "pubdate": "2018 Oct 1",
+        "epubdate": "2018 Oct 1",
+        "printpubdate": "",
+        "source": "Netw Neurosci",
+        "authors": [
+            {
+                "name": "Bottenhorn KL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Flannery JS",
+                "authtype": "Author"
+            },
+            {
+                "name": "Boeving ER",
+                "authtype": "Author"
+            },
+            {
+                "name": "Riedel MC",
+                "authtype": "Author"
+            },
+            {
+                "name": "Eickhoff SB",
+                "authtype": "Author"
+            },
+            {
+                "name": "Sutherland MT",
+                "authtype": "Author"
+            },
+            {
+                "name": "Laird AR",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results",
+        "volume": "3",
+        "issue": "1",
+        "pages": "27-48",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "30793072"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1162/netn_a_00050"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6326731"
+            }
+        ],
+        "fulljournalname": "Network Neuroscience",
+        "sortdate": "2018/10/01 00:00",
+        "pmclivedate": "2019/02/21",
+        "articletype": "Citing"
+    },
+    "5133679": {
+        "uid": "5133679",
+        "pubdate": "2016 Sep 26",
+        "epubdate": "2016 Sep 26",
+        "printpubdate": "",
+        "source": "F1000Res",
+        "authors": [
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ibe P",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Lies, irony, and contradiction \u2014 an annotation of semantic conflict in the movie \"Forrest Gump\"",
+        "volume": "5",
+        "issue": "",
+        "pages": "2375",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27990263"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.9635.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5133679"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "2016/09/26 00:00",
+        "pmclivedate": "2016/12/16",
+        "articletype": "Data"
+    },
+    "5079119": {
+        "uid": "5079119",
+        "pubdate": "2016 Oct 25",
+        "epubdate": "2016 Oct 25",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Sengupta A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kaule FR",
+                "authtype": "Author"
+            },
+            {
+                "name": "Guntupalli JS",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hoffmann MB",
+                "authtype": "Author"
+            },
+            {
+                "name": "H\u00e4usler C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Stadler J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A studyforrest extension, retinotopic mapping and localization of higher visual areas",
+        "volume": "3",
+        "issue": "",
+        "pages": "160093",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27779618"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/sdata.2016.93"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5079119"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2016/10/25 00:00",
+        "pmclivedate": "2016/11/11",
+        "articletype": "Data"
+    },
+    "7854960": {
+        "uid": "7854960",
+        "pubdate": "2020 Aug 1",
+        "epubdate": "2020 Aug 1",
+        "printpubdate": "",
+        "source": "Prog Neurobiol",
+        "authors": [
+            {
+                "name": "Moerel M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Yacoub E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gulban OF",
+                "authtype": "Author"
+            },
+            {
+                "name": "Lage-Castellanos A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Martino FD",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Using high spatial resolution fMRI to understand representation in the auditory network",
+        "volume": "",
+        "issue": "",
+        "pages": "101887",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "32745500"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.pneurobio.2020.101887"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7854960"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS1626840"
+            }
+        ],
+        "fulljournalname": "Progress in neurobiology",
+        "sortdate": "2020/08/01 00:00",
+        "pmclivedate": "",
+        "articletype": "Citing"
+    },
+    "7805386": {
+        "uid": "7805386",
+        "pubdate": "2020 Oct 12",
+        "epubdate": "2020 Oct 12",
+        "printpubdate": "2021 Jan 1",
+        "source": "Neuroimage",
+        "authors": [
+            {
+                "name": "J\u00e4\u00e4skel\u00e4inen IP",
+                "authtype": "Author"
+            },
+            {
+                "name": "Sams M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Glerean E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ahveninen J",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Movies and narratives as naturalistic stimuli in neuroimaging ",
+        "volume": "224",
+        "issue": "",
+        "pages": "117445",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "33059053"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2020.117445"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7805386"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS1659859"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "2020/10/12 00:00",
+        "pmclivedate": "2021/01/13",
+        "articletype": "Citing"
+    },
+    "7789034": {
+        "uid": "7789034",
+        "pubdate": "2020 Aug 13",
+        "epubdate": "2020 Aug 13",
+        "printpubdate": "2020 Nov 15",
+        "source": "Neuroimage",
+        "authors": [
+            {
+                "name": "Nastase SA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Goldstein A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hasson U",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Keep it real: rethinking the primacy of experimental control in cognitive neuroscience",
+        "volume": "222",
+        "issue": "",
+        "pages": "117254",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "32800992"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.neuroimage.2020.117254"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7789034"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS1658218"
+            }
+        ],
+        "fulljournalname": "NeuroImage",
+        "sortdate": "2020/08/13 00:00",
+        "pmclivedate": "2021/01/07",
+        "articletype": "Citing"
+    },
+    "7334332": {
+        "uid": "7334332",
+        "pubdate": "2020 Mar 29",
+        "epubdate": "2020 Mar 29",
+        "printpubdate": "2020 Aug",
+        "source": "Cogn Neurodyn",
+        "authors": [
+            {
+                "name": "Ghahari S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Farahani N",
+                "authtype": "Author"
+            },
+            {
+                "name": "Fatemizadeh E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Motie Nasrabadi A",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Investigating time-varying functional connectivity derived from the Jackknife Correlation method for distinguishing between emotions in fMRI data",
+        "volume": "14",
+        "issue": "4",
+        "pages": "457-471",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "32655710"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1007/s11571-020-09579-5"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC7334332"
+            }
+        ],
+        "fulljournalname": "Cognitive Neurodynamics",
+        "sortdate": "2020/03/29 00:00",
+        "pmclivedate": "",
+        "articletype": "Study"
+    },
+    "6867053": {
+        "uid": "6867053",
+        "pubdate": "2017 Mar 10",
+        "epubdate": "2017 Mar 10",
+        "printpubdate": "",
+        "source": "Hum Brain Mapp",
+        "authors": [
+            {
+                "name": "Kauppi J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pajula J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Niemi J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hari R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Tohka J",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Functional brain segmentation using inter\u2010subject correlation in fMRI",
+        "volume": "38",
+        "issue": "5",
+        "pages": "2643-2665",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "28295803"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1002/hbm.23549"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6867053"
+            }
+        ],
+        "fulljournalname": "Human Brain Mapping",
+        "sortdate": "2017/03/10 00:00",
+        "pmclivedate": "2020/06/12",
+        "articletype": "Study"
+    },
+    "6204391": {
+        "uid": "6204391",
+        "pubdate": "2018 Oct 22",
+        "epubdate": "2018 Oct 22",
+        "printpubdate": "",
+        "source": "Front Neurosci",
+        "authors": [
+            {
+                "name": "Millman KJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Brett M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Barnowski R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Poline JB",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Teaching Computational Reproducibility for Neuroimaging",
+        "volume": "12",
+        "issue": "",
+        "pages": "727",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "30405329"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3389/fnins.2018.00727"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC6204391"
+            }
+        ],
+        "fulljournalname": "Frontiers in Neuroscience",
+        "sortdate": "2018/10/22 00:00",
+        "pmclivedate": "2018/11/07",
+        "articletype": "Study"
+    },
+    "5999588": {
+        "uid": "5999588",
+        "pubdate": "2018 May 16",
+        "epubdate": "2018 May 16",
+        "printpubdate": "2018 Jul 1",
+        "source": "Comput Biol Med",
+        "authors": [
+            {
+                "name": "Voss HU",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Hypersampling of pseudo-periodic signals by analytic phase projection",
+        "volume": "98",
+        "issue": "",
+        "pages": "159-167",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "29800881"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.compbiomed.2018.05.008"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5999588"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS970043"
+            }
+        ],
+        "fulljournalname": "Computers in biology and medicine",
+        "sortdate": "2018/05/16 00:00",
+        "pmclivedate": "2019/07/01",
+        "articletype": "Study"
+    },
+    "5887073": {
+        "uid": "5887073",
+        "pubdate": "2018 Apr 4",
+        "epubdate": "2018 Apr 4",
+        "printpubdate": "",
+        "source": "F1000Res",
+        "authors": [
+            {
+                "name": "Sengupta A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Pollmann S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI",
+        "volume": "7",
+        "issue": "",
+        "pages": "142",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "29707198"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.13689.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5887073"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "2018/04/04 00:00",
+        "pmclivedate": "2018/04/25",
+        "articletype": "Study"
+    },
+    "5779117": {
+        "uid": "5779117",
+        "pubdate": "2017 Dec 8",
+        "epubdate": "2017 Dec 8",
+        "printpubdate": "",
+        "source": "eNeuro",
+        "authors": [
+            {
+                "name": "Alday PM",
+                "authtype": "Author"
+            },
+            {
+                "name": "Schlesewsky M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bornkessel-Schlesewsky I",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Electrophysiology Reveals the Neural Dynamics of Naturalistic Auditory Language Processing: Event-Related Potentials Reflect Continuous Model Updates",
+        "volume": "4",
+        "issue": "6",
+        "pages": "ENEURO.0311-16.2017",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "29379867"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1523/ENEURO.0311-16.2017"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5779117"
+            }
+        ],
+        "fulljournalname": "eNeuro",
+        "sortdate": "2017/12/08 00:00",
+        "pmclivedate": "2018/01/29",
+        "articletype": "Citing"
+    },
+    "5509941": {
+        "uid": "5509941",
+        "pubdate": "2017 Jul 14",
+        "epubdate": "2017 Jul 14",
+        "printpubdate": "",
+        "source": "Front Psychol",
+        "authors": [
+            {
+                "name": "Casey MA",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Music of the 7Ts: Predicting and Decoding Multivoxel fMRI Responses with Acoustic, Schematic, and Categorical Music Features",
+        "volume": "8",
+        "issue": "",
+        "pages": "1179",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "28769835"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3389/fpsyg.2017.01179"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5509941"
+            }
+        ],
+        "fulljournalname": "Frontiers in Psychology",
+        "sortdate": "2017/07/14 00:00",
+        "pmclivedate": "2017/08/02",
+        "articletype": "Study"
+    },
+    "5453446": {
+        "uid": "5453446",
+        "pubdate": "2016 Jan 1",
+        "epubdate": "2016 Jan 1",
+        "printpubdate": "2017 Apr",
+        "source": "J Cereb Blood Flow Metab",
+        "authors": [
+            {
+                "name": "Voss HU",
+                "authtype": "Author"
+            },
+            {
+                "name": "Dyke JP",
+                "authtype": "Author"
+            },
+            {
+                "name": "Tabelow K",
+                "authtype": "Author"
+            },
+            {
+                "name": "Schiff ND",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ballon DJ",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Magnetic resonance advection imaging of cerebrovascular pulse dynamics",
+        "volume": "37",
+        "issue": "4",
+        "pages": "1223-1235",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27221244"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1177/0271678X16651449"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC5453446"
+            }
+        ],
+        "fulljournalname": "Journal of Cerebral Blood Flow & Metabolism",
+        "sortdate": "2016/01/01 00:00",
+        "pmclivedate": "2018/04/01",
+        "articletype": "Study"
+    },
+    "4981598": {
+        "uid": "4981598",
+        "pubdate": "2016 Aug 12",
+        "epubdate": "2016 Aug 12",
+        "printpubdate": "",
+        "source": "Front Neuroinform",
+        "authors": [
+            {
+                "name": "Honor LB",
+                "authtype": "Author"
+            },
+            {
+                "name": "Haselgrove C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Frazier JA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kennedy DN",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution",
+        "volume": "10",
+        "issue": "",
+        "pages": "34",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27570508"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3389/fninf.2016.00034"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4981598"
+            }
+        ],
+        "fulljournalname": "Frontiers in Neuroinformatics",
+        "sortdate": "2016/08/12 00:00",
+        "pmclivedate": "2016/08/26",
+        "articletype": "Citing"
+    },
+    "4932120": {
+        "uid": "4932120",
+        "pubdate": "2016 Jul 5",
+        "epubdate": "2016 Jul 5",
+        "printpubdate": "",
+        "source": "Front Neuroinform",
+        "authors": [
+            {
+                "name": "Pauli R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bowring A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Reynolds R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Chen G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Nichols TE",
+                "authtype": "Author"
+            },
+            {
+                "name": "Maumet C",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Exploring fMRI Results Space: 31 Variants of an fMRI Analysis in AFNI, FSL, and SPM",
+        "volume": "10",
+        "issue": "",
+        "pages": "24",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27458367"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.3389/fninf.2016.00024"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4932120"
+            }
+        ],
+        "fulljournalname": "Frontiers in Neuroinformatics",
+        "sortdate": "2016/07/05 00:00",
+        "pmclivedate": "2016/07/25",
+        "articletype": "Citing"
+    },
+    "4886721": {
+        "uid": "4886721",
+        "pubdate": "2016 Apr 30",
+        "epubdate": "2016 Apr 30",
+        "printpubdate": "2016 Jun",
+        "source": "Trends Cogn Sci",
+        "authors": [
+            {
+                "name": "Dubois J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Adolphs R",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Building a science of individual differences from fMRI",
+        "volume": "20",
+        "issue": "6",
+        "pages": "425-443",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27138646"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1016/j.tics.2016.03.014"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4886721"
+            },
+            {
+                "idtype": "MID",
+                "value": "NIHMS776431"
+            }
+        ],
+        "fulljournalname": "Trends in cognitive sciences",
+        "sortdate": "2016/04/30 00:00",
+        "pmclivedate": "2017/06/01",
+        "articletype": "Citing"
+    },
+    "4822447": {
+        "uid": "4822447",
+        "pubdate": "2016 May 13",
+        "epubdate": "",
+        "printpubdate": "2016 May 13",
+        "source": "Philos Trans A Math Phys Eng Sci",
+        "authors": [
+            {
+                "name": "Chang C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Raven EP",
+                "authtype": "Author"
+            },
+            {
+                "name": "Duyn JH",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Brain\u2013heart interactions: challenges and opportunities with functional magnetic resonance imaging at ultra-high field",
+        "volume": "374",
+        "issue": "2067",
+        "pages": "20150188",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "27044994"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1098/rsta.2015.0188"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4822447"
+            }
+        ],
+        "fulljournalname": "Philosophical transactions. Series A, Mathematical, physical, and engineering sciences",
+        "sortdate": "2016/05/13 00:00",
+        "pmclivedate": "2017/05/13",
+        "articletype": "Citing"
+    },
+    "4699901": {
+        "uid": "4699901",
+        "pubdate": "2015 Dec 31",
+        "epubdate": "2015 Dec 31",
+        "printpubdate": "",
+        "source": "PLoS One",
+        "authors": [
+            {
+                "name": "K\u00e4mpf M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Tessenow E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kenett DY",
+                "authtype": "Author"
+            },
+            {
+                "name": "Kantelhardt JW",
+                "authtype": "Author"
+            }
+        ],
+        "title": "The Detection of Emerging Trends Using Wikipedia Traffic Data and Context Networks",
+        "volume": "10",
+        "issue": "12",
+        "pages": "e0141892",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "26720074"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pone.0141892"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4699901"
+            }
+        ],
+        "fulljournalname": "PLoS ONE",
+        "sortdate": "2015/12/31 00:00",
+        "pmclivedate": "2016/01/14",
+        "articletype": "Citing"
+    },
+    "4520483": {
+        "uid": "4520483",
+        "pubdate": "2015 Jul 30",
+        "epubdate": "2015 Jul 30",
+        "printpubdate": "",
+        "source": "PLoS One",
+        "authors": [
+            {
+                "name": "Stucht D",
+                "authtype": "Author"
+            },
+            {
+                "name": "Danishad KA",
+                "authtype": "Author"
+            },
+            {
+                "name": "Schulze P",
+                "authtype": "Author"
+            },
+            {
+                "name": "Godenschweger F",
+                "authtype": "Author"
+            },
+            {
+                "name": "Zaitsev M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Speck O",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Highest Resolution In Vivo Human Brain MRI Using Prospective Motion Correction",
+        "volume": "10",
+        "issue": "7",
+        "pages": "e0133921",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "26226146"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1371/journal.pone.0133921"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4520483"
+            }
+        ],
+        "fulljournalname": "PLoS ONE",
+        "sortdate": "2015/07/30 00:00",
+        "pmclivedate": "2015/08/06",
+        "articletype": "Citing"
+    },
+    "4457109": {
+        "uid": "4457109",
+        "pubdate": "2015 Mar 10",
+        "epubdate": "2015 Mar 10",
+        "printpubdate": "",
+        "source": "F1000Res",
+        "authors": [
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Halchenko YO",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A communication hub for a decentralized collaboration on studying real-life cognition",
+        "volume": "4",
+        "issue": "",
+        "pages": "62",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "26097689"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.6229.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4457109"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "2015/03/10 00:00",
+        "pmclivedate": "2015/06/19",
+        "articletype": "Citing"
+    },
+    "4421933": {
+        "uid": "4421933",
+        "pubdate": "2014 Dec 9",
+        "epubdate": "2014 Dec 9",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Forstmann BU",
+                "authtype": "Author"
+            },
+            {
+                "name": "Keuken MC",
+                "authtype": "Author"
+            },
+            {
+                "name": "Schafer A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bazin PL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Alkemade A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Turner R",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Multi-modal ultra-high resolution structural 7-Tesla MRI data repository",
+        "volume": "1",
+        "issue": "",
+        "pages": "140050",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "25977801"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/sdata.2014.50"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4421933"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2014/12/09 00:00",
+        "pmclivedate": "2015/05/14",
+        "articletype": "Citing"
+    },
+    "4416536": {
+        "uid": "4416536",
+        "pubdate": "2015 Apr 13",
+        "epubdate": "2015 Apr 13",
+        "printpubdate": "",
+        "source": "F1000Res",
+        "authors": [
+            {
+                "name": "Labs A",
+                "authtype": "Author"
+            },
+            {
+                "name": "Reich T",
+                "authtype": "Author"
+            },
+            {
+                "name": "Schulenburg H",
+                "authtype": "Author"
+            },
+            {
+                "name": "Boennen M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Mareike G",
+                "authtype": "Author"
+            },
+            {
+                "name": "Golz M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hartigs B",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hoffmann N",
+                "authtype": "Author"
+            },
+            {
+                "name": "Keil S",
+                "authtype": "Author"
+            },
+            {
+                "name": "Perlow M",
+                "authtype": "Author"
+            },
+            {
+                "name": "Peukmann AK",
+                "authtype": "Author"
+            },
+            {
+                "name": "Rabe LN",
+                "authtype": "Author"
+            },
+            {
+                "name": "von Sobbe FR",
+                "authtype": "Author"
+            },
+            {
+                "name": "Hanke M",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Portrayed emotions in the movie \"Forrest Gump\"",
+        "volume": "4",
+        "issue": "",
+        "pages": "92",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "25977755"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.12688/f1000research.6230.1"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4416536"
+            }
+        ],
+        "fulljournalname": "F1000Research",
+        "sortdate": "2015/04/13 00:00",
+        "pmclivedate": "2015/05/13",
+        "articletype": "Data"
+    },
+    "4412153": {
+        "uid": "4412153",
+        "pubdate": "2015 Jan 20",
+        "epubdate": "2015 Jan 20",
+        "printpubdate": "",
+        "source": "Sci Data",
+        "authors": [
+            {
+                "name": "Gorgolewski KJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Mendes N",
+                "authtype": "Author"
+            },
+            {
+                "name": "Wilfling D",
+                "authtype": "Author"
+            },
+            {
+                "name": "Wladimirow E",
+                "authtype": "Author"
+            },
+            {
+                "name": "Gauthier CJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bonnen T",
+                "authtype": "Author"
+            },
+            {
+                "name": "Ruby FJ",
+                "authtype": "Author"
+            },
+            {
+                "name": "Trampel R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Bazin PL",
+                "authtype": "Author"
+            },
+            {
+                "name": "Cozatl R",
+                "authtype": "Author"
+            },
+            {
+                "name": "Smallwood J",
+                "authtype": "Author"
+            },
+            {
+                "name": "Margulies DS",
+                "authtype": "Author"
+            }
+        ],
+        "title": "A high resolution 7-Tesla resting-state fMRI test-retest dataset with cognitive and physiological measures",
+        "volume": "2",
+        "issue": "",
+        "pages": "140054",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "25977805"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1038/sdata.2014.54"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4412153"
+            }
+        ],
+        "fulljournalname": "Scientific Data",
+        "sortdate": "2015/01/20 00:00",
+        "pmclivedate": "2015/05/14",
+        "articletype": "Citing"
+    },
+    "4379514": {
+        "uid": "4379514",
+        "pubdate": "2015 Mar 31",
+        "epubdate": "2015 Mar 31",
+        "printpubdate": "",
+        "source": "Gigascience",
+        "authors": [
+            {
+                "name": "Pernet C",
+                "authtype": "Author"
+            },
+            {
+                "name": "Poline JB",
+                "authtype": "Author"
+            }
+        ],
+        "title": "Improving functional magnetic resonance imaging reproducibility",
+        "volume": "4",
+        "issue": "",
+        "pages": "15",
+        "articleids": [
+            {
+                "idtype": "pmid",
+                "value": "25830019"
+            },
+            {
+                "idtype": "doi",
+                "value": "10.1186/s13742-015-0055-8"
+            },
+            {
+                "idtype": "pmcid",
+                "value": "PMC4379514"
+            }
+        ],
+        "fulljournalname": "GigaScience",
+        "sortdate": "2015/03/31 00:00",
+        "pmclivedate": "2015/04/01",
+        "articletype": "Citing"
+    }
+}
