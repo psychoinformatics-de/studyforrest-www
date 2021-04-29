@@ -365,11 +365,21 @@ th[data-sort="desc"]:after { content: '\e802'; }
 }
 .card-data .description {
   flex-basis: calc(80% - 1.5em);
+  margin: 0 1em;
 }
 
-.card-data h3 { margin-bottom: 0; }
-.card-data p.metadata { margin-top: 0; }
-
+.card-data h3 {
+  line-height: 1.3;
+  margin-top: calc(1em / 1.6);
+}
+.card-data p.info {
+  border-bottom: 2px solid #ddd;
+  line-height: 1.3;
+  padding: 0 0 1em 0;
+}
+.card-data p.info [class^="icon-"]:first-child:before {
+  margin-left:0;
+}
 
 footer {
   background-color: #f8f8f8;
