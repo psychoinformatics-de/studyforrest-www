@@ -23,7 +23,7 @@ SITEMAP = { 'format': 'xml' }
 
 THEME = 'theme'
 DIRECT_TEMPLATES = ['search'] # unset all templates; use these
-STATIC_PATHS = ['img/', 'static/']
+STATIC_PATHS = ['img/', 'data/', 'static/']
 EXTRA_PATH_METADATA = {
     "static/android-chrome-192x192.png": {'path': ''},
     "static/android-chrome-512x512.png": {'path': ''},

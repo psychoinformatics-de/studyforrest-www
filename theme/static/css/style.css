@@ -441,7 +441,7 @@ div.papaya-preview > img { width: 100%; }
 
 
 /* XTK */
-div.xtk_renderer {
+#xtk_renderer {
   height: 0;
   margin-left: auto;
   margin-right: auto;
@@ -449,7 +449,7 @@ div.xtk_renderer {
   width: 80%;
 }
 
-div.xtk_help {
+#xtk_help {
   color: #777;
   display: none;
   text-align: center;
