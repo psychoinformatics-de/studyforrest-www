@@ -130,6 +130,10 @@ blockquote::before {
   margin-right: 0.5rem;;
   vertical-align: -2.5rem;
 }
+blockquote::after {
+  content: close-quote;
+  display: none;
+}
 
 body {
   display: flex;
