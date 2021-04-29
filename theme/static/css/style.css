@@ -287,6 +287,9 @@ pre > code {
 
 table {
   border-collapse: collapse;
+  display: block;
+  max-width: fit-content;
+  overflow-x: auto;
   width: 100%;
 }
 thead {
