@@ -102,12 +102,12 @@
 
 /* Link rules from http://mrmrs.io/links/ - MIT License */
 a {
-  color: #265C83;
+  color: #0071c5;
   transition: color .4s;
   text-decoration: none;
 }
-a:link, a:visited { color: #265C83; }
-a:hover { color: #5FBBDF; }
+a:link, a:visited { color: #0071c5; }
+a:hover { color: #003c71; }
 a:active {
   color: #007BE6;
   transition: color .3s;
