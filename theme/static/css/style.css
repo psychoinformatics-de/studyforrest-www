@@ -496,6 +496,17 @@ footer p a { color: #666; }
 }
 
 
+/* Explore Page */
+#nv_picker {
+  line-height: 1.3;
+}
+#nv_viewers iframe {
+  display: none;
+}
+#nv_viewers iframe[data-show=true] {
+  display: initial;
+}
+
 /* Search Results */
 .tipue_search_content_bold { font-weight: bold; }
 .tipue_search_content_title { margin-top: 1em; }

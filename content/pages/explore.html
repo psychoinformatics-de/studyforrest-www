@@ -54,5 +54,79 @@
     };
     load_xtk_renderer();
   </script>
+
+  <h2>NeuroVault Goodness</h2>
+  <p>TODO: write intro; attribute NeuroVault appropriately</p>
+
+  <div id="nv_picker">
+    <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
+       <label for="nv_308">High-resolution 7-Tesla fMRI data on the perception of
+         musical genres – an extension to the studyforrest dataset.</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_1065" value="1065">
+       <label for="nv_1065">A StudyForrest extension, simultaneous fMRI and eye
+         gaze recordings during naturalistic stimulation (poster).</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_5502" value="5502">
+       <label for="nv_5502">Is The PPA a Visual Area? BOLD responses to incidental
+         spatial cues in naturalistic stimulation (poster).</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_6075" value="6075">
+       <label for="nv_6075">Individual face- and house-related eye movement
+         patterns distinctively activate FFA and PPA.</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_8889" value="8889">
+       <label for="nv_8889">Processing of visual and non-visual naturalistic
+         spatial information in the "parahippocampal place area" (paper in
+         review).</label>
+    </p>
+  </div>
+
+  <div id="nv_viewers">
+    <iframe id="nv_viewer_308" data-show='true' src="https://neurovault.org/media/images/308/pycortex_all/index.html"
+            frameborder="0" width="100%" height="600"></iframe>
+    <iframe id="nv_viewer_1065" data-src="https://neurovault.org/media/images/1065/pycortex_all/index.html"
+            frameborder="0" width="100%" height="600" loading="lazy"></iframe>
+    <iframe id="nv_viewer_5502" data-src="https://neurovault.org/media/images/5502/pycortex_all/index.html"
+            frameborder="0" width="100%" height="600" loading="lazy"></iframe>
+    <iframe id="nv_viewer_6075" data-src="https://neurovault.org/media/images/6075/pycortex_all/index.html"
+            frameborder="0" width="100%" height="600" loading="lazy"></iframe>
+    <iframe id="nv_viewer_8889" data-src="https://neurovault.org/media/images/8889/pycortex_all/index.html"
+            frameborder="0" width="100%" height="600" loading="lazy"></iframe>
+  </div>
+
+  <script>
+  var nv_viewers = document.getElementById('nv_viewers').querySelectorAll('iframe');
+  var nv_pickers = document.getElementById('nv_picker').querySelectorAll('input');
+
+  // attach listener to radio buttons
+  for (var i=0; i < nv_pickers.length; i++) {
+    nv_pickers[i].addEventListener('click', switchViewer, false);
+  }
+
+  function switchViewer() {
+    nv_num = this.value;
+
+    for (var i=0; i < nv_viewers.length; i++) {
+      var nv = nv_viewers[i];
+      // if it's the viewer we want to show
+      if (nv.id == 'nv_viewer_' + nv_num) {
+        // the iframe contents are way too heavy to all load upfront.
+        // Check if it has already been loaded.
+        if (nv.src.indexOf('http') == -1) {
+          nv.src = nv.dataset.src;
+        }
+        nv.dataset.show = 'true';
+      } else {
+        nv.dataset.show = 'false';
+      }
+    }
+  }
+  </script>
+
 </body>
 </html>
