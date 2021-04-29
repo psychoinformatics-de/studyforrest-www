@@ -1,6 +1,3 @@
 [submodule "pelican-plugins/sitemap"]
 	path = pelican-plugins/sitemap
 	url = https://github.com/getpelican-plugins/sitemap
-[submodule "pelican-plugins/pelican_javascript"]
-	path = pelican-plugins/pelican_javascript
-	url = https://github.com/mortada/pelican_javascript.git
