@@ -17,6 +17,11 @@
      <em>StudyForrest</em> dataset. This includes data on brain structure, brain
      function, and movie stimulus properties.</p>
 
+  <form action='javascript:void(0)' onsubmit='filterForm(document.getElementById("filter_field").value);'>
+    <input id='filter_field' type="text" placeholder="Filter data types for..." aria-label="Filter data types for..." /><button title='Filter Table' type="submit"><span class="icon-filter"></span></button>
+  </form>
+  <p id='filter_count'>Showing all data types</p>
+
   <h3>Behavior and Brain Function</h3>
 
   <div class="card-data">
@@ -598,4 +603,51 @@
       </tr>
     </tbody>
   </table>
+  <script>
+    var fancy_data_cards = document.getElementsByClassName('card-data');
+    var fancy_search     = document.getElementById('filter_field');
+
+    // check if there's a term to filter from the URL
+    var term = getURLParam('filter');
+    if (term) {
+      fancy_search.value = term;
+      filterDataTypes(term);
+    }
+
+    function filterForm(term) {
+      filterDataTypes(term);
+
+      // add to address bar and history
+      var new_url = location.href.split('?')[0] + '?filter=' + term;
+      history.pushState({}, "Data - " + term, new_url);
+      return false;
+    }
+
+    function filterDataTypes(term) {
+      var total = fancy_data_cards.length;
+      var shown = total;
+
+      term = term.trim();
+      for (var i=0; i < fancy_data_cards.length; i++) {
+        if (fancy_data_cards[i].textContent.toLowerCase().indexOf(term.toLowerCase()) == -1) {
+          fancy_data_cards[i].style.display = 'none';
+          shown--;
+        } else {
+          fancy_data_cards[i].style.display = '';
+        }
+      }
+
+      document.getElementById('filter_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' data types</strong>.';
+    }
+
+    function getURLParam(param) {
+      var val = '';
+      location.search.substr(1)
+        .split("&")
+        .some(function(item) {
+          return item.split("=")[0] == param && (val = item.split("=")[1])
+        });
+      return val;
+    }
+  </script>
 </body>

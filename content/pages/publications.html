@@ -11,7 +11,7 @@
   <form action='javascript:void(0)' onsubmit='filterForm(document.getElementById("filter_field").value);'>
     <input id='filter_field' type="text" placeholder="Filter table for..." aria-label="Filter table for..." /><button title='Filter Table' type="submit"><span class="icon-filter"></span></button>
   </form>
-  <p id='pub_count'>Showing all publications</p>
+  <p id='filter_count'>Showing all publications</p>
 
   <table id='sort-me'>
           <thead>
@@ -574,7 +574,7 @@
         }
       }
 
-      document.getElementById('pub_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>';
+      document.getElementById('filter_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>.';
     }
 
     function getURLParam(param) {
