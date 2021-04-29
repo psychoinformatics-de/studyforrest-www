@@ -25,12 +25,6 @@
       "src": "fontawesome"
     },
     {
-      "uid": "4a74a0f87d4089efe7aba1825bff4193",
-      "css": "copyright",
-      "code": 61945,
-      "src": "fontawesome"
-    },
-    {
       "uid": "949b85f11f29f81c62bc9cd8a6d15482",
       "css": "world",
       "code": 59392,
@@ -123,6 +117,18 @@
       "css": "sort",
       "code": 61660,
       "src": "fontawesome"
+    },
+    {
+      "uid": "5408be43f7c42bccee419c6be53fdef5",
+      "css": "doc-text",
+      "code": 61686,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c9b928dc82d7d77033644fcf59dca3b3",
+      "css": "flashlight",
+      "code": 59399,
+      "src": "entypo"
     }
   ]
 }
