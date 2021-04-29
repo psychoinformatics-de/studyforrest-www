@@ -88,11 +88,13 @@
 .icon-brain:before { content: '\e803'; }
 .icon-up-dir:before { content: '\e804'; }
 .icon-studyforrest:before { content: '\e806'; }
+.icon-flashlight:before { content: '\e807'; }
 .icon-search:before { content: '\e80d'; }
 .icon-twitter:before { content: '\f099'; }
 .icon-github:before { content: '\f09b'; }
 .icon-filter:before { content: '\f0b0'; }
 .icon-sort:before { content: '\f0dc'; }
+.icon-doc-text:before { content: '\f0f6'; }
 
 /*
  * Element Overrides
@@ -100,12 +102,12 @@
 
 /* Link rules from http://mrmrs.io/links/ - MIT License */
 a {
-  color: #265C83;
+  color: #0071c5;
   transition: color .4s;
   text-decoration: none;
 }
-a:link, a:visited { color: #265C83; }
-a:hover { color: #5FBBDF; }
+a:link, a:visited { color: #0071c5; }
+a:hover { color: #003c71; }
 a:active {
   color: #007BE6;
   transition: color .3s;
