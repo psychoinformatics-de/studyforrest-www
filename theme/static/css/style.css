@@ -481,10 +481,12 @@ footer p a { color: #666; }
 }
 .thanks-logos a {
   box-shadow: none;
+  display: inline-flex;
   margin: 1.5em 0.5em;
   flex-basis: calc(100% - 2em);
 }
 .thanks-logos img {
+  display: block;
   max-height: 80px;
   max-width: 100%;
 }
