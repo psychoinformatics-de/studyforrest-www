@@ -18,7 +18,7 @@ LOCALE = 'en_US.UTF-8'
 #
 PATH = 'content'
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['pelican_javascript', 'tipue_search', 'sitemap']
+PLUGINS = ['tipue_search', 'sitemap']
 SITEMAP = { 'format': 'xml' }
 
 THEME = 'theme'

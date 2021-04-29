@@ -435,11 +435,6 @@ footer p a { color: #666; }
 }
 
 
-/* Papaya */
-div.papaya-preview { padding: 0 8px 20px 8px; }
-div.papaya-preview > img { width: 100%; }
-
-
 /* XTK */
 #xtk_renderer {
   height: 0;
