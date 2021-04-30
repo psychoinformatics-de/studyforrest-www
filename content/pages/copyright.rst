@@ -38,7 +38,7 @@ Notes:
   `Pelican`_. It has been almost entirely rewritten since then by Alex Waite.
 
 .. _MIT: http://opensource.org/licenses/MIT
-.. _pelican-bootstrap3: https://github.com/DandyDev/pelican-bootstrap3
+.. _pelican-bootstrap3: https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 .. _Pelican: http://blog.getpelican.com
 
 ----
