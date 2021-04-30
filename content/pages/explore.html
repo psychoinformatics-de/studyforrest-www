@@ -3,7 +3,6 @@
   <title>Explore</title>
   <meta name="save_as" content="explore.html" />
   <meta name="url" content="explore.html" />
-  <meta name="javascripts" content="https://cdn.plot.ly/plotly-latest.min.js, https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" />
 </head>
 <body>
   <h2>Hairy Brain</h2>
@@ -140,6 +139,8 @@
   </p>
 
   <h3>7T audio movie data - 20 subjects</h3>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subs_7t_aomovie.csv", function(err, rows){
