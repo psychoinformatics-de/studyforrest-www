@@ -3,6 +3,7 @@
   <title>Explore</title>
   <meta name="save_as" content="explore.html" />
   <meta name="url" content="explore.html" />
+  <meta name="javascripts" content="https://cdn.plot.ly/plotly-latest.min.js, https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" />
 </head>
 <body>
   <h2>Hairy Brain</h2>
@@ -127,5 +128,218 @@
     }
   }
   </script>
+
+  <h2>Functional data quality</h2>
+  <p>Since head movement during the acquisition of a functional MRI time series can be
+    detrmental for the eventual data analysis and results, volume-to-volume head movement
+    parameters are typically inspected as a quality indicator of fMRI data. Framewise
+    displacement (FD) captures head movement in a single value per volume, resulting in an
+    FD time series per functional run. Below we present interactive distribution plots of
+    FD values for all participants over all runs of the 7T dataset. Distributions and an example time
+    series are also presented for a single subject and a single run.
+  </p>
+
+  <h3>7T audio movie data - 20 subjects</h3>
+  <script>
+    // Read data and headings from csv file
+    d3.csv("/data/fd_20subs_7t_aomovie.csv", function(err, rows){
+    // Function to unpack data
+    function unpack(rows, key) {
+      return rows.map(function(row) { return row[key]; });
+    }
+    // Get subject names
+    var headerNames = d3.keys(rows[0]);
+    // Initialise array to store traces for plotly graph
+    var data = [];
+    // Discretized colors for the indivual traces
+    var colors = ['#ff9551','#f78f53','#ef8a56','#e78559','#e0805c','#d87b5f','#d07662','#c97165','#c16c68','#b9676b','#b2616e','#aa5c71','#a25774','#9b5277','#934d7a','#8b487d','#844380','#7c3e83','#743986','#6d3489'];
+    // For all subjects, get relevant data array and add as a trace to the plotly data
+    headerNames.forEach(function(heading, index) {
+      if (heading !== 'sub-10') {
+        trace = {
+          type: 'violin',
+          name: heading,
+          y: unpack(rows, heading).filter(function (el) {return el != null;}),
+          orientation: 'v',
+          side: 'positive',
+          width: 1.8,
+          points: false,
+          box: {
+            visible: true
+          },
+          boxpoints: false,
+          line: {
+            color: colors[index],
+            width: 2
+          },
+          meanline: {
+            visible: true
+          },
+          y0: heading
+        };
+        data.push(trace);
+      }
+    });
+    // Plotly graph layout specification
+    var layout = {
+      xaxis: {
+        showgrid: false,
+        zeroline: false,
+        tickangle: 45,
+      },
+      yaxis: {
+        title: "Framewise displacement (mm)",
+        range: [-0.15, 2],
+      },
+      margin: {
+        't': 15,
+      },
+      height: 500,
+    }
+    // Create plotly graph
+    Plotly.newPlot('fdAllSubs', data, layout);
+    });
+  </script>
+  <div id='fdAllSubs'></div>
+
+  <h3>7T audio movie data - 1 subject, 8 runs</h3>
+  <script>
+    // Read data and headings from csv file
+    d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
+    // Function to unpack data
+    function unpack(rows, key) {
+      return rows.map(function(row) { return row[key]; });
+    }
+    // Get subject names
+    var headerNames = d3.keys(rows[0]);
+    // Initialise array to store traces for plotly graph
+    var data = [];
+    // Discretized colors for the indivual traces
+    var colors = ['#440154', '#482878', '#3e4989', '#31688e', '#26828e', '#1f9e89', '#35b779', '#6ece58', '#b5de2b', '#fde725'];
+    // For sub-01 all runs, get relevant data array and add as a trace to the plotly data
+    headerNames.slice(0,8).forEach(function(heading, index) {
+        trace = {
+          type: 'violin',
+          name: heading,
+          y: unpack(rows, heading).filter(function (el) {return el != null;}),
+          orientation: 'v',
+          side: 'positive',
+          width: 1.8,
+          points: false,
+          box: {
+            visible: true
+          },
+          boxpoints: false,
+          line: {
+            color: colors[index],
+            width: 2
+          },
+          meanline: {
+            visible: true
+          },
+          y0: heading
+        };
+        data.push(trace);
+    });
+    // Plotly graph layout specification
+    var layout = {
+      xaxis: {
+        showgrid: false,
+        zeroline: false,
+        tickangle: 45,
+      },
+      yaxis: {
+        title: "Framewise displacement (mm)",
+        range: [-0.1, 1],
+      },
+      margin: {
+        't': 15,
+      },
+      height: 400,
+    }
+    // Create plotly graph
+    Plotly.newPlot('fdSingleSub', data, layout);
+    });
+  </script>
+  <div id='fdSingleSub'></div>
+
+  <h3>7T audio movie data - 1 subject, 1 run</h3>
+  <script>
+    // Read data and headings from csv file
+    d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
+    // Function to unpack data
+    function unpack(rows, key) {
+      return rows.map(function(row) { return row[key]; });
+    }
+    // Get sub_run names
+    var headerNames = d3.keys(rows[0]);
+    // Discretized colors for the indivual traces
+    var colors = ['#440154', '#482878', '#3e4989', '#31688e', '#26828e', '#1f9e89', '#35b779', '#6ece58', '#b5de2b', '#fde725'];
+    // For sub-01 all runs, get relevant data array and add as a trace to the plotly data:
+    var heading = 'sub-01_run-02';
+    var run_idx = 1;
+    var data = [
+      {
+        type: 'scatter',
+        name: 'Time series',
+        y: unpack(rows, heading).filter(function (el) {return el != null;}),
+        mode: 'lines',
+        line: {
+          width: 2,
+          color: colors[run_idx],
+        },
+        showlegend: false,
+      },
+      {
+        type: 'violin',
+        name: 'Distribution',
+        y: unpack(rows, heading).filter(function (el) {return el != null;}),
+        orientation: 'v',
+        side: 'positive',
+        width: 1.8,
+        points: 'all',
+        jitter: 0.5,
+        box: {
+          visible: true
+        },
+        boxpoints: false,
+        line: {
+          color: colors[run_idx],
+          width: 2
+        },
+        meanline: {
+          visible: true
+        },
+        showlegend: false,
+        y0: heading,
+        xaxis: 'x2',
+        yaxis: 'y',
+      },
+    ];
+    // Plotly graph grid layout specification
+    var layout = {
+      xaxis: {
+        title: 'Functional volumes',
+        showgrid: false,
+        zeroline: false,
+        domain: [0, 0.82],
+      },
+      yaxis: {
+        title: "Framewise displacement (mm)",
+        range: [-0.1, 1],
+      },
+      yaxis2: {anchor: 'x2'},
+      xaxis2: {domain: [0.85, 1]},
+      margin: {
+        't': 15,
+      },
+      height: 400,
+    };
+    // Create plotly graph
+    Plotly.newPlot('fdSingleRun', data, layout);
+    });
+  </script>
+  <div id='fdSingleRun'></div>
+
 </body>
 </html>
