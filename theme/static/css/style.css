@@ -148,9 +148,13 @@ body {
   body { font-size: 18px; }
 }
 
+form input, form button {
+  outline-color: #0071c5;
+}
 form input[type=text], form input[type=search] {
   border: 1px solid #ccc;
   box-sizing: border-box;
+  caret-color: #0071c5;
   font: 13px 'Open Sans', sans-serif;
   height: 2.5em;
   max-width: calc(100% - 3em);
