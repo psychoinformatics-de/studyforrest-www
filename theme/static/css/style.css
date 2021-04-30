@@ -504,6 +504,10 @@ footer p a { color: #666; }
 #nv_picker {
   line-height: 1.3;
 }
+#nv_picker p {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
 #nv_viewers iframe {
   display: none;
 }
