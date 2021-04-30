@@ -5,7 +5,16 @@
   <meta name="url" content="explore.html" />
 </head>
 <body>
-  <h2>Hairy Brain</h2>
+  <p>The dataset comprises many different data types, ranging from brain
+  imaging modalities, to eye tracking, and measurements of heart beat
+  and breathing. This page offers a glimpse into some of these data type
+  and a few quality metrics used to investigate the utility of the dataset.
+  A comprehensive assessment can be found in associated data papers that
+  are available for every dataset component listed on the
+  <a href="/data.html">Data Page</a>.</p>
+
+
+  <h2>The "Hairy" Brain</h2>
   <p>Diffusion-weighted imaging (DWI) is a technique that can be used to
      visualize neural tracts or <strong>nerve fibre bundles</strong> by
      measuring the direction of water diffusion in brain tissue. The example
@@ -17,18 +26,7 @@
      lower center of the image show the <a href="http://en.wikipedia.org/wiki/Pyramidal_tracts">corticospinal tract</a>,
      where the brain is connected with the nervous system in other parts of the
      body. The provided scans have been made with a standard clinical procedure
-     at 2 mm spatial resolution. For more more information on this image type,
-     see <a href="http://en.wikipedia.org/wiki/Diffusion_tensor_imaging">Wikipedia</a>.
-     The complete description of this acquisition has been published in:</p>
-
-  <blockquote>
-  Hanke et al. (2014). <a href="http://www.nature.com/articles/sdata20143">A
-  high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie</a>.
-  Scientific Data, 1.
-  </blockquote>
-
-  <p>Click on the image to load an interactive viewer to study the complex
-     three-dimensional structure of the connectome.</p>
+     at 2 mm spatial resolution.</p>
 
   <div id="xtk_renderer">
   </div>
@@ -55,8 +53,12 @@
     load_xtk_renderer();
   </script>
 
-  <h2>NeuroVault Goodness</h2>
-  <p>TODO: write intro; attribute NeuroVault appropriately</p>
+  <h2>The colorful world of brain function</h2>
+  <p>One way to analyze brain function is to contrast where the brain consumes
+  oxygen differently between particular conditions. A number of such analysis
+  result have been published on the <a href="https://neurovault.org/">NeuroVault</a>
+  platform to enable further meta-analysis. Browse through the topics and
+  see how individual brain areas responds differently.</p>
 
   <div id="nv_picker">
     <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
