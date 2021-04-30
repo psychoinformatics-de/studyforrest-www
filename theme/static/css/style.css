@@ -135,6 +135,8 @@ blockquote::after {
 }
 
 body {
+  color: #111;
+  background: #fafafa;
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
