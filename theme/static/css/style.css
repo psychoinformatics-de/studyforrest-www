@@ -540,6 +540,12 @@ footer p a { color: #666; }
 #nv_viewers iframe {
   display: none;
 }
+#nv_viewers iframe:empty {
+  background: url('/theme/img/loading.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20em;
+}
 #nv_viewers iframe[data-show=true] {
   display: initial;
 }
