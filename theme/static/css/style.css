@@ -274,18 +274,33 @@ nav form input {
 }
 
 pre, code {
-  background: #eee;
   font-family: 'Inconsolata', monospace;
 }
 pre {
   margin: 0.2em 0;
   padding: 0.5em 1em;
   overflow-x: auto;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #0071c5;
+  color: #333;
+  page-break-inside: avoid;
+  font-family: monospace;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 70%);
 }
 code {
+  background: #eee;
   padding: 0.15em 0.3em;
 }
 pre > code {
+  background: inherit;
   padding: 0;
 }
 
