@@ -452,6 +452,7 @@ footer .icon-studyforrest {
   font-size: 5.5em;
 }
 footer ul.social-links {
+  line-height: 1;
   margin: 0.7em 0.5em;
   padding: 0;
 }
@@ -460,7 +461,6 @@ footer .social-links li {
   padding: 0;
 }
 footer .social-links a {
-  border-color: transparent;
   display: inline-block;
   font-size: 2em;
   transition: transform 0.2s linear;
