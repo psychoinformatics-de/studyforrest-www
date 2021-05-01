@@ -22,7 +22,7 @@ Resting-state functional magnetic resonance imaging (rs-fMRI) data is by far
 the most commonly used brain imaging paradigm in this emerging domain.  It can
 be argued that this is due to the fact that it can be easily obtained at
 relatively low cost, and, even more importantly, it is more frequently shared
-(e.g. `1000 FCP <http://fcon_1000.projects.nitrc.org/>`_) than any other brain
+(e.g. `1000 FCP <https://fcon_1000.projects.nitrc.org/>`_) than any other brain
 imaging data.
 
 However, rs-fMRI data imposes strict constraints on the kinds of analyses
