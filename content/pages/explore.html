@@ -53,7 +53,7 @@
     load_xtk_renderer();
   </script>
 
-  <h2>The colorful world of brain function</h2>
+  <h2>The Colorful World of Brain Function</h2>
   <p>One way to analyze brain function is to contrast where the brain consumes
   oxygen differently between particular conditions. A number of such analysis
   result have been published on the <a href="https://neurovault.org/">NeuroVault</a>
@@ -63,7 +63,7 @@
   <div id="nv_picker">
     <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
        <label for="nv_308">High-resolution 7-Tesla fMRI data on the perception of
-         musical genres – an extension to the studyforrest dataset.</label>
+           musical genres – an extension to the StudyForrest dataset.</label>
     </p>
 
     <p><input type="radio" name="neurovault_ds" id="nv_1065" value="1065">
@@ -130,7 +130,7 @@
   }
   </script>
 
-  <h2>Brain parcellations</h2>
+  <h2>Brain Parcellations</h2>
   <p><i>Something about freesurfer...</i>
   </p>
   <video autoplay loop muted width="100%">
@@ -139,7 +139,7 @@
     Your browser does not support the video tag.
   </video>
 
-  <h2>Functional data quality</h2>
+  <h2>Functional Data Quality</h2>
   <p>Since head movement during the acquisition of a functional MRI time series can be
     detrimental for the eventual data analysis and results, volume-to-volume head movement
     parameters are typically inspected as a quality indicator of fMRI data. Framewise
@@ -149,7 +149,7 @@
     series are also presented for a single subject and a single run.
   </p>
 
-  <h3>7T audio movie data - 20 subjects</h3>
+  <h3>7T Audio Movie Data - 20 Subjects</h3>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script>
@@ -163,7 +163,7 @@
     var headerNames = d3.keys(rows[0]);
     // Initialise array to store traces for plotly graph
     var data = [];
-    // Discretized colors for the indivual traces
+    // Discretized colors for the individual traces
     var colors = ['#ff9551','#f78f53','#ef8a56','#e78559','#e0805c','#d87b5f','#d07662','#c97165','#c16c68','#b9676b','#b2616e','#aa5c71','#a25774','#9b5277','#934d7a','#8b487d','#844380','#7c3e83','#743986','#6d3489'];
     // For all subjects, get relevant data array and add as a trace to the plotly data
     headerNames.forEach(function(heading, index) {
@@ -214,7 +214,7 @@
   </script>
   <div id='fdAllSubs'></div>
 
-  <h3>7T audio movie data - 1 subject, 8 runs</h3>
+  <h3>7T Audio Movie Data - 1 Subject, 8 Runs</h3>
   <script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
@@ -226,7 +226,7 @@
     var headerNames = d3.keys(rows[0]);
     // Initialise array to store traces for plotly graph
     var data = [];
-    // Discretized colors for the indivual traces
+    // Discretized colors for the individual traces
     var colors = ['#440154', '#482878', '#3e4989', '#31688e', '#26828e', '#1f9e89', '#35b779', '#6ece58', '#b5de2b', '#fde725'];
     // For sub-01 all runs, get relevant data array and add as a trace to the plotly data
     headerNames.slice(0,8).forEach(function(heading, index) {
@@ -275,7 +275,7 @@
   </script>
   <div id='fdSingleSub'></div>
 
-  <h3>7T audio movie data - 1 subject, 1 run</h3>
+  <h3>7T Audio Movie Data - 1 Subject, 1 Run</h3>
   <script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
@@ -285,7 +285,7 @@
     }
     // Get sub_run names
     var headerNames = d3.keys(rows[0]);
-    // Discretized colors for the indivual traces
+    // Discretized colors for the individual traces
     var colors = ['#440154', '#482878', '#3e4989', '#31688e', '#26828e', '#1f9e89', '#35b779', '#6ece58', '#b5de2b', '#fde725'];
     // For sub-01 all runs, get relevant data array and add as a trace to the plotly data:
     var heading = 'sub-01_run-02';
@@ -352,6 +352,5 @@
     });
   </script>
   <div id='fdSingleRun'></div>
-
 </body>
 </html>
