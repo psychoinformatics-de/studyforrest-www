@@ -10,7 +10,7 @@ This page loosely follows `Debian's copyright file syntax`_.
 Files:
   \*
 Copyright:
-  2014–2017, Michael Hanke and Alex Waite
+  2014–2018, Michael Hanke and Alex Waite
 License:
   `Attribution-ShareAlike 4.0 International`_
 
@@ -19,9 +19,18 @@ License:
 ----
 
 Files:
+  img/\*
+Copyright:
+  Belongs to their respective owners
+License:
+  All Rights Reserved
+
+----
+
+Files:
   theme/\*
 Copyright:
-  2013, Daan Debie; 2016–2017 Alex Waite
+  2013, Daan Debie; 2014–2021 Alex Waite and Michael Hanke
 License:
   `MIT`_
 Notes:
@@ -29,48 +38,15 @@ Notes:
   `Pelican`_. It has been almost entirely rewritten since then by Alex Waite.
 
 .. _MIT: http://opensource.org/licenses/MIT
-.. _pelican-bootstrap3: https://github.com/DandyDev/pelican-bootstrap3
+.. _pelican-bootstrap3: https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 .. _Pelican: http://blog.getpelican.com
 
 ----
 
 Files:
-  theme/js/jquery\*
+  theme/fonts/cormorant-garamond\*
 Copyright:
-  `jQuery`_
-License:
-  `MIT`_
-
-.. _jQuery: https://jquery.com
-
-----
-
-Files:
-  theme/js/tipuesearch\*, theme/css/tipuesearch.css
-Copyright:
-  `Tipue`_
-License:
-  `MIT`_
-
-.. _Tipue: http://www.tipue.com/search/
-
-----
-
-Files:
-  theme/fonts/open-sans\*
-Copyright:
-  Steve Matteson
-License:
-  `Apache, version 2.0`_
-
-.. _Apache, version 2.0: http://www.apache.org/licenses/LICENSE-2.0
-
-----
-
-Files:
-  theme/fonts/raleway\*
-Copyright:
-  Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida
+  2015-2021, Christian Thalmann
 License:
   `SIL OFL 1.1`_
 
@@ -88,63 +64,19 @@ License:
 .. _Font Awesome: http://fontawesome.io/
 .. _Iacopo Neri: https://thenounproject.com/iacopo3
 .. _Edward Boatman: https://thenounproject.com/edward
+.. _Arjun Adamson: https://thenounproject.com/arjunadamson
 .. _Attribution 3.0 United States: https://creativecommons.org/licenses/by/3.0/us/
 
 ----
 
 Files:
-  js/\*, css\*
+  theme/fonts/open-sans\*
 Copyright:
-  2014-2016, Michael Hanke and Alex Waite
+  Steve Matteson
 License:
-  `BSD-3-Clause`_
+  `Apache, version 2.0`_
 
-.. _BSD-3-Clause: https://opensource.org/licenses/BSD-3-Clause
-
-----
-
-Files:
-  js/d3.\*
-Copyright:
-  2010-2016, Michael Bostock
-License:
-  `BSD-3-Clause`_
-
-----
-
-Files:
-  js/dygraph-combined.js
-Copyright:
-  2009, Dan Vanderkam
-License:
-  `MIT`_
-
-----
-
-Files:
-  js/papaya.js, css/papaya.css
-Copyright:
-  2012-2015, RII-UTHSCSA
-License:
-  `BSD-3-Clause`_
-
-----
-
-Files:
-  js/xtk.js
-Copyright:
-  2012, The X Toolkit Developers <dev@goXTK.com>
-License:
-  `MIT`_
-
-----
-
-Files:
-  img/\*, pics/\*
-Copyright:
-  Belongs to their respective owners
-License:
-  All Rights Reserved
+.. _Apache, version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
 ----
 
@@ -154,3 +86,34 @@ Copyright:
   1994, Paramount Pictures Corporation
 License:
   All Rights Reserved
+
+----
+
+Files:
+  theme/js/papaya.js, theme/css/papaya.css
+Copyright:
+  2012-2015, RII-UTHSCSA
+License:
+  `BSD-3-Clause`_
+
+.. _BSD-3-Clause: https://opensource.org/licenses/BSD-3-Clause
+
+----
+
+Files:
+  theme/js/tsl/\*
+Copyright:
+  2013-2019, `Tipue`_; 2020, Jona Fischer and Alex Waite
+License:
+  `MIT`_
+
+.. _Tipue: http://www.tipue.com/search/
+
+----
+
+Files:
+  theme/js/xtk.js
+Copyright:
+  2012, The X Toolkit Developers <dev@goXTK.com>
+License:
+  `MIT`_

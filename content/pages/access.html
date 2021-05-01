@@ -1,106 +1,76 @@
 <html>
 <head>
-  <title>How to Get Data</title>
+  <title>Data Access</title>
   <meta name="save_as" content="access.html" />
-  <meta name="url" content="/access.html" />
+  <meta name="url" content="access.html" />
 </head>
 <body>
-  <p>The released data are hosted at multiple locations and multiple access
-     methods are supported.</p>
-  <div class='split-container'>
-    <div class='split-main'>
-      <h2>Browse</h2>
-      <p>All data files are directly accessible via any web-browser. This type
-         of access is best for a quick perusal of the data and for downloading
-         fewer than <em>a lot of files</em>.</p>
+  <h2>Download With DataLad</h2>
+  <p>All <em>StudyForrest</em> data are contained in a collection of
+     <a href="https://www.datalad.org/">DataLad</a> datasets hosted on
+     <a href="https://github.com/psychoinformatics-de/studyforrest-data">GitHub</a>,
+     <a href="https://openneuro.org/datasets/ds000113">OpenNeuro</a>,
+     and <a href="https://gin.g-node.org/studyforrest">GIN</a>.
+     DataLad provides fine-grained data access down to the level of
+     individual files, and allows for tracking future updates. It is a free
+     and open source command line tool, available for all major operating
+     systems, and builds up on Git and <a href="https://git-annex.branchable.com">git-annex</a>
+     to allow sharing, synchronizing, and version controlling collections of
+     large files. You can find information on how to install DataLad in the
+     <a href="http://handbook.datalad.org/en/latest/intro/installation.html">DataLad Handbook</a>.
 
-     .. button:: Browse Datasets
-        :class: success
-        :target: http://psydata.ovgu.de/studyforrest/
+  <h3>Get the dataset</h3>
+  <p>The dataset can be <code>cloned</code> by running:</p>
+  <pre><code>datalad clone https://github.com/psychoinformatics-de/studyforrest-data</code></pre>
+  <p>Once the dataset is cloned, it is a light-weight directory on your local
+     machine. At this point, it contains only small metadata and information
+     on the identity of the files in the dataset, but not actual
+     <em>content</em> of the (sometimes large) data files.</p>
 
-      <h2>Download</h2>
-      <p>The simplest way to download complete data releases is to obtain data
-         archives (tarballs) from <a href="http://www.openfmri.org">OpenfMRI</a>.
-         At present, OpenfMRI hosts the following datasets:</p>
-      <ul>
-        <li><a href="https://openfmri.org/dataset/ds000113">A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie</a></li>
-        <li><a href="https://openfmri.org/dataset/ds000113b">High-resolution 7-Tesla fMRI data on the perception of musical genres</a></li>
-        <li><a href="https://openfmri.org/dataset/ds000113c">Multi-resolution 7-Tesla fMRI data on the representation of visual orientation</a></li>
-        <li><a href="https://openfmri.org/dataset/ds000113d">Simultaneous fMRI/eye-tracking while watching a movie, plus visual localizers</a></li>
-      </ul>
+  <h3>Retrieve dataset content</h3>
+  <p>After cloning the dataset, you can retrieve file contents by running:
+  <pre><code>datalad get path/to/directory/or/file</code></pre>
+  <p>This command will trigger a download of the files, directories, or
+     subdatasets you have specified.</p>
 
-      <p>For details on these datasets and further instructions, please visit
-         the respective pages on OpenfMRI.org.</p>
+  <p>This dataset contains other datasets, so called <em>subdatasets</em>.
+     If you clone the top-level dataset, subdatasets do not yet contain
+     metadata and information on the identity of files, but appear to be
+     empty directories. In order to retrieve file availability metadata in
+     subdatasets, run:</p>
+  <pre><code>datalad get -n path/to/subdataset</code></pre>
 
-      <p>For users requiring more flexibility, rsync-based data access is
-         provided too. Available datasets can be listed via:</p>
-      <pre>rsync psydata.ovgu.de::studyforrest</pre>
+  <p>Afterwards, you can browse the retrieved metadata to find out about
+     subdataset contents, and retrieve individual files with <code>datalad
+     get</code>. If you use <code>datalad get path/to/subdataset</code>,
+     all contents of the subdataset will be downloaded at once.
 
-      <p>When using <code>rsync</code> to obtain a dataset, it is recommended to
-         use the <code>-L/--copy-links</code> and <code>-a/--archive</code>
-         flags. For example:</p>
-      <pre>rsync -aL psydata.ovgu.de::studyforrest/phase2 dest</pre>
+  <h3>More Information</h3>
+  <p>More information on DataLad and how to use it can be found in the
+     <a href="http://handbook.datalad.org/en/latest/index.html">DataLad Handbook</a>.
 
-      <h2>Cloud Access</h2>
-      <p>While users running cloud-based analysis can also use any of the
-         methods above, please note that all datasets are also available on
-         Amazon's S3 cloud storage. This should be the preferred data source if
-         you are working in their cloud (e.g. with
-         <a href="http://www.nitrc.org/plugins/mwiki/index.php/nitrc:User_Guide_-_NITRC_Computational_Environment">NITRC-CE</a>).
-         The bucket names employ the following pattern:</p>
-      <pre>s3://openfmri/ds113</pre>
+  <h2>Terms of Use</h2>
+  <p>All data are released to the public under the
+     <a href="http://opendatacommons.org/licenses/pddl/1.0/">ODC Public Domain Dedication and Licence (PDDL)</a>.
+     Offering these data for download or through other means is encouraged;
+     we only ask that you add a reference to this website. In order to
+     provide a comprehensive overview of entities hosting these data, or any
+     derived data artifacts, please let us know at
+     <a href="mailto:info@studyforrest.org?subject=studyforrest.org">info@studyforrest.org</a>
+     what data access you are providing.</p>
 
-      <h2>Geek Mode</h2>
-      <p>If you consider the above options mediocre, then this is the option for
-         you. <a href="http://git-annex.branchable.com">git-annex</a> offers
-         highly flexible data access with built-in versioning and enables both
-         tracking the complete evolution of these datasets and the obtaining of
-         any future updates. This access method allows for complete meta-data
-         access in combination with full or partial data download. Additional
-         data portions can be obtained at any point in the future. Previous
-         versions of data files are also accessible.</p>
+  <h3>How to Cite</h3>
+  <p>If you use these data, please follow good scientific practice and cite
+     any relevant publications. A list of all publications can be found on the
+     <a href="/publications.html">Publications Page</a>.</p>
 
-      <p>All <a href="https://github.com/psychoinformatics-de?q=studyforrest-data">data repositories</a>
-         for this method are publicly available on GitHub (no account is required).</p>
-      <ol>
-        <li>Obtain the meta-data repository:
-          <pre>git clone https://github.com/psychoinformatics-de/studyforrest-data-phase2.git phase2</pre>
-        </li>
-        <li>Enter the directory and initialize:
-<pre>
-cd phase2
-git annex init
-</pre>
-        </li>
-        <li>Download (selected) data files &mdash; repeat as necessary. Example:
-            all BOLD time series for the movie acquisition:
-          <pre>git annex get sub*/ses-movie/func/*bold.nii.gz</pre>
-        </li>
-      </ol>
-    </div>
-
-    <div class='split-sidebar'>
-      <h2>Terms of Use</h2>
-      <p>All data are released to the public under the
-         <a href="http://opendatacommons.org/licenses/pddl/1.0/">ODC Public Domain Dedication and Licence (PDDL)</a>.
-         Offering these data for download or through other means is encouraged;
-         we only ask that you add a reference to this website. In order to
-         provide a comprehensive overview of entities hosting these data, or any
-         derived data artifacts, please let us know at info@studyforrest.org
-         what data access you are providing.</p>
-
-      <h3>How to Cite</h3>
-      <p>If you use these data, please follow good scientific practice and cite
-         any relevant publications. A list of all publications can be found
-         <a href="/publications.html">here</a>.
-
-      <h2>Acknowledgements</h2>
-      <p>We are grateful to all data hosting providers for their support,
-         sponsored bandwidth, and storage capacity.</p>
-      <ul>
-        <li><a href="http://www.ovgu.de"><img src="/img/logo/ovgu.png" alt="Otto-von-Guericke-University Magdeburg Logo" /></a></li>
-        <li><a href="https://openfmri.org"><img src="/img/logo/openfmri.png" alt="OpenfMRI Logo" /></a></li>
-      </ul>
-    </div>
+  <h2>Hosting</h2>
+  <p>We are grateful to our data hosting providers for their support, sponsored
+     bandwidth, and storage capacity.</p>
+  <div class="thanks-logos">
+    <a href="https://gin.g-node.org"><img src="/img/logo/gin.svg" alt="GIN Logo" /></a>
+    <a href="https://www.fz-juelich.de/portal/EN/"><img src="/img/logo/fzj.svg" alt="Forschungszentrum Jülich Logo" /></a>
+    <a href="https://openneuro.org"><img src="/img/logo/openneuro.svg" alt="OpenNeuro Logo" /></a>
   </div>
 </body>
+</html>

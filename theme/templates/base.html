@@ -1,70 +1,73 @@
 <!DOCTYPE html>
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}" itemscope itemtype="http://schema.org/Blog">
+<html lang="{{ DEFAULT_LANG }}">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block meta %}
   <meta name="author" content="{{ AUTHOR }}" />
   {% endblock %}
+  <title>{{ SITENAME }}{% block title %}{% endblock %}</title>
+  <link rel="license" hreflang="en" href="/copyright.html" />
 
-  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
-
-  <!-- Once upon a time, favicons were a simple race; but then they grew to be greedy... -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v4">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png?v4" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png?v4" sizes="16x16">
-  <link rel="manifest" href="/manifest.json?v4">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg?v4" color="#5bbad5">
-  <link rel="shortcut icon" href="/favicon.ico?v4">
+  <!-- favicons were once a simple race, but they dug too greedily and too deep... -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=5">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=5">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=5">
+  <link rel="manifest" href="/site.webmanifest?v=5">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=5" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicon.ico?v=5">
+  <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/theme/css/style.css" />
-
-  <link type="text/html" rel="license" href="/copyright.html" />
-  <link type="text/plain" rel="author" href="/humans.txt" />
-
-  {% if FEED_ALL_ATOM %}
-  <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed"/>
-  {% endif %}
-  {% block extra_header %}{% endblock %}
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+  {% block extra_headers %}{% endblock %}
 </head>
 <body>
   <nav>
     <div>
-      <ul>
-      {% for title, link in MENUITEMS %}
-        {% if page and page.url == link %}{% set link_class = "class='active'" %}{% endif %}
-        <li><a href="{{ link }}" {{ link_class }}>{{ title }}</a></li>
-      {% endfor %}
-      </ul>
+      <div>
+        <h1><a href='/'><span class="icon-studyforrest"></span>StudyForrest</a></h1>
+        <ul>
+        {% for title, link in MENUITEMS %}
+          {% if page and page.url == link %}{% set link_class = "class='active'" %}{% endif %}
+          <li><a href="{{ link }}" {{ link_class }}>{{ title }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
       <form action="{{ SITEURL }}/search.html" role="search">
-        <input id="search" aria-label="Search" type="search" placeholder="Search" name="q"><button type="submit" aria-label='Search'><span class="icon-search"></span></button>
+        <input id="tipue_search_input" aria-label="Search" type="search" placeholder="Search" name="q"><button type="submit" aria-label='Search'><span class="icon-search"></span></button>
       </form>
     </div>
   </nav>
 
   {% block topcontent %}{% endblock %}
 
-  <main class="container">
+  <main>
+    <div id='content'>
     {% block content %}{% endblock %}
-  </main><!-- /.container -->
+    </div><!-- /.content -->
+  </main>
 
   <footer>
-    <ul class='social-links'>
-      <li>
-        <a class="icon-github" href='https://github.com/psychoinformatics-de?q=studyforrest' aria-label='studyforrest @ GitHub'></a>
-      </li>
-      <li>
-        <a class="icon-twitter" href='https://twitter.com/studyforrest' aria-label='studyforrest @ Twitter'></a>
-      </li>
-    </ul>
+    <div>
+      <div class='left'>
+        <p>Website sources are available <a href="https://github.com/psychoinformatics-de/studyforrest-www">on GitHub</a>.</p>
+        <p>Content <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+           unless <a rel="license" href='/copyright.html'>indicated otherwise</a>.</p>
+        <p>&copy; 2014–2021 {{ AUTHOR }}</p>
+      </div>
 
-    <p><small>
-      content licensed <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a>
-      <span class='break'>&mdash;</span> <span class="icon-copyright"></span>2014–2017 {{ AUTHOR }} <span class='break'>&mdash;</span>
-      unless <a rel="license" href='/copyright.html'>indicated otherwise</a>
-    </small></p>
+      <span class="icon-studyforrest center"></span>
+
+      <div class='right'>
+        <p><strong>Contact Us:</strong></p>
+        <p><a href="mailto:info@studyforrest.org">info@studyforrest.org</a></p>
+        <ul class='social-links'>
+          <li><a class="icon-github" href='https://github.com/psychoinformatics-de?q=studyforrest' aria-label='StudyForrest @ GitHub'></a></li>
+          <li><a class="icon-twitter" href='https://twitter.com/studyforrest' aria-label='StudyForrest @ Twitter'></a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

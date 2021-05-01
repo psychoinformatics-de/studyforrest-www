@@ -2,166 +2,533 @@
 <head>
   <title>Publications</title>
   <meta name="save_as" content="publications.html" />
-  <meta name="url" content="/publications.html" />
+  <meta name="url" content="publications.html" />
 </head>
 <body>
   <p>This page lists publications that either describe data provided by the
-     <em>studyforrest</em> project, or studies using these data or protocols.</p>
+     <em>StudyForrest</em> project, or studies using these data or protocols.</p>
 
-  <form action='javascript:void(0)'
-        onsubmit='filterForm(document.getElementById("filter_field").value);'>
-    <input id='filter_field' type="text"
-           placeholder="Filter table for..." aria-label="Filter table for..." />
-    <button title='Filter Table' type="submit">⚡</button>
+  <form action='javascript:void(0)' onsubmit='filterForm(document.getElementById("filter_field").value);'>
+    <input id='filter_field' type="text" placeholder="Filter table for..." aria-label="Filter table for..." /><button title='Filter Table' type="submit"><span class="icon-filter"></span></button>
   </form>
-  <p id='pub_count'>Showing all publications</p>
+  <p id='filter_count'>Showing all publications</p>
 
   <table id='sort-me'>
-  <thead>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Authors</th>
+              <th>Journal</th>
+              <th>Date</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
     <tr>
-      <th>Title</th>
-      <th>Authors</th>
-      <th>Publication</th>
-      <th>Year</th>
-      <th>Type</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a class="reference external" href="https://dx.doi.org/10.3389%2Ffpsyg.2017.01179">Music of the 7Ts: Predicting and Decoding Multivoxel fMRI Responses with Acoustic, Schematic, and Categorical Music Features</a></td>
-      <td>Michael Casey</td>
-      <td>Frontiers in Psychology</td>
-      <td>2017</td>
+      <td><a href=https://www.doi.org/10.1371/journal.pone.0248341>Quantity and quality: Normative open-access neuroimaging databases</a></td>
+      <td>Isherwood SJ, Bazin PL, Alkemade A, Forstmann BU</td>
+      <td>PLoS ONE</td>
+      <td>2021</td>
       <td>Study</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.1101/081604">The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla</a></td>
-      <td>Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke</td>
+      <td><a href=https://www.doi.org/10.12688/f1000research.27621.1>A studyforrest extension, an annotation of spoken language in the German dubbed movie “Forrest Gump” and its audio-description</a></td>
+      <td>Häusler CO, Hanke M</td>
+      <td>F1000Research</td>
+      <td>2021</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1371/journal.pone.0222914>A Conjugate-Gradient Approach to the Parameter Estimation Problem of Magnetic Resonance Advection Imaging</a></td>
+      <td>Simon Hubmer, Andreas Neubauer, Ronny Ramlau, Henning U. Voss</td>
+      <td>Inverse Problems in Science and Engineering</td>
+      <td>2020</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1002/hbm.25189>Subject‐specific segregation of functional territories based on deep phenotyping</a></td>
+      <td>Pinho AL, Amadon A, Fabre M, Dohmatob E, Denghien I, Torre JJ, Ginisty C, Becuwe‐Desmidt S, Roger S, Laurier L, Joly‐Testault V, Médiouni‐Cloarec G, Doublé C, Martins B, Pinel P, Eger E, Varoquaux G, Pallier C, Dehaene S, Hertz‐Pannier L, Thirion B</td>
+      <td>Human Brain Mapping</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1371/journal.pcbi.1008457>Searching through functional space reveals distributed visual, auditory, and semantic coding in the human brain</a></td>
+      <td>Kumar S, Ellis CT, O’Connell TP, Chun MM, Turk-Browne NB</td>
+      <td>PLoS Computational Biology</td>
+      <td>2020</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41597-020-00735-4>An fMRI dataset in response to “The Grand Budapest Hotel”, a socially-rich, naturalistic movie</a></td>
+      <td>Visconti di Oleggio Castello M, Chauhan V, Jiahui G, Gobbini MI</td>
+      <td>Scientific Data</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41597-020-00670-4>Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping</a></td>
+      <td>Pinho AL, Amadon A, Gauthier B, Clairis N, Knops A, Genon S, Dohmatob E, Torre JJ, Ginisty C, Becuwe-Desmidt S, Roger S, Lecomte Y, Berland V, Laurier L, Joly-Testault V, Médiouni-Cloarec G, Doublé C, Martins B, Salmon E, Piazza M, Melcher D, Pessiglione M, van Wassenhove V, Eger E, Varoquaux G, Dehaene S, Hertz-Pannier L, Thirion B</td>
+      <td>Scientific Data</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.16910/jemr.13.4.5>Two hours in Hollywood: A manually annotated ground truth data set of eye movements during movie clip watching</a></td>
+      <td>Agtzidis I, Startsev M, Dorr M</td>
+      <td>Journal of Eye Movement Research</td>
+      <td>2020</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2020.116865>Leveraging shared connectivity to aggregate heterogeneous datasets into a common response space</a></td>
+      <td>Nastase SA, Liu YF, Hillman H, Norman KA, Hasson U</td>
+      <td>NeuroImage</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3758/s13428-020-01428-x>REMoDNaV: robust eye-movement classification for dynamic stimulation</a></td>
+      <td>Dar AH, Wagner AS, Hanke M</td>
+      <td>Behavior Research Methods</td>
+      <td>2020</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41597-020-00680-2>A naturalistic neuroimaging database for understanding the brain using ecological stimuli</a></td>
+      <td>Aliko S, Huang J, Gheorghiu F, Meliss S, Skipper JI</td>
+      <td>Scientific Data</td>
+      <td>2020</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.pneurobio.2020.101887>Using high spatial resolution fMRI to understand representation in the auditory network</a></td>
+      <td>Moerel M, Yacoub E, Gulban OF, Lage-Castellanos A, Martino FD</td>
+      <td>Progress in neurobiology</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2020.117445>Movies and narratives as naturalistic stimuli in neuroimaging </a></td>
+      <td>Jääskeläinen IP, Sams M, Glerean E, Ahveninen J</td>
+      <td>NeuroImage</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2020.117254>Keep it real: rethinking the primacy of experimental control in cognitive neuroscience</a></td>
+      <td>Nastase SA, Goldstein A, Hasson U</td>
+      <td>NeuroImage</td>
+      <td>2020</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1007/s11571-020-09579-5>Investigating time-varying functional connectivity derived from the Jackknife Correlation method for distinguishing between emotions in fMRI data</a></td>
+      <td>Ghahari S, Farahani N, Fatemizadeh E, Motie Nasrabadi A</td>
+      <td>Cognitive Neurodynamics</td>
+      <td>2020</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1109/ICASSP.2018.8462175>Capturing Shared and Individual Information in fMRI Data</a></td>
+      <td>Javier S. Turek, Cameron T. Ellis, Lena J. Skalaban, Theodore L. Willke</td>
+      <td>2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</td>
+      <td>2019</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1371/journal.pone.0222914>Intersubject MVPD: Empirical comparison of fMRI denoising methods for connectivity analysis</a></td>
+      <td>Yichen Li, Rebecca Saxe, Stefano Anzellotti</td>
+      <td>PLoS One</td>
+      <td>2019</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41467-019-13541-3>Individual face- and house-related eye movement patterns distinctively activate FFA and PPA</a></td>
+      <td>Wang L, Baumgartner F, Kaule FR, Hanke M, Pollmann S</td>
+      <td>Nature Communications</td>
+      <td>2019</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1371/journal.pone.0222914>Intersubject MVPD: Empirical comparison of fMRI denoising methods for connectivity analysis</a></td>
+      <td>Li Y, Saxe R, Anzellotti S</td>
+      <td>PLoS ONE</td>
+      <td>2019</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2019.116330>Nature abhors a paywall: How open science can realize the potential of naturalistic stimuli</a></td>
+      <td>DuPre E, Hanke M, Poline JB</td>
+      <td>NeuroImage</td>
+      <td>2019</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1093/cercor/bhz157>Evaluating fMRI-Based Estimation of Eye Gaze During Naturalistic Viewing</a></td>
+      <td>Son J, Ai L, Lim R, Xu T, Colcombe S, Franco AR, Cloud J, LaConte S, Lisinski J, Klein A, Craddock RC, Milham M</td>
+      <td>Cerebral Cortex (New York, NY)</td>
+      <td>2019</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3389/fpsyg.2019.02769>Educational fMRI: From the Lab to the Classroom</a></td>
+      <td>Seghier ML, Fahim MA, Habak C</td>
+      <td>Frontiers in Psychology</td>
+      <td>2019</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41467-019-13599-z>Emotionotopy in the human right temporo-parietal cortex</a></td>
+      <td>Lettieri G, Handjaras G, Ricciardi E, Leo A, Papale P, Betta M, Pietrini P, Cecchetti L</td>
+      <td>Nature Communications</td>
+      <td>2019</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41597-019-0303-3>A manually denoised audio-visual movie watching fMRI dataset for the studyforrest project</a></td>
+      <td>Liu X, Zhen Z, Yang A, Bai H, Liu J</td>
+      <td>Scientific Data</td>
+      <td>2019</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/s41597-019-0209-0>A dataset of continuous affect annotations and physiological signals for emotion analysis</a></td>
+      <td>Sharma K, Castellini C, van den Broek EL, Albu-Schaeffer A, Schwenker F</td>
+      <td>Scientific Data</td>
+      <td>2019</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2017.02.082>A critical analysis of neuroanatomical software protocols reveals clinically relevant differences in parcellation schemes</a></td>
+      <td>Shadia Mikhael, Corné Hoogendoorn, Maria Valdes-Hernandez, Cyril Pernet</td>
+      <td>NeuroImage</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1523/JNEUROSCI.0524-18.2018>The Hippocampal Film Editor: Sensitivity and Specificity to Event Boundaries in Continuous Experience</a></td>
+      <td>Ben-Yakov A, Henson RN</td>
+      <td>The Journal of Neuroscience</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/sdata.2018.105>Individual Brain Charting, a high-resolution fMRI dataset for cognitive mapping</a></td>
+      <td>Pinho AL, Amadon A, Ruest T, Fabre M, Dohmatob E, Denghien I, Ginisty C, Becuwe-Desmidt S, Roger S, Laurier L, Joly-Testault V, Médiouni-Cloarec G, Doublé C, Martins B, Pinel P, Eger E, Varoquaux G, Pallier C, Dehaene S, Hertz-Pannier L, Thirion B</td>
+      <td>Scientific Data</td>
+      <td>2018</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3389/fnins.2018.00316>Neural Responses to Naturalistic Clips of Behaving Animals in Two Different Task Contexts</a></td>
+      <td>Nastase SA, Halchenko YO, Connolly AC, Gobbini MI, Haxby JV</td>
+      <td>Frontiers in Neuroscience</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2018.01.058>Are you thinking what I’m thinking? Synchronization of resting fMRI time-series across subjects</a></td>
+      <td>Joshi AA, Chong M, Li J, Choi S, Leahy RM</td>
+      <td>NeuroImage</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1162/netn_a_00050>Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results</a></td>
+      <td>Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR</td>
+      <td>Network Neuroscience</td>
+      <td>2018</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3389/fnins.2018.00727>Teaching Computational Reproducibility for Neuroimaging</a></td>
+      <td>Millman KJ, Brett M, Barnowski R, Poline JB</td>
+      <td>Frontiers in Neuroscience</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.compbiomed.2018.05.008>Hypersampling of pseudo-periodic signals by analytic phase projection</a></td>
+      <td>Voss HU</td>
+      <td>Computers in biology and medicine</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.12688/f1000research.13689.1>Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI</a></td>
+      <td>Sengupta A, Pollmann S, Hanke M</td>
+      <td>F1000Research</td>
+      <td>2018</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2016.12.040>The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla</a></td>
+      <td>Sengupta A, Yakupov R, Speck O, Pollmann S, Hanke M</td>
       <td>NeuroImage</td>
       <td>2017</td>
       <td>Study</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.1016/j.dib.2017.05.014">Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex</a></td>
-      <td>Ayan Sengupta, Renat Yakupov, Oliver Speck, Stefan Pollmann, Michael Hanke</td>
+      <td><a href=https://www.doi.org/10.1017/S1355617717000583>Structural Brain Correlations of Visuospatial and Visuoperceptual Tests in Parkinson’s Disease</a></td>
+      <td>Garcia-Diaz AI, Segura B, Baggio HC, Marti MJ, Valldeoriola F, Compta Y, Bargallo N, Uribe C, Campabadal A, Abos A, Junque C</td>
+      <td>Journal of the International Neuropsychological Society</td>
+      <td>2017</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.dib.2017.05.014>Ultra high-field (7 T) multi-resolution fMRI data for orientation decoding in visual cortex</a></td>
+      <td>Sengupta A, Yakupov R, Speck O, Pollmann S, Hanke M</td>
       <td>Data in Brief</td>
       <td>2017</td>
       <td>Data</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="https://doi.org/10.1093/cercor/bhw344">Disentangling the Representation of Identity from Head View Along the Human Face Processing Pathway</a></td>
-      <td>Swaroop Guntupalli, Kelsey G. Wheeler, M. Ida Gobbini</td>
-      <td>Cerebral Cortex</td>
+      <td><a href=https://www.doi.org/10.1002/hbm.23549>Functional brain segmentation using inter‐subject correlation in fMRI</a></td>
+      <td>Kauppi J, Pajula J, Niemi J, Hari R, Tohka J</td>
+      <td>Human Brain Mapping</td>
+      <td>2017</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1523/ENEURO.0311-16.2017>Electrophysiology Reveals the Neural Dynamics of Naturalistic Auditory Language Processing: Event-Related Potentials Reflect Continuous Model Updates</a></td>
+      <td>Alday PM, Schlesewsky M, Bornkessel-Schlesewsky I</td>
+      <td>eNeuro</td>
+      <td>2017</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3389/fpsyg.2017.01179>Music of the 7Ts: Predicting and Decoding Multivoxel fMRI Responses with Acoustic, Schematic, and Categorical Music Features</a></td>
+      <td>Casey MA</td>
+      <td>Frontiers in Psychology</td>
+      <td>2017</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.neuroimage.2015.08.078>The integration of the internal and external milieu in the insula during dynamic emotional experiences</a></td>
+      <td>Vinh Thai Nguyen, Michael Breakspear, Xintao Hu, Christine Cong Guo</td>
+      <td>NeuroImage</td>
       <td>2016</td>
       <td>Study</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="https://doi.org/10.1007/s00429-016-1324-8">Neural auditory intensity discrimination during naturalistic listening: a brain decoding study</a></td>
-      <td>Xintao Hu, Lei Guo, Junwei Han, Christine Cong Guo</td>
-      <td>Brain Structure and Function</td>
-      <td>2016</td>
-      <td>Study</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="https://f1000research.com/articles/5-2375">Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump"</a></td>
-      <td>Michael Hanke, Pierre Ibe</td>
-      <td>F1000Research</td>
-      <td>2016</td>
-      <td>Data</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="http://f1000research.com/articles/5-2273">An annotation of cuts, depicted locations, and temporal progression in the motion picture "Forrest Gump"</a></td>
-      <td>Christian O. Häusler, Michael Hanke</td>
-      <td>F1000Research</td>
-      <td>2016</td>
-      <td>Data</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="http://arxiv.org/abs/1606.02627">Brains on Beats</a></td>
+      <td><a href=https://www.doi.org/https://arxiv.org/abs/1606.02627v1>Brains on Beats</a></td>
       <td>Umut Güçlü, Jordy Thielen, Michael Hanke, Marcel van Gerven</td>
       <td>Advances in Neural Information Processing Systems (NIPS)</td>
       <td>2016</td>
       <td>Study</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://www.nature.com/articles/sdata201692">A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation</a></td>
-      <td>Michael Hanke, Nico Adelhöfer, Daniel Kottke, Vittorio Iacovella, Ayan Sengupta, Falko R. Kaule, Roland Nigbur, Alexander Q. Waite, Florian J. Baumgartner, Jörg Stadler</td>
-      <td>Scientific Data</td>
-      <td>2016</td>
-      <td>Data</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="http://www.nature.com/articles/sdata201693">A studyforrest extension, retinotopic mapping and localization of higher visual areas</a></td>
-      <td>Ayan Sengupta, Falko R. Kaule, J. Swaroop Guntupalli, Michael B. Hoffmann, Christian Häusler, Jörg Stadler, Michael Hanke, M</td>
-      <td>Scientific Data</td>
-      <td>2016</td>
-      <td>Data</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.1177/0271678X16651449">Magnetic resonance advection imaging of cerebrovascular pulse dynamics</a></td>
-      <td>Henning U. Voss, Jonathan P. Dyke, Karsten Tabelow, Nicholas D. Schiff, Douglas J. Ballon</td>
-      <td>Journal of Cerebral Blood Flow &amp; Metabolism</td>
-      <td>2016</td>
-      <td>Study</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.1007/s11682-016-9515-8">Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience</a></td>
+      <td><a href=https://www.doi.org/10.1007/s11682-016-9515-8>Decoding power-spectral profiles from FMRI brain activities during naturalistic auditory experience</a></td>
       <td>Xintao Hu, Lei Guo, Junwei Han, Tianming Liu</td>
       <td>Brain Imaging and Behavior</td>
       <td>2016</td>
       <td>Study</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://papers.nips.cc/paper/5855-a-reduced-dimension-fmri-shared-response-model.pdf">A Reduced-Dimension fMRI Shared Response Model</a></td>
-      <td>Po-Hsuan (Cameron) Chen, Janice Chen, Yaara Yeshurun, Uri Hasson, James Haxby, Peter J. Ramadge</td>
-      <td>Advances in Neural Information Processing Systems</td>
-      <td>2015</td>
-      <td>Benchmark</td>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.1016/j.neuroimage.2015.08.078">The integration of the internal and external milieu in the insula during dynamic emotional experiences</a></td>
-      <td>Vinh Thai Nguyen, Michael Breakspear, Xintao Hu, Christine Cong Guo</td>
-      <td>NeuroImage</td>
-      <td>2015</td>
+      <td><a href=https://www.doi.org/10.1093/cercor/bhw344>Disentangling the Representation of Identity from Head View Along the Human Face Processing Pathway</a></td>
+      <td>Guntupalli JS, Wheeler KG, Gobbini MI</td>
+      <td>Cerebral Cortex (New York, NY)</td>
+      <td>2016</td>
       <td>Study</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.12688/f1000research.6679.1">High-resolution 7-Tesla fMRI data on the perception of musical genres</a></td>
+      <td><a href=https://www.doi.org/10.1038/sdata.2016.92>A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation</a></td>
+      <td>Hanke M, Adelhöfer N, Kottke D, Iacovella V, Sengupta A, Kaule FR, Nigbur R, Waite AQ, Baumgartner F, Stadler J</td>
+      <td>Scientific Data</td>
+      <td>2016</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.12688/f1000research.9536.1>An annotation of cuts, depicted locations, and temporal progression in the motion picture "Forrest Gump"</a></td>
+      <td>Häusler CO, Hanke M</td>
+      <td>F1000Research</td>
+      <td>2016</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.12688/f1000research.9635.1>Lies, irony, and contradiction — an annotation of semantic conflict in the movie "Forrest Gump"</a></td>
+      <td>Hanke M, Ibe P</td>
+      <td>F1000Research</td>
+      <td>2016</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/sdata.2016.93>A studyforrest extension, retinotopic mapping and localization of higher visual areas</a></td>
+      <td>Sengupta A, Kaule FR, Guntupalli JS, Hoffmann MB, Häusler C, Stadler J, Hanke M</td>
+      <td>Scientific Data</td>
+      <td>2016</td>
+      <td>Data</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1177/0271678X16651449>Magnetic resonance advection imaging of cerebrovascular pulse dynamics</a></td>
+      <td>Voss HU, Dyke JP, Tabelow K, Schiff ND, Ballon DJ</td>
+      <td>Journal of Cerebral Blood Flow & Metabolism</td>
+      <td>2016</td>
+      <td>Study</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3389/fninf.2016.00034>Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution</a></td>
+      <td>Honor LB, Haselgrove C, Frazier JA, Kennedy DN</td>
+      <td>Frontiers in Neuroinformatics</td>
+      <td>2016</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.3389/fninf.2016.00024>Exploring fMRI Results Space: 31 Variants of an fMRI Analysis in AFNI, FSL, and SPM</a></td>
+      <td>Pauli R, Bowring A, Reynolds R, Chen G, Nichols TE, Maumet C</td>
+      <td>Frontiers in Neuroinformatics</td>
+      <td>2016</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1016/j.tics.2016.03.014>Building a science of individual differences from fMRI</a></td>
+      <td>Dubois J, Adolphs R</td>
+      <td>Trends in cognitive sciences</td>
+      <td>2016</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1098/rsta.2015.0188>Brain–heart interactions: challenges and opportunities with functional magnetic resonance imaging at ultra-high field</a></td>
+      <td>Chang C, Raven EP, Duyn JH</td>
+      <td>Philosophical transactions. Series A, Mathematical, physical, and engineering sciences</td>
+      <td>2016</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.12688/f1000research.6679.1>High-resolution 7-Tesla fMRI data on the perception of musical genres</a></td>
       <td>Michael Hanke, Richard Dinga, Christian Häusler, J. Swaroop Guntupalli, Michael Casey, Falko R. Kaule, Jörg Stadler</td>
       <td>F1000Research</td>
       <td>2015</td>
       <td>Data</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://dx.doi.org/10.12688/f1000research.6230.1">Portrayed emotions in the movie "Forrest Gump"</a></td>
-      <td>Annika Labs, Theresa Reich, Helene Schulenburg, Manuel Boennen, Mareike Gehrke, Madleen Golz, Benita Hartigs, Nico Hoffmann, Sebastian Keil, Malú Perlow, Anne Katrin Peukmann, Lea Noell Rabe, Franca-Rosa von Sobbe, Michael Hanke</td>
+      <td><a href=https://www.doi.org/https://proceedings.neurips.cc/paper/2015/file/b3967a0e938dc2a6340e258630febd5a-Paper.pdf>A Reduced-Dimension fMRI Shared Response Model</a></td>
+      <td>Po-Hsuan (Cameron) Chen, Janice Chen, Yaara Yeshurun, Uri Hasson, James Haxby, Peter J. Ramadge</td>
+      <td>Advances in Neural Information Processing Systems</td>
+      <td>2015</td>
+      <td>Benchmark</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1371/journal.pone.0141892>The Detection of Emerging Trends Using Wikipedia Traffic Data and Context Networks</a></td>
+      <td>Kämpf M, Tessenow E, Kenett DY, Kantelhardt JW</td>
+      <td>PLoS ONE</td>
+      <td>2015</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1371/journal.pone.0133921>Highest Resolution In Vivo Human Brain MRI Using Prospective Motion Correction</a></td>
+      <td>Stucht D, Danishad KA, Schulze P, Godenschweger F, Zaitsev M, Speck O</td>
+      <td>PLoS ONE</td>
+      <td>2015</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.12688/f1000research.6229.1>A communication hub for a decentralized collaboration on studying real-life cognition</a></td>
+      <td>Hanke M, Halchenko YO</td>
+      <td>F1000Research</td>
+      <td>2015</td>
+      <td>Citing</td>
+    </tr>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.12688/f1000research.6230.1>Portrayed emotions in the movie "Forrest Gump"</a></td>
+      <td>Labs A, Reich T, Schulenburg H, Boennen M, Mareike G, Golz M, Hartigs B, Hoffmann N, Keil S, Perlow M, Peukmann AK, Rabe LN, von Sobbe FR, Hanke M</td>
       <td>F1000Research</td>
       <td>2015</td>
       <td>Data</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://studyforrest.org/contest_fuseisc.html">FuSeISC: Functional Segmentation of Brain fMRI during naturalistic stimulus based on Inter-Subject Correlation</a></td>
-      <td>Juha Pajula, Jussi Tohka, Jukka-Pekka Kauppi</td>
-      <td>studyforrest.org</td>
-      <td>2014</td>
-      <td>Study</td>
+      <td><a href=https://www.doi.org/10.1038/sdata.2014.54>A high resolution 7-Tesla resting-state fMRI test-retest dataset with cognitive and physiological measures</a></td>
+      <td>Gorgolewski KJ, Mendes N, Wilfling D, Wladimirow E, Gauthier CJ, Bonnen T, Ruby FJ, Trampel R, Bazin PL, Cozatl R, Smallwood J, Margulies DS</td>
+      <td>Scientific Data</td>
+      <td>2015</td>
+      <td>Citing</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://studyforrest.org/contest_findforrestnetworks.html">Identifying task-related activity using periodic graph properties</a></td>
-      <td>Lars Marstaller, Jeiran Choupan, Arend Hintze</td>
-      <td>studyforrest.org</td>
-      <td>2014</td>
-      <td>Study</td>
+      <td><a href=https://www.doi.org/10.1186/s13742-015-0055-8>Improving functional magnetic resonance imaging reproducibility</a></td>
+      <td>Pernet C, Poline JB</td>
+      <td>GigaScience</td>
+      <td>2015</td>
+      <td>Citing</td>
     </tr>
+
     <tr>
-      <td><a class="reference external" href="http://www.nature.com/articles/sdata20143">A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie</a></td>
-      <td>Michael Hanke, Florian J. Baumgartner, Pierre Ibe, Falko Kaule, Stefan Pollmann, Oliver Speck, Wolf Zinke, Jörg Stadler</td>
+      <td><a href=https://www.doi.org/10.1038/sdata.2014.3>A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie</a></td>
+      <td>Hanke M, Baumgartner F. J., Ibe P, Kaule F, Pollmann S, Speck O, Zinke W, Stadler J</td>
       <td>Scientific Data</td>
       <td>2014</td>
       <td>Data</td>
     </tr>
-  </tbody>
-  </table>
+
+    <tr>
+      <td><a href=https://www.doi.org/10.1038/sdata.2014.50>Multi-modal ultra-high resolution structural 7-Tesla MRI data repository</a></td>
+      <td>Forstmann BU, Keuken MC, Schafer A, Bazin PL, Alkemade A, Turner R</td>
+      <td>Scientific Data</td>
+      <td>2014</td>
+      <td>Citing</td>
+    </tr>
+          </tbody>
+          </table>
   <script>
     var fancy_table  = document.getElementById('sort-me');
     var fancy_search = document.getElementById('filter_field');
@@ -207,7 +574,7 @@
         }
       }
 
-      document.getElementById('pub_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>';
+      document.getElementById('filter_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>.';
     }
 
     function getURLParam(param) {
@@ -265,3 +632,4 @@
     }
   </script>
 </body>
+</html>

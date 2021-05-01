@@ -1,8 +1,7 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }} - {{ SITENAME }}{% endblock %}
-{% block html_lang %}{{ page.lang }}{% endblock %}
+{% block title %} &mdash; {{ page.title }}{% endblock %}
 
-{% block extra_header %}
+{% block extra_headers %}
   {% if page.stylesheets %}
     {% for stylesheet in page.stylesheets %}
       {{ stylesheet }}
@@ -16,10 +15,10 @@
 {% endblock %}
 
 {% block content %}
-    <section class="body">
-        <h1 class="entry-title">{{ page.title }}</h1>
-        <div class="entry-content">
-            {{ page.content }}
-        </div>
-    </section>
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  {{ page.content }}
+</article>
 {% endblock %}

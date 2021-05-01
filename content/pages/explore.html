@@ -1,0 +1,357 @@
+<html>
+<head>
+  <title>Explore</title>
+  <meta name="save_as" content="explore.html" />
+  <meta name="url" content="explore.html" />
+</head>
+<body>
+  <p>The dataset comprises many different data types, ranging from brain
+  imaging modalities, to eye tracking, and measurements of heart beat
+  and breathing. This page offers a glimpse into some of these data type
+  and a few quality metrics used to investigate the utility of the dataset.
+  A comprehensive assessment can be found in associated data papers that
+  are available for every dataset component listed on the
+  <a href="/data.html">Data Page</a>.</p>
+
+
+  <h2>The "Hairy" Brain</h2>
+  <p>Diffusion-weighted imaging (DWI) is a technique that can be used to
+     visualize neural tracts or <strong>nerve fibre bundles</strong> by
+     measuring the direction of water diffusion in brain tissue. The example
+     figure below shows a so-called <strong>connectome</strong> — the structure
+     of nerve fibre pathways in the brain — estimated from the DWI data of a
+     single individual. The red horizontal lines in the center of the image
+     show the <a href="http://en.wikipedia.org/wiki/Corpus_callosum">corpus callosum</a>,
+     the bridge between the two brain halves. The blue vertical lines in the
+     lower center of the image show the <a href="http://en.wikipedia.org/wiki/Pyramidal_tracts">corticospinal tract</a>,
+     where the brain is connected with the nervous system in other parts of the
+     body. The provided scans have been made with a standard clinical procedure
+     at 2 mm spatial resolution.</p>
+
+  <div id="xtk_renderer">
+  </div>
+  <div id="xtk_help">
+    <p>Usage: Left-click and drag to rotate the view, middle-click to pan, and
+       right-click (or scroll) to zoom in and out.</p>
+  </div>
+  <script src="/theme/js/xtk.js"></script>
+  <script type="text/javascript">
+    function load_xtk_renderer() {
+      var r = new X.renderer3D();
+      r.container = 'xtk_renderer';
+      r.init();
+      r.camera.up = [0, 0, 1];
+      r.camera.position = [0, 50, -100];
+      // create a new X.fibers
+      var fibers = new X.fibers();
+      // .. associate the TrackVis .TRK file
+      fibers.file = '/data/wm_streamlines.trk';
+      // .. add the fibers
+      r.add(fibers);
+      r.render();
+    };
+    load_xtk_renderer();
+  </script>
+
+  <h2>The colorful world of brain function</h2>
+  <p>One way to analyze brain function is to contrast where the brain consumes
+  oxygen differently between particular conditions. A number of such analysis
+  result have been published on the <a href="https://neurovault.org/">NeuroVault</a>
+  platform to enable further meta-analysis. Browse through the topics and
+  see how individual brain areas responds differently.</p>
+
+  <div id="nv_picker">
+    <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
+       <label for="nv_308">High-resolution 7-Tesla fMRI data on the perception of
+         musical genres – an extension to the studyforrest dataset.</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_1065" value="1065">
+       <label for="nv_1065">A StudyForrest extension, simultaneous fMRI and eye
+         gaze recordings during naturalistic stimulation (poster).</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_5502" value="5502">
+       <label for="nv_5502">Is The PPA a Visual Area? BOLD responses to incidental
+         spatial cues in naturalistic stimulation (poster).</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_6075" value="6075">
+       <label for="nv_6075">Individual face- and house-related eye movement
+         patterns distinctively activate FFA and PPA.</label>
+    </p>
+
+    <p><input type="radio" name="neurovault_ds" id="nv_8889" value="8889">
+       <label for="nv_8889">Processing of visual and non-visual naturalistic
+         spatial information in the "parahippocampal place area" (paper in
+         review).</label>
+    </p>
+  </div>
+
+  <div id="nv_viewers">
+    <iframe id="nv_viewer_308" data-show='true' src="https://neurovault.org/media/images/308/pycortex_all/index.html"
+            frameborder="0"></iframe>
+    <iframe id="nv_viewer_1065" data-src="https://neurovault.org/media/images/1065/pycortex_all/index.html"
+            frameborder="0"></iframe>
+    <iframe id="nv_viewer_5502" data-src="https://neurovault.org/media/images/5502/pycortex_all/index.html"
+            frameborder="0"></iframe>
+    <iframe id="nv_viewer_6075" data-src="https://neurovault.org/media/images/6075/pycortex_all/index.html"
+            frameborder="0"></iframe>
+    <iframe id="nv_viewer_8889" data-src="https://neurovault.org/media/images/8889/pycortex_all/index.html"
+            frameborder="0"></iframe>
+  </div>
+
+  <script>
+  var nv_viewers = document.getElementById('nv_viewers').querySelectorAll('iframe');
+  var nv_pickers = document.getElementById('nv_picker').querySelectorAll('input');
+
+  // attach listener to radio buttons
+  for (var i=0; i < nv_pickers.length; i++) {
+    nv_pickers[i].addEventListener('click', switchViewer, false);
+  }
+
+  function switchViewer() {
+    nv_num = this.value;
+
+    for (var i=0; i < nv_viewers.length; i++) {
+      var nv = nv_viewers[i];
+      // if it's the viewer we want to show
+      if (nv.id == 'nv_viewer_' + nv_num) {
+        // the iframe contents are way too heavy to all load upfront.
+        // Check if it has already been loaded.
+        if (nv.src.indexOf('http') == -1) {
+          nv.src = nv.dataset.src;
+        }
+        nv.dataset.show = 'true';
+      } else {
+        nv.dataset.show = 'false';
+      }
+    }
+  }
+  </script>
+
+  <h2>Brain parcellations</h2>
+  <p><i>Something about freesurfer...</i>
+  </p>
+  <video autoplay loop muted width="100%">
+    <source src="/data/freesurfer_parcellations_av1.webm" type="video/webm" />
+    <source src="/data/freesurfer_parcellations.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Functional data quality</h2>
+  <p>Since head movement during the acquisition of a functional MRI time series can be
+    detrimental for the eventual data analysis and results, volume-to-volume head movement
+    parameters are typically inspected as a quality indicator of fMRI data. Framewise
+    displacement (FD) captures head movement in a single value per volume, resulting in an
+    FD time series per functional run. Below we present interactive distribution plots of
+    FD values for all participants over all runs of the 7T dataset. Distributions and an example time
+    series are also presented for a single subject and a single run.
+  </p>
+
+  <h3>7T audio movie data - 20 subjects</h3>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script>
+    // Read data and headings from csv file
+    d3.csv("/data/fd_20subs_7t_aomovie.csv", function(err, rows){
+    // Function to unpack data
+    function unpack(rows, key) {
+      return rows.map(function(row) { return row[key]; });
+    }
+    // Get subject names
+    var headerNames = d3.keys(rows[0]);
+    // Initialise array to store traces for plotly graph
+    var data = [];
+    // Discretized colors for the indivual traces
+    var colors = ['#ff9551','#f78f53','#ef8a56','#e78559','#e0805c','#d87b5f','#d07662','#c97165','#c16c68','#b9676b','#b2616e','#aa5c71','#a25774','#9b5277','#934d7a','#8b487d','#844380','#7c3e83','#743986','#6d3489'];
+    // For all subjects, get relevant data array and add as a trace to the plotly data
+    headerNames.forEach(function(heading, index) {
+      if (heading !== 'sub-10') {
+        trace = {
+          type: 'violin',
+          name: heading,
+          y: unpack(rows, heading).filter(function (el) {return el != null;}),
+          orientation: 'v',
+          side: 'positive',
+          width: 1.8,
+          points: false,
+          box: {
+            visible: true
+          },
+          boxpoints: false,
+          line: {
+            color: colors[index],
+            width: 2
+          },
+          meanline: {
+            visible: true
+          },
+          y0: heading
+        };
+        data.push(trace);
+      }
+    });
+    // Plotly graph layout specification
+    var layout = {
+      xaxis: {
+        showgrid: false,
+        zeroline: false,
+        tickangle: 45,
+      },
+      yaxis: {
+        title: "Framewise displacement (mm)",
+        range: [-0.15, 2],
+      },
+      margin: {
+        't': 15,
+      },
+      height: 500,
+    }
+    // Create plotly graph
+    Plotly.newPlot('fdAllSubs', data, layout);
+    });
+  </script>
+  <div id='fdAllSubs'></div>
+
+  <h3>7T audio movie data - 1 subject, 8 runs</h3>
+  <script>
+    // Read data and headings from csv file
+    d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
+    // Function to unpack data
+    function unpack(rows, key) {
+      return rows.map(function(row) { return row[key]; });
+    }
+    // Get subject names
+    var headerNames = d3.keys(rows[0]);
+    // Initialise array to store traces for plotly graph
+    var data = [];
+    // Discretized colors for the indivual traces
+    var colors = ['#440154', '#482878', '#3e4989', '#31688e', '#26828e', '#1f9e89', '#35b779', '#6ece58', '#b5de2b', '#fde725'];
+    // For sub-01 all runs, get relevant data array and add as a trace to the plotly data
+    headerNames.slice(0,8).forEach(function(heading, index) {
+        trace = {
+          type: 'violin',
+          name: heading,
+          y: unpack(rows, heading).filter(function (el) {return el != null;}),
+          orientation: 'v',
+          side: 'positive',
+          width: 1.8,
+          points: false,
+          box: {
+            visible: true
+          },
+          boxpoints: false,
+          line: {
+            color: colors[index],
+            width: 2
+          },
+          meanline: {
+            visible: true
+          },
+          y0: heading
+        };
+        data.push(trace);
+    });
+    // Plotly graph layout specification
+    var layout = {
+      xaxis: {
+        showgrid: false,
+        zeroline: false,
+        tickangle: 45,
+      },
+      yaxis: {
+        title: "Framewise displacement (mm)",
+        range: [-0.1, 1],
+      },
+      margin: {
+        't': 15,
+      },
+      height: 400,
+    }
+    // Create plotly graph
+    Plotly.newPlot('fdSingleSub', data, layout);
+    });
+  </script>
+  <div id='fdSingleSub'></div>
+
+  <h3>7T audio movie data - 1 subject, 1 run</h3>
+  <script>
+    // Read data and headings from csv file
+    d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
+    // Function to unpack data
+    function unpack(rows, key) {
+      return rows.map(function(row) { return row[key]; });
+    }
+    // Get sub_run names
+    var headerNames = d3.keys(rows[0]);
+    // Discretized colors for the indivual traces
+    var colors = ['#440154', '#482878', '#3e4989', '#31688e', '#26828e', '#1f9e89', '#35b779', '#6ece58', '#b5de2b', '#fde725'];
+    // For sub-01 all runs, get relevant data array and add as a trace to the plotly data:
+    var heading = 'sub-01_run-02';
+    var run_idx = 1;
+    var data = [
+      {
+        type: 'scatter',
+        name: 'Time series',
+        y: unpack(rows, heading).filter(function (el) {return el != null;}),
+        mode: 'lines',
+        line: {
+          width: 2,
+          color: colors[run_idx],
+        },
+        showlegend: false,
+      },
+      {
+        type: 'violin',
+        name: 'Distribution',
+        y: unpack(rows, heading).filter(function (el) {return el != null;}),
+        orientation: 'v',
+        side: 'positive',
+        width: 1.8,
+        points: 'all',
+        jitter: 0.5,
+        box: {
+          visible: true
+        },
+        boxpoints: false,
+        line: {
+          color: colors[run_idx],
+          width: 2
+        },
+        meanline: {
+          visible: true
+        },
+        showlegend: false,
+        y0: heading,
+        xaxis: 'x2',
+        yaxis: 'y',
+      },
+    ];
+    // Plotly graph grid layout specification
+    var layout = {
+      xaxis: {
+        title: 'Functional volumes',
+        showgrid: false,
+        zeroline: false,
+        domain: [0, 0.82],
+      },
+      yaxis: {
+        title: "Framewise displacement (mm)",
+        range: [-0.1, 1],
+      },
+      yaxis2: {anchor: 'x2'},
+      xaxis2: {domain: [0.85, 1]},
+      margin: {
+        't': 15,
+      },
+      height: 400,
+    };
+    // Create plotly graph
+    Plotly.newPlot('fdSingleRun', data, layout);
+    });
+  </script>
+  <div id='fdSingleRun'></div>
+
+</body>
+</html>

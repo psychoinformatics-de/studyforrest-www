@@ -1,8 +1,3 @@
-[submodule "papaya"]
-	path = papaya
-	url = https://github.com/rii-mango/Papaya.git
-	branch = master
-[submodule "pelican-plugins"]
-	path = pelican-plugins
-	url = https://github.com/getpelican/pelican-plugins
-	branch = master
+[submodule "pelican-plugins/sitemap"]
+	path = pelican-plugins/sitemap
+	url = https://github.com/getpelican-plugins/sitemap

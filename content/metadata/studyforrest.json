@@ -1,0 +1,553 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://schema.studyforrest.org/studyforrest-data",
+      "@type": "DataCatalog",
+      "name": "Studyforrest Datasets",
+      "accountablePerson": "m.hanke@fz-juelich.de",
+      "dataset": [
+        {
+          "@id": "https://schema.datalad.org/dataset-id#5b1081d6-84d7-11e8-b00a-a0369fb55db0",
+          "@type": "Dataset",
+          "version": "1.0",
+          "name": "studyforrest_multires3t",
+          "url": "https://github.com/psychoinformatics-de/studyforrest-data-multires3t",
+          "license": "PDDL",
+          "description": "Extension of a matching fMRI dataset (Sengupta, et al., 2017; OpenFMRI ds000113c) on participants performing a central fixation task while being stimulated with oriented visual gratings. This dataset extends the previous one with acquisitions for 3 matching spatial resolutions (1.4, 2.0, and 3.0 mm) at 3T (complementing the previous 7T acquisitions at 0.8, 1.4, 2.0, and 3.0 mm). Five of the total of seven participants are identical in both datasets. All participants are part of the studyforrest.org project.",
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#oliver.speck@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#renat.yakupov@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#martin.kanowski@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#claus.tempelmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "funding": [
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "DFG PO 548/15-1",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#DFG"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#5b1081d6-84d7-11e8-b00a-a0369fb55db0"
+              },
+              "description": "This research was enabled by a grant from the German Research Foundation (DFG) awarded to S. Pollmann and O. Speck (DFG PO 548/15-1)."
+            },
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "BMBF 01GQ1112",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#BMBF"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#5b1081d6-84d7-11e8-b00a-a0369fb55db0"
+              },
+              "description": "This research was, in part, also supported by the German Federal Ministry of Education and Research (BMBF) as part of a US-German collaboration in computational neuroscience (CRCNS), co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1112; NSF 1129855)."            },
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "NSF 1129855",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#NSF"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#5b1081d6-84d7-11e8-b00a-a0369fb55db0"
+              },
+              "description": "This research was, in part, also supported by the German Federal Ministry of Education and Research (BMBF) as part of a US-German collaboration in computational neuroscience (CRCNS), co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1112; NSF 1129855)."
+            },
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "BMBF 01GQ1411",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#BMBF"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#5b1081d6-84d7-11e8-b00a-a0369fb55db0"
+              },
+              "description": "Data management technology (DataLad) employed for this research was supported by US-German CRCNS project, co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1411; NSF 1429999)."
+            },
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "NSF 1429999",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#NSF"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#5b1081d6-84d7-11e8-b00a-a0369fb55db0"
+              },
+              "description": "Data management technology (DataLad) employed for this research was supported by US-German CRCNS project, co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1411; NSF 1429999)."
+            }
+          ],
+          "keywords": {
+            "@id": "#standards",
+            "@type": "DefinedTermSet",
+            "hasDefinedTerm": [
+              {
+                "@id": "https://schema.datalad.org/standard#BIDS",
+                "@type": "DefinedTerm",
+                "termCode": "BIDS"
+              }
+            ]
+          }
+        },
+        {
+          "@id": "https://schema.datalad.org/dataset-id#3a8648b3-7df8-413f-8efb-4d39040ac174",
+          "@type": "Dataset",
+          "version": "1.0",
+          "name": "studyforrest_multires7t",
+          "license": "PDDL",
+          "url": "https://github.com/psychoinformatics-de/studyforrest-data-multires7t",
+          "description": "Extension of the dataset published in Hanke et al. (2014; doi:10.1038/sdata.2014.3) with additional acquisitions for 6 of the original 20 participants (and one additional participant). Participants performed a central fixation task while being stimulated with oriented gratings. The experiment was repeated in four different sessions with 7T BOLD fMRI acquisition, each with a different scan resolution (0.8, 1.4, 2.0, and 3.0 mm).",
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#renat.yakupov@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#oliver.speck@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "funding": [
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "BMBF 01GQ1411",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#BMBF"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#3a8648b3-7df8-413f-8efb-4d39040ac174"
+              },
+              "description": "This research was supported by a grant from the German Research Foundation (DFG) awarded to S. Pollmann and O. Speck (DFG PO 548/15-1). This research was, in part, also supported by the German Federal Ministry of Education and Research (BMBF) as part of a US-German collaboration in computational neuroscience (CRCNS), co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1112; NSF 1129855). Work on the data-sharing technology employed for this research was supported by US-German CRCNS project, co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1411; NSF 1429999)."
+            },
+            {
+              "@type": "MonetaryGrant",
+              "identifier": "NSF 1429999",
+              "funder": {
+                "@id": "https://schema.datalad.org/organization#NSF"
+              },
+              "fundedItem": {
+                "@id": "https://schema.datalad.org/dataset-id#3a8648b3-7df8-413f-8efb-4d39040ac174"
+              },
+              "description": "This research was supported by a grant from the German Research Foundation (DFG) awarded to S. Pollmann and O. Speck (DFG PO 548/15-1). This research was, in part, also supported by the German Federal Ministry of Education and Research (BMBF) as part of a US-German collaboration in computational neuroscience (CRCNS), co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1112; NSF 1129855). Work on the data-sharing technology employed for this research was supported by US-German CRCNS project, co-funded by the BMBF and the US National Science Foundation (BMBF 01GQ1411; NSF 1429999)."
+            }
+          ],
+          "keywords": {
+            "@id": "#standards",
+            "@type": "DefinedTermSet",
+            "hasDefinedTerm": [
+              {
+                "@id": "https://schema.datalad.org/standard#BIDS",
+                "@type": "DefinedTerm",
+                "termCode": "BIDS"
+              }
+            ]
+          }
+        },
+        {
+          "@id": "https://schema.datalad.org/dataset-id#5eaff716-54eb-11e8-803d-a0369f7c647e",
+          "@type": "Dataset",
+          "version": "1.5",
+          "name": "studyforrest_phase2",
+          "license": "PDDL",
+          "url": "https://github.com/psychoinformatics-de/studyforrest-data-phase2",
+          "description": "Extension of the dataset published in Hanke et al. (2014; doi:10.1038/sdata.2014.3) with additional acquisitions for 15 of the original 20 particpants. These additions include: retinotopic mapping, a localizer paradigm for higher visual areas (FFA, EBA, PPA), and another 2h movie recording with 3T full-brain BOLD fMRI with simultaneous 1000 Hz eyetracking.",
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#falko.kaule@med.ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#florian.baumgartner@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#swaroopgj@gmail.com"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#c.haeusler@fz-juelich.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#michael@hoffmann@med.ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#vittorio.iacovella@gmail.com"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#daniel.kottke@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#Joerg.Stadler@ifn-magdeburg.de"
+            }
+          ],
+          "keywords": {
+            "@id": "#standards",
+            "@type": "DefinedTermSet",
+            "hasDefinedTerm": [
+              {
+                "@id": "https://schema.datalad.org/standard#BIDS",
+                "@type": "DefinedTerm",
+                "termCode": "BIDS"
+              }
+            ]
+          }
+        },
+        {
+          "@id": "https://schema.datalad.org/dataset-id#1882e2e6-fbbf-4ade-a65f-3a1615235f51",
+          "@type": "Dataset",
+          "version": "1.0",
+          "name": "studyforrest_data_structural",
+          "license": "PDDL",
+          "url": "https://github.com/psychoinformatics-de/studyforrest-data-structural/",
+          "description": "This dataset contains T1 and T2 weighted MRI scans, susceptibility weighted images, and diffusion imaging scans. These data are suitable for analyses of brain structure.\nFor more information about the project visit: http://studyforrest.org",
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "keywords": {
+            "@id": "#standards",
+            "@type": "DefinedTermSet",
+            "hasDefinedTerm": [
+              {
+                "@id": "https://schema.datalad.org/standard#BIDS",
+                "@type": "DefinedTerm",
+                "termCode": "BIDS"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "#funderList",
+      "@list": [
+        {
+          "@id": "https://schema.datalad.org/organization#DFG",
+          "@type": "Organization",
+          "name": "German Research Foundation (DFG) DFG"
+        },
+        {
+          "@id": "https://schema.datalad.org/organization#BMBF",
+          "@type": "Organization",
+          "name": "German Federal Ministry of Education and Research (BMBF)"
+        },
+        {
+          "@id": "https://schema.datalad.org/organization#NSF",
+          "@type": "Organization",
+          "name": "US National Science Foundation (NSF)"
+        }
+      ]
+    },
+    {
+      "@id": "#personList",
+      "@list": [
+        {
+          "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk",
+          "@type": "Person",
+          "email": "ayan.sengupta@nottingham.ac.uk",
+          "name": " Ayan Sengupta",
+          "givenName": "Ayan",
+          "familyName": "Sengupta"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#oliver.speck@ovgu.de",
+          "@type": "Person",
+          "email": "oliver.speck@ovgu.de",
+          "name": " Oliver Speck",
+          "givenName": "Oliver",
+          "familyName": "Speck"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#renat.yakupov@ovgu.de",
+          "@type": "Person",
+          "email": "renat.yakupov@ovgu.de",
+          "name": " Renat Yakupov",
+          "givenName": "Renat",
+          "familyName": "Yakupov"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#martin.kanowski@ovgu.de",
+          "@type": "Person",
+          "email": "martin.kanowski@ovgu.de",
+          "name": " Martin Kanowski",
+          "givenName": "Martin",
+          "familyName": "Kanowski"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#claus.tempelmann@ovgu.de",
+          "@type": "Person",
+          "email": "claus.tempelmann@ovgu.de",
+          "name": " Claus Tempelmann",
+          "givenName": "Claus",
+          "familyName": "Tempelmann"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de",
+          "@type": "Person",
+          "email": "stefan.pollmann@ovgu.de",
+          "name": " Stefan Pollmann",
+          "givenName": "Stefan",
+          "familyName": "Pollmann"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de",
+          "@type": "Person",
+          "email": "m.hanke@fz-juelich.de",
+          "name": "Prof. Dr.  Michael Hanke",
+          "givenName": "Michael",
+          "familyName": "Hanke",
+          "honorificSuffix": "Prof. Dr."
+        },
+        {
+          "@id": "https://schema.datalad.org/person#Joerg.Stadler@ifn-magdeburg.de",
+          "@type": "Person",
+          "email": "Joerg.Stadler@ifn-magdeburg.de",
+          "name": " Jörg Stadler",
+          "givenName": "Jörg",
+          "familyName": "Stadler"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#michael@hoffmann@med.ovgu.de",
+          "@type": "Person",
+          "email": "michael@hoffmann@med.ovgu.de",
+          "name": " Michael Hoffmann",
+          "givenName": "Michael",
+          "familyName": "Hoffmann"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#florian.baumgartner@ovgu.de",
+          "@type": "Person",
+          "email": "florian.baumgartner@ovgu.de",
+          "name": " Florian J. Baumgartner",
+          "givenName": "Florian J.",
+          "familyName": "Baumgartner"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#falko.kaule@med.ovgu.de",
+          "@type": "Person",
+          "email": "falko.kaule@med.ovgu.de",
+          "name": " Falko R. Kaule",
+          "givenName": "Falko R.",
+          "familyName": "Kaule"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#vittorio.iacovella@gmail.com",
+          "@type": "Person",
+          "email": "vittorio.iacovella@gmail.com",
+          "name": " Vittorio Iacovella",
+          "givenName": "Vittorio",
+          "familyName": "Iacovella"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#swaroopgj@gmail.com",
+          "@type": "Person",
+          "email": "swaroopgj@gmail.com",
+          "name": " J. Swaroop Guntupalli",
+          "givenName": "J. Swaroop",
+          "familyName": "Guntupalli"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#daniel.kottke@ovgu.de",
+          "@type": "Person",
+          "email": "daniel.kottke@ovgu.de",
+          "name": " Daniel Kottke",
+          "givenName": "Daniel",
+          "familyName": "Kottke"
+        },
+        {
+          "@id": "https://schema.datalad.org/person#c.haeusler@fz-juelich.de",
+          "@type": "Person",
+          "email": "c.haeusler@fz-juelich.de",
+          "name": "M.Sc.  Christian Häusler",
+          "givenName": "Christian",
+          "familyName": "Häusler",
+          "honorificSuffix": "M.Sc."
+        }
+      ]
+    },
+    {
+      "@id": "#publicationList",
+      "@list": [
+        {
+          "@id": "#publication[0]",
+          "@type": "ScholarlyArticle",
+          "headline": "The effect of acquisition resolution on orientation decoding from V1: comparison of 3T and 7T",
+          "datePublished": 2018,
+          "sameAs": [
+            {
+              "DOI": "10.1101/305417"
+            }
+          ],
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#oliver.speck@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#renat.yakupov@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#martin.kanowski@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#claus.tempelmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "publication": {
+            "@id": "https://schema.datalad.org/publication_event#bioRxiv",
+            "@type": "PublicationEvent",
+            "name": "bioRxiv"
+          }
+        },
+        {
+          "@id": "#publication[1]",
+          "@type": "ScholarlyArticle",
+          "headline": "Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI",
+          "datePublished": 2018,
+          "sameAs": [
+            {
+              "DOI": "10.12688/f1000research.13689.2"
+            }
+          ],
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "publication": {
+            "@id": "https://schema.datalad.org/publication_event#F1000Research",
+            "@type": "PublicationEvent",
+            "name": "F1000Research"
+          },
+          "isPartOf": {
+            "@id": "#volume(7)",
+            "@type": "PublicationVolume",
+            "volumeNumber": 7
+          }
+        },
+        {
+          "@id": "#publication[2]",
+          "@type": "ScholarlyArticle",
+          "headline": "The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla",
+          "datePublished": 2017,
+          "pagination": "64-76",
+          "sameAs": [
+            {
+              "DOI": "10.1016/j.neuroimage.2016.12.040"
+            }
+          ],
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#renat.yakupov@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#oliver.speck@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "publication": {
+            "@id": "https://schema.datalad.org/publication_event#NeuroImage",
+            "@type": "PublicationEvent",
+            "name": "NeuroImage"
+          },
+          "isPartOf": {
+            "@id": "#volume(148)",
+            "@type": "PublicationVolume",
+            "volumeNumber": 148
+          }
+        },
+        {
+          "@id": "#publication[3]",
+          "@type": "ScholarlyArticle",
+          "headline": "Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex",
+          "datePublished": 2017,
+          "pagination": "219-222",
+          "sameAs": [
+            {
+              "DOI": "10.1016/j.dib.2017.05.014"
+            }
+          ],
+          "author": [
+            {
+              "@id": "https://schema.datalad.org/person#ayan.sengupta@nottingham.ac.uk"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#renat.yakupov@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#oliver.speck@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#stefan.pollmann@ovgu.de"
+            },
+            {
+              "@id": "https://schema.datalad.org/person#m.hanke@fz-juelich.de"
+            }
+          ],
+          "publication": {
+            "@id": "https://schema.datalad.org/publication_event#Data in Brief",
+            "@type": "PublicationEvent",
+            "name": "Data in Brief"
+          },
+          "isPartOf": {
+            "@id": "#volume(13)",
+            "@type": "PublicationVolume",
+            "volumeNumber": 13
+          }
+        }
+      ]
+    }
+  ]
+}
