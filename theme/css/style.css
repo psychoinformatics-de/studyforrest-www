@@ -114,12 +114,13 @@ a:active {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border: 1px solid #f0f0f0;
-  border-left: 10px solid #ccc;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 6px solid #0071c5;
   margin: 1.5em 0;
   padding: 0.5em 0.95em;
   quotes: "\201C""""\2018""\2019";
+  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 70%);
 }
 blockquote::before {
   color: #ccc;
