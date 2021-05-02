@@ -193,6 +193,8 @@ h3 { font-size: 1.6em; }
   h3 { font-size: 1.9em; }
 }
 
+iframe { border: 1px solid #ddd; }
+
 main {
   border-bottom: 0;
   border-top: 0;
@@ -555,6 +557,10 @@ footer p a { color: #666; }
 
 
 /* Explore Page */
+video.explore-parcellation {
+  width: 100%;
+}
+
 #nv_picker {
   line-height: 1.3;
 }
