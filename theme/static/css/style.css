@@ -158,20 +158,24 @@ form input[type=text], form input[type=search] {
   caret-color: #0071c5;
   font: 13px 'Open Sans', sans-serif;
   height: 2.5em;
+  margin: 0.5em 0;
   max-width: calc(100% - 3em);
   padding: 0.2em 1em;
   vertical-align: bottom;
   width: 25em;
 }
-form button {
+form button, form input[type=reset] {
   border: 1px solid #ccc;
-  border-left: 0;
   background: #f5f5f5;
   cursor: pointer;
   font-size: 13px;
   height: 2.5em;
+  margin: 0.5em 0;
   padding: 0.2em 0.5em;
   vertical-align: bottom;
+}
+form button {
+  border-left: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -372,6 +376,12 @@ th[data-sort="desc"]:after { content: '\e802'; }
   .card-tri > div { width: 30%; }
 }
 
+.data-category-count {
+  line-height: 1;
+}
+.data-category-count:empty {
+  display: none;
+}
 .card-data {
   border-top: 3px solid #eee;
 }
