@@ -189,8 +189,8 @@ h2 { font-size: 2.0em; }
 h3 { font-size: 1.6em; }
 @media screen and (min-width: 768px) {
   h1 { font-size: 2.9em; }
-  h2 { font-size: 2.7em; }
-  h3 { font-size: 1.6em; }
+  h2 { font-size: 2.5em; }
+  h3 { font-size: 1.9em; }
 }
 
 main {
@@ -374,6 +374,7 @@ th[data-sort="desc"]:after { content: '\e802'; }
     margin-bottom: 3em;
   }
   .card-tri > div { width: 30%; }
+  .card-tri h3 { font-size: 1.6em; }
 }
 
 .data-category-count {
@@ -405,6 +406,7 @@ th[data-sort="desc"]:after { content: '\e802'; }
   margin: 0 1em;
 }
 .card-data h3 {
+  font-size: 1.6em;
   line-height: 1.3;
   margin-top: calc(1em / 1.6);
 }
