@@ -1,0 +1,36 @@
+name: run tests
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Setup pelican
+        shell: bash
+        run: |
+          pip install wheel pyclean pelican beautifulsoup4
+          git submodule update --init
+
+      - name: Build
+        run: |
+          pyclean ./
+          pelican --delete-output-directory --debug content -s publishconf.py
+
+      - name: HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@master
+        with:
+          root: output/
