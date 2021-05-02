@@ -121,7 +121,7 @@ blockquote {
   margin: 1.5em 0;
   padding: 0.5em 0.95em;
   quotes: "\201C""""\2018""\2019";
-  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 70%);
+  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 20%);
 }
 blockquote::before {
   color: #ccc;
@@ -305,7 +305,7 @@ pre {
   padding: 1em 1.5em;
   display: block;
   word-wrap: break-word;
-  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 70%);
+  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 20%);
 }
 code {
   background: #eee;
