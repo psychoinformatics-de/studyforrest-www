@@ -57,11 +57,12 @@ License:
 Files:
   theme/fonts/fontello\*
 Copyright:
-  `Font Awesome`_, `Iacopo Neri`_ (world), `Edward Boatman`_ (beaker), `Arjun Adamson`_ (brain)
+  `Font Awesome`_, `Modern Pictograms`_, `Iacopo Neri`_ (world), `Edward Boatman`_ (beaker), `Arjun Adamson`_ (brain)
 License:
   `SIL OFL 1.1`_, `CC BY 3.0 US`_ (world, beaker, brain)
 
 .. _Font Awesome: https://fontawesome.com
+.. _Modern Pictograms: https://thedesignoffice.org/project/modern-pictograms
 .. _Iacopo Neri: https://thenounproject.com/iacopo3
 .. _Edward Boatman: https://thenounproject.com/edward
 .. _Arjun Adamson: https://thenounproject.com/arjunadamson

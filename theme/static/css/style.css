@@ -82,6 +82,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-ok:before { content: '\2713'; }
 .icon-world:before { content: '\e800'; }
 .icon-beaker:before { content: '\e801'; }
 .icon-down-dir:before { content: '\e802'; }
@@ -530,6 +531,12 @@ footer p a { color: #666; }
   .thanks-logos a {
     flex-basis: calc(calc(100% / 3) - 3em);
   }
+}
+
+
+/* Data Page */
+.participant-summary td {
+  font-family: "fontello";
 }
 
 
