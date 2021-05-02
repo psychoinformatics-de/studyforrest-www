@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,7 +53,7 @@
 
   <p>The dataset comprises many different data types, ranging from brain
   imaging modalities, to eye tracking, and measurements of heart beat
-  and breathing. This page offers a glimpse into some of these data type
+  and breathing. This page offers a glimpse into some of these data types
   and a few quality metrics used to investigate the utility of the dataset.
   A comprehensive assessment can be found in associated data papers that
   are available for every dataset component listed on the
@@ -102,9 +102,9 @@
   <h2>The Colorful World of Brain Function</h2>
   <p>One way to analyze brain function is to contrast where the brain consumes
   oxygen differently between particular conditions. A number of such analysis
-  result have been published on the <a href="https://neurovault.org/">NeuroVault</a>
+  results have been published on the <a href="https://neurovault.org/">NeuroVault</a>
   platform to enable further meta-analysis. Browse through the topics and
-  see how individual brain areas responds differently.</p>
+  see how individual brain areas respond differently.</p>
 
   <div id="nv_picker">
     <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
@@ -135,11 +135,11 @@
   </div>
 
   <div id="nv_viewers">
-    <iframe id="nv_viewer_308" data-show="true" src="https://neurovault.org/media/images/308/pycortex_all/index.html" frameborder="0"></iframe>
-    <iframe id="nv_viewer_1065" data-src="https://neurovault.org/media/images/1065/pycortex_all/index.html" frameborder="0"></iframe>
-    <iframe id="nv_viewer_5502" data-src="https://neurovault.org/media/images/5502/pycortex_all/index.html" frameborder="0"></iframe>
-    <iframe id="nv_viewer_6075" data-src="https://neurovault.org/media/images/6075/pycortex_all/index.html" frameborder="0"></iframe>
-    <iframe id="nv_viewer_8889" data-src="https://neurovault.org/media/images/8889/pycortex_all/index.html" frameborder="0"></iframe>
+    <iframe id="nv_viewer_308" data-show="true" src="https://neurovault.org/media/images/308/pycortex_all/index.html"></iframe>
+    <iframe id="nv_viewer_1065" data-src="https://neurovault.org/media/images/1065/pycortex_all/index.html"></iframe>
+    <iframe id="nv_viewer_5502" data-src="https://neurovault.org/media/images/5502/pycortex_all/index.html"></iframe>
+    <iframe id="nv_viewer_6075" data-src="https://neurovault.org/media/images/6075/pycortex_all/index.html"></iframe>
+    <iframe id="nv_viewer_8889" data-src="https://neurovault.org/media/images/8889/pycortex_all/index.html"></iframe>
   </div>
 
   <script>
@@ -174,7 +174,7 @@
   <h2>Brain Parcellations</h2>
   <p><i>Something about freesurfer...</i>
   </p>
-  <video autoplay loop muted width="100%">
+  <video autoplay loop muted class="explore-parcellation">
     <source src="/data/freesurfer_parcellations_av1.webm" type="video/webm" />
     <source src="/data/freesurfer_parcellations.mp4" type="video/mp4" />
     Your browser does not support the video tag.
