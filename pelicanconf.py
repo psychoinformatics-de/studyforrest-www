@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 #
 # About the site
 #
-AUTHOR = 'Michael Hanke & Alex Waite'
+AUTHOR = 'StudyForrest Project'
 SITENAME = 'studyforrest.org'
 SITEURL = ''
 
