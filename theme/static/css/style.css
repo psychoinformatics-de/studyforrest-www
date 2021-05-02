@@ -383,13 +383,15 @@ th[data-sort="desc"]:after { content: '\e802'; }
   display: none;
 }
 .card-data {
-  border-top: 3px solid #eee;
+  border: 1px solid #eee;
+  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 20%);
+  margin: 1em 0;
+}
+.card-data:first-of-type {
+  border-bottom-width: 2px;
 }
 .card-data:last-of-type {
-  border-bottom: 3px solid #eee;
-}
-.card-data:nth-child(2n) {
-  background-color: #f6f6f6;
+  border-bottom-width: 2px;
 }
 .card-data .thumbnail {
   margin: 1em;
