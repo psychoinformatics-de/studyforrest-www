@@ -57,13 +57,14 @@
      <em>StudyForrest</em> dataset. This includes data on brain structure, brain
      function, and movie stimulus properties.</p>
 
-  <form action="javascript:void(0)" onsubmit='filterForm(document.getElementById("filter_field").value);'>
-    <input id="filter_field" type="text" placeholder="Filter data types for..." aria-label="Filter data types for..." /><button title="Filter Table" type="submit"><span class="icon-filter"></span></button>
+  <form action="javascript:void(0)" onsubmit='filterForm(document.getElementById("data_filter_field").value);' onreset='filterForm("")'>
+    <input id="data_filter_field" type="text" placeholder="Filter data types for..." aria-label="Filter data types for..." /><button title="Filter Table" type="submit"><span class="icon-filter"></span></button>
+    <input type="reset" value="Reset">
   </form>
-  <p id="filter_count">Showing all data types</p>
 
-  <section>
+  <section class="data-category">
     <h2>Behavior and Brain Function</h2>
+    <p class="data-category-count"></p>
 
     <p>A diverse set of stimulation paradigms and data acquisition setups were
     utilized to characterize participant's brain function on a variety of
@@ -186,8 +187,9 @@
     </div>
   </section>
 
-  <section>
+  <section class="data-category">
     <h2>Brain Structure and Connectivity</h2>
+    <p class="data-category-count"></p>
 
     <p>A versatile set of structural brain images are available to provide a
        comprehensive in-vivo assessment of all participant's brain hardware.</p>
@@ -315,8 +317,9 @@
     </div>
   </section>
 
-  <section>
+  <section class="data-category">
     <h2>Movie Stimulus Annotations</h2>
+    <p class="data-category-count"></p>
     <p>Annotating the content of the Forrest Gump movie, the key stimulus used
        in the project, is an open-ended endeavour. Its naturalistic nature is
        rich in diverse visual and auditory features, but also the facets of
@@ -473,7 +476,7 @@
      re-share data that was preprocessed in a particular way, please contact
      <a href="mailto:info@studyforrest.org?subject=studyforrest.org">info@studyforrest.org.</a></p>
 
-  <table>
+  <table class="participant-summary">
     <thead>
       <tr>
         <th> </th>
@@ -498,19 +501,19 @@
         <th scope="rowgroup" colspan="15">Structural MRI</th>
       </tr>
       <tr><th>T1, T2, DWI, SWI, Angiography</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
       </tr>
     </tbody>
@@ -519,34 +522,34 @@
         <th scope="rowgroup" colspan="15">Natural Stimulation</th>
       </tr>
       <tr><th>2h audio movie (7T fMRI, cardiac &amp; respiratory trace)</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
       <tr><th>2h audio-visual movie (3T fMRI, eyetracking, cardiac &amp; respiratory trace)</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
@@ -564,7 +567,7 @@
         <td> </td>
         <td> </td>
         <td> </td>
-        <td>X</td>
+        <td>&check;</td>
       </tr>
     </tbody>
     <tbody>
@@ -572,83 +575,83 @@
         <th scope="rowgroup" colspan="15">Task fMRI</th>
       </tr>
       <tr><th>Listening to music (7T fMRI, cardiac &amp; respiratory trace)</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
       <tr><th>Retinotopic mapping (3T fMRI)</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
       </tr>
       <tr><th>Localizer for visual areas (3T fMRI)</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
       <tr><th>Flickering oriented gratings (7T fMRI @ 0.8, 1.4, 2, and 3mm)</th>
         <td> </td>
-        <td>X</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
-        <td> </td>
-        <td> </td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
-        <td>X</td>
-        <td>X</td>
         <td> </td>
-        <td>X</td>
-        <td>X</td>
+        <td> </td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td> </td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
       </tr>
       <tr><th>Flickering oriented gratings (3T fMRI @ 1.4, 2, and 3mm)</th>
         <td> </td>
         <td> </td>
         <td> </td>
-        <td>X</td>
+        <td>&check;</td>
         <td> </td>
-        <td>X</td>
-        <td> </td>
-        <td> </td>
-        <td>X</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td> </td>
+        <td> </td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
       </tr>
     </tbody>
@@ -657,106 +660,97 @@
         <th scope="rowgroup" colspan="15">Preprocessed Data</th>
       </tr>
       <tr><th>Freesurfer cortical surface reconstruction</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
       <tr><th>Participant and scan-specific template MRI images (for alignment, masking, structural properties) &amp; (non-)linear transformations between image spaces</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
       <tr><th>Per-participant aligned fMRI data for within-subject analysis</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
       <tr><th>Audio-visual movie fMRI aggregate ROI timeseries for Shen et al. (2013) cortex parcellation</th>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
-        <td>X</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
+        <td>&check;</td>
         <td> </td>
         <td> </td>
       </tr>
     </tbody>
   </table>
   <script>
-    var fancy_data_cards = document.getElementsByClassName('card-data');
-    var fancy_search     = document.getElementById('filter_field');
+    var data_categories = document.getElementsByClassName('data-category');
+    var data_filter     = document.getElementById('data_filter_field');
 
     // check if there's a term to filter from the URL
     var term = getURLParam('filter');
     if (term) {
-      fancy_search.value = term;
+      data_filter.value = term;
       filterDataTypes(term);
     }
 
     function filterForm(term) {
       filterDataTypes(term);
+      var history_url = '';
+      var history_title = '';
 
-      // add to address bar and history
-      var new_url = location.href.split('?')[0] + '?filter=' + term;
-      history.pushState({}, "Data - " + term, new_url);
-      return false;
-    }
-
-    function filterDataTypes(term) {
-      var total = fancy_data_cards.length;
-      var shown = total;
-
-      term = term.trim();
-      for (var i=0; i < fancy_data_cards.length; i++) {
-        if (fancy_data_cards[i].textContent.toLowerCase().indexOf(term.toLowerCase()) == -1) {
-          fancy_data_cards[i].style.display = 'none';
-          shown--;
-        } else {
-          fancy_data_cards[i].style.display = '';
-        }
+      if (!term || term.length === 0) {
+        history_url = location.href.split('?')[0];
+      } else {
+        history_url = history_url + '?filter=' + term;
+        history_title = 'Data - ' + term;
       }
 
-      document.getElementById('filter_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' data types</strong>.';
+      // add to address bar and history
+      history.pushState({}, history_title, history_url);
+      return false;
     }
 
     function getURLParam(param) {
@@ -767,6 +761,33 @@
           return item.split("=")[0] == param && (val = item.split("=")[1])
         });
       return val;
+    }
+
+    function filterDataTypes(term) {
+      term = term.trim();
+
+      for (var i=0; i < data_categories.length; i++) {
+        var category = data_categories[i];
+        var category_count = category.querySelector('.data-category-count');
+        var category_cards = category.getElementsByClassName('card-data');
+        var category_total = category_cards.length;
+        var category_shown = category_total;
+
+        for (var j=0; j < category_cards.length; j++) {
+          if (category_cards[j].textContent.toLowerCase().indexOf(term.toLowerCase()) == -1) {
+            category_cards[j].style.display = 'none';
+            category_shown--;
+          } else {
+            category_cards[j].style.display = '';
+          }
+        }
+
+        if (!term || term.length === 0) {
+          category_count.innerHTML = '';
+        } else {
+          category_count.innerHTML = '<strong>Showing ' + category_shown + ' of ' + category_total + ' data types containing \'' + term + '\'</strong>.';
+        }
+      }
     }
   </script>
 
