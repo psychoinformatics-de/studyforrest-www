@@ -49,10 +49,13 @@
   <p>This page lists publications that either describe data provided by the
      <em>StudyForrest</em> project, or studies using these data or protocols.</p>
 
-  <form action="javascript:void(0)" onsubmit='filterForm(document.getElementById("filter_field").value);'>
-    <input id="filter_field" type="text" placeholder="Filter table for..." aria-label="Filter table for..." /><button title="Filter Table" type="submit"><span class="icon-filter"></span></button>
+  <form action="javascript:void(0)" onsubmit='filterForm(document.getElementById("publications_filter_field").value);'>
+    <input id="publications_filter_field" type="text" placeholder="Filter table for..." aria-label="Filter table for..." /><button title="Filter Table" type="submit"><span class="icon-filter"></span></button>
   </form>
-  <p id="filter_count">Showing all publications</p>
+  <noscript>
+    <p><strong>Enable JavaScript to filter through publications.</strong></p>
+  </noscript>
+  <p id="publication_count"></p>
 
   <table id="sort-me">
           <thead>
@@ -571,11 +574,11 @@
           </tbody>
           </table>
   <script>
-    var fancy_table  = document.getElementById('sort-me');
-    var fancy_search = document.getElementById('filter_field');
+    var pub_table  = document.getElementById('sort-me');
+    var pub_filter = document.getElementById('publications_filter_field');
 
     // attach sorting to table headers
-    var headers = fancy_table.querySelector('thead').querySelectorAll('th');
+    var headers = pub_table.querySelector('thead').querySelectorAll('th');
     for (var i=0; i < headers.length; i++) {
       headers[i].addEventListener('click', sortColumn, false);
       // table is already sorted by year; visually mark as such
@@ -587,7 +590,7 @@
     // check if there's a term to filter from the URL
     var term = getURLParam('filter');
     if (term) {
-      fancy_search.value = term;
+      pub_filter.value = term;
       filterTable(term);
     }
 
@@ -601,7 +604,7 @@
     }
 
     function filterTable(term) {
-      var rows  = fancy_table.querySelector('tbody').querySelectorAll('tr');
+      var rows  = pub_table.querySelector('tbody').querySelectorAll('tr');
       var total = rows.length;
       var shown = total;
 
@@ -615,7 +618,7 @@
         }
       }
 
-      document.getElementById('filter_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>.';
+      document.getElementById('publication_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>.';
     }
 
     function getURLParam(param) {
