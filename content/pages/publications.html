@@ -8,8 +8,11 @@
   <p>This page lists publications that either describe data provided by the
      <em>StudyForrest</em> project, or studies using these data or protocols.</p>
 
-  <form action='javascript:void(0)' onsubmit='filterForm(document.getElementById("publications_filter_field").value);'>
+  <form action='javascript:void(0)'
+        onSubmit='filterForm(document.getElementById("publications_filter_field").value);'
+        onReset='filterForm("")'>
     <input id='publications_filter_field' type="text" placeholder="Filter table for..." aria-label="Filter table for..." /><button title='Filter Table' type="submit"><span class="icon-filter"></span></button>
+    <input type="reset" value="Reset">
   </form>
   <noscript>
     <p><strong>Enable JavaScript to filter through publications.</strong></p>
@@ -555,10 +558,18 @@
 
     function filterForm(term) {
       filterTable(term);
+      var history_url = '';
+      var history_title = '';
+
+      if (!term || term.length === 0) {
+        history_url = location.href.split('?')[0];
+      } else {
+        history_url = history_url + '?filter=' + term;
+        history_title = 'Data - ' + term;
+      }
 
       // add to address bar and history
-      var new_url = location.href.split('?')[0] + '?filter=' + term;
-      history.pushState({}, "Publications - " + term, new_url);
+      history.pushState({}, history_title, history_url);
       return false;
     }
 
@@ -577,7 +588,11 @@
         }
       }
 
-      document.getElementById('publication_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>.';
+      if (!term || term.length === 0) {
+        document.getElementById('publication_count').innerHTML = '';
+      } else {
+        document.getElementById('publication_count').innerHTML = '<strong>Showing ' + shown + ' of ' + total + ' publications</strong>.';
+      }
     }
 
     function getURLParam(param) {
