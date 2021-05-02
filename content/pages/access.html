@@ -5,21 +5,23 @@
   <meta name="url" content="access.html" />
 </head>
 <body>
-  <h2>Download with DataLad</h2>
   <p>All <em>StudyForrest</em> data are contained in a collection of
      <a href="https://www.datalad.org/">DataLad</a> datasets hosted on
      <a href="https://github.com/psychoinformatics-de/studyforrest-data">GitHub</a>,
      <a href="https://openneuro.org/datasets/ds000113">OpenNeuro</a>,
-     and <a href="https://gin.g-node.org/studyforrest">GIN</a>.
-     DataLad provides fine-grained data access down to the level of
+     and <a href="https://gin.g-node.org/studyforrest">GIN</a>.</p>
+
+  <p>DataLad provides fine-grained data access down to the level of
      individual files, and allows for tracking future updates. It is a free
      and open source command line tool, available for all major operating
-     systems, and builds up on Git and <a href="https://git-annex.branchable.com">git-annex</a>
-     to allow sharing, synchronizing, and version controlling collections of
-     large files. You can find information on how to install DataLad in the
-     <a href="https://handbook.datalad.org/en/latest/intro/installation.html">DataLad Handbook</a>.
+     systems, and builds upon Git and <a href="https://git-annex.branchable.com">git-annex</a>
+	 to share, synchronize, and version control collections of large files.</p>
 
-  <h3>Get the Dataset</h3>
+  <p>More information on DataLad and
+     <a href="https://handbook.datalad.org/en/latest/intro/installation.html">how to install it</a>
+     can be found in the <a href="https://handbook.datalad.org/en/latest/index.html">DataLad Handbook</a>.</p>
+
+  <h2>Get the Dataset</h2>
   <p>The dataset can be <code>cloned</code> by running:</p>
   <pre><code>datalad clone https://github.com/psychoinformatics-de/studyforrest-data</code></pre>
   <p>Once the dataset is cloned, it is a light-weight directory on your local
@@ -44,10 +46,6 @@
      subdataset contents, and retrieve individual files with <code>datalad
      get</code>. If you use <code>datalad get path/to/subdataset</code>,
      all contents of the subdataset will be downloaded at once.
-
-  <h3>More Information</h3>
-  <p>More information on DataLad and how to use it can be found in the
-     <a href="https://handbook.datalad.org/en/latest/index.html">DataLad Handbook</a>.
 
   <h2>Terms of Use</h2>
   <p>All data are released to the public under the
