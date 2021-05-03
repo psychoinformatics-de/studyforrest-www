@@ -48,26 +48,25 @@
   
   <noscript>
     <p><strong>The majority of demos on this page are interactive and require
-        JavaScript to be enabled.</strong></p>
+       JavaScript to be enabled.</strong></p>
   </noscript>
 
-  <p>The dataset comprises many different data types, ranging from brain
-  imaging modalities, to eye tracking, and measurements of heart beat
-  and breathing. This page offers a glimpse into some of these data types
-  and a few quality metrics used to investigate the utility of the dataset.
-  A comprehensive assessment can be found in associated data papers that
-  are available for every dataset component listed on the
-  <a href="/data.html">Data Page</a>.</p>
-
+  <p>The dataset comprises many diverse data types, ranging from brain imaging
+     modalities to eye tracking to measurements of heart beat and respiration.
+     This page offers a few demos to provide a glimpse into a selection of the
+     data types and also a few quality metrics used to investigate the utility
+     of the dataset. A comprehensive assessment can be found in the associated
+     data papers that are available for every dataset component listed on the
+     <a href="/data.html">Data Page</a>.</p>
 
   <h2>The "Hairy" Brain</h2>
   <p>Diffusion-weighted imaging (DWI) is a technique that can be used to
      visualize neural tracts or <strong>nerve fibre bundles</strong> by
      measuring the direction of water diffusion in brain tissue. The example
-     figure below shows a so-called <strong>connectome</strong> — the structure
-     of nerve fibre pathways in the brain — estimated from the DWI data of a
-     single individual. The red horizontal lines in the center of the image
-     show the <a href="https://en.wikipedia.org/wiki/Corpus_callosum">corpus callosum</a>,
+     figure below shows a so-called <strong>connectome</strong> &mdash; the
+     structure of nerve fibre pathways in the brain &mdash; estimated from the
+     DWI data of a single individual. The red horizontal lines in the center of
+     the image show the <a href="https://en.wikipedia.org/wiki/Corpus_callosum">corpus callosum</a>,
      the bridge between the two brain halves. The blue vertical lines in the
      lower center of the image show the <a href="https://en.wikipedia.org/wiki/Pyramidal_tracts">corticospinal tract</a>,
      where the brain is connected with the nervous system in other parts of the
@@ -101,15 +100,15 @@
 
   <h2>The Colorful World of Brain Function</h2>
   <p>One way to analyze brain function is to contrast where the brain consumes
-  oxygen differently between particular conditions. A number of such analysis
-  results have been published on the <a href="https://neurovault.org/">NeuroVault</a>
-  platform to enable further meta-analysis. Browse through the topics and
-  see how individual brain areas respond differently.</p>
+     oxygen differently between particular conditions. A number of such analysis
+     results have been published on the <a href="https://neurovault.org/">NeuroVault</a>
+     platform to enable further meta-analysis. Browse through the topics and
+     see how individual brain areas respond differently.</p>
 
   <div id="nv_picker">
     <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
        <label for="nv_308">High-resolution 7-Tesla fMRI data on the perception of
-           musical genres – an extension to the StudyForrest dataset.</label>
+           musical genres &mdash; an extension to the StudyForrest dataset.</label>
     </p>
 
     <p><input type="radio" name="neurovault_ds" id="nv_1065" value="1065">
@@ -172,7 +171,7 @@
   </script>
 
   <h2>Brain Parcellations</h2>
-  <p><i>Something about freesurfer...</i>
+  <p><strong>TODO: Something about Freesurfer...</strong>
   </p>
   <video autoplay loop muted class="explore-parcellation">
     <source src="/data/freesurfer_parcellations_av1.webm" type="video/webm" />
@@ -181,16 +180,18 @@
   </video>
 
   <h2>Functional Data Quality</h2>
-  <p>Since head movement during the acquisition of a functional MRI time series can be
-    detrimental for the eventual data analysis and results, volume-to-volume head movement
-    parameters are typically inspected as a quality indicator of fMRI data. Framewise
-    displacement (FD) captures head movement in a single value per volume, resulting in an
-    FD time series per functional run. Below we present interactive distribution plots of
-    FD values for all participants over all runs of the 7T dataset. Distributions and an example time
-    series are also presented for a single subject and a single run.
+  <p>Since head movement during the acquisition of a functional MRI time series
+     can be detrimental for the eventual data analysis and results,
+     volume-to-volume head movement parameters are typically inspected as a
+     quality indicator of fMRI data. Framewise displacement (FD) captures head
+     movement in a single value per volume, resulting in an FD time series per
+     functional run. Below we present interactive distribution plots of FD
+     values for all participants over all runs of the 7T dataset. Distributions
+     and an example time series are also presented for a single subject and a
+     single run.
   </p>
 
-  <h3>7T Audio Movie Data - 20 Subjects</h3>
+  <h3>7T Audio Movie Data: 20 Subjects</h3>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script>
@@ -255,7 +256,7 @@
   </script>
   <div id="fdAllSubs"></div>
 
-  <h3>7T Audio Movie Data - 1 Subject, 8 Runs</h3>
+  <h3>7T Audio Movie Data: 1 Subject, 8 Runs</h3>
   <script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
@@ -316,7 +317,7 @@
   </script>
   <div id="fdSingleSub"></div>
 
-  <h3>7T Audio Movie Data - 1 Subject, 1 Run</h3>
+  <h3>7T Audio Movie Data: 1 Subject, 1 Run</h3>
   <script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
