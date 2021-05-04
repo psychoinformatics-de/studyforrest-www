@@ -221,16 +221,16 @@ window.onload = function execute(){
                     l_o++;
                 }
             } else {
-                out += "<div id='tipue_search_error'>Nothing found.</div>";
+                out += "<div id='tipue_search_error'>No search results for '" + d_o + "'.</div>";
             }
         } else {
             if (show_stop) {
-                out += "<div id='tipue_search_error'>Nothing found. Common words are largely ignored.</div>";
+                out += "<div id='tipue_search_error'>No search results for '" + d_o + "'. Most common words are ignored.</div>";
             } else {
                 if (set.minimumLength == 1) {
-                    out += "<div id='tipue_search_error'>Search should be one character or more.</div>";
+                    out += "<div id='tipue_search_error'>The search term should be one character or more.</div>";
                 } else {
-                    out += "<div id='tipue_search_error'>Search should be " + set.minimumLength + " characters or more.</div>";
+                    out += "<div id='tipue_search_error'>The search term should be " + set.minimumLength + " characters or more.</div>";
                 }
             }
         }
