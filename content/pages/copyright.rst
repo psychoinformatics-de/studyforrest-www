@@ -73,6 +73,8 @@ Copyright:
 License:
   `CC BY-SA 4.0`_
 
+.. _CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+
 ----
 
 Files:
