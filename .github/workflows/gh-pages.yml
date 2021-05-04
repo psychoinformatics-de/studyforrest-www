@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: |
           pyclean ./
-          pelican --delete-output-directory --debug content -s publishconf.py
+          pelican --delete-output-directory --debug --fatal errors content -s publishconf.py
 
       - name: HTML5 Validator
         uses: Cyb3r-Jak3/html5validator-action@master
