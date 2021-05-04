@@ -100,34 +100,29 @@
 /*
  * Element Overrides
  */
-
-/* Link rules from http://mrmrs.io/links/ - MIT License */
 a {
   color: #0071c5;
   transition: color .4s;
   text-decoration: none;
 }
-a:link, a:visited { color: #0071c5; }
-a:hover { color: #003c71; }
-a:active {
-  color: #007BE6;
-  transition: color .3s;
-}
+a:visited { color: #0071c5; }
+a:hover   { color: #003c71; }
+a:active  { color: #007BE6; }
 
 blockquote {
   background: #f4f4f4;
   border: 1px solid #ddd;
   border-left: 6px solid #0071c5;
   margin: 1.5em 0;
-  padding: 0.5em 0.95em;
+  padding: 0.5em 1em;
   quotes: "\201C""""\2018""\2019";
-  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 20%);
+  box-shadow: 0 12px 18px -12px rgba(0, 0, 0, .2);
 }
 blockquote::before {
   color: #ccc;
   content: open-quote;
   font-size: 5em;
-  line-height: 0em;
+  line-height: 0;
   margin-right: 0.5rem;;
   vertical-align: -2.5rem;
 }
@@ -159,7 +154,7 @@ form input[type=text], form input[type=search] {
   font: 13px 'Open Sans', sans-serif;
   height: 2.5em;
   margin: 0.5em 0;
-  max-width: calc(100% - 3em);
+  max-width: calc(100% - 2.5em);
   padding: 0.2em 1em;
   vertical-align: bottom;
   width: 25em;
@@ -181,7 +176,7 @@ form button {
 h1, h2, h3, h4, h5 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: normal;
-  line-height: 2em;
+  line-height: 2;
   margin: 0.3em 0;
 }
 h1 { font-size: 2.2em; }
@@ -200,7 +195,7 @@ main {
   border-top: 0;
   display: block; /* IE9->11 "support" HTML5 and arbitrary tags, and yet fail on <main>. Classic. */
   flex: 1;
-  line-height: 2em;
+  line-height: 2;
   max-width: calc(100vw);
 }
 main #content {
@@ -227,7 +222,7 @@ nav h1 {
   font-size: 25px;
   font-weight: bold;
   line-height: 1;
-  margin: 1em 1.1em 0em 0;
+  margin: 1em 1em 0 0;
 }
 nav h1 .icon-studyforrest:before {
   margin: 0;
@@ -240,9 +235,9 @@ nav li {
   list-style-type: none;
   margin: 0.3em 0;
 }
-nav li a:link, nav li a:visited {
+nav li a, nav li a:visited {
   color: #777;
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
   padding: 0;
 }
 nav form {
@@ -264,15 +259,15 @@ nav form input[type=search] {
   }
   nav li { display: inline-block; }
   nav li a {
-    margin: 0.8em 1.1em;
+    margin: 0.8em 1em;
     padding: 0 0.3em;
-    transition: color 0.35s, border-color 0.35s;
+    transition: color 0.4s, border-color 0.4s;
   }
   nav li:first-child a { margin-left: 0; }
   nav li:last-child a { margin-right: 0; }
   nav li a:hover {
     border-color: #aaa;
-    color: #333;
+    color: #555;
   }
 }
 @media screen and (min-width: 820px) {
@@ -283,10 +278,10 @@ nav form input[type=search] {
     margin: 0 auto;
     max-width: calc(1200px - 10em);
   }
-  nav h1 { margin: 0.8em 1.1em 0 0; }
+  nav h1 { margin: 0.8em 1em 0 0; }
   nav form  {
     border-top: 0;
-    margin-left: 1.1em;
+    margin-left: 1em;
   }
 }
 
@@ -294,23 +289,19 @@ pre, code {
   font-family: 'Inconsolata', monospace;
 }
 pre {
-  margin: 0.2em 0;
-  padding: 0.5em 1em;
-  overflow-x: auto;
   background: #f4f4f4;
   border: 1px solid #ddd;
   border-left: 3px solid #0071c5;
+  box-shadow: 0 12px 18px -12px rgba(0, 0, 0, .2);
   color: #333;
-  page-break-inside: avoid;
   font-family: monospace;
   line-height: 1.6;
-  margin-bottom: 1.6em;
+  margin: 0.2em 0 1.6em 0;
   max-width: 100%;
-  overflow: auto;
+  overflow-x: auto;
   padding: 1em 1.5em;
-  display: block;
+  page-break-inside: avoid;
   word-wrap: break-word;
-  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 20%);
 }
 code {
   background: #eee;
@@ -370,7 +361,7 @@ th[data-sort="desc"]:after { content: '\e802'; }
 }
 .card-tri [class^="icon-"] {
   font-size: 8em;
-  line-height: 1em;
+  line-height: 1;
 }
 @media (min-width: 768px) {
   .card-tri {
@@ -390,7 +381,7 @@ th[data-sort="desc"]:after { content: '\e802'; }
 }
 .card-data {
   border: 1px solid #eee;
-  box-shadow: 0 12px 18px -12px rgb(0 0 0 / 20%);
+  box-shadow: 0 12px 18px -12px rgba(0, 0, 0, .2);
   margin: 1em 0;
 }
 .card-data:first-of-type {
@@ -478,33 +469,19 @@ footer ul.social-links {
 }
 footer .social-links li {
   display: inline-block;
-  padding: 0;
 }
 footer .social-links a {
   display: inline-block;
   font-size: 2em;
   transition: transform 0.2s linear;
 }
-footer .social-links a:hover { transform: translateY(-0.3rem); }
 .social-links .icon-github  { color: #111010; }
 .social-links .icon-twitter { color: #4da7de; }
 
-footer h2 {
-  font-size: 1.3em;
-  font-weight: bold;
-  margin: 0.2em 1em;
-}
 footer p {
   margin: 0.7em 1em;
-  padding: 0;
 }
 footer p a { color: #666; }
-
-
-.summary img {
-  height: auto;
-  max-width: 100%;
-}
 
 
 /* XTK */
@@ -543,12 +520,12 @@ footer p a { color: #666; }
 }
 @media (min-width: 550px) {
   .thanks-logos a {
-    flex-basis: calc(calc(100% / 2) - 3em);
+    flex-basis: calc((100% / 2) - 3em);
   }
 }
 @media (min-width: 1024px) {
   .thanks-logos a {
-    flex-basis: calc(calc(100% / 3) - 3em);
+    flex-basis: calc((100% / 3) - 3em);
   }
 }
 
@@ -609,9 +586,9 @@ video.explore-parcellation {
   font-size: 2.2em;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.3;
-  margin: 0;
+  margin: 0.5em;
   max-width: 60%;
-  text-shadow: 0px 0px 25px #000;
+  text-shadow: 0 0 25px #000;
 }
 @media(max-width:767px){ #header h2 { font-size: 1.5em; } }
 @media(max-width:992px){ #header h2 { max-width: 90%; } }
