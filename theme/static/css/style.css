@@ -281,7 +281,7 @@ nav form input[type=search] {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: calc(1200px - 10em);
   }
   nav h1 { margin: 0.8em 1.1em 0 0; }
   nav form  {
