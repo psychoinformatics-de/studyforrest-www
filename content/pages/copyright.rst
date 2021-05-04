@@ -10,7 +10,8 @@ This page loosely follows `Debian's copyright file syntax`_.
 Files:
   \*
 Copyright:
-  2014–2018, Michael Hanke and Alex Waite
+  2014–2021, Alex Waite, Michael Hanke, Laura Waite, Yarik Halschenko,
+  Adina Wagner, Christian Mönch, and Stephan Heunis
 License:
   `Attribution-ShareAlike 4.0 International`_
 
@@ -21,9 +22,56 @@ License:
 Files:
   img/\*
 Copyright:
-  Belongs to their respective owners
+  2014–2021, Michael Hanke and Alex Waite
 License:
-  All Rights Reserved
+  `ODC Public Domain Dedication and Licence (PDDL)`_
+
+.. _ODC Public Domain Dedication and Licence (PDDL): https://opendatacommons.org/licenses/pddl/1.0/
+
+----
+
+Files:
+  img/logo/\*
+License:
+  Public Domain
+
+----
+
+Files:
+  img/logo/gin.svg
+Copyright:
+  2016, GIN
+License:
+  Unknown. See https://github.com/G-Node/logOS/issues/2
+
+----
+
+Files:
+  img/logo/openneuro.svg
+Copyright:
+  2018, OpenNeuro
+License:
+  `CC BY 4.0`_
+
+.. _CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+----
+
+Files:
+  data/\*, metadata/\*
+Copyright:
+  2014–2021, Michael Hanke, Christian Mönch, and Stephan Heunis
+License:
+  `ODC Public Domain Dedication and Licence (PDDL)`_
+
+----
+
+Files:
+  data/freesurfer_parcellation\*
+Copyright:
+  2021, Stephan Heunis
+License:
+  `CC BY-SA 4.0`_
 
 ----
 
@@ -34,8 +82,8 @@ Copyright:
 License:
   `MIT`_
 Notes:
-  The theme is derived from Daan Debie's `pelican-bootstrap3`_ theme for
-  `Pelican`_. It has been almost entirely rewritten since then by Alex Waite.
+  The theme originally derived from Daan Debie's `pelican-bootstrap3`_ theme for
+  `Pelican`_. Since then, it has evolved and been almost entirely rewritten.
 
 .. _MIT: https://opensource.org/licenses/MIT
 .. _pelican-bootstrap3: https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
@@ -87,17 +135,6 @@ Copyright:
   1994, Paramount Pictures Corporation
 License:
   All Rights Reserved
-
-----
-
-Files:
-  theme/js/papaya.js, theme/css/papaya.css
-Copyright:
-  2012-2015, RII-UTHSCSA
-License:
-  `BSD-3-Clause`_
-
-.. _BSD-3-Clause: https://opensource.org/licenses/BSD-3-Clause
 
 ----
 
