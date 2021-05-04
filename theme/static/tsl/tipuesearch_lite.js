@@ -50,10 +50,8 @@ window.onload = function execute(){
     }
     let params = new URLSearchParams(document.location.search.substring(1));
 
-    if (params.get("q")) {
-        document.getElementById("tipue_search_input").value = params.get("q");
-        getTipueSearch();
-    }
+    document.getElementById("tipue_search_input").value = params.get("q");
+    getTipueSearch();
 
     function getTipueSearch() {
         var out = "";
