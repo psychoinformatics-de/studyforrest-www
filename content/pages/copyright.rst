@@ -113,9 +113,9 @@ License:
 
 .. _Font Awesome: https://fontawesome.com
 .. _Modern Pictograms: https://thedesignoffice.org/project/modern-pictograms
-.. _Iacopo Neri: https://thenounproject.com/iacopo3
-.. _Edward Boatman: https://thenounproject.com/edward
-.. _Arjun Adamson: https://thenounproject.com/arjunadamson
+.. _Iacopo Neri: https://thenounproject.com/iacopo3/
+.. _Edward Boatman: https://thenounproject.com/edward/
+.. _Arjun Adamson: https://thenounproject.com/arjunadamson/
 .. _CC BY 3.0 US: https://creativecommons.org/licenses/by/3.0/us/
 
 ----
