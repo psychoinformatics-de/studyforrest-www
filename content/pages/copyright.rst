@@ -26,7 +26,7 @@ Copyright:
 License:
   `ODC Public Domain Dedication and Licence (PDDL)`_
 
-.. _ODC Public Domain Dedication and Licence (PDDL): https://opendatacommons.org/licenses/pddl/1.0/
+.. _ODC Public Domain Dedication and Licence (PDDL): https://opendatacommons.org/licenses/pddl/1-0/
 
 ----
 
