@@ -106,10 +106,22 @@ def restructure_to_html(metadata_db):
         title = v['title']
         date = v['pubdate'][:4]
         # construct a doi url
-        url = 'https://www.doi.org/' + \
-              [v['articleids'][i]['value']
-               for i in range(len(v['articleids']))
-               if v['articleids'][i]['idtype'] == 'doi'][0]
+        customurl = False
+        customurl_value = None
+        for i in range(len(v['articleids'])):
+            if v['articleids'][i]['idtype'] == 'doi':
+                if v['articleids'][i]['value'].startswith('http'):
+                    print(f"I did not find a DOI for the paper {title}, but it"
+                          f"seems I got an HTTP or HTTPS URL for them.")
+                    customurl_value = v['articleids'][i]['value']
+                    customurl = True
+        if not customurl:
+            url = 'https://www.doi.org/' + \
+                  [v['articleids'][i]['value']
+                   for i in range(len(v['articleids']))
+                   if v['articleids'][i]['idtype'] == 'doi'][0]
+        else:
+            url = customurl_value
         journal = v['fulljournalname']
         if v['articletype'] == 'TODO':
             # this has not been altered by a human yet. By default,
