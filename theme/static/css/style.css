@@ -222,7 +222,7 @@ nav h1 {
   font-size: 25px;
   font-weight: bold;
   line-height: 1;
-  margin: 1em 1em 0 0;
+  margin: 1em 0 0 0;
 }
 nav h1 .icon-studyforrest:before {
   margin: 0;
@@ -238,7 +238,7 @@ nav li {
 nav li a, nav li a:visited {
   color: #777;
   border-bottom: 2px solid transparent;
-  padding: 0;
+  padding: 0 0.3em;
 }
 nav form {
   border-top: 1px solid #bbb;
@@ -252,15 +252,17 @@ nav form input[type=search] {
 }
 @media screen and (min-width: 470px) {
   nav { text-align: left; }
-  nav h1 { display: inline-block; }
+  nav h1 {
+    display: inline-block;
+    margin: 1em 1em 0 0;
+  }
   nav ul {
     display: inline-block;
     margin: 0.5em 0 1em 0;
   }
   nav li { display: inline-block; }
   nav li a {
-    margin: 0.8em 1em;
-    padding: 0 0.3em;
+    margin: 0.8em 0.7em;
     transition: color 0.4s, border-color 0.4s;
   }
   nav li:first-child a { margin-left: 0; }
