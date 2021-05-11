@@ -31,6 +31,48 @@ License:
 ----
 
 Files:
+  img/data/thumb_annot_confounds.png
+Copyright:
+  Settings And Display Collection, Ui Interface Vectors
+License:
+  `CC0 1.0 Universal Public Domain Dedication`_
+
+.. _CC0 1.0 Universal Public Domain Dedication: https://creativecommons.org/publicdomain/zero/1.0/
+
+----
+
+Files:
+  /img/data/thumb_annot_music.jpg
+Copyright:
+  TODO: Unknown
+License:
+  `CC BY-SA 4.0`_
+
+----
+
+Files:
+  /img/data/thumb_annot_irony.jpg
+Copyright:
+  2005, David Goehring
+License:
+  `Attribution 2.0 Generic (CC BY 2.0)`_
+
+.. _Attribution 2.0 Generic (CC BY 2.0): https://creativecommons.org/licenses/by/2.0/
+
+----
+
+Files:
+  /img/data/thumb_annot_bodycontact.jpg, /img/data/thumb_annot_emotion.jpg,
+  /img/data/thumb_annot_eyegaze.jpg, /img/data/thumb_annot_locationtime.jpg,
+  /img/data/thumb_annot_speech.jpg
+Copyright:
+  1994, Paramount Pictures Corporation
+License:
+  All Rights Reserved
+
+----
+
+Files:
   img/logo/\*
 License:
   Public Domain
