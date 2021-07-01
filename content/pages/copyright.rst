@@ -82,9 +82,11 @@ License:
 Files:
   img/logo/gin.svg
 Copyright:
-  2016, GIN
+  2017, Christian Spalthoff and German Neuroinformatics Node
 License:
-  Unknown. See https://github.com/G-Node/logOS/issues/2
+  `Attribution 4.0 Generic (CC BY 4.0)`_
+
+.. _Attribution 4.0 Generic (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
 
 ----
 
