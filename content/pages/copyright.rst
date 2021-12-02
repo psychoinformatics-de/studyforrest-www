@@ -111,7 +111,7 @@ License:
 ----
 
 Files:
-  data/freesurfer_parcellation\*
+  img/freesurfer_parcellations.webp
 Copyright:
   2021, Stephan Heunis
 License:
