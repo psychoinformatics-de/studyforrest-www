@@ -111,7 +111,7 @@ License:
 ----
 
 Files:
-  data/freesurfer_parcellation\*
+  img/freesurfer_parcellations.webp
 Copyright:
   2021, Stephan Heunis
 License:
@@ -176,7 +176,7 @@ License:
 ----
 
 Files:
-  /theme/img/run_forrest_web.jpg
+  /theme/img/run_forrest_web.webp
 Copyright:
   1994, Paramount Pictures Corporation
 License:
