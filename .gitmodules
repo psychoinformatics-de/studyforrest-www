@@ -1,3 +1,6 @@
 [submodule "pelican-plugins/sitemap"]
 	path = pelican-plugins/sitemap
 	url = https://github.com/getpelican-plugins/sitemap
+[submodule "tipue-search-lite"]
+	path = tipue-search-lite
+	url = https://github.com/psyinfra/tipue-search-lite
