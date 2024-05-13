@@ -18,7 +18,7 @@ LOCALE = 'en_US.UTF-8'
 #
 PATH = 'content'
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['tipue_search', 'sitemap']
+PLUGINS = ['tipue_search', 'sitemap', 'headerid']
 SITEMAP = { 'format': 'xml' }
 
 THEME = 'theme'
@@ -41,8 +41,6 @@ EXTRA_PATH_METADATA = {
     "static/site.webmanifest": {'path': ''},
 }
 
-#HEADERID_LINK_CHAR = '<i class="icon-link"></i>'
-
 FEED_ALL_ATOM = None
 AUTHOR_SAVE_AS = False
 
@@ -55,3 +53,9 @@ MENUITEMS = ( ('About', 'about.html'),
               ('Explore', 'explore.html'),
               ('Publications', 'publications.html'),
 )
+
+#
+# headerid parameters
+#
+HEADERID_LINK_CHAR = ' #'
+GENERATE_IDS = True
