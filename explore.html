@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="StudyForrest Project" />
+  <meta name="author" content="StudyForrest Project">
   <title>studyforrest.org &mdash; Explore</title>
-  <link rel="license" hreflang="en" href="/copyright.html" />
+  <link rel="license" hreflang="en" href="/copyright.html">
 
   <!-- favicons were once a simple race, but they dug too greedily and too deep... -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=5">
@@ -17,7 +17,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
 </head>
 <body>
   <nav>
@@ -46,31 +46,29 @@
     <h1>Explore</h1>
   </header>
   
-  <noscript>
-    <p><strong>The majority of demos on this page are interactive and require
+<noscript>
+<p><strong>The majority of demos on this page are interactive and require
        JavaScript to be enabled.</strong></p>
-  </noscript>
-
-  <p>The dataset comprises many diverse data types, ranging from brain imaging
+</noscript>
+<p>The dataset comprises many diverse data types, ranging from brain imaging
      modalities to eye tracking to measurements of heart beat and respiration.
      This page offers a few demos to provide a glimpse into a selection of the
      data types and also a few quality metrics used to investigate the utility
      of the dataset. A comprehensive assessment can be found in the associated
      data papers that are available for every dataset component listed on the
      <a href="/data.html">Data Page</a>.</p>
-  <p>An interactive walk-through tutorial is also available on Binder to provide
+<p>An interactive walk-through tutorial is also available on Binder to provide
      hands-on experience with the StudyForrest dataset and DataLad:
      <a href="https://mybinder.org/v2/gh/psychoinformatics-de/studyforrest-data-binder/HEAD?filepath=exploring_studyforrest_with_datalad.ipynb">
-      <img alt="binder" src="https://mybinder.org/badge_logo.svg">
-    </a>
-  </p>
-
-  <h2>The "Hairy" Brain</h2>
-  <p>Diffusion-weighted imaging (DWI) is a technique that can be used to
+<img alt="binder" src="https://mybinder.org/badge_logo.svg"/>
+</a>
+</p>
+<h2 id="TheHairyBrain">The "Hairy" Brain<a class="headerlink" href="#TheHairyBrain" title="Permalink to this headline"> #</a></h2>
+<p>Diffusion-weighted imaging (DWI) is a technique that can be used to
      visualize neural tracts or <strong>nerve fibre bundles</strong> by
      measuring the direction of water diffusion in brain tissue. The example
-     figure below shows a so-called <strong>connectome</strong> &mdash; the
-     structure of nerve fibre pathways in the brain &mdash; estimated from the
+     figure below shows a so-called <strong>connectome</strong> — the
+     structure of nerve fibre pathways in the brain — estimated from the
      DWI data of a single individual. The red horizontal lines in the center of
      the image show the <a href="https://en.wikipedia.org/wiki/Corpus_callosum">corpus callosum</a>,
      the bridge between the two brain halves. The blue vertical lines in the
@@ -78,15 +76,14 @@
      where the brain is connected with the nervous system in other parts of the
      body. The provided scans have been made with a standard clinical procedure
      at 2 mm spatial resolution.</p>
-
-  <div id="xtk_renderer">
-  </div>
-  <div id="xtk_help">
-    <p>Left-click and drag to rotate the view, middle-click to pan, and scroll
+<div id="xtk_renderer">
+</div>
+<div id="xtk_help">
+<p>Left-click and drag to rotate the view, middle-click to pan, and scroll
        (or right-click) to zoom in and out.</p>
-  </div>
-  <script src="/theme/js/xtk.js"></script>
-  <script>
+</div>
+<script src="/theme/js/xtk.js"></script>
+<script>
     function load_xtk_renderer() {
       var r = new X.renderer3D();
       r.container = 'xtk_renderer';
@@ -103,51 +100,43 @@
     };
     load_xtk_renderer();
   </script>
-
-  <h2>The Colorful World of Brain Function</h2>
-  <p>One way to analyze brain function is to contrast where the brain consumes
+<h2 id="TheColorfulWorldofBrainFunction">The Colorful World of Brain Function<a class="headerlink" href="#TheColorfulWorldofBrainFunction" title="Permalink to this headline"> #</a></h2>
+<p>One way to analyze brain function is to contrast where the brain consumes
      oxygen differently between particular conditions. A number of such analysis
      results have been published on the <a href="https://neurovault.org/">NeuroVault</a>
      platform to enable further meta-analysis. Browse through the topics and
      see how individual brain areas respond differently.</p>
-
-  <div id="nv_picker">
-    <p><input type="radio" name="neurovault_ds" id="nv_308" value="308" checked>
-       <label for="nv_308">High-resolution 7-Tesla fMRI data on the perception of
-           musical genres &mdash; an extension to the StudyForrest dataset.</label>
-    </p>
-
-    <p><input type="radio" name="neurovault_ds" id="nv_1065" value="1065">
-       <label for="nv_1065">A StudyForrest extension, simultaneous fMRI and eye
+<div id="nv_picker">
+<p><input checked="" id="nv_308" name="neurovault_ds" type="radio" value="308"/>
+<label for="nv_308">High-resolution 7-Tesla fMRI data on the perception of
+           musical genres — an extension to the StudyForrest dataset.</label>
+</p>
+<p><input id="nv_1065" name="neurovault_ds" type="radio" value="1065"/>
+<label for="nv_1065">A StudyForrest extension, simultaneous fMRI and eye
          gaze recordings during naturalistic stimulation (poster).</label>
-    </p>
-
-    <p><input type="radio" name="neurovault_ds" id="nv_5502" value="5502">
-       <label for="nv_5502">Is The PPA a Visual Area? BOLD responses to incidental
+</p>
+<p><input id="nv_5502" name="neurovault_ds" type="radio" value="5502"/>
+<label for="nv_5502">Is The PPA a Visual Area? BOLD responses to incidental
          spatial cues in naturalistic stimulation (poster).</label>
-    </p>
-
-    <p><input type="radio" name="neurovault_ds" id="nv_6075" value="6075">
-       <label for="nv_6075">Individual face- and house-related eye movement
+</p>
+<p><input id="nv_6075" name="neurovault_ds" type="radio" value="6075"/>
+<label for="nv_6075">Individual face- and house-related eye movement
          patterns distinctively activate FFA and PPA.</label>
-    </p>
-
-    <p><input type="radio" name="neurovault_ds" id="nv_8889" value="8889">
-       <label for="nv_8889">Processing of visual and non-visual naturalistic
+</p>
+<p><input id="nv_8889" name="neurovault_ds" type="radio" value="8889"/>
+<label for="nv_8889">Processing of visual and non-visual naturalistic
          spatial information in the "parahippocampal place area" (paper in
          review).</label>
-    </p>
-  </div>
-
-  <div id="nv_viewers">
-    <iframe id="nv_viewer_308" data-show="true" src="https://neurovault.org/media/images/308/pycortex_all/index.html"></iframe>
-    <iframe id="nv_viewer_1065" data-src="https://neurovault.org/media/images/1065/pycortex_all/index.html"></iframe>
-    <iframe id="nv_viewer_5502" data-src="https://neurovault.org/media/images/5502/pycortex_all/index.html"></iframe>
-    <iframe id="nv_viewer_6075" data-src="https://neurovault.org/media/images/6075/pycortex_all/index.html"></iframe>
-    <iframe id="nv_viewer_8889" data-src="https://neurovault.org/media/images/8889/pycortex_all/index.html"></iframe>
-  </div>
-
-  <script>
+</p>
+</div>
+<div id="nv_viewers">
+<iframe data-show="true" id="nv_viewer_308" src="https://neurovault.org/media/images/308/pycortex_all/index.html"></iframe>
+<iframe data-src="https://neurovault.org/media/images/1065/pycortex_all/index.html" id="nv_viewer_1065"></iframe>
+<iframe data-src="https://neurovault.org/media/images/5502/pycortex_all/index.html" id="nv_viewer_5502"></iframe>
+<iframe data-src="https://neurovault.org/media/images/6075/pycortex_all/index.html" id="nv_viewer_6075"></iframe>
+<iframe data-src="https://neurovault.org/media/images/8889/pycortex_all/index.html" id="nv_viewer_8889"></iframe>
+</div>
+<script>
   var nv_viewers = document.getElementById('nv_viewers').querySelectorAll('iframe');
   var nv_pickers = document.getElementById('nv_picker').querySelectorAll('input');
 
@@ -175,9 +164,8 @@
     }
   }
   </script>
-
-  <h2>Brain Parcellations</h2>
-  <p>High-resolution structural brain images, such as those acquired with T1-
+<h2 id="BrainParcellations">Brain Parcellations<a class="headerlink" href="#BrainParcellations" title="Permalink to this headline"> #</a></h2>
+<p>High-resolution structural brain images, such as those acquired with T1-
     and T2-weighted MRI, can be used to reconstruct and label regions on the
     cortical surface as well as subcortical brain structures. Such
     parcellations of the brain into distinct but interacting regions support
@@ -187,10 +175,9 @@
     parcellations. The animation below shows this in three views for each
     subject, allowing for a quick quality inspection.
   </p>
-  <img src="/img/freesurfer_parcellations.webp" alt="FreeSurfer Parcellation Animation" class="explore-parcellation" />
-
-  <h2>Functional Data Quality</h2>
-  <p>Since head movement during the acquisition of a functional MRI time series
+<img alt="FreeSurfer Parcellation Animation" class="explore-parcellation" src="/img/freesurfer_parcellations.webp"/>
+<h2 id="FunctionalDataQuality">Functional Data Quality<a class="headerlink" href="#FunctionalDataQuality" title="Permalink to this headline"> #</a></h2>
+<p>Since head movement during the acquisition of a functional MRI time series
      can be detrimental for the eventual data analysis and results,
      volume-to-volume head movement parameters are typically inspected as a
      quality indicator of fMRI data. Framewise displacement (FD) captures head
@@ -200,11 +187,10 @@
      and an example time series are also presented for a single subject and a
      single run.
   </p>
-
-  <h3>7T Audio Movie Data: 20 Subjects</h3>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-  <script>
+<h3 id="7TAudioMovieData20Subjects">7T Audio Movie Data: 20 Subjects<a class="headerlink" href="#7TAudioMovieData20Subjects" title="Permalink to this headline"> #</a></h3>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subs_7t_aomovie.csv", function(err, rows){
     // Function to unpack data
@@ -264,10 +250,9 @@
     Plotly.newPlot('fdAllSubs', data, layout);
     });
   </script>
-  <div id="fdAllSubs"></div>
-
-  <h3>7T Audio Movie Data: 1 Subject, 8 Runs</h3>
-  <script>
+<div id="fdAllSubs"></div>
+<h3 id="7TAudioMovieData1Subject8Runs">7T Audio Movie Data: 1 Subject, 8 Runs<a class="headerlink" href="#7TAudioMovieData1Subject8Runs" title="Permalink to this headline"> #</a></h3>
+<script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
     // Function to unpack data
@@ -325,10 +310,9 @@
     Plotly.newPlot('fdSingleSub', data, layout);
     });
   </script>
-  <div id="fdSingleSub"></div>
-
-  <h3>7T Audio Movie Data: 1 Subject, 1 Run</h3>
-  <script>
+<div id="fdSingleSub"></div>
+<h3 id="7TAudioMovieData1Subject1Run">7T Audio Movie Data: 1 Subject, 1 Run<a class="headerlink" href="#7TAudioMovieData1Subject1Run" title="Permalink to this headline"> #</a></h3>
+<script>
     // Read data and headings from csv file
     d3.csv("/data/fd_20subsruns_7t_aomovie.csv", function(err, rows){
     // Function to unpack data
@@ -403,7 +387,7 @@
     Plotly.newPlot('fdSingleRun', data, layout);
     });
   </script>
-  <div id="fdSingleRun"></div>
+<div id="fdSingleRun"></div>
 
 </article>
     </div><!-- /.content -->

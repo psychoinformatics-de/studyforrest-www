@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="StudyForrest Project" />
+  <meta name="author" content="StudyForrest Project">
   <title>studyforrest.org &mdash; Overview of Data Types</title>
-  <link rel="license" hreflang="en" href="/copyright.html" />
+  <link rel="license" hreflang="en" href="/copyright.html">
 
   <!-- favicons were once a simple race, but they dug too greedily and too deep... -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=5">
@@ -17,7 +17,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
 </head>
 <body>
   <nav>
@@ -46,234 +46,218 @@
     <h1>Overview of Data Types</h1>
   </header>
   
-  <p>Since its inception, the <em>StudyForrest</em> dataset has grown
+<p>Since its inception, the <em>StudyForrest</em> dataset has grown
      appreciably through both internal and external contributions. Made
      available are raw data, preprocessed data, and an extensive collection of
      annotations of the movie. Often, multiple data types are available for the
-     same set of participants &mdash; for example, multiple fMRI scans of up to
+     same set of participants — for example, multiple fMRI scans of up to
      10 hours total per participant.</p>
-
-  <p>Below is an overview of all major components of the <em>StudyForrest</em>
+<p>Below is an overview of all major components of the <em>StudyForrest</em>
      dataset. This includes data relating to brain structure, brain function,
      and movie stimulus properties. Further details for each data type can be
      found in the linked publications.</p>
-
-  <form action="javascript:void(0)" onsubmit='filterForm(document.getElementById("data_filter_field").value);' onreset='filterForm("")'>
-    <input id="data_filter_field" type="text" placeholder="Filter data types for..." aria-label="Filter data types for..." /><button title="Filter Table" type="submit"><span class="icon-filter"></span></button>
-    <input type="reset" value="Reset">
-  </form>
-  <noscript>
-    <p><strong>Enable JavaScript to filter through data types.</strong></p>
-  </noscript>
-
-  <section class="data-category">
-    <h2>Behavior and Brain Function</h2>
-    <p class="data-category-count"></p>
-
-    <p>A diverse set of stimulation paradigms and data acquisition setups were
+<form action="javascript:void(0)" onreset='filterForm("")' onsubmit='filterForm(document.getElementById("data_filter_field").value);'>
+<input aria-label="Filter data types for..." id="data_filter_field" placeholder="Filter data types for..." type="text"/><button title="Filter Table" type="submit"><span class="icon-filter"></span></button>
+<input type="reset" value="Reset"/>
+</form>
+<noscript>
+<p><strong>Enable JavaScript to filter through data types.</strong></p>
+</noscript>
+<section class="data-category">
+<h2 id="BehaviorandBrainFunction">Behavior and Brain Function<a class="headerlink" href="#BehaviorandBrainFunction" title="Permalink to this headline"> #</a></h2>
+<p class="data-category-count"></p>
+<p>A diverse set of stimulation paradigms and data acquisition setups were
     utilized to characterize participant's brain function on a variety of
     dimensions.</p>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_moviefmri_acq_ao_hrfmri.jpg" alt="Person hearing a movie, with recording of brainfunction,
-             heartbeat, and breathing." />
-      </div>
-      <div class="description">
-        <h3>High-res 7T fMRI on 2h Audio Movie (+Cardiac/Respiration)</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
-           <span class="icon-tags"></span>7T, audio, cardiac, respiration
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Person hearing a movie, with recording of brainfunction,
+             heartbeat, and breathing." src="/img/data/thumb_moviefmri_acq_ao_hrfmri.jpg"/>
+</div>
+<div class="description">
+<h3 id="Highres7TfMRIon2hAudioMovieCardiacRespiration">High-res 7T fMRI on 2h Audio Movie (+Cardiac/Respiration)<a class="headerlink" href="#Highres7TfMRIon2hAudioMovieCardiacRespiration" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
+<span class="icon-tags"></span>7T, audio, cardiac, respiration
         </p>
-        <p>Two principle data modalities were acquired: Blood oxygenation level
+<p>Two principle data modalities were acquired: Blood oxygenation level
            dependent (BOLD) fMRI scans, continuously capturing brain activity at
            a spatial resolution of 1.4 mm, and physiological recordings of heart
            beat and breathing. For technical validation, all measurements are
            also available for a full-length gel phantom scan.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_musicfmri_acq.jpg" alt="Person hearing music, with recording of brainfunction,
-             heartbeat, and breathing." />
-      </div>
-      <div class="description">
-        <h3>High-res 7T fMRI Listening to Music (+Cardiac/Respiration)</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.12688/f1000research.6679.1">Publication</a>
-           <span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
-           <span class="icon-tags"></span>7T, music, cardiac, respiration
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Person hearing music, with recording of brainfunction,
+             heartbeat, and breathing." src="/img/data/thumb_musicfmri_acq.jpg"/>
+</div>
+<div class="description">
+<h3 id="Highres7TfMRIListeningtoMusicCardiacRespiration">High-res 7T fMRI Listening to Music (+Cardiac/Respiration)<a class="headerlink" href="#Highres7TfMRIListeningtoMusicCardiacRespiration" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.12688/f1000research.6679.1">Publication</a>
+<span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
+<span class="icon-tags"></span>7T, music, cardiac, respiration
         </p>
-        <p>High-resolution, ultra high-field (7 Tesla) functional magnetic
+<p>High-resolution, ultra high-field (7 Tesla) functional magnetic
            resonance imaging (fMRI) data from 20 participants that were
            repeatedly stimulated with a total of 25 music clips, with and
            without speech content, from five different genres using a slow
            event-related paradigm. Physiological recordings of heart beat and
            breathing were simultaneously recorded as well.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_moviefmri_acq_av_lrfmri_eyegaze.jpg" alt="Person watching and hearing a movie, with recording of
-             brainfunction, heartbeat, and breathing." />
-      </div>
-      <div class="description">
-        <h3>3T fMRI on 2h Movie, Eyegaze (+Cardiac/Respiration)</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2016.92">Publication</a>
-           <span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
-           <span class="icon-tags"></span>3T, audio, eyegaze, cardiac, respiration
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Person watching and hearing a movie, with recording of
+             brainfunction, heartbeat, and breathing." src="/img/data/thumb_moviefmri_acq_av_lrfmri_eyegaze.jpg"/>
+</div>
+<div class="description">
+<h3 id="3TfMRIon2hMovieEyegazeCardiacRespiration">3T fMRI on 2h Movie, Eyegaze (+Cardiac/Respiration)<a class="headerlink" href="#3TfMRIon2hMovieEyegazeCardiacRespiration" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2016.92">Publication</a>
+<span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
+<span class="icon-tags"></span>3T, audio, eyegaze, cardiac, respiration
         </p>
-        <p>Two-hour 3 Tesla fMRI acquisition while 15 participants were shown an
+<p>Two-hour 3 Tesla fMRI acquisition while 15 participants were shown an
            audio-visual version of the stimulus motion picture, simultaneously
            recording eye gaze location, heart beat, and breathing.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_retmap_acq.jpg" alt="Retinotopic Map" />
-      </div>
-      <div class="description">
-        <h3>Retinotopic Mapping</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2016.93">Publication</a>
-           <span class="icon-tags"></span>3T, retinotopic mapping, visual
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Retinotopic Map" src="/img/data/thumb_retmap_acq.jpg"/>
+</div>
+<div class="description">
+<h3 id="RetinotopicMapping">Retinotopic Mapping<a class="headerlink" href="#RetinotopicMapping" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2016.93">Publication</a>
+<span class="icon-tags"></span>3T, retinotopic mapping, visual
            cortex, eccentricity, polar angle
         </p>
-        <p>Standard 3 mm fMRI recording of a retinotopic mapping procedure with
+<p>Standard 3 mm fMRI recording of a retinotopic mapping procedure with
            expanding and contracting ring and rotating wedge stimuli. Resulting
            eccentricity and polar angle maps of the visual cortex of 15
            participants are available.
         </p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_visloc_acq.jpg" alt="Brain with person, face, stapler, and house" />
-      </div>
-      <div class="description">
-        <h3>Higher Visual Area Localizer</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2016.93">Publication</a>
-           <span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
-           <span class="icon-tags"></span>3T, visual area localizer, block-design, one-back task
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Brain with person, face, stapler, and house" src="/img/data/thumb_visloc_acq.jpg"/>
+</div>
+<div class="description">
+<h3 id="HigherVisualAreaLocalizer">Higher Visual Area Localizer<a class="headerlink" href="#HigherVisualAreaLocalizer" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2016.93">Publication</a>
+<span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
+<span class="icon-tags"></span>3T, visual area localizer, block-design, one-back task
         </p>
-        <p>3mm fMRI data from a standard block-design visual area localizer
+<p>3mm fMRI data from a standard block-design visual area localizer
            using greyscale images for the stimulus categories human faces, human
            bodies without heads, small objects, houses and outdoor scenes
            comprising of nature and street scenes, and phase scrambled images.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_orientfmri_acq.jpg" alt="Sample visual stimulus with high contrast parallel lines" />
-      </div>
-      <div class="description">
-        <h3>Multi-res 3T/7T fMRI (0.8-3mm) on Visual Orientation</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1016/j.neuroimage.2016.12.040">Publication</a>
-           <span class="icon-tags"></span>7T, 3T, visual, oriented gratings, decoding
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Sample visual stimulus with high contrast parallel lines" src="/img/data/thumb_orientfmri_acq.jpg"/>
+</div>
+<div class="description">
+<h3 id="Multires3T7TfMRI083mmonVisualOrientation">Multi-res 3T/7T fMRI (0.8-3mm) on Visual Orientation<a class="headerlink" href="#Multires3T7TfMRI083mmonVisualOrientation" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1016/j.neuroimage.2016.12.040">Publication</a>
+<span class="icon-tags"></span>7T, 3T, visual, oriented gratings, decoding
         </p>
-        <p>Ultra high-field 7T and 3T fMRI data recorded at 0.8 (7T-only), 1.4,
+<p>Ultra high-field 7T and 3T fMRI data recorded at 0.8 (7T-only), 1.4,
            2, and 3 mm isotropic voxel size under stimulation with flickering,
            oriented grating stimuli. Grating orientation in the left and right
            visual field varied independently to enable decoding analyses.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="data-category">
-    <h2>Brain Structure and Connectivity</h2>
-    <p class="data-category-count"></p>
-
-    <p>A versatile set of structural brain images are available to provide a
+</div>
+</div>
+</section>
+<section class="data-category">
+<h2 id="BrainStructureandConnectivity">Brain Structure and Connectivity<a class="headerlink" href="#BrainStructureandConnectivity" title="Permalink to this headline"> #</a></h2>
+<p class="data-category-count"></p>
+<p>A versatile set of structural brain images are available to provide a
        comprehensive in-vivo assessment of all participants' brain hardware.</p>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_t1w.jpg" alt="T1 brain image" />
-      </div>
-      <div class="description">
-        <h3>T1-weighted MRI</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-tags"></span>3T, T1
+<div class="card-data">
+<div class="thumbnail">
+<img alt="T1 brain image" src="/img/data/thumb_t1w.jpg"/>
+</div>
+<div class="description">
+<h3 id="T1weightedMRI">T1-weighted MRI<a class="headerlink" href="#T1weightedMRI" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-tags"></span>3T, T1
         </p>
-        <p>An image with 274 sagittal slices (FoV 191.8×256×256 mm) and an
+<p>An image with 274 sagittal slices (FoV 191.8×256×256 mm) and an
            acquisition voxel size of 0.7 mm with a 384×384 in-plane
            reconstruction matrix (0.67 mm isotropic resolution) was recorded
            using a 3D turbo field echo (TFE) sequence (TR 2500 ms, inversion
            time (TI) 900 ms, flip angle 8 degrees, echo time (TE) 5.7 ms,
            bandwidth 144.4 Hz/px, Sense reduction AP 1.2, RL 2.0, scan duration
            12:49 min).</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_t2w.jpg" alt="T2 brain image" />
-      </div>
-      <div class="description">
-        <h3>T2-weighted MRI</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-tags"></span>3T, T2
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="T2 brain image" src="/img/data/thumb_t2w.jpg"/>
+</div>
+<div class="description">
+<h3 id="T2weightedMRI">T2-weighted MRI<a class="headerlink" href="#T2weightedMRI" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-tags"></span>3T, T2
         </p>
-        <p>A 3D turbo spin-echo (TSE) sequence (TR 2500 ms, TEeff 230 ms, strong
+<p>A 3D turbo spin-echo (TSE) sequence (TR 2500 ms, TEeff 230 ms, strong
            SPIR fat suppression, TSE factor 105, bandwidth 744.8 Hz/px, Sense
            reduction AP 2.0, RL 2.0, scan duration 7:40 min) was used to acquire
            an image whose geometric properties otherwise match the T1-weighted
            image.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_swi.jpg" alt="SWI brain image" />
-      </div>
-      <div class="description">
-        <h3>Susceptibility-weighted MRI</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-tags"></span>3T, SWI
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="SWI brain image" src="/img/data/thumb_swi.jpg"/>
+</div>
+<div class="description">
+<h3 id="SusceptibilityweightedMRI">Susceptibility-weighted MRI<a class="headerlink" href="#SusceptibilityweightedMRI" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-tags"></span>3T, SWI
         </p>
-        <p>An image with 500 axial slices (thickness 0.35 mm, FoV 181×202×175 mm)
+<p>An image with 500 axial slices (thickness 0.35 mm, FoV 181×202×175 mm)
            and an in-plane acquisition voxel size of 0.7 mm reconstructed at
            0.43 mm (512×512 matrix) was recorded using a 3D Presto fast field
            echo (FFE) sequence (TR 19 ms, TE shifted 26 ms, flip angle 10
            degrees, bandwidth 217.2 Hz/px, NSA 2, Sense reduction AP 2.5, FH
            2.0, scan duration 7:13 min).</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_dti.jpg" alt="DTI brain image" />
-      </div>
-      <div class="description">
-        <h3>Diffusion-weighted MRI</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
-           <span class="icon-tags"></span>3T, DTI
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="DTI brain image" src="/img/data/thumb_dti.jpg"/>
+</div>
+<div class="description">
+<h3 id="DiffusionweightedMRI">Diffusion-weighted MRI<a class="headerlink" href="#DiffusionweightedMRI" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
+<span class="icon-tags"></span>3T, DTI
         </p>
-        <p>Diffusion data were recorded with a diffusion-weighted single-shot
+<p>Diffusion data were recorded with a diffusion-weighted single-shot
            spin-echo EPI sequence (TR 9545 ms, TE 80 ms, strong SPIR fat
            suppression, bandwidth 2058.4 Hz/px, Sense reduction AP 2.0) using 32
            diffusion-sensitizing gradient directions with b=800smm2b=800smm2
@@ -281,467 +265,454 @@
            in-plane acquisition voxel size of 2×2 mm, reconstructed at
            1.7×1.7 mm, 144×144 in-plane matrix, FoV 224×248×140 mm). Acquisition
            duration was 12:38 min.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_angio.jpg" alt="Angiography" />
-      </div>
-      <div class="description">
-        <h3>Angiography</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-tags"></span>7T, angiography
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Angiography" src="/img/data/thumb_angio.jpg"/>
+</div>
+<div class="description">
+<h3 id="Angiography">Angiography<a class="headerlink" href="#Angiography" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-tags"></span>7T, angiography
         </p>
-        <p>A 3D multi-slab time-of-flight angiography was recorded at 7 Tesla
+<p>A 3D multi-slab time-of-flight angiography was recorded at 7 Tesla
            for the FoV of the fMRI recording. Four slabs with 52 slices
            (thickness 0.3 mm) each were recorded (192×144 mm FoV, in-plane
            resolution 0.3×0.3 mm, GRAPPA acceleration factor 2, phase encoding
            direction right-to-left, 15.4% slice oversampling, 24 ms TR, 3.84 ms
            TE).</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_surf.jpg" alt="Closeup of FreeSurfer's cortical surface reconstruction" />
-      </div>
-      <div class="description">
-        <h3>Cortical Surface Reconstruction</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
-           <span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
-           <span class="icon-tags"></span>derivative
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Closeup of FreeSurfer's cortical surface reconstruction" src="/img/data/thumb_surf.jpg"/>
+</div>
+<div class="description">
+<h3 id="CorticalSurfaceReconstruction">Cortical Surface Reconstruction<a class="headerlink" href="#CorticalSurfaceReconstruction" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.1038/sdata.2014.3">Publication</a>
+<span class="icon-flashlight"></span><a href="/explore.html">Explore</a>
+<span class="icon-tags"></span>derivative
         </p>
-        <p>Reconstructed cortical surfaces meshes and various associated
+<p>Reconstructed cortical surfaces meshes and various associated
            estimates were generated from the T1 and T2-weighted images of each
            participant using the FreeSurfer 5.3 image segmentation and
            reconstruction pipeline.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="data-category">
-    <h2>Movie Stimulus Annotations</h2>
-    <p class="data-category-count"></p>
-    <p>Annotating the content of the Forrest Gump movie, the key stimulus used
+</div>
+</div>
+</section>
+<section class="data-category">
+<h2 id="MovieStimulusAnnotations">Movie Stimulus Annotations<a class="headerlink" href="#MovieStimulusAnnotations" title="Permalink to this headline"> #</a></h2>
+<p class="data-category-count"></p>
+<p>Annotating the content of the Forrest Gump movie, the key stimulus used
        in the project, is an open-ended endeavour. Its naturalistic nature is
        rich in diverse visual and auditory features, but also the facets of
        social communication enables and requires a versatile description.</p>
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_locationtime.jpg" alt="Four shots from the same scene, but in different locations." />
-      </div>
-      <div class="description">
-        <h3>Cuts, Depicted Locations, and Temporal Progression</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.12688/f1000research.9536.1">Publication</a>
-           <span class="icon-tags"></span>movie, annotation, cut, scenes, time progression, location
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Four shots from the same scene, but in different locations." src="/img/data/thumb_annot_locationtime.jpg"/>
+</div>
+<div class="description">
+<h3 id="CutsDepictedLocationsandTemporalProgression">Cuts, Depicted Locations, and Temporal Progression<a class="headerlink" href="#CutsDepictedLocationsandTemporalProgression" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.12688/f1000research.9536.1">Publication</a>
+<span class="icon-tags"></span>movie, annotation, cut, scenes, time progression, location
         </p>
-        <p>The exact timing of each of the 870 shots, and the depicted location
+<p>The exact timing of each of the 870 shots, and the depicted location
            after every cut with a high, medium, and low level of abstraction.
            Additionally, four classes are used to distinguish the differences of
            the depicted time between shots. Each shot is also annotated
            regarding the type of location (interior/exterior) and time of day.
            Cuts were initially detected using an automated procedure and were
            then later curated by hand.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_speech.jpg" alt="Forrest shaking the hand of Lt. Dan. Captioned." />
-      </div>
-      <div class="description">
-        <h3>Speech</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.12688/f1000research.27621.1">Publication</a>
-           <span class="icon-tags"></span>movie, soundtrack, annotation, speech, grammar, word, dialog
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Forrest shaking the hand of Lt. Dan. Captioned." src="/img/data/thumb_annot_speech.jpg"/>
+</div>
+<div class="description">
+<h3 id="Speech">Speech<a class="headerlink" href="#Speech" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.12688/f1000research.27621.1">Publication</a>
+<span class="icon-tags"></span>movie, soundtrack, annotation, speech, grammar, word, dialog
         </p>
-        <p>The exact timing of each of the more than 2,500 spoken sentences,
+<p>The exact timing of each of the more than 2,500 spoken sentences,
            16,000 words (including 202 non-speech vocalizations), 66,000
            phonemes, and their corresponding speaker. Additionally, every word
            is associated with a grammatical category, and its syntactic
            dependencies are defined.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_emotion.jpg" alt="Closeup on the face of an excited man." />
-      </div>
-      <div class="description">
-        <h3>Portrayed Emotions</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.12688/f1000research.6230.1">Publication</a>
-           <span class="icon-tags"></span>movie, annotation, emotion, arousal, valence, cue
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Closeup on the face of an excited man." src="/img/data/thumb_annot_emotion.jpg"/>
+</div>
+<div class="description">
+<h3 id="PortrayedEmotions">Portrayed Emotions<a class="headerlink" href="#PortrayedEmotions" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.12688/f1000research.6230.1">Publication</a>
+<span class="icon-tags"></span>movie, annotation, emotion, arousal, valence, cue
         </p>
-        <p>Description of portrayed emotions in the movie and the audio
+<p>Description of portrayed emotions in the movie and the audio
            description stimulus. The nature of an emotion is characterized with
            basic attributes such as onset, duration, arousal, and valence
-           &mdash; as well as explicit emotion category labels and a record of
+           — as well as explicit emotion category labels and a record of
            the perceptual evidence for the presence of an emotion.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_irony.jpg" alt="A sign saying 'Hidden Beach'; CC-BY from https://www.flickr.com/photos/carbonnyc/76468122" />
-      </div>
-      <div class="description">
-        <h3>Semantic Conflict</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.12688/f1000research.9635.1">Publication</a>
-           <span class="icon-tags"></span>movie, annotation, lies, irony
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="A sign saying 'Hidden Beach'; CC-BY from https://www.flickr.com/photos/carbonnyc/76468122" src="/img/data/thumb_annot_irony.jpg"/>
+</div>
+<div class="description">
+<h3 id="SemanticConflict">Semantic Conflict<a class="headerlink" href="#SemanticConflict" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.12688/f1000research.9635.1">Publication</a>
+<span class="icon-tags"></span>movie, annotation, lies, irony
         </p>
-        <p>Identification of episodes with portrayal of lies, irony, or sarcasm
+<p>Identification of episodes with portrayal of lies, irony, or sarcasm
            by three independent observers.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_bodycontact.jpg" alt="Young Forrest and young Jenny hold hands." />
-      </div>
-      <div class="description">
-        <h3>Body Contact</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://github.com/psychoinformatics-de/studyforrest-paper-bodycontactannotation/blob/master/paper/p.tex">Description</a>
-           <span class="icon-tags"></span>movie, annotation, body parts, touch, body language
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Young Forrest and young Jenny hold hands." src="/img/data/thumb_annot_bodycontact.jpg"/>
+</div>
+<div class="description">
+<h3 id="BodyContact">Body Contact<a class="headerlink" href="#BodyContact" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://github.com/psychoinformatics-de/studyforrest-paper-bodycontactannotation/blob/master/paper/p.tex">Description</a>
+<span class="icon-tags"></span>movie, annotation, body parts, touch, body language
         </p>
-        <p>A detailed description of all body contact events in the movie,
+<p>A detailed description of all body contact events in the movie,
            including timing, actor and recipient, body parts involved, intensity
            and valence of the touch, and any potential audio cues.
         </p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_eyegaze.jpg" alt="Forrest pointing to flashlights in the Watergate building,
-             with eyetracking data overlaid." />
-      </div>
-      <div class="description">
-        <h3>Eye Movement Labels</h3>
-        <p class="info">
-           <span class="icon-doc-text"></span>
-           <a href="https://doi.org/10.3758/s13428-020-01428-x">Publication</a>
-           <span class="icon-tags"></span>movie, annotation, eye gaze, saccades, fixations, smooth pursuit
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Forrest pointing to flashlights in the Watergate building,
+             with eyetracking data overlaid." src="/img/data/thumb_annot_eyegaze.jpg"/>
+</div>
+<div class="description">
+<h3 id="EyeMovementLabels">Eye Movement Labels<a class="headerlink" href="#EyeMovementLabels" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-doc-text"></span>
+<a href="https://doi.org/10.3758/s13428-020-01428-x">Publication</a>
+<span class="icon-tags"></span>movie, annotation, eye gaze, saccades, fixations, smooth pursuit
         </p>
-        <p>Classification of eye movements for two groups of 15 participants
+<p>Classification of eye movements for two groups of 15 participants
            watching the movie: one group inside an MRI scanner and another
            group in a laboratory setting. Saccades, post-saccadic oscillations,
            fixations, and smooth pursuit events are distinguished.
         </p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_music.jpg" alt='The word "Music", stylized. CC-BY-SA https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg' />
-      </div>
-      <div class="description">
-        <h3>Music</h3>
-        <p class="info">
-           <span class="icon-github"></span>
-           <a href="https://github.com/psychoinformatics-de/studyforrest-data-annotations">GitHub repository</a>
-           <span class="icon-tags"></span>music, annotations, soundtrack</p>
-        <p>Timing, artist, song title, and release year of every song in the movie's soundtrack.</p>
-      </div>
-    </div>
-
-    <div class="card-data">
-      <div class="thumbnail">
-        <img src="/img/data/thumb_annot_confounds.png" alt="Low and high volume and brightness. Icons by svgrepo.com; CC0 1.0 Universal PD Dedication" />
-      </div>
-      <div class="description">
-        <h3>Low-Level Perceptual Confounds</h3>
-        <p class="info">
-           <span class="icon-github"></span>
-           <a href="https://github.com/psychoinformatics-de/studyforrest-data-confoundsannotation">GitHub repository</a>
-           <span class="icon-tags"></span>movie, soundtrack, annotation</p>
-           <p>Frame-wise (40 milliseconds) annotations of auditory and visual
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt='The word "Music", stylized. CC-BY-SA https://commons.wikimedia.org/wiki/File:Maroper_Music.jpg' src="/img/data/thumb_annot_music.jpg"/>
+</div>
+<div class="description">
+<h3 id="Music">Music<a class="headerlink" href="#Music" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-github"></span>
+<a href="https://github.com/psychoinformatics-de/studyforrest-data-annotations">GitHub repository</a>
+<span class="icon-tags"></span>music, annotations, soundtrack</p>
+<p>Timing, artist, song title, and release year of every song in the movie's soundtrack.</p>
+</div>
+</div>
+<div class="card-data">
+<div class="thumbnail">
+<img alt="Low and high volume and brightness. Icons by svgrepo.com; CC0 1.0 Universal PD Dedication" src="/img/data/thumb_annot_confounds.png"/>
+</div>
+<div class="description">
+<h3 id="LowLevelPerceptualConfounds">Low-Level Perceptual Confounds<a class="headerlink" href="#LowLevelPerceptualConfounds" title="Permalink to this headline"> #</a></h3>
+<p class="info">
+<span class="icon-github"></span>
+<a href="https://github.com/psychoinformatics-de/studyforrest-data-confoundsannotation">GitHub repository</a>
+<span class="icon-tags"></span>movie, soundtrack, annotation</p>
+<p>Frame-wise (40 milliseconds) annotations of auditory and visual
               low-level confounds in the audio-description and audio-visual
               movie: e.g. root-mean square power (a.k.a. volume), left-right
               volume difference, brightness of each movie frame, and perceptual
               difference of each movie frame in respect to its previous
               frame.</p>
-      </div>
-    </div>
-  </section>
-
-  <h2>Participant/Acquisition Summary</h2>
-  <p>The following table shows what data are available for each participant.
+</div>
+</div>
+</section>
+<h2 id="ParticipantAcquisitionSummary">Participant/Acquisition Summary<a class="headerlink" href="#ParticipantAcquisitionSummary" title="Permalink to this headline"> #</a></h2>
+<p>The following table shows what data are available for each participant.
      Participant IDs are consistent across all acquisitions.</p>
-
-  <p>Raw and preprocessed data were released over time as several datasets, and
+<p>Raw and preprocessed data were released over time as several datasets, and
      are typically available from multiple locations. If you cannot locate a
      dataset component you are interested in, please get in touch. Likewise, if
      you want to re-share data that was preprocessed in a particular way, please
      contact
      <a href="mailto:info@studyforrest.org?subject=studyforrest.org">info@studyforrest.org.</a></p>
-
-  <table class="participant-summary">
-    <thead>
-      <tr>
-        <th scope="row">Participant ID</th>
-        <th scope="col">1-3</th>
-        <th scope="col">4</th>
-        <th scope="col">5</th>
-        <th scope="col">6</th>
-        <th scope="col">7-8</th>
-        <th scope="col">9-10</th>
-        <th scope="col">11-13</th>
-        <th scope="col">14-15</th>
-        <th scope="col">16-17</th>
-        <th scope="col">18</th>
-        <th scope="col">19</th>
-        <th scope="col">20</th>
-        <th scope="col">21</th>
-        <th scope="col">22-36</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="rowgroup" colspan="15">Structural MRI</th>
-      </tr>
-      <tr><th scope="row">T1, T2, DWI, SWI, Angiography</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <th scope="rowgroup" colspan="15">Natural Stimulation</th>
-      </tr>
-      <tr><th scope="row">2h audio movie (7T, +cardiac/resp)</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">2h audio-visual movie (3T, eyegaze, +cardiac/resp)</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">2h audio-visual movie (in-lab eyetracking)</th>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>&check;</td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <th scope="rowgroup" colspan="15">Task fMRI</th>
-      </tr>
-      <tr><th scope="row">Listening to music (7T, +cardiac/resp)</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Retinotopic mapping (3T)</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Visual area localizer (3T)</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Flickering oriented gratings (7T @ 0.8, 1.4, 2, and 3mm)</th>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Flickering oriented gratings (3T @ 1.4, 2, and 3mm)</th>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-      </tr>
-    </tbody>
-    <tbody>
-      <tr>
-        <th scope="rowgroup" colspan="15">Preprocessed Data</th>
-      </tr>
-      <tr><th scope="row">FreeSurfer cortical surface reconstruction</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Participant and scan-specific template MRI images (for
+<table class="participant-summary">
+<thead>
+<tr>
+<th scope="row">Participant ID</th>
+<th scope="col">1-3</th>
+<th scope="col">4</th>
+<th scope="col">5</th>
+<th scope="col">6</th>
+<th scope="col">7-8</th>
+<th scope="col">9-10</th>
+<th scope="col">11-13</th>
+<th scope="col">14-15</th>
+<th scope="col">16-17</th>
+<th scope="col">18</th>
+<th scope="col">19</th>
+<th scope="col">20</th>
+<th scope="col">21</th>
+<th scope="col">22-36</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th colspan="15" scope="rowgroup">Structural MRI</th>
+</tr>
+<tr><th scope="row">T1, T2, DWI, SWI, Angiography</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<th colspan="15" scope="rowgroup">Natural Stimulation</th>
+</tr>
+<tr><th scope="row">2h audio movie (7T, +cardiac/resp)</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">2h audio-visual movie (3T, eyegaze, +cardiac/resp)</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">2h audio-visual movie (in-lab eyetracking)</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>✓</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<th colspan="15" scope="rowgroup">Task fMRI</th>
+</tr>
+<tr><th scope="row">Listening to music (7T, +cardiac/resp)</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">Retinotopic mapping (3T)</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+</tr>
+<tr><th scope="row">Visual area localizer (3T)</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">Flickering oriented gratings (7T @ 0.8, 1.4, 2, and 3mm)</th>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+</tr>
+<tr><th scope="row">Flickering oriented gratings (3T @ 1.4, 2, and 3mm)</th>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<th colspan="15" scope="rowgroup">Preprocessed Data</th>
+</tr>
+<tr><th scope="row">FreeSurfer cortical surface reconstruction</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">Participant and scan-specific template MRI images (for
               alignment, masking, structural properties) &amp; (non-)linear
               transformations between image spaces</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Per-participant aligned fMRI data for within-subject analysis</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-      <tr><th scope="row">Audio-visual movie fMRI aggregate ROI timeseries for
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">Per-participant aligned fMRI data for within-subject analysis</th>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr><th scope="row">Audio-visual movie fMRI aggregate ROI timeseries for
               Shen et al. (2013) cortex parcellation</th>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td>&check;</td>
-        <td> </td>
-        <td> </td>
-      </tr>
-    </tbody>
-  </table>
-  <script>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<script>
     var data_categories = document.getElementsByClassName('data-category');
     var data_filter     = document.getElementById('data_filter_field');
 

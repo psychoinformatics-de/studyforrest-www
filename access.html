@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="StudyForrest Project" />
+  <meta name="author" content="StudyForrest Project">
   <title>studyforrest.org &mdash; Data Access</title>
-  <link rel="license" hreflang="en" href="/copyright.html" />
+  <link rel="license" hreflang="en" href="/copyright.html">
 
   <!-- favicons were once a simple race, but they dug too greedily and too deep... -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=5">
@@ -17,7 +17,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
 </head>
 <body>
   <nav>
@@ -46,50 +46,43 @@
     <h1>Data Access</h1>
   </header>
   
-  <p>All <em>StudyForrest</em> data are contained in a collection of
+<p>All <em>StudyForrest</em> data are contained in a collection of
      <a href="https://www.datalad.org/">DataLad</a> datasets hosted on
      <a href="https://github.com/psychoinformatics-de/studyforrest-data">GitHub</a>,
      <a href="https://openneuro.org/datasets/ds000113">OpenNeuro</a>,
      and <a href="https://gin.g-node.org/studyforrest">GIN</a>.</p>
-
-  <p>DataLad provides fine-grained data access down to the level of
+<p>DataLad provides fine-grained data access down to the level of
      individual files, and allows for tracking future updates. It is a free
      and open source command line tool, available for all major operating
      systems, and builds upon Git and <a href="https://git-annex.branchable.com">git-annex</a>
 	 to share, synchronize, and version control collections of large files.</p>
-
-  <p>More information on DataLad and
+<p>More information on DataLad and
      <a href="https://handbook.datalad.org/en/latest/intro/installation.html">how to install it</a>
      can be found in the <a href="https://handbook.datalad.org/en/latest/index.html">DataLad Handbook</a>.</p>
-
-  <h2>Get the Dataset</h2>
-  <p>The dataset can be <code>cloned</code> by running:</p>
-  <pre><code>datalad clone https://github.com/psychoinformatics-de/studyforrest-data</code></pre>
-  <p>Once the dataset is cloned, it is a light-weight directory on your local
+<h2 id="GettheDataset">Get the Dataset<a class="headerlink" href="#GettheDataset" title="Permalink to this headline"> #</a></h2>
+<p>The dataset can be <code>cloned</code> by running:</p>
+<pre><code>datalad clone https://github.com/psychoinformatics-de/studyforrest-data</code></pre>
+<p>Once the dataset is cloned, it is a light-weight directory on your local
      machine. At this point, it contains only small metadata and information
      on the identity of the files in the dataset, but not actual
      <em>content</em> of the (sometimes large) data files.</p>
-
-  <h3>Retrieve Dataset Content</h3>
-  <p>After cloning the dataset, you can retrieve file contents by running:</p>
-  <pre><code>datalad get path/to/directory/or/file</code></pre>
-  <p>This command will trigger a download of the files, directories, or
+<h3 id="RetrieveDatasetContent">Retrieve Dataset Content<a class="headerlink" href="#RetrieveDatasetContent" title="Permalink to this headline"> #</a></h3>
+<p>After cloning the dataset, you can retrieve file contents by running:</p>
+<pre><code>datalad get path/to/directory/or/file</code></pre>
+<p>This command will trigger a download of the files, directories, or
      subdatasets you have specified.</p>
-
-  <p>This dataset contains other datasets, so called <em>subdatasets</em>.
+<p>This dataset contains other datasets, so called <em>subdatasets</em>.
      If you clone the top-level dataset, subdatasets do not yet contain
      metadata and information on the identity of files, but appear to be
      empty directories. In order to retrieve file availability metadata in
      subdatasets, run:</p>
-  <pre><code>datalad get -n path/to/subdataset</code></pre>
-
-  <p>Afterwards, you can browse the retrieved metadata to find out about
+<pre><code>datalad get -n path/to/subdataset</code></pre>
+<p>Afterwards, you can browse the retrieved metadata to find out about
      subdataset contents, and retrieve individual files with <code>datalad
      get</code>. If you use <code>datalad get path/to/subdataset</code>,
      all contents of the subdataset will be downloaded at once.</p>
-
-  <h2>Terms of Use</h2>
-  <p>All data are released to the public under the
+<h2 id="TermsofUse">Terms of Use<a class="headerlink" href="#TermsofUse" title="Permalink to this headline"> #</a></h2>
+<p>All data are released to the public under the
      <a href="https://opendatacommons.org/licenses/pddl/1-0/">ODC Public Domain Dedication and Licence (PDDL)</a>.
      Offering these data for download or through other means is encouraged;
      we only ask that you add a reference to this website. In order to
@@ -97,20 +90,18 @@
      derived data artifacts, please let us know at
      <a href="mailto:info@studyforrest.org?subject=studyforrest.org">info@studyforrest.org</a>
      what data access you are providing.</p>
-
-  <h3>How to Cite</h3>
-  <p>If you use these data, please follow good scientific practice and cite
+<h3 id="HowtoCite">How to Cite<a class="headerlink" href="#HowtoCite" title="Permalink to this headline"> #</a></h3>
+<p>If you use these data, please follow good scientific practice and cite
      any relevant publications. A list of all publications can be found on the
      <a href="/publications.html">Publications Page</a>.</p>
-
-  <h2>Hosting</h2>
-  <p>We are grateful to our data hosting providers for their support, sponsored
+<h2 id="Hosting">Hosting<a class="headerlink" href="#Hosting" title="Permalink to this headline"> #</a></h2>
+<p>We are grateful to our data hosting providers for their support, sponsored
      bandwidth, and storage capacity.</p>
-  <div class="thanks-logos">
-    <a href="https://gin.g-node.org"><img src="/img/logo/gin.svg" alt="GIN Logo" /></a>
-    <a href="https://www.fz-juelich.de/portal/EN/"><img src="/img/logo/fzj.svg" alt="Forschungszentrum Jülich Logo" /></a>
-    <a href="https://openneuro.org"><img src="/img/logo/openneuro.svg" alt="OpenNeuro Logo" /></a>
-  </div>
+<div class="thanks-logos">
+<a href="https://gin.g-node.org"><img alt="GIN Logo" src="/img/logo/gin.svg"/></a>
+<a href="https://www.fz-juelich.de/portal/EN/"><img alt="Forschungszentrum Jülich Logo" src="/img/logo/fzj.svg"/></a>
+<a href="https://openneuro.org"><img alt="OpenNeuro Logo" src="/img/logo/openneuro.svg"/></a>
+</div>
 
 </article>
     </div><!-- /.content -->
