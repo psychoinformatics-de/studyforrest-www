@@ -88,6 +88,7 @@
 .icon-down-dir:before { content: '\e802'; }
 .icon-brain:before { content: '\e803'; }
 .icon-up-dir:before { content: '\e804'; }
+.icon-link:before { content: '\e805'; }
 .icon-studyforrest:before { content: '\e806'; }
 .icon-flashlight:before { content: '\e807'; }
 .icon-tags:before { content: '\e808'; }
