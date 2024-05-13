@@ -10,7 +10,7 @@ This page loosely follows `Debian's copyright file syntax`_.
 Files:
   \*
 Copyright:
-  2014–2021, Alex Waite, Michael Hanke, Laura Waite, Yarik Halschenko,
+  2014–2024, Alex Waite, Michael Hanke, Laura Waite, Yarik Halschenko,
   Adina Wagner, Christian Mönch, and Stephan Heunis
 License:
   `Attribution-ShareAlike 4.0 International`_
@@ -124,7 +124,7 @@ License:
 Files:
   theme/\*
 Copyright:
-  2013, Daan Debie; 2014–2021 Alex Waite and Michael Hanke
+  2013, Daan Debie; 2014–2024 Alex Waite and Michael Hanke
 License:
   `MIT`_
 Notes:
