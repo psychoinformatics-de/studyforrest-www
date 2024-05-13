@@ -486,6 +486,10 @@ footer p {
 }
 footer p a { color: #666; }
 
+h2 .icon-link, h3 .icon-link, h4 .icon-link, h5 .icon-link {
+  font-size: 0.6em;
+  vertical-align: middle;
+}
 
 /* XTK */
 #xtk_renderer {
@@ -605,4 +609,8 @@ img.explore-parcellation {
 }
 .index-content h2 {
   margin: 1em 0 0.5em 0;
+}
+/* hide header links on index */
+.index-content h2 .icon-link, .index-content h3 .icon-link {
+  display: none;
 }

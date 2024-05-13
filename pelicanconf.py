@@ -57,5 +57,5 @@ MENUITEMS = ( ('About', 'about.html'),
 #
 # headerid parameters
 #
-HEADERID_LINK_CHAR = ' #'
+HEADERID_LINK_CHAR = "<span class='icon-link'></span>"
 GENERATE_IDS = True
